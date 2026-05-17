@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:bone_bricks"
+  },
+  "result": {
+    "id": "mintyirlplanets:bone_brick_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:blank_disc"
+    },
+    "title": {
+      "translate": "advancements.the_presses.title"
+    },
+    "description": {
+      "translate": "advancements.the_presses.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_presses_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:blank_disc",
+            "count": {
+              "min": 1,
+              "max": 98999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mintyirlplanets:disc_1c",
+      "mintyirlplanets:disc_2c",
+      "mintyirlplanets:disc_3",
+      "mintyirlplanets:disc_4",
+      "mintyirlplanets:disc_5"
+    ]
+  },
+  "parent": "mintyirlplanets:communication_recieved"
+}

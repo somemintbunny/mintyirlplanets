@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "mintyirlplanets:dark_moon",
+    "mintyirlplanets:living_mars",
+    "mintyirlplanets:saturn_stone"
+  ],
+  "spawners": {
+    "type": "mintyirlplanets:eyezor",
+    "weight": 50,
+    "minCount": 2,
+    "maxCount": 10
+  }
+}

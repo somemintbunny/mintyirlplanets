@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/ferroussan",
+    "up": "mintyirlplanets:block/ferroussan",
+    "north": "mintyirlplanets:block/ferroussan",
+    "east": "mintyirlplanets:block/ferroussan",
+    "south": "mintyirlplanets:block/ferroussan",
+    "west": "mintyirlplanets:block/ferroussan",
+    "particle": "mintyirlplanets:block/ferroussan"
+  },
+  "render_type": "solid"
+}

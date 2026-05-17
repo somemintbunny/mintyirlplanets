@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/cracked_bone_brick_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/cracked_bone_brick_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/cracked_bone_brick_slab_full"
+    }
+  }
+}

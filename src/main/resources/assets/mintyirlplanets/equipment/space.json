@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mintyirlplanets:space"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mintyirlplanets:space"
+      }
+    ]
+  }
+}

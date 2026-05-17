@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "aab",
+    "aab"
+  ],
+  "key": {
+    "a": "minecraft:warped_planks",
+    "b": "minecraft:crimson_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:the_moon",
+    "count": 1
+  }
+}

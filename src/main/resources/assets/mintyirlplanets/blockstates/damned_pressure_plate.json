@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "mintyirlplanets:block/damned_pressure_plate"
+    },
+    "powered=true": {
+      "model": "mintyirlplanets:block/damned_pressure_plate_down"
+    }
+  }
+}

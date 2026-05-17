@@ -1,0 +1,11 @@
+{
+  "parent": "mintyirlplanets:custom/fancycandle",
+  "textures": {
+    "all": "mintyirlplanets:block/outside_part",
+    "particle": "mintyirlplanets:block/outside_part",
+    "0": "mintyirlplanets:block/outside_part",
+    "1": "mintyirlplanets:block/candle",
+    "2": "mintyirlplanets:block/texture"
+  },
+  "render_type": "translucent"
+}

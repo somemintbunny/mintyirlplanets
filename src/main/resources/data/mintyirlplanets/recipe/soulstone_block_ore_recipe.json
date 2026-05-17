@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:soulstone_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:soulstone",
+    "count": 9
+  }
+}

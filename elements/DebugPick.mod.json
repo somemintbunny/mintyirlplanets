@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "debugpic",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Debug Pick",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:EndgameBlocks"
+      },
+      {
+        "value": "CUSTOM:WeaponsAndTools"
+      }
+    ],
+    "efficiency": 70.0,
+    "attackSpeed": 2.0,
+    "enchantability": 30,
+    "damageVsEntity": 19.0,
+    "usageCount": 20000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "DebugPickRightclicked2"
+    },
+    "onEntityHitWith": {
+      "name": "DebugPickRightclicked"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "DebugPickBlockDestroyedWithTool"
+    }
+  }
+}

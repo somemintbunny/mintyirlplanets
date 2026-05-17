@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="mintyirlplanets"
+version="0.3.3"
+displayName="\u00A7bMintyIRL Planets"
+displayURL="https://mintychaos.com"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="MintyIRL, MCreator"
+description="Hi guys, this is a remake of a mod I started making a while ago. Wish me luck in creating it"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.mintyirlplanets]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mintyirlplanets]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

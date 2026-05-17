@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5.7,
+  "cookingtime": 175,
+  "ingredient": "mintyirlplanets:meat",
+  "result": {
+    "id": "mintyirlplanets:cooked_meat"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mintyirlplanets:block/moonshroomspores1",
+    "particle": "mintyirlplanets:block/moonshroomspores1"
+  },
+  "render_type": "translucent"
+}

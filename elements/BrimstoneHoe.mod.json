@@ -1,0 +1,41 @@
+{
+  "_fv": 85,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "bloodstone5",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Brimstone Hoe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:WeaponsAndTools"
+      }
+    ],
+    "efficiency": 21.0,
+    "attackSpeed": 24.0,
+    "enchantability": 112,
+    "damageVsEntity": 0.5,
+    "usageCount": 4595,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Brimstone"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "mintyirlplanets:fragrent_bark",
+    "b": "mintyirlplanets:tosser_tot",
+    "c": "mintyirlplanets:hell_fruit",
+    "d": "mintyirlplanets:antimatter",
+    "e": "minecraft:bowl"
+  },
+  "result": {
+    "id": "mintyirlplanets:martian_salad",
+    "count": 1
+  }
+}

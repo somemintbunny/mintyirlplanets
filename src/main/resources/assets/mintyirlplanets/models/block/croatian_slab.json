@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "mintyirlplanets:block/hellwood_planks",
+    "bottom": "mintyirlplanets:block/hellwood_planks",
+    "top": "mintyirlplanets:block/hellwood_planks",
+    "side": "mintyirlplanets:block/hellwood_planks"
+  },
+  "render_type": "solid"
+}

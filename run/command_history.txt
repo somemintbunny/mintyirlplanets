@@ -1,0 +1,50 @@
+/gamemode spectator
+/gamemode creative
+/kill @e[type=mintyirlplanets:nightmare]
+/give @s mintyirlplanets:h_crystal
+/locate biome mintyirlplanets:saturn_moss
+/tp @s -427 37 288
+/locate biome mintyirlplanets:saturn_moss
+/tp @s 83 52 472
+/give @s mintyirlplanets:h_crystal
+/gamemode spectator
+/tick freeze
+/gamemode creative
+/tick unfreeze
+/locate biome mintyirlplanets:saturn_moss
+/tp @s 766 60 925
+/kill @e[type=!minecraft:player]
+/gamemode survival
+/gamerule keepInventory true
+/give @s mintyirlplanets:fragrent_bark
+/give @s mintyirlplanets:fragrent_bark 99
+/gamemode creative
+/kill
+/effect give @s minecraft:night_vision infinite
+/gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/effect give @s minecraft:night_vision infinite
+/gamemode survival
+/effect give @s minecraft:night_vision infinite
+/give @s mintyirlplanets:hell_fruit 99
+/effect clear @s mintyirlplanets:toxic_gas
+/gamerule keepInventory true
+/gamemode survival
+/give @s mintyirlplanets:mixolydian_pickaxe
+/enchant @s minecraft:silk_touch
+/enchant @s minecraft:sharpness 5
+/enchant @s unbreaking 3
+/enchant @s minecraft:efficiency 5
+/enchant @s minecraft:looting 5
+/enchant @s minecraft:looting 3
+/enchant @s looting 5
+/enchant @s looting 3
+/enchant @s minecraft:efficiency 5
+/gamemode creative
+/gamemode survival
+/give @s torch 128
+/give @s mintyirlplanets:hell_fruit 99
+/gamemode creative

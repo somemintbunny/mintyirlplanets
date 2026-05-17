@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mintyirlplanets:demonic_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mintyirlplanets:demonic_armor"
+      }
+    ]
+  }
+}

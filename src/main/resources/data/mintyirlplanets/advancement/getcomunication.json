@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:mars"
+    },
+    "title": {
+      "translate": "advancements.getcomunication.title"
+    },
+    "description": {
+      "translate": "advancements.getcomunication.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getcomunication_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:mars",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 33
+  },
+  "parent": "mintyirlplanets:gettomoon"
+}

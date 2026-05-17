@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Bauxite"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      },
+      {
+        "value": "CUSTOM:Alumineum"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AluminumBlock"
+    },
+    "name": "alumineum_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

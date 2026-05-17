@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/moonrockblock",
+    "up": "mintyirlplanets:block/terecelium",
+    "north": "mintyirlplanets:block/extaceliun",
+    "east": "mintyirlplanets:block/extaceliun",
+    "south": "mintyirlplanets:block/extaceliun",
+    "west": "mintyirlplanets:block/extaceliun",
+    "particle": "mintyirlplanets:block/moonrockblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:antimatter",
+    "b": "mintyirlplanets:brimstone",
+    "c": "mintyirlplanets:demonic_armor_leggings"
+  },
+  "result": {
+    "id": "mintyirlplanets:brimstone_armor_leggings",
+    "count": 1
+  }
+}

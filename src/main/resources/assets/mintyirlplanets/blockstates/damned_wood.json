@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mintyirlplanets:block/damned_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mintyirlplanets:block/damned_wood"
+    },
+    "axis=z": {
+      "model": "mintyirlplanets:block/damned_wood",
+      "x": 90
+    }
+  }
+}

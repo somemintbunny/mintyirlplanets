@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "acd",
+    " ab"
+  ],
+  "key": {
+    "a": "mintyirlplanets:siver_ingot",
+    "b": "mintyirlplanets:fiber_ball",
+    "c": "mintyirlplanets:strange_energy",
+    "d": "mintyirlplanets:antimatter"
+  },
+  "result": {
+    "id": "mintyirlplanets:silver_bullet",
+    "count": 16
+  }
+}

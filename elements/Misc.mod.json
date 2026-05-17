@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Misc",
+    "icon": {
+      "value": "CUSTOM:TheMoon"
+    },
+    "showSearch": false
+  }
+}

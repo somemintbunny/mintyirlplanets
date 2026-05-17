@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mintyirlplanets:adamantiumm_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mintyirlplanets:adamantiumm_armor"
+      }
+    ]
+  }
+}

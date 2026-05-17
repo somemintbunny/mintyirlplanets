@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/damned_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/damned_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/damned_slab_full"
+    }
+  }
+}

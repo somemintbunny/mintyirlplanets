@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "mintyirlplanets:ferrous_sand",
+    "b": "mintyirlplanets:blank_disc"
+  },
+  "result": {
+    "id": "mintyirlplanets:music_disc_mars",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/smoothebone",
+    "up": "mintyirlplanets:block/smoothebone",
+    "north": "mintyirlplanets:block/smoothebone",
+    "east": "mintyirlplanets:block/smoothebone",
+    "south": "mintyirlplanets:block/smoothebone",
+    "west": "mintyirlplanets:block/smoothebone",
+    "particle": "mintyirlplanets:block/smoothebone"
+  },
+  "render_type": "solid"
+}

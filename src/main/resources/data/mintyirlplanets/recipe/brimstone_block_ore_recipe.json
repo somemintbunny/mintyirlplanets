@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:brimstone_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:brimstone",
+    "count": 9
+  }
+}

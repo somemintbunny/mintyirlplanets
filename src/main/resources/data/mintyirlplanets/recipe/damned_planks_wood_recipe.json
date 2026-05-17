@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "mintyirlplanets:damned_wood"
+  ],
+  "result": {
+    "id": "mintyirlplanets:damned_planks",
+    "count": 4
+  }
+}

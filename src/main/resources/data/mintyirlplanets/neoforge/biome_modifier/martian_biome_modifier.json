@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "mintyirlplanets:mars_biome",
+    "mintyirlplanets:dark_moon",
+    "mintyirlplanets:moon",
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:saturn_stone"
+  ],
+  "spawners": {
+    "type": "mintyirlplanets:martian",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

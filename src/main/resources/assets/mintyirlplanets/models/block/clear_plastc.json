@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/clearplastic",
+    "up": "mintyirlplanets:block/clearplastic",
+    "north": "mintyirlplanets:block/clearplastic",
+    "east": "mintyirlplanets:block/clearplastic",
+    "south": "mintyirlplanets:block/clearplastic",
+    "west": "mintyirlplanets:block/clearplastic",
+    "particle": "mintyirlplanets:block/clearplastic"
+  },
+  "render_type": "translucent"
+}

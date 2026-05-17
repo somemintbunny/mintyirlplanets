@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/reinforcedglass",
+    "up": "mintyirlplanets:block/reinforcedglass",
+    "north": "mintyirlplanets:block/reinforcedglass",
+    "east": "mintyirlplanets:block/reinforcedglass",
+    "south": "mintyirlplanets:block/reinforcedglass",
+    "west": "mintyirlplanets:block/reinforcedglass",
+    "particle": "mintyirlplanets:block/reinforcedglass"
+  },
+  "render_type": "translucent"
+}

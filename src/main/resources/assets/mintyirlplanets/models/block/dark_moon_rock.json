@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/darkmoonrock",
+    "up": "mintyirlplanets:block/darkmoonrock",
+    "north": "mintyirlplanets:block/darkmoonrock",
+    "east": "mintyirlplanets:block/darkmoonrock",
+    "south": "mintyirlplanets:block/darkmoonrock",
+    "west": "mintyirlplanets:block/darkmoonrock",
+    "particle": "mintyirlplanets:block/darkmoonrock"
+  },
+  "render_type": "solid"
+}

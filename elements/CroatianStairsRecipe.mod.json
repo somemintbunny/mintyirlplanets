@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      },
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      },
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      },
+      {
+        "value": "CUSTOM:CroatianPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CroatianStairs"
+    },
+    "name": "croatian_stairs_recipe",
+    "namespace": "mod"
+  }
+}

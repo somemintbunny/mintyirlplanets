@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mintyirlplanets:block/saturn_portal_ew"
+    },
+    "axis=x": {
+      "model": "mintyirlplanets:block/saturn_portal_ns"
+    }
+  }
+}

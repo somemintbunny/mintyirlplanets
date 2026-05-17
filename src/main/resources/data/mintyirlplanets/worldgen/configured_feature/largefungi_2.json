@@ -1,0 +1,14 @@
+{
+  "type": "mintyirlplanets:structure_feature",
+  "config": {
+    "structure": "mintyirlplanets:largefungi1",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      4,
+      0,
+      4
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 3.5,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:DreamdropOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Dreamdrop"
+    },
+    "name": "dreamdrop_ore_smelting",
+    "namespace": "mod"
+  }
+}

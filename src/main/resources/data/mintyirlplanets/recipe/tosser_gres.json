@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:deleted_mod_element",
+    "b": "mintyirlplanets:antimatter"
+  },
+  "result": {
+    "id": "mintyirlplanets:deleted_mod_element",
+    "count": 1
+  }
+}

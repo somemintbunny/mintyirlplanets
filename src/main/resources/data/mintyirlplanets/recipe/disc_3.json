@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "mintyirlplanets:dark_moon_rock",
+    "b": "mintyirlplanets:blank_disc"
+  },
+  "result": {
+    "id": "mintyirlplanets:dark_moondisc",
+    "count": 1
+  }
+}

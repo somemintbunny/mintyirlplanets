@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:mars"
+    },
+    "title": {
+      "translate": "advancements.communication_recieved.title"
+    },
+    "description": {
+      "translate": "advancements.communication_recieved.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "communication_recieved_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mintyirlplanets:mars"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 55
+  },
+  "parent": "mintyirlplanets:getcomunication"
+}

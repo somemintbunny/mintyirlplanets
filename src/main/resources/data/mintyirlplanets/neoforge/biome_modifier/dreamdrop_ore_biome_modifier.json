@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mintyirlplanets:dark_moon",
+    "mintyirlplanets:moon",
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:terracelium"
+  ],
+  "features": "mintyirlplanets:dreamdrop_ore",
+  "step": "underground_ores"
+}

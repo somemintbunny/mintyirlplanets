@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:moonshroom",
+  "features": "mintyirlplanets:moonshroomsmall",
+  "step": "surface_structures"
+}

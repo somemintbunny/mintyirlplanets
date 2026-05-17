@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/croatian_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/croatian_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/croatian_slab_full"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "mintyirlplanets:cracked_bone_brick",
+  "result": {
+    "id": "mintyirlplanets:chizzeled_bone_slab",
+    "count": 1
+  }
+}

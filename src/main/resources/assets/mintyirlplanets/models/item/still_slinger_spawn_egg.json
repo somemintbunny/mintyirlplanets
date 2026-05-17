@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mintyirlplanets:item/still_slinger_spawn_egg_generated"
+  }
+}

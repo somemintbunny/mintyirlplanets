@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Endgame Items",
+    "icon": {
+      "value": "CUSTOM:DebugPick"
+    },
+    "showSearch": false
+  }
+}

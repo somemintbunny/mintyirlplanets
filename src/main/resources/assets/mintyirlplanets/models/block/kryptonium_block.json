@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mintyirlplanets:block/krypton_ore_block",
+    "particle": "mintyirlplanets:block/krypton_ore_block"
+  },
+  "render_type": "solid"
+}

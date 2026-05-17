@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:moonshroom_2_log"
+  },
+  "result": {
+    "id": "mintyirlplanets:moonshroom_2_wood",
+    "count": 3
+  }
+}

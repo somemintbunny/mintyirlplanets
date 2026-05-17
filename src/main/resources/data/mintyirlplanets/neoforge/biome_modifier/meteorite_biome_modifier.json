@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mintyirlplanets:moon",
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:dark_moon",
+    "mintyirlplanets:mars_biome",
+    "mintyirlplanets:saturn_stone",
+    "mintyirlplanets:saturn_moss",
+    "mintyirlplanets:fiberglass_desert",
+    "mintyirlplanets:living_mars",
+    "mintyirlplanets:glowing_caves"
+  ],
+  "features": "mintyirlplanets:meteorite",
+  "step": "underground_ores"
+}

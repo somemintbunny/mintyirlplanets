@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "mintyirlplanets:fragrent_log"
+  ],
+  "result": {
+    "id": "mintyirlplanets:fragrent_planks",
+    "count": 4
+  }
+}

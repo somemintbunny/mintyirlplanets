@@ -1,0 +1,23 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.8100000000000005,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SoulstoneOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Soulstone"
+    },
+    "name": "soulstone_ore_smelting",
+    "namespace": "mod"
+  }
+}

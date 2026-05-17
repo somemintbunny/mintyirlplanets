@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "mintyirlplanets:soulstone_block",
+    "mintyirlplanets:brimstone_ore",
+    "mintyirlplanets:brimstone_block",
+    "mintyirlplanets:h_crystal",
+    "mintyirlplanets:reinforced_glass",
+    "mintyirlplanets:aluminum_ore",
+    "mintyirlplanets:clear_plastc",
+    "mintyirlplanets:dreamdrop_block",
+    "mintyirlplanets:strange_rock",
+    "mintyirlplanets:siver_ore",
+    "mintyirlplanets:dreamdrop_ore",
+    "mintyirlplanets:meteorite",
+    "mintyirlplanets:demonic_block",
+    "mintyirlplanets:siver_block",
+    "mintyirlplanets:alumineum_block",
+    "mintyirlplanets:kryptonium_block",
+    "mintyirlplanets:adamantiumm_block",
+    "mintyirlplanets:demonic_ore",
+    "mintyirlplanets:adamantiumm_ore",
+    "mintyirlplanets:soulstone_ore"
+  ]
+}

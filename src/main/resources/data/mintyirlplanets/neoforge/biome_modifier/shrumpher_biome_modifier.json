@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:mars_biome",
+    "mintyirlplanets:saturn_stone"
+  ],
+  "spawners": {
+    "type": "mintyirlplanets:shrumpher",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

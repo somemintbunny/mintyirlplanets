@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/fossil",
+    "up": "mintyirlplanets:block/fossil",
+    "north": "mintyirlplanets:block/fossil",
+    "east": "mintyirlplanets:block/fossil",
+    "south": "mintyirlplanets:block/fossil",
+    "west": "mintyirlplanets:block/fossil",
+    "particle": "mintyirlplanets:block/fossil"
+  },
+  "render_type": "solid"
+}

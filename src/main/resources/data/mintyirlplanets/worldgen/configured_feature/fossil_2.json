@@ -1,0 +1,9 @@
+{
+  "type": "mintyirlplanets:structure_feature",
+  "config": {
+    "structure": "mintyirlplanets:fossil2",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mintyirlplanets:block/fdfsds",
+    "particle": "mintyirlplanets:block/fdfsds"
+  },
+  "render_type": "translucent"
+}

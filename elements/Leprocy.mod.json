@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.86,
+    "scaling": "always",
+    "effects": "thorns",
+    "normalDeathMessage": "%1$s Got lost in the sauce (goop)",
+    "itemDeathMessage": "%1$s experienced the goop dimention thanks to %2$s via %3$s",
+    "playerDeathMessage": "%1$s was goopled away from %2$s"
+  }
+}

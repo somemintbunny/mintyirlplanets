@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mintyirlplanets:brimstone_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mintyirlplanets:brimstone_armor"
+      }
+    ]
+  }
+}

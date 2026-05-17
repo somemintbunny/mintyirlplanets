@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:stripped_fragrent_wood"
+  ],
+  "result": {
+    "id": "mintyirlplanets:fragrent_planks",
+    "count": 4
+  }
+}

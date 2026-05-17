@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Moonshroom2Wood"
+    },
+    "name": "moonshroom_2_wood_recipe",
+    "namespace": "mod"
+  }
+}

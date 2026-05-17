@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:tosser_tot",
+    "b": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "mintyirlplanets:deleted_mod_element",
+    "count": 1
+  }
+}

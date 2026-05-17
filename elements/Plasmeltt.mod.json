@@ -1,0 +1,23 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Fiberglass"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ClearPlastc"
+    },
+    "name": "plasmeltt",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:BlankDisc"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": "CUSTOM:BlankDisc"
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TornFibers"
+    },
+    "name": "disc_5",
+    "namespace": "mod"
+  }
+}

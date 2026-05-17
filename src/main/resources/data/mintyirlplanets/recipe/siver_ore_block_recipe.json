@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:siver_ingot"
+  },
+  "result": {
+    "id": "mintyirlplanets:siver_block",
+    "count": 1
+  }
+}

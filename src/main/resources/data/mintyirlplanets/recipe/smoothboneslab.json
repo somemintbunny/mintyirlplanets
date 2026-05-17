@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:smothe_bone"
+  },
+  "result": {
+    "id": "mintyirlplanets:smoth_bone_slab",
+    "count": 6
+  }
+}

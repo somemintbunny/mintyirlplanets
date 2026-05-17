@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "mintyirlplanets:smothe_bone",
+  "result": {
+    "id": "mintyirlplanets:smoth_bone_slab",
+    "count": 2
+  }
+}

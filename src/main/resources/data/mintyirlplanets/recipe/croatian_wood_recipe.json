@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:croatian_log"
+  },
+  "result": {
+    "id": "mintyirlplanets:croatian_wood",
+    "count": 3
+  }
+}

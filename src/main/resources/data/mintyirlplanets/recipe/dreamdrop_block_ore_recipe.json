@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:dreamdrop_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:dreamdrop",
+    "count": 9
+  }
+}

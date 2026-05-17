@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/moonrockblock",
+    "up": "mintyirlplanets:block/moonmosstop",
+    "north": "mintyirlplanets:block/h",
+    "east": "mintyirlplanets:block/h",
+    "south": "mintyirlplanets:block/h",
+    "west": "mintyirlplanets:block/h",
+    "particle": "mintyirlplanets:block/moonrockblock"
+  },
+  "render_type": "solid"
+}

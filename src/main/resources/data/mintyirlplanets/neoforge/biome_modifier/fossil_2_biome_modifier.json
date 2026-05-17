@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:saturn_moss",
+  "features": "mintyirlplanets:fossil_2",
+  "step": "surface_structures"
+}

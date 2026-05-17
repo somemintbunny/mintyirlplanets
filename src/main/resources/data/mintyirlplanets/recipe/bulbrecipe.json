@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "mintyirlplanets:dragon_fossil",
+    "b": "mintyirlplanets:crok_essence"
+  },
+  "result": {
+    "id": "mintyirlplanets:crok_bulb",
+    "count": 4
+  }
+}

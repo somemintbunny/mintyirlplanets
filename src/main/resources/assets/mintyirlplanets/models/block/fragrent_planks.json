@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mintyirlplanets:block/fragrent_planks",
+    "particle": "mintyirlplanets:block/fragrent_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:antimatter",
+    "b": "mintyirlplanets:soulstone",
+    "c": "mintyirlplanets:adamantiumm_pickaxe"
+  },
+  "result": {
+    "id": "mintyirlplanets:soulstone_pickaxe",
+    "count": 1
+  }
+}

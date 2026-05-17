@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bcc",
+    "  c"
+  ],
+  "key": {
+    "a": "mintyirlplanets:kryptonium",
+    "b": "mintyirlplanets:strange_energy",
+    "c": "mintyirlplanets:moonshroom_2_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:lazer_shooter",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mintyirlplanets:blocks/unlit_fancy_candle",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mintyirlplanets:unlit_fancy_candle"
+        }
+      ]
+    }
+  ]
+}

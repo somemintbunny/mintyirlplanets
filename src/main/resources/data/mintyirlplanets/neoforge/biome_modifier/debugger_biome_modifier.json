@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "mintyirlplanets:moonshroom",
+  "spawners": {
+    "type": "mintyirlplanets:debugger",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 35
+  }
+}

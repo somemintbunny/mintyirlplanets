@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-03 20:11:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-03-03 20:11:06 +0000"
+    },
+    "done": false
+  },
+  "mintyirlplanets:getcomunication": {
+    "criteria": {
+      "getcomunication_0": "2025-03-03 20:11:30 +0000"
+    },
+    "done": true
+  },
+  "mintyirlplanets:communication_recieved": {
+    "criteria": {
+      "communication_recieved_0": "2025-03-03 20:11:48 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

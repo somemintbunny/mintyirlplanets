@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "mintyirlplanets:kryptonium",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "mintyirlplanets:kryptonium_sword",
+    "count": 1
+  }
+}

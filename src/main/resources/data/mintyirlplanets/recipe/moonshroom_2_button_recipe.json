@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "mintyirlplanets:moonshroom_2_planks"
+  ],
+  "result": {
+    "id": "mintyirlplanets:moonshroom_2_button",
+    "count": 1
+  }
+}

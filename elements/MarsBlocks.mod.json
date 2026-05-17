@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Mars Blocks",
+    "icon": {
+      "value": "CUSTOM:FerrousSand"
+    },
+    "showSearch": false
+  }
+}

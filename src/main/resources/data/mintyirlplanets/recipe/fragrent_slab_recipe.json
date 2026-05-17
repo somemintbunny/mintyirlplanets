@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:fragrent_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:fragrent_slab",
+    "count": 6
+  }
+}

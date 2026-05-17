@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mintyirlplanets:block/bauxiteore",
+    "particle": "mintyirlplanets:block/bauxiteore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mintyirlplanets:block/starflower",
+    "particle": "mintyirlplanets:block/starflower"
+  },
+  "render_type": "translucent"
+}

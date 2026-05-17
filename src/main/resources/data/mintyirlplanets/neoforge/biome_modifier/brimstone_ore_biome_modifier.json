@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "nether_wastes",
+    "warped_forest",
+    "crimson_forest",
+    "soul_sand_valley",
+    "basalt_deltas"
+  ],
+  "features": "mintyirlplanets:brimstone_ore",
+  "step": "underground_ores"
+}

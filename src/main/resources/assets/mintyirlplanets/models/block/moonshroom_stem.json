@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/moonshroomsporesconnect",
+    "up": "mintyirlplanets:block/moonshroomsporesconnect",
+    "north": "mintyirlplanets:block/moonshroomsporesconnect",
+    "east": "mintyirlplanets:block/moonshroomsporesconnect",
+    "south": "mintyirlplanets:block/moonshroomsporesconnect",
+    "west": "mintyirlplanets:block/moonshroomsporesconnect",
+    "particle": "mintyirlplanets:block/moonshroomsporesconnect"
+  },
+  "render_type": "translucent"
+}

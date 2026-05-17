@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:kryptonium_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:kryptonium",
+    "count": 9
+  }
+}

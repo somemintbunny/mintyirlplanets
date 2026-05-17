@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "  a"
+  ],
+  "key": {
+    "a": "mintyirlplanets:adamantiumm",
+    "b": "mintyirlplanets:mystical_shooter"
+  },
+  "result": {
+    "id": "mintyirlplanets:adamantium_shooter",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 150,
+  "ingredient": "mintyirlplanets:fiberglass",
+  "result": {
+    "id": "mintyirlplanets:clear_plastc"
+  }
+}

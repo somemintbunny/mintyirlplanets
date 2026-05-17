@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:croatian_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:croatian_slab",
+    "count": 6
+  }
+}

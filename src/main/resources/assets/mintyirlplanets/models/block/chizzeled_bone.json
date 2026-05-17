@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/chizzeledbone",
+    "up": "mintyirlplanets:block/chizzeledbone",
+    "north": "mintyirlplanets:block/chizzeledbone",
+    "east": "mintyirlplanets:block/chizzeledbone",
+    "south": "mintyirlplanets:block/chizzeledbone",
+    "west": "mintyirlplanets:block/chizzeledbone",
+    "particle": "mintyirlplanets:block/chizzeledbone"
+  },
+  "render_type": "solid"
+}

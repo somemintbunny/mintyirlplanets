@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "mintyirlplanets:block/smoothebone",
+    "bottom": "mintyirlplanets:block/smoothebone",
+    "top": "mintyirlplanets:block/smoothebone",
+    "side": "mintyirlplanets:block/smoothebone"
+  },
+  "render_type": "solid"
+}

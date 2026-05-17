@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "outside_part",
+        "1": "candle",
+        "2": "texture"
+      },
+      "name": "default"
+    }
+  }
+}

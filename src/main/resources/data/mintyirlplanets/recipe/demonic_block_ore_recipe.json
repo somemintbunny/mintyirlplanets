@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:demonic_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:demonic_ingot",
+    "count": 9
+  }
+}

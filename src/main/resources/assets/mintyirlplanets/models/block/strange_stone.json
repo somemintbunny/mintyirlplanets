@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/strangerock",
+    "up": "mintyirlplanets:block/strangerock",
+    "north": "mintyirlplanets:block/strangerock",
+    "east": "mintyirlplanets:block/strangerock",
+    "south": "mintyirlplanets:block/strangerock",
+    "west": "mintyirlplanets:block/strangerock",
+    "particle": "mintyirlplanets:block/strangerock"
+  },
+  "render_type": "solid"
+}

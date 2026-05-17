@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Food",
+    "icon": {
+      "value": "CUSTOM:HellFruit"
+    },
+    "showSearch": false
+  }
+}

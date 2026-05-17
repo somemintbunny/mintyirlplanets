@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "abc",
+    " ac"
+  ],
+  "key": {
+    "a": "mintyirlplanets:dreamdrop",
+    "b": "mintyirlplanets:lazer_shooter",
+    "c": "mintyirlplanets:antimatter"
+  },
+  "result": {
+    "id": "mintyirlplanets:mystical_shooter",
+    "count": 1
+  }
+}

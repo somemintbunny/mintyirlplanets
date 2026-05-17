@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:the_moon"
+    },
+    "title": {
+      "translate": "advancements.gettomoon.title"
+    },
+    "description": {
+      "translate": "advancements.gettomoon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gettomoon_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mintyirlplanets:the_moon"
+      }
+    }
+  },
+  "parent": "mintyirlplanets:moonportal"
+}

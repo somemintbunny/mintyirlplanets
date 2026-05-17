@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:alumineum_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:bauxite",
+    "count": 9
+  }
+}

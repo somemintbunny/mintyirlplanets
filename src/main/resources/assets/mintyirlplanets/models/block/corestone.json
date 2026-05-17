@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/corestone",
+    "up": "mintyirlplanets:block/corestone",
+    "north": "mintyirlplanets:block/corestone",
+    "east": "mintyirlplanets:block/corestone",
+    "south": "mintyirlplanets:block/corestone",
+    "west": "mintyirlplanets:block/corestone",
+    "particle": "mintyirlplanets:block/corestone"
+  },
+  "render_type": "solid"
+}

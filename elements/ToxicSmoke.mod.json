@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.6,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s Choked to death",
+    "itemDeathMessage": "%1$s Got toxic smoke injected into them by %2$s using %3$s",
+    "playerDeathMessage": "%1$s Choked while running from %2$s"
+  }
+}

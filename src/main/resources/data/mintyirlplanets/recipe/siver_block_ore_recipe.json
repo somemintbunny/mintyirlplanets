@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:siver_block"
+  ],
+  "result": {
+    "id": "mintyirlplanets:siver_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 24,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "mintyirlplanets:meteorite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:strange_stone"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:meteorite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:alumineum_block"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:meteorite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:moon_rock"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:meteorite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:chlorite"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:meteorite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:dark_moon_rock"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:meteorite"
+        }
+      }
+    ]
+  }
+}

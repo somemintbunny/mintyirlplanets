@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/glowing",
+    "up": "mintyirlplanets:block/glowing",
+    "north": "mintyirlplanets:block/glowing",
+    "east": "mintyirlplanets:block/glowing",
+    "south": "mintyirlplanets:block/glowing",
+    "west": "mintyirlplanets:block/glowing",
+    "particle": "mintyirlplanets:block/glowing"
+  },
+  "render_type": "solid"
+}

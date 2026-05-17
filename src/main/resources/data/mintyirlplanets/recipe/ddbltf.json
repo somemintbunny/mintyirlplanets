@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "acb",
+    " ab"
+  ],
+  "key": {
+    "a": "mintyirlplanets:dreamdrop",
+    "b": "mintyirlplanets:crok_essence",
+    "c": "mintyirlplanets:silver_bullet"
+  },
+  "result": {
+    "id": "mintyirlplanets:dreamdrop_bullet",
+    "count": 2
+  }
+}

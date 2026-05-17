@@ -1,0 +1,203 @@
+{
+  "disc1": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:follow_my_lead",
+        "stream": false
+      }
+    ]
+  },
+  "disc2": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:life_in_space",
+        "stream": false
+      }
+    ]
+  },
+  "disc3": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:on_the_moon",
+        "stream": false
+      }
+    ]
+  },
+  "darkmoon": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:the_dark_side",
+        "stream": true
+      }
+    ]
+  },
+  "mars": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:mars",
+        "stream": true
+      }
+    ]
+  },
+  "saturnost": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:saturn_3_desolate",
+        "stream": true
+      },
+      {
+        "name": "mintyirlplanets:saturn2",
+        "stream": true
+      },
+      {
+        "name": "mintyirlplanets:saturn1",
+        "stream": true
+      }
+    ]
+  },
+  "plastichit": {
+    "subtitle": "subtitles.plastichit",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:plashit4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plashit3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plashit2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plashit1",
+        "stream": false
+      }
+    ]
+  },
+  "plasticwalk": {
+    "subtitle": "subtitles.plasticwalk",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:plaswalk3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plaswalk2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plaswalk1",
+        "stream": false
+      }
+    ]
+  },
+  "holowplastichit": {
+    "subtitle": "subtitles.holowplastichit",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:plashol4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plashol3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plashol2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:plashol1",
+        "stream": false
+      }
+    ]
+  },
+  "fiberglasshit": {
+    "subtitle": "subtitles.fiberglasshit",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:fibhit3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:fibhit2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:fibhit1",
+        "stream": false
+      }
+    ]
+  },
+  "fiberglasswalk": {
+    "subtitle": "subtitles.fiberglasswalk",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:fibwalk2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:fibwalk1",
+        "stream": false
+      }
+    ]
+  },
+  "plasticbreak": {
+    "subtitle": "subtitles.plasticbreak",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:plasbreak1",
+        "stream": false
+      }
+    ]
+  },
+  "fiberglassbreak": {
+    "subtitle": "subtitles.fiberglassbreak",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:fibbreak",
+        "stream": false
+      }
+    ]
+  },
+  "tornfibers": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:torn_fibres",
+        "stream": true
+      }
+    ]
+  },
+  "gleep_hurt": {
+    "subtitle": "subtitles.gleep_hurt",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:gleeb_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "gleeb_idle": {
+    "subtitle": "subtitles.gleeb_idle",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:gleeb_idle_2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:gleeb_idle_3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:gleeb_idle_4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:gleeb_idle",
+        "stream": false
+      }
+    ]
+  }
+}

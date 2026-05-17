@@ -1,0 +1,62 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": "CUSTOM:DamnedLog"
+      },
+      {
+        "value": "CUSTOM:GlucosideExtract"
+      },
+      {
+        "value": "CUSTOM:HellFruit"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": "CUSTOM:GlucosideExtract"
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HellFruit"
+    },
+    "name": "hellfruit_recipe",
+    "namespace": "mod"
+  }
+}

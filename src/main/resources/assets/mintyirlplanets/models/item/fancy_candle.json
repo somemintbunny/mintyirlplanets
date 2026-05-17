@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mintyirlplanets:item/fancy_candle_lit"
+  },
+  "render_type": "translucent"
+}

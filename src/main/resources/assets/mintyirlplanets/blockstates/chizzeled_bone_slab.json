@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/chizzeled_bone_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/chizzeled_bone_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/chizzeled_bone_slab_full"
+    }
+  }
+}

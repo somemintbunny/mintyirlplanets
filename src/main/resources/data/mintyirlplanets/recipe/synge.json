@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "acd",
+    "ab "
+  ],
+  "key": {
+    "a": "mintyirlplanets:strange_stone",
+    "b": "mintyirlplanets:clear_plastc",
+    "c": "mintyirlplanets:martian_salad",
+    "d": "mintyirlplanets:soulstone"
+  },
+  "result": {
+    "id": "mintyirlplanets:the_antidote",
+    "count": 1
+  }
+}

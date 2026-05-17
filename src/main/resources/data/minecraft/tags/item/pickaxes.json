@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "mintyirlplanets:mixolydian_pickaxe",
+    "mintyirlplanets:demonic_pickaxe",
+    "mintyirlplanets:soulstone_pickaxe",
+    "mintyirlplanets:brimstone_pickaxe",
+    "mintyirlplanets:siver_pickaxe",
+    "mintyirlplanets:dreamdrop_pickaxe",
+    "mintyirlplanets:debug_pick",
+    "mintyirlplanets:adamantiumm_pickaxe",
+    "mintyirlplanets:alumineum_pickaxe",
+    "mintyirlplanets:kryptonium_pickaxe"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Dreamdrop"
+      },
+      {
+        "value": "CUSTOM:CrokEssence"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dreamdrop"
+      },
+      {
+        "value": "CUSTOM:CrokEssence"
+      },
+      {
+        "value": "CUSTOM:Dreamdrop"
+      },
+      {
+        "value": "CUSTOM:SilverBullet"
+      },
+      {
+        "value": "CUSTOM:CrokEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dreamdrop"
+      },
+      {
+        "value": "CUSTOM:CrokEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DreamdropBullet"
+    },
+    "name": "ddbltf",
+    "namespace": "mod"
+  }
+}

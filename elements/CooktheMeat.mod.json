@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Meat"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.699999999999999,
+    "cookingTime": 175,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Meat"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedMeat"
+    },
+    "name": "cookthe_meat",
+    "namespace": "mod"
+  }
+}

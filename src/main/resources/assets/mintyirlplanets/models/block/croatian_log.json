@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/hellwood_log_top",
+    "up": "mintyirlplanets:block/hellwood_log_top",
+    "north": "mintyirlplanets:block/hellwood_log_side",
+    "east": "mintyirlplanets:block/hellwood_log_side",
+    "south": "mintyirlplanets:block/hellwood_log_side",
+    "west": "mintyirlplanets:block/hellwood_log_side",
+    "particle": "mintyirlplanets:block/hellwood_log_top"
+  },
+  "render_type": "solid"
+}

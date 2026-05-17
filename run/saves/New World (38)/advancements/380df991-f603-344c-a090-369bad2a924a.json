@@ -1,0 +1,57 @@
+{
+  "mintyirlplanets:recipes/croatian_fence_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "mintyirlplanets:recipes/croatian_stairs_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-20 19:31:47 +0100"
+    },
+    "done": true
+  },
+  "mintyirlplanets:recipes/croatian_button_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "mintyirlplanets:recipes/croatian_fence_gate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "mintyirlplanets:recipes/croatian_pressure_plate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "mintyirlplanets:recipes/croatian_stick_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-09-20 19:31:48 +0100"
+    },
+    "done": false
+  },
+  "mintyirlplanets:recipes/croatian_slab_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-09-20 19:31:56 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

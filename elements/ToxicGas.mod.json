@@ -1,0 +1,21 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Toxic Gas",
+    "icon": "cloud",
+    "color": {
+      "value": -13001634,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "ToxicGasOnEffectActiveTick"
+    }
+  }
+}

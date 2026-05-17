@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb"
+  ],
+  "key": {
+    "a": "mintyirlplanets:star_flower",
+    "b": "mintyirlplanets:aquapher_flower",
+    "c": "mintyirlplanets:antimatter"
+  },
+  "result": {
+    "id": "mintyirlplanets:flower_crown_helmet",
+    "count": 1
+  }
+}

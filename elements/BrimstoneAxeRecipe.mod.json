@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Brimstone"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": "CUSTOM:Brimstone"
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": "CUSTOM:Brimstone"
+      },
+      {
+        "value": "CUSTOM:DemonicAxe"
+      },
+      {
+        "value": "CUSTOM:Brimstone"
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      },
+      {
+        "value": "CUSTOM:Brimstone"
+      },
+      {
+        "value": "CUSTOM:Antimatter"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrimstoneAxe"
+    },
+    "name": "brimstone_axe_recipe",
+    "namespace": "mod"
+  }
+}

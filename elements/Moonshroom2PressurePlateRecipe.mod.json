@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_pressure_plate",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Moonshroom2Wood"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Moonshroom2PressurePlate"
+    },
+    "name": "moonshroom_2_pressure_plate_recipe",
+    "namespace": "mod"
+  }
+}

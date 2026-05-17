@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:stripped_fragrent_wood"
+  },
+  "result": {
+    "id": "mintyirlplanets:stripped_fragrent_log",
+    "count": 3
+  }
+}

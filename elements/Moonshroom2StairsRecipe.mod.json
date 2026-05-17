@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Moonshroom2Log"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      },
+      {
+        "value": "CUSTOM:Moonshroom2Planks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Moonshroom2Stairs"
+    },
+    "name": "moonshroom_2_stairs_recipe",
+    "namespace": "mod"
+  }
+}

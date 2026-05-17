@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/bonebricks",
+    "up": "mintyirlplanets:block/bonebricks",
+    "north": "mintyirlplanets:block/bonebricks",
+    "east": "mintyirlplanets:block/bonebricks",
+    "south": "mintyirlplanets:block/bonebricks",
+    "west": "mintyirlplanets:block/bonebricks",
+    "particle": "mintyirlplanets:block/bonebricks"
+  },
+  "render_type": "solid"
+}

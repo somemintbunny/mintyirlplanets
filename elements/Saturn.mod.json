@@ -1,0 +1,83 @@
+{
+  "_fv": 85,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SaturnMoss"
+      },
+      {
+        "value": "CUSTOM:SaturnStone"
+      }
+    ],
+    "biomesInDimensionCaves": [],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:StrangeStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.LAVA"
+    },
+    "seaLevel": 5,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 4,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192,
+    "skyType": "NONE",
+    "airColor": {
+      "value": -11127296,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 0.05,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": true,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "onPlayerEntersDimension": {
+      "name": "SaturnPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "SaturnPlayerLeavesDimension"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:CroatianPlanks"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Antiseptic Portal Cream",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Misc"
+      }
+    ],
+    "texture": "saturnjuice",
+    "portalTexture": "strangecobble",
+    "enablePortal": true
+  }
+}

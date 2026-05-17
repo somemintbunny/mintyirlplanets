@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:moldedmeteorite"
+    },
+    "title": {
+      "translate": "advancements.blasted_meteor.title"
+    },
+    "description": {
+      "translate": "advancements.blasted_meteor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blasted_meteor_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:moldedmeteorite",
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1938
+  },
+  "parent": "mintyirlplanets:getcomunication"
+}

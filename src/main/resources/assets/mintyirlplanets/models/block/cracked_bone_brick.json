@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/crackedbonebricks",
+    "up": "mintyirlplanets:block/crackedbonebricks",
+    "north": "mintyirlplanets:block/crackedbonebricks",
+    "east": "mintyirlplanets:block/crackedbonebricks",
+    "south": "mintyirlplanets:block/crackedbonebricks",
+    "west": "mintyirlplanets:block/crackedbonebricks",
+    "particle": "mintyirlplanets:block/crackedbonebricks"
+  },
+  "render_type": "solid"
+}

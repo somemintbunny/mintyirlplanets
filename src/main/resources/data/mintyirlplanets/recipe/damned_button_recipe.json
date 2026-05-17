@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "mintyirlplanets:damned_planks"
+  ],
+  "result": {
+    "id": "mintyirlplanets:damned_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/fiberglass",
+    "up": "mintyirlplanets:block/fiberglass",
+    "north": "mintyirlplanets:block/fiberglass",
+    "east": "mintyirlplanets:block/fiberglass",
+    "south": "mintyirlplanets:block/fiberglass",
+    "west": "mintyirlplanets:block/fiberglass",
+    "particle": "mintyirlplanets:block/fiberglass"
+  },
+  "render_type": "solid"
+}

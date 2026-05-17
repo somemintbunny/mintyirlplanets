@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 2,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:nether_bricks"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:chiseled_nether_bricks"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cracked_nether_bricks"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:red_nether_bricks"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:warped_nylium"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crimson_nylium"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:warped_stem",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:crimson_stem",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:brimstone_ore"
+        }
+      }
+    ]
+  }
+}

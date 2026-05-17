@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.mintyirlplanets.torn_fibers.desc"
+  },
+  "length_in_seconds": 2500,
+  "sound_event": "mintyirlplanets:tornfibers"
+}

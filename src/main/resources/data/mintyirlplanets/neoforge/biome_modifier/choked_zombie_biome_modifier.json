@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "mintyirlplanets:fiberglass_desert",
+    "mintyirlplanets:saturn_moss"
+  ],
+  "spawners": {
+    "type": "mintyirlplanets:choked_zombie",
+    "weight": 16,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

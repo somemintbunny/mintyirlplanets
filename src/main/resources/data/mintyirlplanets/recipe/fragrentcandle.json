@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    "cdc"
+  ],
+  "key": {
+    "a": "mintyirlplanets:fragrent_bark",
+    "b": "mintyirlplanets:siver_ingot",
+    "c": "minecraft:chain",
+    "d": "minecraft:clay_ball"
+  },
+  "result": {
+    "id": "mintyirlplanets:unlit_fancy_candle",
+    "count": 2
+  }
+}

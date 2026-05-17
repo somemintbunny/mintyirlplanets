@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "mintyirlplanets:strange_stone",
+    "b": "mintyirlplanets:moon_rock",
+    "c": "mintyirlplanets:blank_disc",
+    "d": "mintyirlplanets:antimatter",
+    "e": "mintyirlplanets:ferrous_sand"
+  },
+  "result": {
+    "id": "mintyirlplanets:disc_1",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/damned_log_top",
+    "up": "mintyirlplanets:block/damned_log_top",
+    "north": "mintyirlplanets:block/damned_log_side",
+    "east": "mintyirlplanets:block/damned_log_side",
+    "south": "mintyirlplanets:block/damned_log_side",
+    "west": "mintyirlplanets:block/damned_log_side",
+    "particle": "mintyirlplanets:block/damned_log_top"
+  },
+  "render_type": "solid"
+}

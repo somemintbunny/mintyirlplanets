@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:fragrent_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "mintyirlplanets:fragrent_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "mintyirlplanets:damned_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:damned_fence_gate",
+    "count": 1
+  }
+}

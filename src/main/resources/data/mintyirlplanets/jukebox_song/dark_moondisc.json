@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.mintyirlplanets.dark_moondisc.desc"
+  },
+  "length_in_seconds": 131,
+  "sound_event": "mintyirlplanets:darkmoon"
+}

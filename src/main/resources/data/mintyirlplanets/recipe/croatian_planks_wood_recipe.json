@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "mintyirlplanets:croatian_wood"
+  ],
+  "result": {
+    "id": "mintyirlplanets:croatian_planks",
+    "count": 4
+  }
+}

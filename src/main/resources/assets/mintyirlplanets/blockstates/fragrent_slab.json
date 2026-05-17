@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/fragrent_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/fragrent_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/fragrent_slab_full"
+    }
+  }
+}

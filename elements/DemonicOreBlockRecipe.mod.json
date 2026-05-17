@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DemonicIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      },
+      {
+        "value": "CUSTOM:DemonicIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DemonicBlock"
+    },
+    "name": "demonic_ore_block_recipe",
+    "namespace": "mod"
+  }
+}
