@@ -13,7 +13,7 @@ import net.mcreator.mintyirlplanets.procedures.SoulstoneOreBlockDestroyedByPlaye
 
 public class SoulstoneOreBlock extends Block {
 	public SoulstoneOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(24.9f, 27.1789377055f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(24.9f, 27.1789377055f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
 	}
 
 	@Override

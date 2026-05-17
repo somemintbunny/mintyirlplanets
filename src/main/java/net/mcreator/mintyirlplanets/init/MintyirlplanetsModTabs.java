@@ -219,6 +219,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.MOON_PEBBLE.get());
 				tabData.accept(MintyirlplanetsModItems.FIBER_BALL.get());
 				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
+				tabData.accept(MintyirlplanetsModItems.ALIEN_HYDE.get());
 				tabData.accept(MintyirlplanetsModItems.STRANGE_PEBBLE.get());
 				tabData.accept(MintyirlplanetsModItems.DRAGON_FOSSIL.get());
 				tabData.accept(MintyirlplanetsModBlocks.UNLIT_FANCY_CANDLE.get().asItem());
@@ -236,7 +237,6 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.BONE_SLAB.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.HELIUM_SHARD.get());
 				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_HELMET.get());
-				tabData.accept(MintyirlplanetsModItems.ALIEN_HYDE.get());
 			}).withTabsBefore(MINERALS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MARS_BLOCKS = REGISTRY.register("mars_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mars_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.FERROUS_SAND.get())).displayItems((parameters, tabData) -> {
@@ -286,8 +286,8 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.HELL_FRUIT.get());
 				tabData.accept(MintyirlplanetsModItems.TOSSER_TOT.get());
 				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
-				tabData.accept(MintyirlplanetsModItems.MARTIAN_SALAD.get());
 				tabData.accept(MintyirlplanetsModItems.MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.COOKED_MEAT.get());
+				tabData.accept(MintyirlplanetsModItems.MARTIAN_SALAD.get());
 			}).withTabsBefore(SATURN_BLOCKS.getId()).build());
 }

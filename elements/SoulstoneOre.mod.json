@@ -115,7 +115,7 @@
       "value": ""
     },
     "luminance": {
-      "fixedValue": 0.0
+      "fixedValue": 15.0
     },
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",
@@ -168,9 +168,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 3,
-    "minGenerateHeight": 1,
+    "frequencyPerChunks": 16,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": -66,
     "maxGenerateHeight": 240
   }
 }

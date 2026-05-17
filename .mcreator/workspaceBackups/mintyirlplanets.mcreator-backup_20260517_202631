@@ -1066,20 +1066,6 @@
       }
     },
     {
-      "name": "TosserGrenades",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tosser_grenades",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mintyirlplanets/item/TosserGrenadesItem.java",
-          "src/main/resources/assets/mintyirlplanets/models/item/tosser_grenades.json",
-          "src/main/resources/assets/mintyirlplanets/items/tosser_grenades.json"
-        ]
-      }
-    },
-    {
       "name": "TosserGrenadeProjectileHit",
       "type": "procedure",
       "compiles": true,
@@ -1149,20 +1135,6 @@
       "registry_name": "minerals",
       "metadata": {
         "files": []
-      }
-    },
-    {
-      "name": "TosserGrenadeItem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tosser_grenade_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mintyirlplanets/item/TosserGrenadeItemItem.java",
-          "src/main/resources/assets/mintyirlplanets/models/item/tosser_grenade_item.json",
-          "src/main/resources/assets/mintyirlplanets/items/tosser_grenade_item.json"
-        ]
       }
     },
     {
@@ -4368,6 +4340,7 @@
       "registry_name": "smobone",
       "metadata": {
         "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/smobone.json",
           "src/main/resources/data/mintyirlplanets/recipe/smobone.json"
         ]
       }
@@ -7641,6 +7614,128 @@
           "src/main/resources/data/mintyirlplanets/advancement/blasted_meteor.json"
         ]
       }
+    },
+    {
+      "name": "Chlorine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/chlorite.json",
+          "src/main/resources/assets/mintyirlplanets/items/chlorite.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/chlorite.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/chlorite_biome_modifier.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/chlorite.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/chlorite.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/ChlorineBlock.java",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/chlorite.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/chlorite.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackboneBrick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackbone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/crackbone_brick.json",
+          "src/main/resources/data/mintyirlplanets/recipe/crackbone_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "Bonebrick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonebrick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/bonebrick.json",
+          "src/main/resources/data/mintyirlplanets/recipe/bonebrick.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiseledbone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseledbone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/chiseledbone.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/chiseledbone.json"
+        ]
+      }
+    },
+    {
+      "name": "Boneslaba",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boneslaba",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/boneslaba.json"
+        ]
+      }
+    },
+    {
+      "name": "Bbslab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/bbslab.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/bbslab.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedbbSlab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedbb_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/crackedbb_slab.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/crackedbb_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiseledboneslab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseledboneslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/chiseledboneslab.json"
+        ]
+      }
+    },
+    {
+      "name": "Smoothboneslab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoothboneslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/smoothboneslab.json",
+          "src/main/resources/data/mintyirlplanets/recipe/smoothboneslab.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7823,8 +7918,7 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:StrangeEnergy",
-      "~CUSTOM:LazerShooter",
-      "~CUSTOM:TosserGrenades"
+      "~CUSTOM:LazerShooter"
     ],
     "ITEMS:mintyirlplanets:siver_armor_repair_items": [
       "~CUSTOM:SiverIngot"
@@ -7960,7 +8054,6 @@
       "~CUSTOM:Dreamdrop"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:MoonRock",
       "~CUSTOM:Meteorite",
       "~CUSTOM:HCrystal",
       "~CUSTOM:Fossil",
@@ -7995,12 +8088,12 @@
       "~CUSTOM:SiverBlock",
       "~CUSTOM:SiverOre",
       "~CUSTOM:DreamdropBlock",
-      "~CUSTOM:DreamdropOre"
+      "~CUSTOM:DreamdropOre",
+      "~CUSTOM:MoonRock"
     ],
     "ITEMS:mintyirlplanets:siver_sword_repair_items": [
       "~CUSTOM:SiverIngot"
     ],
-    "BLOCKS:minecraft:fences": [],
     "ITEMS:mintyirlplanets:dreamdrop_hoe_repair_items": [
       "~CUSTOM:Dreamdrop"
     ],
@@ -8254,14 +8347,12 @@
       "AlumineumAxe",
       "AlumineumShovel",
       "AlumineumHoe",
-      "TosserGrenadeItem",
       "KryptoniumSword",
       "KryptoniumPickaxe",
       "KryptoniumAxe",
       "KryptoniumShovel",
       "KryptoniumHoe",
       "LazerShooter",
-      "TosserGrenades",
       "DreamdropSword",
       "DreamdropPickaxe",
       "DreamdropAxe",
@@ -8401,6 +8492,7 @@
       "MoonPebble",
       "FiberBall",
       "FragrentBark",
+      "AlienHyde",
       "StrangePebble",
       "DragonFossil",
       "UnlitFancyCandle",
@@ -8417,8 +8509,7 @@
       "CrackedBoneBrickSlab",
       "BoneSlab",
       "HeliumShard",
-      "FlowerCrown",
-      "AlienHyde"
+      "FlowerCrown"
     ],
     "CUSTOM:MarsBlocks": [
       "Fiberglass",
@@ -8459,6 +8550,15 @@
       "FragrentFenceGate",
       "FragrentPressurePlate",
       "FragrentButton"
+    ],
+    "CUSTOM:Food": [
+      "GlucosideExtract",
+      "HellFruit",
+      "TosserTot",
+      "FragrentBark",
+      "Meat",
+      "CookedMeat",
+      "MartianSalad"
     ]
   },
   "language_map": {
@@ -8579,7 +8679,7 @@
       "item.mintyirlplanets.brimstone_block": "Brimstone Block",
       "block.mintyirlplanets.moonshroom_2_fence": "Moonshroom Fence",
       "item.mintyirlplanets.star_flower": "Star Flower",
-      "item.mintyirlplanets.chizzeled_bone": "Chizzeled Bone",
+      "item.mintyirlplanets.chizzeled_bone": "Chiseled Bone",
       "death.attack.leprocy.item": "%1$s experienced the goop dimention thanks to %2$s via %3$s",
       "item.mintyirlplanets.soulstone_axe": "Soulstone Axe",
       "item.mintyirlplanets.siver_ingot": "Siver",
@@ -8674,7 +8774,6 @@
       "subtitles.plastichit": "Plastic Breaking",
       "item.mintyirlplanets.bone_brick_slab": "Bone Brick Slab",
       "item.mintyirlplanets.shrumpher_spawn_egg": "Shrumpher Spawn Egg",
-      "item.mintyirlplanets.tosser_grenades.description_0": "A bundle of grenades",
       "death.attack.toxic_smoke.item": "%1$s Got toxic smoke injected into them by %2$s using %3$s",
       "item.mintyirlplanets.kryptonium_sword": "Kryptonium Sword",
       "item.mintyirlplanets.damned_wood": "Damned Wood",
@@ -8808,7 +8907,6 @@
       "block.mintyirlplanets.damned_fence_gate": "Damned Fence Gate",
       "block.mintyirlplanets.soulstone_ore": "Soulstone Ore",
       "item.mintyirlplanets.croatian_slab": "Croatian Slab",
-      "item.mintyirlplanets.tosser_grenade_item": "Tosser Grenade",
       "item.mintyirlplanets.strange_energy": "Strange Energy",
       "item.mintyirlplanets.soulstone_block": "Block of Soulstone",
       "block.mintyirlplanets.demonic_block": "Block of Demonic",
@@ -8824,7 +8922,6 @@
       "item.mintyirlplanets.damned_stairs": "Damned Stairs",
       "item.mintyirlplanets.damned_fence_gate": "Damned Fence Gate",
       "item.mintyirlplanets.debugger_armour_boots": "§cDebugger §l§b(fake) §r§cYeezees",
-      "item.mintyirlplanets.tosser_grenades": "Tosser Grenades",
       "item.mintyirlplanets.kryptonium_armor_chestplate": "Kryptonium Chestplate",
       "item.mintyirlplanets.adamantiumm_armor_boots": "Adamantiumm Boots",
       "item.mintyirlplanets.siver_pickaxe": "Siver Pickaxe",
@@ -8896,7 +8993,8 @@
       "item.mintyirlplanets.meteorite": "Meteorite",
       "item.mintyirlplanets.moldedmeteorite": "Moldedmeteorite",
       "advancements.blasted_meteor.descr": "You could say I\u0027m Blasted - Smelt a meteorite block in a blast furnace",
-      "advancements.blasted_meteor.title": "Blasted Meteor"
+      "advancements.blasted_meteor.title": "Blasted Meteor",
+      "item.mintyirlplanets.chlorite": "Chlorite"
     }
   },
   "metadata": {
@@ -8929,7 +9027,7 @@
   "workspaceSettings": {
     "modid": "mintyirlplanets",
     "modName": "§bMintyIRL Planets",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Hi guys, this is a remake of a mod I started making a while ago. Wish me luck in creating it",
     "author": "MintyIRL, MCreator",
     "websiteURL": "https://mintychaos.com",
