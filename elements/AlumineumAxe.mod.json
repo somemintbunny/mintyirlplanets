@@ -8,7 +8,8 @@
     "texture": "aluminium_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Alumineum Axe",
+    "guiTexture": "",
+    "name": "Aluminium Axe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []

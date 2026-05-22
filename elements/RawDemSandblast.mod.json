@@ -1,0 +1,23 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 126,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawDemonicOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:DemonicIngot"
+    },
+    "name": "raw_dem_sandblast",
+    "namespace": "mod"
+  }
+}

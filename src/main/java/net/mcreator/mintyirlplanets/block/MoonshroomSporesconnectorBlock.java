@@ -10,9 +10,11 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.mintyirlplanets.procedures.MoonshroomSporesNeighbourBlockChangesProcedure;
+import net.mcreator.mintyirlplanets.procedures.MoonshroomSporesconvert_connectorProcedure;
 
 import javax.annotation.Nullable;
 
@@ -39,6 +41,12 @@ public class MoonshroomSporesconnectorBlock extends Block {
 	@Override
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
-		MoonshroomSporesNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		MoonshroomSporesconvert_connectorProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		MoonshroomSporesconvert_connectorProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

@@ -1,0 +1,62 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DarkMoonStone"
+      },
+      {
+        "value": "CUSTOM:LightMoonStone"
+      },
+      {
+        "value": "CUSTOM:LightMoonPebble"
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      },
+      {
+        "value": "CUSTOM:MoonPebble"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkMoonStone"
+    },
+    "name": "darkmoonstonerecipe",
+    "namespace": "mod"
+  }
+}

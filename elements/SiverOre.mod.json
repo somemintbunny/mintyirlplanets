@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Siver Ore",
+    "name": "Silver Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -61,8 +61,8 @@
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
-    "xpAmountMax": 0,
-    "useLootTableForDrops": false,
+    "xpAmountMax": 32,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -118,7 +118,7 @@
       "fixedValue": 0.0
     },
     "unbreakable": false,
-    "vanillaToolTier": "DIAMOND",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -153,9 +153,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 11,
+    "frequencyPerChunks": 8,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 26
   }
 }

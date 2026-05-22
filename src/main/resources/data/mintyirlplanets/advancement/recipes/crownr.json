@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "mintyirlplanets:antimatter"
+            "items": "mintyirlplanets:aquapher_flower"
           }
         ]
       },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "mintyirlplanets:aquapher_flower"
+            "items": "mintyirlplanets:star_flower"
           }
         ]
       },
@@ -31,7 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": "mintyirlplanets:star_flower"
+            "items": "mintyirlplanets:plant_stem"
           }
         ]
       },

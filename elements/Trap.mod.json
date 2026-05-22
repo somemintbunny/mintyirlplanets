@@ -1,0 +1,62 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SiverSword"
+      },
+      {
+        "value": "CUSTOM:AlumineumSword"
+      },
+      {
+        "value": "CUSTOM:TvMeat"
+      },
+      {
+        "value": "CUSTOM:SnapTrap"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AlumineumSword"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SiverSword"
+      },
+      {
+        "value": "CUSTOM:MoonRock"
+      },
+      {
+        "value": "CUSTOM:TvMeat"
+      },
+      {
+        "value": "CUSTOM:MoonRock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonRock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SnapTrap"
+    },
+    "name": "trap",
+    "namespace": "mod"
+  }
+}

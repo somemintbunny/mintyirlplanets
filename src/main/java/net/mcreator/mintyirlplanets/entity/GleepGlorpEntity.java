@@ -13,6 +13,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
+import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -38,6 +39,7 @@ public class GleepGlorpEntity extends TamableAnimal {
 		super(type, world);
 		xpReward = 48;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -53,6 +55,13 @@ public class GleepGlorpEntity extends TamableAnimal {
 		this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(9, new FloatGoal(this));
 		this.goalSelector.addGoal(10, new FollowOwnerGoal(this, 1, (float) 10, (float) 2));
+		this.targetSelector.addGoal(11, new OwnerHurtTargetGoal(this));
+		this.goalSelector.addGoal(12, new OwnerHurtByTargetGoal(this));
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

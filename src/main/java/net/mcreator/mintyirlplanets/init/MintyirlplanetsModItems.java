@@ -14,6 +14,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -270,6 +271,7 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> SILVER_BULLET;
 	public static final DeferredItem<Item> DREAMDROP_BULLET;
 	public static final DeferredItem<Item> FLOWER_CROWN_HELMET;
+	public static final DeferredItem<Item> FLOWER_CROWN_CHESTPLATE;
 	public static final DeferredItem<Item> LARRY_SPAWN_EGG;
 	public static final DeferredItem<Item> H_CRYSTAL;
 	public static final DeferredItem<Item> HELIUM_SHARD;
@@ -280,6 +282,16 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> METEORITE;
 	public static final DeferredItem<Item> MOLDEDMETEORITE;
 	public static final DeferredItem<Item> CHLORITE;
+	public static final DeferredItem<Item> LIGHT_MOON_STONE;
+	public static final DeferredItem<Item> DARK_MOON_STONE;
+	public static final DeferredItem<Item> LIGHT_MOON_PEBBLE;
+	public static final DeferredItem<Item> RAW_SILVER;
+	public static final DeferredItem<Item> RAW_DEMONIC_ORE;
+	public static final DeferredItem<Item> RAW_SILVER_BLOCK;
+	public static final DeferredItem<Item> SNAP_TRAP;
+	public static final DeferredItem<Item> POISON_SNAP_TRAP;
+	public static final DeferredItem<Item> PLANT_STEM;
+	public static final DeferredItem<Item> TV_MEAT;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
 		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.DEBUGGER.get(), properties));
@@ -522,6 +534,7 @@ public class MintyirlplanetsModItems {
 		SILVER_BULLET = register("silver_bullet", SilverBulletItem::new);
 		DREAMDROP_BULLET = register("dreamdrop_bullet", DreamdropBulletItem::new);
 		FLOWER_CROWN_HELMET = register("flower_crown_helmet", FlowerCrownItem.Helmet::new);
+		FLOWER_CROWN_CHESTPLATE = register("flower_crown_chestplate", FlowerCrownItem.Chestplate::new);
 		LARRY_SPAWN_EGG = register("larry_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.LARRY.get(), properties));
 		H_CRYSTAL = block(MintyirlplanetsModBlocks.H_CRYSTAL, new Item.Properties().stacksTo(67));
 		HELIUM_SHARD = register("helium_shard", HeliumShardItem::new);
@@ -532,6 +545,16 @@ public class MintyirlplanetsModItems {
 		METEORITE = block(MintyirlplanetsModBlocks.METEORITE, new Item.Properties().stacksTo(99));
 		MOLDEDMETEORITE = register("moldedmeteorite", MoldedmeteoriteItem::new);
 		CHLORITE = block(MintyirlplanetsModBlocks.CHLORITE);
+		LIGHT_MOON_STONE = block(MintyirlplanetsModBlocks.LIGHT_MOON_STONE, new Item.Properties().stacksTo(99));
+		DARK_MOON_STONE = block(MintyirlplanetsModBlocks.DARK_MOON_STONE, new Item.Properties().stacksTo(99));
+		LIGHT_MOON_PEBBLE = register("light_moon_pebble", LightMoonPebbleItem::new);
+		RAW_SILVER = register("raw_silver", RawSilverItem::new);
+		RAW_DEMONIC_ORE = register("raw_demonic_ore", RawDemonicOreItem::new);
+		RAW_SILVER_BLOCK = block(MintyirlplanetsModBlocks.RAW_SILVER_BLOCK, new Item.Properties().stacksTo(99));
+		SNAP_TRAP = block(MintyirlplanetsModBlocks.SNAP_TRAP, new Item.Properties().stacksTo(99).rarity(Rarity.RARE));
+		POISON_SNAP_TRAP = block(MintyirlplanetsModBlocks.POISON_SNAP_TRAP, new Item.Properties().stacksTo(99).rarity(Rarity.RARE));
+		PLANT_STEM = register("plant_stem", PlantStemItem::new);
+		TV_MEAT = register("tv_meat", TvMeatItem::new);
 	}
 
 	// Start of user code block custom items

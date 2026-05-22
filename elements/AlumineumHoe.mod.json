@@ -8,7 +8,8 @@
     "texture": "aluminium_hoe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Alumineum Hoe",
+    "guiTexture": "",
+    "name": "Aluminium Hoe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []

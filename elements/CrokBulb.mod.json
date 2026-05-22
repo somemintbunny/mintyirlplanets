@@ -115,7 +115,7 @@
       "value": "CUSTOM:plasticwalk"
     },
     "luminance": {
-      "fixedValue": 0.0
+      "fixedValue": 15.0
     },
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",

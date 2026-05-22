@@ -32,9 +32,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
@@ -43,8 +41,6 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModItems;
 import net.mcreator.mintyirlplanets.init.MintyirlplanetsModEntities;
 
 public class NightmareEntity extends Monster implements RangedAttackMob {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.PROGRESS);
-
 	public NightmareEntity(EntityType<NightmareEntity> type, Level world) {
 		super(type, world);
 		xpReward = 57;
@@ -138,24 +134,6 @@ public class NightmareEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
 		TosserGrenadeEnemyEntity.shoot(this, target);
-	}
-
-	@Override
-	public void startSeenByPlayer(ServerPlayer player) {
-		super.startSeenByPlayer(player);
-		this.bossInfo.addPlayer(player);
-	}
-
-	@Override
-	public void stopSeenByPlayer(ServerPlayer player) {
-		super.stopSeenByPlayer(player);
-		this.bossInfo.removePlayer(player);
-	}
-
-	@Override
-	public void customServerAiStep(ServerLevel serverLevel) {
-		super.customServerAiStep(serverLevel);
-		this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
 	}
 
 	@Override

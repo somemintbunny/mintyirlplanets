@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Kryptonium"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.4,
+    "cookingTime": 126,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:KryptoniumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Kryptonium"
+    },
+    "name": "kryptonium_oreblasting",
+    "namespace": "mod"
+  }
+}

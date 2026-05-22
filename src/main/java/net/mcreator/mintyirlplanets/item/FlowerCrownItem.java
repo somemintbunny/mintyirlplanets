@@ -44,4 +44,10 @@ public abstract class FlowerCrownItem extends Item {
 			}
 		}
 	}
+
+	public static class Chestplate extends FlowerCrownItem {
+		public Chestplate(Item.Properties properties) {
+			super(properties.humanoidArmor(ARMOR_MATERIAL, ArmorType.CHESTPLATE));
+		}
+	}
 }

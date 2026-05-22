@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": "mintyirlplanets:plant_stem",
+    "b": "mintyirlplanets:cold_dust"
+  },
+  "result": {
+    "id": "mintyirlplanets:moonshroom_spores",
+    "count": 2
+  }
+}

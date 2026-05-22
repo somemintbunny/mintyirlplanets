@@ -8,7 +8,8 @@
     "texture": "siver_hoe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Siver Hoe",
+    "guiTexture": "",
+    "name": "Silver Hoe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -18,10 +19,10 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 6.0,
+    "efficiency": 10.5,
     "attackSpeed": 3.0,
     "enchantability": 14,
-    "damageVsEntity": 1.0,
+    "damageVsEntity": 1.8,
     "usageCount": 250,
     "glowCondition": {
       "fixedValue": false

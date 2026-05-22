@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " c "
+  ],
+  "key": {
+    "a": "mintyirlplanets:helium_shard",
+    "b": "minecraft:poisonous_potato",
+    "c": "mintyirlplanets:fragrent_planks",
+    "d": "mintyirlplanets:tv_meat"
+  },
+  "result": {
+    "id": "mintyirlplanets:poison_snap_trap",
+    "count": 6
+  }
+}

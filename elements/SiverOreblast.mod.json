@@ -1,0 +1,30 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SiverIngot"
+      },
+      {
+        "value": "CUSTOM:SiverOre"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.7,
+    "cookingTime": 125,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:SiverOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SiverIngot"
+    },
+    "name": "siver_oreblast",
+    "namespace": "mod"
+  }
+}

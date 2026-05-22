@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "mintyirlplanets:raw_silver_block",
     "mintyirlplanets:kryptonium_ore",
+    "mintyirlplanets:siver_ore",
     "mintyirlplanets:aluminum_block"
   ]
 }

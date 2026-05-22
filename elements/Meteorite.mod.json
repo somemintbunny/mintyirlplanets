@@ -50,7 +50,11 @@
     "maxStackSize": 99,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Minerals"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""

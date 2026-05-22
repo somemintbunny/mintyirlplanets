@@ -24,5 +24,13 @@ public class FlowerCrownArmor {
 				return armorTexture;
 			}
 		}, MintyirlplanetsModItems.FLOWER_CROWN_HELMET.get());
+		event.registerItem(new IClientItemExtensions() {
+			private final ResourceLocation armorTexture = ResourceLocation.parse("mintyirlplanets:textures/models/armor/kryptonium_layer_1.png");
+
+			@Override
+			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation original) {
+				return armorTexture;
+			}
+		}, MintyirlplanetsModItems.FLOWER_CROWN_CHESTPLATE.get());
 	}
 }

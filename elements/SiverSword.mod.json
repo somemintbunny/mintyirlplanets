@@ -8,7 +8,8 @@
     "texture": "siver_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Siver Sword",
+    "guiTexture": "",
+    "name": "Silver Sword",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -18,10 +19,10 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 6.0,
-    "attackSpeed": 2.0,
-    "enchantability": 14,
-    "damageVsEntity": 6.0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.4,
+    "enchantability": 7,
+    "damageVsEntity": 8.0,
     "usageCount": 250,
     "glowCondition": {
       "fixedValue": false

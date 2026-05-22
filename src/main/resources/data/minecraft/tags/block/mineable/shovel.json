@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mintyirlplanets:ferrous_sand"
+    "mintyirlplanets:ferrous_sand",
+    "mintyirlplanets:adamantiumm_ore"
   ]
 }

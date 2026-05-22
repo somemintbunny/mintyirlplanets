@@ -8,9 +8,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 
 public class SiverPickaxeItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 6f, 0, 14, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:siver_pickaxe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 214, 9.5f, 0, 8, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:siver_pickaxe_repair_items")));
 
 	public SiverPickaxeItem(Item.Properties properties) {
-		super(properties.pickaxe(TOOL_MATERIAL, 3f, -3f));
+		super(properties.pickaxe(TOOL_MATERIAL, 4f, -3.4f));
 	}
 }

@@ -4,7 +4,7 @@
   "definition": {
     "enableHelmet": true,
     "textureHelmet": "flowercrown",
-    "enableBody": false,
+    "enableBody": true,
     "textureBody": "weed",
     "enableLeggings": false,
     "textureLeggings": "disc3",

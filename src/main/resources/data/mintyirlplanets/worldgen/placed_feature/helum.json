@@ -21,43 +21,6 @@
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:air"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "blocks": [
-          "mintyirlplanets:strange_stone",
-          "mintyirlplanets:mossy_strange_stone"
-        ],
-        "offset": [
-          0,
-          -1,
-          0
-        ]
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:not",
-        "predicate": {
-          "type": "minecraft:matching_blocks",
-          "blocks": "minecraft:air",
-          "offset": [
-            0,
-            -1,
-            0
-          ]
-        }
-      }
-    },
-    {
       "type": "minecraft:biome"
     }
   ]

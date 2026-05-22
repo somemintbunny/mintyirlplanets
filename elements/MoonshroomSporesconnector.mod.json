@@ -53,9 +53,9 @@
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:ColdDust"
+      "value": "CUSTOM:PlantStem"
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
@@ -138,7 +138,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onNeighbourBlockChanges": {
-      "name": "MoonshroomSporesNeighbourBlockChanges"
+      "name": "MoonshroomSporesconvert_connector"
+    },
+    "onTickUpdate": {
+      "name": "MoonshroomSporesconvert_connector"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

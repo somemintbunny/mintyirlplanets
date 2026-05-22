@@ -9,9 +9,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 
 public class SiverHoeItem extends HoeItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 6f, 0, 14, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:siver_hoe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 10.5f, 0, 14, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:siver_hoe_repair_items")));
 
 	public SiverHoeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 0f, -1f, properties);
+		super(TOOL_MATERIAL, 0.8f, -1f, properties);
 	}
 }

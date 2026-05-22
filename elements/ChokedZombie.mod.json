@@ -36,6 +36,7 @@
       "value": -1,
       "falpha": 0.0
     },
+    "spawnEggTexture": "",
     "creativeTabs": [
       {
         "value": "CUSTOM:MobSpawning"
@@ -137,7 +138,7 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 16,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {

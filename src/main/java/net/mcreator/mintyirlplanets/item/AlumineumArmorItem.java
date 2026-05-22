@@ -14,8 +14,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import java.util.Map;
 
 public abstract class AlumineumArmorItem extends Item {
-	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(38, Map.of(ArmorType.BOOTS, 5, ArmorType.LEGGINGS, 13, ArmorType.CHESTPLATE, 15, ArmorType.HELMET, 5, ArmorType.BODY, 15), 23,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:alumineum_armor_repair_items")),
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(31, Map.of(ArmorType.BOOTS, 5, ArmorType.LEGGINGS, 13, ArmorType.CHESTPLATE, 15, ArmorType.HELMET, 5, ArmorType.BODY, 15), 23,
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 2.5f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:alumineum_armor_repair_items")),
 			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:alumineum_armor")));
 
 	private AlumineumArmorItem(Item.Properties properties) {

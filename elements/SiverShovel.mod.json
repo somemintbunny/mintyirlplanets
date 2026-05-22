@@ -8,7 +8,8 @@
     "texture": "siver_shovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Siver Shovel",
+    "guiTexture": "",
+    "name": "Silver Shovel",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -18,7 +19,7 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 6.0,
+    "efficiency": 10.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 5.0,

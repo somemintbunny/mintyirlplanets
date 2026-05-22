@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    "aca"
+  ],
+  "key": {
+    "a": "mintyirlplanets:snap_trap",
+    "b": "minecraft:poisonous_potato",
+    "c": "mintyirlplanets:fragrent_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:poison_snap_trap",
+    "count": 5
+  }
+}

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 120,
+    "tries": 220,
     "xz_spread": 6,
     "feature": {
       "feature": {
@@ -20,15 +20,27 @@
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "mintyirlplanets:strange_stone",
-              "mintyirlplanets:mossy_strange_stone"
-            ],
-            "offset": [
-              0,
-              -1,
-              0
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "mintyirlplanets:strange_stone",
+                  "mintyirlplanets:mossy_strange_stone"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:water"
+                ]
+              }
             ]
           }
         }

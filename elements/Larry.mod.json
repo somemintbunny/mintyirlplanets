@@ -36,6 +36,7 @@
       "value": -7321014,
       "falpha": 0.0
     },
+    "spawnEggTexture": "",
     "creativeTabs": [
       {
         "value": "CUSTOM:MobSpawning"
@@ -138,7 +139,7 @@
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SaturnMoss"

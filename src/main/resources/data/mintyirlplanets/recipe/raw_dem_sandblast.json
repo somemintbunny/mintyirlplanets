@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 126,
+  "ingredient": "mintyirlplanets:raw_demonic_ore",
+  "result": {
+    "id": "mintyirlplanets:demonic_ingot"
+  }
+}

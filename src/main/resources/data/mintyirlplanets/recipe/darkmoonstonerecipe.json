@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:moon_pebble"
+  },
+  "result": {
+    "id": "mintyirlplanets:dark_moon_stone",
+    "count": 5
+  }
+}

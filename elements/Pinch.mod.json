@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.4,
+    "scaling": "always",
+    "effects": "poking",
+    "normalDeathMessage": "%1$s was caught in a trap",
+    "itemDeathMessage": "%1$s was caught in a trap masterminded by %2$s while using using %3$s",
+    "playerDeathMessage": "%1$s got caught in a trap masterminded by %2$s"
+  }
+}

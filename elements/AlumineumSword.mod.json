@@ -8,7 +8,8 @@
     "texture": "aluminium_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Alumineum Sword",
+    "guiTexture": "",
+    "name": "Aluminium Sword",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []

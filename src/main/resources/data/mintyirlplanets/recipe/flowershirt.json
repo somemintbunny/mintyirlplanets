@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    "bca",
+    "acb"
+  ],
+  "key": {
+    "a": "mintyirlplanets:star_flower",
+    "b": "mintyirlplanets:aquapher_flower",
+    "c": "mintyirlplanets:plant_stem"
+  },
+  "result": {
+    "id": "mintyirlplanets:flower_crown_chestplate",
+    "count": 1
+  }
+}

@@ -7,14 +7,21 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.mintyirlplanets.procedures.AdamantiummOreAdditionalHarvestConditionProcedure;
 import net.mcreator.mintyirlplanets.procedures.AdamProcedure;
 
 public class AdamantiummOreBlock extends Block {
 	public AdamantiummOreBlock(BlockBehaviour.Properties properties) {
 		super(properties.sound(SoundType.SUSPICIOUS_SAND).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+	}
+
+	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		return super.canHarvestBlock(state, world, pos, player) && AdamantiummOreAdditionalHarvestConditionProcedure.execute(player);
 	}
 
 	@Override

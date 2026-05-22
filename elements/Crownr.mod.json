@@ -7,13 +7,13 @@
     "group": "",
     "unlockingItems": [
       {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
         "value": "CUSTOM:AquapherFlower"
       },
       {
         "value": "CUSTOM:StarFlower"
+      },
+      {
+        "value": "CUSTOM:PlantStem"
       }
     ],
     "cookingBookCategory": "MISC",
@@ -35,7 +35,7 @@
         "value": "CUSTOM:AquapherFlower"
       },
       {
-        "value": "CUSTOM:Antimatter"
+        "value": "CUSTOM:PlantStem"
       },
       {
         "value": "CUSTOM:AquapherFlower"

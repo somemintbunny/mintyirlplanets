@@ -98,6 +98,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:GleepGlorp"
+        },
+        "minGroup": 2,
+        "maxGroup": 6,
+        "weight": 35,
+        "spawnType": "ambient"
+      }
+    ]
   }
 }

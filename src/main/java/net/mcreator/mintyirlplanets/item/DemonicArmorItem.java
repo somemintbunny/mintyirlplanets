@@ -14,7 +14,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import java.util.Map;
 
 public abstract class DemonicArmorItem extends Item {
-	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(60, Map.of(ArmorType.BOOTS, 14, ArmorType.LEGGINGS, 20, ArmorType.CHESTPLATE, 24, ArmorType.HELMET, 16, ArmorType.BODY, 24), 36,
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(76, Map.of(ArmorType.BOOTS, 14, ArmorType.LEGGINGS, 20, ArmorType.CHESTPLATE, 24, ArmorType.HELMET, 16, ArmorType.BODY, 24), 36,
 			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 6f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:demonic_armor_repair_items")),
 			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:demonic_armor")));
 

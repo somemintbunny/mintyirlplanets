@@ -116,6 +116,11 @@ public class MintyirlplanetsModBlocks {
 	public static final DeferredBlock<Block> H_CRYSTAL;
 	public static final DeferredBlock<Block> METEORITE;
 	public static final DeferredBlock<Block> CHLORITE;
+	public static final DeferredBlock<Block> LIGHT_MOON_STONE;
+	public static final DeferredBlock<Block> DARK_MOON_STONE;
+	public static final DeferredBlock<Block> RAW_SILVER_BLOCK;
+	public static final DeferredBlock<Block> SNAP_TRAP;
+	public static final DeferredBlock<Block> POISON_SNAP_TRAP;
 	static {
 		MOON_ROCK = register("moon_rock", MoonRockBlock::new);
 		DARK_MOON_ROCK = register("dark_moon_rock", DarkMoonRockBlock::new);
@@ -217,6 +222,11 @@ public class MintyirlplanetsModBlocks {
 		H_CRYSTAL = register("h_crystal", HCrystalBlock::new);
 		METEORITE = register("meteorite", MeteoriteBlock::new);
 		CHLORITE = register("chlorite", ChlorineBlock::new);
+		LIGHT_MOON_STONE = register("light_moon_stone", LightMoonStoneBlock::new);
+		DARK_MOON_STONE = register("dark_moon_stone", DarkMoonStoneBlock::new);
+		RAW_SILVER_BLOCK = register("raw_silver_block", RawSilverBlockBlock::new);
+		SNAP_TRAP = register("snap_trap", SnapTrapBlock::new);
+		POISON_SNAP_TRAP = register("poison_snap_trap", PoisonSnapTrapBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -14,7 +14,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import java.util.Map;
 
 public abstract class DreamdropArmorItem extends Item {
-	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(75, Map.of(ArmorType.BOOTS, 10, ArmorType.LEGGINGS, 25, ArmorType.CHESTPLATE, 30, ArmorType.HELMET, 10, ArmorType.BODY, 30), 45,
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(62, Map.of(ArmorType.BOOTS, 10, ArmorType.LEGGINGS, 25, ArmorType.CHESTPLATE, 30, ArmorType.HELMET, 10, ArmorType.BODY, 30), 45,
 			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 3f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:dreamdrop_armor_repair_items")),
 			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:dreamdrop_armor")));
 

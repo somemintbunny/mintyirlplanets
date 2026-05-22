@@ -8,7 +8,8 @@
     "texture": "siver_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Siver Axe",
+    "guiTexture": "",
+    "name": "Silver Axe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -18,10 +19,10 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 6.0,
-    "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 9.0,
+    "efficiency": 9.5,
+    "attackSpeed": 0.7999999999999999,
+    "enchantability": 4,
+    "damageVsEntity": 10.0,
     "usageCount": 250,
     "glowCondition": {
       "fixedValue": false

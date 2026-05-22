@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mintyirlplanets:moon",
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:dark_moon",
+    "mintyirlplanets:saturn_stone",
+    "mintyirlplanets:saturn_moss"
+  ],
+  "features": "mintyirlplanets:snap_trap_spawn",
+  "step": "underground_decoration"
+}

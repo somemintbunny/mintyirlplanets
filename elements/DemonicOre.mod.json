@@ -62,7 +62,7 @@
     "dropAmount": 0,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -119,6 +119,9 @@
     },
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",
+    "additionalHarvestCondition": {
+      "name": "DemonicOreAdditionalHarvestCondition"
+    },
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -141,9 +144,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "Demdrop"
-    },
     "generateFeature": true,
     "restrictionBiomes": [
       {

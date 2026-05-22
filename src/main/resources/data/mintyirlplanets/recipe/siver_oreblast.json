@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 125,
+  "ingredient": "mintyirlplanets:siver_ore",
+  "result": {
+    "id": "mintyirlplanets:siver_ingot"
+  }
+}

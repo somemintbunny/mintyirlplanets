@@ -13,6 +13,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mintyirlplanets.procedures.MoonshroomSporesNeighbourBlockChangesProcedure;
+import net.mcreator.mintyirlplanets.procedures.MoonshroomSporesBlockAddedProcedure;
 
 import javax.annotation.Nullable;
 
@@ -34,6 +35,12 @@ public class MoonshroomSporesBlock extends Block {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		MoonshroomSporesBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

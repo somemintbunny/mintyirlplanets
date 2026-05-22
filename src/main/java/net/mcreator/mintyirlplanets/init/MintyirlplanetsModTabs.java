@@ -15,14 +15,82 @@ import net.mcreator.mintyirlplanets.MintyirlplanetsMod;
 
 public class MintyirlplanetsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MintyirlplanetsMod.MODID);
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ENDGAME_BLOCKS = REGISTRY.register("endgame_blocks",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.endgame_blocks")).icon(() -> new ItemStack(MintyirlplanetsModItems.DEBUG_PICK.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MintyirlplanetsModItems.DEBUG_PICK.get());
-				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_HELMET.get());
-				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_CHESTPLATE.get());
-				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_LEGGINGS.get());
-				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_BOOTS.get());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOON_BLOCKS = REGISTRY.register("moon_blocks",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.moon_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOON_ROCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_MOSS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_PLANKS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_LEAVES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_STEM.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_FENCE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_FENCE_GATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_PRESSURE_PLATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_BUTTON.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_SPORES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SNAP_TRAP.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.TERRACELIUM_MOSS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DREAMDROP_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DARK_MOON_ROCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DARK_MOON_STONE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOON_ROCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.LIGHT_MOON_STONE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_PLANKS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_LEAVES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_FENCE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_FENCE_GATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_PRESSURE_PLATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.DAMNED_BUTTON.get().asItem());
 			}).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MARS_BLOCKS = REGISTRY.register("mars_blocks",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mars_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.FERROUS_SAND.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModBlocks.FIBERGLASS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CLEAR_PLASTC.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.REINFORCED_GLASS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FERROUS_SAND.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CORESTONE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PLANKS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_LEAVES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE_GATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PRESSURE_PLATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_BUTTON.get().asItem());
+			}).withTabsBefore(MOON_BLOCKS.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SATURN_BLOCKS = REGISTRY.register("saturn_blocks",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.saturn_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOSSY_STRANGE_STONE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModBlocks.STRANGE_STONE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.STRANGE_ROCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.MOSSY_STRANGE_STONE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.AQUAPHER_FLOWER.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.STAR_FLOWER.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FOSSIL.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROK_VINE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROK_BULB.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.CROK_ESSENCE.get());
+				tabData.accept(MintyirlplanetsModBlocks.POISON_SNAP_TRAP.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_LEAVES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.STRIPPED_FRAGRENT_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.STRIPPED_FRAGRENT_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_PLANKS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_FENCE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_FENCE_GATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_PRESSURE_PLATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_BUTTON.get().asItem());
+			}).withTabsBefore(MARS_BLOCKS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WEAPONS_AND_TOOLS = REGISTRY.register("weapons_and_tools",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.weapons_and_tools")).icon(() -> new ItemStack(MintyirlplanetsModItems.DREAMDROP_SWORD.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.SIVER_SWORD.get());
@@ -78,7 +146,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_SHOVEL.get());
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_HOE.get());
 				tabData.accept(MintyirlplanetsModItems.DEBUG_PICK.get());
-			}).withTabsBefore(ENDGAME_BLOCKS.getId()).build());
+			}).withTabsBefore(SATURN_BLOCKS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ARMOUR = REGISTRY.register("armour",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.armour")).icon(() -> new ItemStack(MintyirlplanetsModItems.DUMMY_1_HELMET.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.SIVER_ARMOR_HELMET.get());
@@ -126,36 +194,6 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_ARMOR_LEGGINGS.get());
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_ARMOR_BOOTS.get());
 			}).withTabsBefore(WEAPONS_AND_TOOLS.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOON_BLOCKS = REGISTRY.register("moon_blocks",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.moon_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOON_ROCK.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_MOSS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_WOOD.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_LOG.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_PLANKS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_LEAVES.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_STEM.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_STAIRS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_SLAB.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_FENCE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_FENCE_GATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_PRESSURE_PLATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_BUTTON.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_SPORES.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.TERRACELIUM_MOSS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DREAMDROP_ORE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DARK_MOON_ROCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOON_ROCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_WOOD.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_LOG.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_PLANKS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_LEAVES.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_STAIRS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_SLAB.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_FENCE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_FENCE_GATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_PRESSURE_PLATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.DAMNED_BUTTON.get().asItem());
-			}).withTabsBefore(ARMOUR.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOB_SPAWNING = REGISTRY.register("mob_spawning",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mob_spawning")).icon(() -> new ItemStack(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get());
@@ -169,7 +207,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.NIGHTMARE_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.LARRY_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.GLEEP_GLORP_SPAWN_EGG.get());
-			}).withTabsBefore(MOON_BLOCKS.getId()).build());
+			}).withTabsBefore(ARMOUR.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MUSIC_DISCS = REGISTRY.register("music_discs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.music_discs")).icon(() -> new ItemStack(MintyirlplanetsModItems.DISC_1.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.BLANK_DISC.get());
@@ -181,41 +219,58 @@ public class MintyirlplanetsModTabs {
 			}).withTabsBefore(MOB_SPAWNING.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MINERALS = REGISTRY.register("minerals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.minerals")).icon(() -> new ItemStack(MintyirlplanetsModItems.DREAMDROP.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModBlocks.SIVER_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.RAW_SILVER.get());
+				tabData.accept(MintyirlplanetsModBlocks.RAW_SILVER_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.SIVER_INGOT.get());
+				tabData.accept(MintyirlplanetsModBlocks.SIVER_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.ALUMINUM_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.ALUMINEUM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.BAUXITE.get());
+				tabData.accept(MintyirlplanetsModItems.ALUMINEUM.get());
+				tabData.accept(MintyirlplanetsModBlocks.ALUMINUM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.KRYPTONIUM.get());
+				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.DREAMDROP.get());
+				tabData.accept(MintyirlplanetsModBlocks.DREAMDROP_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.DEMONIC_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.RAW_DEMONIC_ORE.get());
 				tabData.accept(MintyirlplanetsModItems.DEMONIC_INGOT.get());
 				tabData.accept(MintyirlplanetsModBlocks.DEMONIC_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.RAW_ADAMANTIUM.get());
 				tabData.accept(MintyirlplanetsModItems.ADAMANTIUMM.get());
 				tabData.accept(MintyirlplanetsModBlocks.ADAMANTIUMM_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.ADAMANTIUMM_ORE.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.DREAMDROP.get());
-				tabData.accept(MintyirlplanetsModBlocks.DREAMDROP_BLOCK.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.KRYPTONIUM.get());
-				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_BLOCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_ORE.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.SIVER_INGOT.get());
-				tabData.accept(MintyirlplanetsModBlocks.SIVER_ORE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.SIVER_BLOCK.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.BAUXITE.get());
-				tabData.accept(MintyirlplanetsModBlocks.ALUMINEUM_BLOCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.ALUMINUM_ORE.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.ALUMINEUM.get());
-				tabData.accept(MintyirlplanetsModBlocks.ALUMINUM_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.BRIMSTONE.get());
 				tabData.accept(MintyirlplanetsModBlocks.BRIMSTONE_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.BRIMSTONE_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.SOULSTONE.get());
 				tabData.accept(MintyirlplanetsModBlocks.SOULSTONE_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.SOULSTONE_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.METEORITE.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.MOLDEDMETEORITE.get());
 			}).withTabsBefore(MUSIC_DISCS.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FOOD = REGISTRY.register("food",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.food")).icon(() -> new ItemStack(MintyirlplanetsModItems.HELL_FRUIT.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModItems.TV_MEAT.get());
+				tabData.accept(MintyirlplanetsModItems.GLUCOSIDE_EXTRACT.get());
+				tabData.accept(MintyirlplanetsModItems.HELL_FRUIT.get());
+				tabData.accept(MintyirlplanetsModItems.TOSSER_TOT.get());
+				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
+				tabData.accept(MintyirlplanetsModItems.MEAT.get());
+				tabData.accept(MintyirlplanetsModItems.COOKED_MEAT.get());
+				tabData.accept(MintyirlplanetsModItems.MARTIAN_SALAD.get());
+			}).withTabsBefore(MINERALS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MISC = REGISTRY.register("misc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.misc")).icon(() -> new ItemStack(MintyirlplanetsModItems.THE_MOON.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.THE_MOON.get());
 				tabData.accept(MintyirlplanetsModItems.MARS.get());
 				tabData.accept(MintyirlplanetsModItems.SATURN.get());
 				tabData.accept(MintyirlplanetsModItems.COLD_DUST.get());
+				tabData.accept(MintyirlplanetsModItems.PLANT_STEM.get());
 				tabData.accept(MintyirlplanetsModItems.ANTIMATTER.get());
+				tabData.accept(MintyirlplanetsModItems.LIGHT_MOON_PEBBLE.get());
 				tabData.accept(MintyirlplanetsModItems.MOON_PEBBLE.get());
 				tabData.accept(MintyirlplanetsModItems.FIBER_BALL.get());
 				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
@@ -237,57 +292,14 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.BONE_SLAB.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.HELIUM_SHARD.get());
 				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_HELMET.get());
-			}).withTabsBefore(MINERALS.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MARS_BLOCKS = REGISTRY.register("mars_blocks",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mars_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.FERROUS_SAND.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MintyirlplanetsModBlocks.FIBERGLASS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CLEAR_PLASTC.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.REINFORCED_GLASS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FERROUS_SAND.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CORESTONE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_WOOD.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_LOG.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PLANKS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_LEAVES.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_STAIRS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_SLAB.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE_GATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PRESSURE_PLATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_BUTTON.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_CHESTPLATE.get());
+			}).withTabsBefore(FOOD.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ENDGAME_BLOCKS = REGISTRY.register("endgame_blocks",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.endgame_blocks")).icon(() -> new ItemStack(MintyirlplanetsModItems.DEBUG_PICK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModItems.DEBUG_PICK.get());
+				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_HELMET.get());
+				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_CHESTPLATE.get());
+				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_LEGGINGS.get());
+				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_BOOTS.get());
 			}).withTabsBefore(MISC.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SATURN_BLOCKS = REGISTRY.register("saturn_blocks",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.saturn_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOSSY_STRANGE_STONE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MintyirlplanetsModBlocks.STRANGE_STONE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.STRANGE_ROCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.MOSSY_STRANGE_STONE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.AQUAPHER_FLOWER.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.STAR_FLOWER.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FOSSIL.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROK_VINE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROK_BULB.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.CROK_ESSENCE.get());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_LEAVES.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_WOOD.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_LOG.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.STRIPPED_FRAGRENT_LOG.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.STRIPPED_FRAGRENT_WOOD.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_PLANKS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_STAIRS.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_SLAB.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_FENCE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_FENCE_GATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_PRESSURE_PLATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.FRAGRENT_BUTTON.get().asItem());
-			}).withTabsBefore(MARS_BLOCKS.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FOOD = REGISTRY.register("food",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.food")).icon(() -> new ItemStack(MintyirlplanetsModItems.HELL_FRUIT.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MintyirlplanetsModItems.GLUCOSIDE_EXTRACT.get());
-				tabData.accept(MintyirlplanetsModItems.HELL_FRUIT.get());
-				tabData.accept(MintyirlplanetsModItems.TOSSER_TOT.get());
-				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
-				tabData.accept(MintyirlplanetsModItems.MEAT.get());
-				tabData.accept(MintyirlplanetsModItems.COOKED_MEAT.get());
-				tabData.accept(MintyirlplanetsModItems.MARTIAN_SALAD.get());
-			}).withTabsBefore(SATURN_BLOCKS.getId()).build());
 }

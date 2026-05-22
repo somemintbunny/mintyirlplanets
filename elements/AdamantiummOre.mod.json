@@ -55,7 +55,7 @@
         "value": "CUSTOM:Minerals"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
       "value": "CUSTOM:RawAdamantium"
     },
@@ -119,6 +119,9 @@
     },
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",
+    "additionalHarvestCondition": {
+      "name": "AdamantiummOreAdditionalHarvestCondition"
+    },
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

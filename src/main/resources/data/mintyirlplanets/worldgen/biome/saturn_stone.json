@@ -24,7 +24,14 @@
   "spawners": {
     "monster": [],
     "creature": [],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "mintyirlplanets:gleep_glorp",
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 6
+      }
+    ],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
