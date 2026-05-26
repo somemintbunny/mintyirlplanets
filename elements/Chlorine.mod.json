@@ -42,8 +42,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 12.100000000000001,
+    "resistance": 45.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -51,7 +51,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -114,7 +114,7 @@
       "fixedValue": 0.0
     },
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

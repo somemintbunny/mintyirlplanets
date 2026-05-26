@@ -8,6 +8,9 @@
       },
       {
         "value": "CUSTOM:SaturnStone"
+      },
+      {
+        "value": "CUSTOM:HorridMoss"
       }
     ],
     "biomesInDimensionCaves": [],
@@ -33,7 +36,7 @@
       "falpha": 0.0
     },
     "sunHeightAffectsFog": false,
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": true,
     "ambientLight": 0.05,
     "doesWaterVaporize": false,
@@ -43,12 +46,12 @@
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": true,
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": false,
-    "piglinSafe": false,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": true,
     "hasRaids": true,
     "minMonsterSpawnLightLimit": 0,
-    "maxMonsterSpawnLightLimit": 7,
-    "monsterSpawnBlockLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 15,
+    "monsterSpawnBlockLightLimit": 15,
     "onPlayerEntersDimension": {
       "name": "SaturnPlayerEntersDimension"
     },

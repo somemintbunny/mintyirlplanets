@@ -23,6 +23,9 @@
       },
       {
         "value": "CUSTOM:Moonshroom"
+      },
+      {
+        "value": "CUSTOM:GlowingCaves"
       }
     ],
     "terrainAdaptation": "beard_thin",

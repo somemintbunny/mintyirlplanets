@@ -65,7 +65,7 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "hasCustomOpacity": false,
     "lightOpacity": 15,
@@ -77,7 +77,7 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "harp",
+    "noteBlockInstrument": "snare",
     "creativePickItem": {
       "value": ""
     },

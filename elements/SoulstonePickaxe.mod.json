@@ -8,6 +8,7 @@
     "texture": "seranium_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "guiTexture": "",
     "name": "Soulstone Pickaxe",
     "rarity": "COMMON",
     "specialInformation": {
@@ -18,7 +19,7 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 21.0,
+    "efficiency": 46.0,
     "attackSpeed": 10.0,
     "enchantability": 116,
     "damageVsEntity": 33.0,

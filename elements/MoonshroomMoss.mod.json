@@ -115,7 +115,7 @@
       "value": ""
     },
     "luminance": {
-      "fixedValue": 0.0
+      "fixedValue": 10.0
     },
     "unbreakable": false,
     "vanillaToolTier": "NONE",

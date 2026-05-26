@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:bauxite"
+    },
+    "title": {
+      "translate": "advancements.an_equivelent.title"
+    },
+    "description": {
+      "translate": "advancements.an_equivelent.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_equivelent_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:bauxite",
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mintyirlplanets:mars_biome",
+    "mintyirlplanets:fiberglass_desert"
+  ],
+  "features": "mintyirlplanets:blood_cacti",
+  "step": "surface_structures"
+}

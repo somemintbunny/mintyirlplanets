@@ -24,16 +24,24 @@
     "leggingsName": "Space Leggings",
     "bootsName": "Space Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Protects against toxic gas"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Protects against toxic gas"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Protects against toxic gas"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Protects against toxic gas"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",

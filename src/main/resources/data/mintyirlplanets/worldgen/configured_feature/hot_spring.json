@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "mintyirlplanets:toxic_waste"
+    },
+    "valid_blocks": [
+      "mintyirlplanets:ferrous_sand",
+      "minecraft:grass_block"
+    ]
+  }
+}

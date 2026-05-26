@@ -4,6 +4,11 @@
     "structure": "mintyirlplanets:moonshroomtreesmall",
     "random_rotation": true,
     "random_mirror": true,
-    "ignored_blocks": "minecraft:air"
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -3,
+      0,
+      -3
+    ]
   }
 }

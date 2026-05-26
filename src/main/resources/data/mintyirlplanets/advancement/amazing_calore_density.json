@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:hell_fruit"
+    },
+    "title": {
+      "translate": "advancements.amazing_calore_density.title"
+    },
+    "description": {
+      "translate": "advancements.amazing_calore_density.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "amazing_calore_density_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "mintyirlplanets:hell_fruit"
+        }
+      }
+    }
+  },
+  "parent": "mintyirlplanets:jelly_sweets"
+}

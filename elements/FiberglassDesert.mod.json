@@ -71,15 +71,15 @@
       "min": 0.2,
       "max": 0.9
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeBranch": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeVines": {
       "value": ""

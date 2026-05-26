@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "mintyirlplanets:block/strangestone",
+    "top": "mintyirlplanets:block/horridtop",
+    "side": "mintyirlplanets:block/sidehorror",
+    "overlay": "mintyirlplanets:block/sidehorror",
+    "particle": "mintyirlplanets:block/strangestone"
+  },
+  "render_type": "cutout_mipped"
+}

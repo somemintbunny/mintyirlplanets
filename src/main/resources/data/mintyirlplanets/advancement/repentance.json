@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:brimstone"
+    },
+    "title": {
+      "translate": "advancements.repentance.title"
+    },
+    "description": {
+      "translate": "advancements.repentance.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "repentance_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:brimstone",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mintyirlplanets:soulstone_ore_block_recipe",
+      "mintyirlplanets:soulstone_block_ore_recipe",
+      "mintyirlplanets:soulstone_ore_smelting",
+      "mintyirlplanets:soulstone_pickaxe_recipe",
+      "mintyirlplanets:soulstone_axe_recipe",
+      "mintyirlplanets:soulstone_sword_recipe",
+      "mintyirlplanets:soulstone_shovel_recipe",
+      "mintyirlplanets:soulstone_hoe_recipe",
+      "mintyirlplanets:soulstone_armor_helmet_recipe",
+      "mintyirlplanets:soulstone_armor_chestplate_recipe",
+      "mintyirlplanets:soulstone_armor_leggings_recipe",
+      "mintyirlplanets:soulstone_armor_boots_recipe"
+    ]
+  },
+  "parent": "mintyirlplanets:resonance"
+}

@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:space_helmet"
+    },
+    "title": {
+      "translate": "advancements.space_gear.title"
+    },
+    "description": {
+      "translate": "advancements.space_gear.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "space_gear_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_helmet",
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    },
+    "space_gear_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_chestplate",
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    },
+    "space_gear_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_leggings",
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    },
+    "space_gear_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_boots",
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mintyirlplanets:repentance"
+}

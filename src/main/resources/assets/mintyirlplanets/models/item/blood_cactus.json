@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mintyirlplanets:item/bloodcactus"
+  },
+  "render_type": "translucent"
+}

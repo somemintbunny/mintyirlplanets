@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:mars_biome",
+  "features": "mintyirlplanets:mars_cacti",
+  "step": "surface_structures"
+}

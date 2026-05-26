@@ -18,7 +18,8 @@
   "biomes": [
     "mintyirlplanets:moon",
     "mintyirlplanets:terracelium",
-    "mintyirlplanets:moonshroom"
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:glowing_caves"
   ],
   "use_expansion_hack": false
 }

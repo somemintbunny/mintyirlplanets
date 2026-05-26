@@ -6,6 +6,6 @@ import net.minecraft.world.level.block.Block;
 
 public class MoonshroomMossBlock extends Block {
 	public MoonshroomMossBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRAVEL).strength(4f, 10f).speedFactor(1.4f));
+		super(properties.sound(SoundType.GRAVEL).strength(4f, 10f).lightLevel(blockstate -> 10).speedFactor(1.4f));
 	}
 }

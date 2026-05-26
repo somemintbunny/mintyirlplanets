@@ -40,5 +40,5 @@
       "mintyirlplanets:disc_5"
     ]
   },
-  "parent": "mintyirlplanets:communication_recieved"
+  "parent": "mintyirlplanets:get_mars_ingots"
 }

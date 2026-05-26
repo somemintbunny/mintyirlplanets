@@ -6,6 +6,6 @@ import net.minecraft.world.level.block.Block;
 
 public class AlumineumBlockBlock extends Block {
 	public AlumineumBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(properties.sound(SoundType.METAL).strength(9.3f, 10f).requiresCorrectToolForDrops());
 	}
 }

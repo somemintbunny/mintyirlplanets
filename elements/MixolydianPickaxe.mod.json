@@ -8,6 +8,7 @@
     "texture": "silver_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "guiTexture": "",
     "name": "Mixolydian Pickaxe",
     "rarity": "COMMON",
     "specialInformation": {
@@ -18,7 +19,7 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 24.0,
+    "efficiency": 74.0,
     "attackSpeed": 12.0,
     "enchantability": 140,
     "damageVsEntity": 40.0,

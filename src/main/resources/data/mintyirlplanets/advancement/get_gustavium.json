@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:gustavium_bucket"
+    },
+    "title": {
+      "translate": "advancements.get_gustavium.title"
+    },
+    "description": {
+      "translate": "advancements.get_gustavium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_gustavium_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:gustavium_bucket",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mintyirlplanets:get_moon_ore"
+}

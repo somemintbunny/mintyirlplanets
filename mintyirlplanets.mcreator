@@ -4634,9 +4634,7 @@
       "registry_name": "fiberglass_desert",
       "metadata": {
         "files": [
-          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/fiberglass_desert_tree.json",
-          "src/main/resources/data/mintyirlplanets/worldgen/biome/fiberglass_desert.json",
-          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/fiberglass_desert_tree.json"
+          "src/main/resources/data/mintyirlplanets/worldgen/biome/fiberglass_desert.json"
         ]
       }
     },
@@ -5684,18 +5682,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/mintyirlplanets/advancement/resonance.json"
-        ]
-      }
-    },
-    {
-      "name": "ItCameFromTheDepthsOfHell",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "it_came_from_the_depths_of_hell",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mintyirlplanets/advancement/it_came_from_the_depths_of_hell.json"
         ]
       }
     },
@@ -8596,6 +8582,699 @@
           "src/main/resources/data/mintyirlplanets/advancement/recipes/poison_trapupg.json"
         ]
       }
+    },
+    {
+      "name": "Mushroom",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/mushroom_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/mushroom.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/mushroom.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonMushroom",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/moon_mushroom.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/MoonMushroomBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/moon_mushroom.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/moon_mushroom.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/moon_mushroom.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/moon_mushroom.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonMushroomOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_mushroom_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/MoonMushroomOnBoneMealSuccessProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Icon1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icon_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/item/icon_1.json",
+          "src/main/java/net/mcreator/mintyirlplanets/item/Icon1Item.java",
+          "src/main/resources/assets/mintyirlplanets/items/icon_1.json"
+        ]
+      }
+    },
+    {
+      "name": "GetMoonOre",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_moon_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/get_moon_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GetGustavium",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_gustavium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/get_gustavium.json"
+        ]
+      }
+    },
+    {
+      "name": "JellySweets",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jelly_sweets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/jelly_sweets.json"
+        ]
+      }
+    },
+    {
+      "name": "AmazingCaloreDensity",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amazing_calore_density",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/amazing_calore_density.json"
+        ]
+      }
+    },
+    {
+      "name": "StomachPains",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stomach_pains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/stomach_pains.json"
+        ]
+      }
+    },
+    {
+      "name": "MarsOres",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars_ores",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/item/MarsOresItem.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/mars_ores.json",
+          "src/main/resources/assets/mintyirlplanets/items/mars_ores.json"
+        ]
+      }
+    },
+    {
+      "name": "GetMarsIngots",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_mars_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/get_mars_ingots.json"
+        ]
+      }
+    },
+    {
+      "name": "Repentance",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repentance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/repentance.json"
+        ]
+      }
+    },
+    {
+      "name": "ToSaturn",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_saturn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/to_saturn.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceGear",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/space_gear.json"
+        ]
+      }
+    },
+    {
+      "name": "AnEquivelent",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "an_equivelent",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/an_equivelent.json"
+        ]
+      }
+    },
+    {
+      "name": "AHealingPresence",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_healing_presence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/a_healing_presence.json"
+        ]
+      }
+    },
+    {
+      "name": "Silverrar",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverrar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/silverrar.json",
+          "src/main/resources/data/mintyirlplanets/recipe/silverrar.json"
+        ]
+      }
+    },
+    {
+      "name": "Bltosil",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bltosil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/bltosil.json"
+        ]
+      }
+    },
+    {
+      "name": "HorridFungus",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid_fungus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/blockstates/horrid_fungus.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/horrid_fungus.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/HorridFungusBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/horrid_fungus.json",
+          "src/main/resources/assets/mintyirlplanets/items/horrid_fungus.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/horrid_fungus.json"
+        ]
+      }
+    },
+    {
+      "name": "TheGrass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_grass",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/TheGrassProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HorridFungusOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid_fungus_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/HorridFungusOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HorridFungusthing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid_fungusthing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/HorridFungusthingProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HorridMercury",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid_mercury",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/horrid_mercury.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/horrid_mercury.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/horrid_mercury.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/horrid_mercury.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/horrid_mercury_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/horrid_mercury.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/HorridMercuryBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/horrid_mercury.json",
+          "src/main/resources/assets/mintyirlplanets/items/horrid_mercury.json"
+        ]
+      }
+    },
+    {
+      "name": "HorridFungusDeactivated",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid_fungus_deactivated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/horrid_fungus_deactivated.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/horrid_fungus_deactivated.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/HorridFungusDeactivatedBlock.java",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/horrid_fungus_deactivated.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/horrid_fungus_deactivated.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/horrid_fungus_deactivated.json"
+        ]
+      }
+    },
+    {
+      "name": "DormantHorridMercury",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dormant_horrid_mercury",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/dormant_horrid_mercury.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/dormant_horrid_mercury.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/DormantHorridMercuryBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/dormant_horrid_mercury.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/dormant_horrid_mercury.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/dormant_horrid_mercury.json"
+        ]
+      }
+    },
+    {
+      "name": "StrangeFungusOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_fungus_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/StrangeFungusOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StrangeStoneOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_stone_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/StrangeStoneOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HorridMoss",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid_moss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/biome/horrid_moss.json"
+        ]
+      }
+    },
+    {
+      "name": "MarsCacti",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars_cacti",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/mars_cacti.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/mars_cacti_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/mars_cacti.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodCactusEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_cactus_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/BloodCactusEntityCollidesInTheBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodCactus",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/blockstates/blood_cactus.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/blood_cactus.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/blood_cactus.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/blood_cactus.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/BloodCactusBlock.java",
+          "src/main/resources/assets/mintyirlplanets/items/blood_cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodCactusBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_cactus_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/BloodCactusBlockValidPlacementConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodCacti",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_cacti",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/blood_cacti_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/blood_cacti.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/blood_cacti.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonShroomLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_shroom_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/moon_shroom_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonshroomHut",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonshroom_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/structure_set/moonshroom_hut.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/template_pool/moonshroom_hut.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/structure/moonshroom_hut.json"
+        ]
+      }
+    },
+    {
+      "name": "HotSpring",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_spring",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/hot_spring_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/hot_spring.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/hot_spring.json"
+        ]
+      }
+    },
+    {
+      "name": "ThornBerryBush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_berry_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/block/ThornBerryBushBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/thorn_berry_bush.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/thorn_berry_bush.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/thorn_berry_bush.json",
+          "src/main/resources/assets/mintyirlplanets/items/thorn_berry_bush.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/thorn_berry_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "ThornBerryBushSpawn",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_berry_bush_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/thorn_berry_bush_spawn.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/thorn_berry_bush_spawn_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/thorn_berry_bush_spawn.json"
+        ]
+      }
+    },
+    {
+      "name": "ThornBerryBushValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_berry_bush_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/ThornBerryBushValidPlacementConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Blueberry",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/item/BlueberryItem.java",
+          "src/main/resources/assets/mintyirlplanets/items/blueberry.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/blueberry.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -8771,6 +9450,8 @@
       "~CUSTOM:Gustavium"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:ThornBerryBush",
+      "~CUSTOM:BloodCactus",
       "~CUSTOM:Fiberglass",
       "~CUSTOM:MoonshroomStem"
     ],
@@ -8849,6 +9530,10 @@
       "~CUSTOM:Alumineum"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DormantHorridMercury",
+      "~CUSTOM:HorridFungusDeactivated",
+      "~CUSTOM:HorridMercury",
+      "~CUSTOM:HorridFungus",
       "~CUSTOM:DemonicOre",
       "~CUSTOM:Meteorite",
       "~CUSTOM:HCrystal",
@@ -8894,6 +9579,8 @@
       "~CUSTOM:Kryptonium"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Glowing",
+      "~CUSTOM:HorridFungus",
       "~CUSTOM:MossyStrangeStone",
       "~CUSTOM:StrangeStone",
       "~CUSTOM:FerrousSand",
@@ -8916,6 +9603,12 @@
       "~CUSTOM:Dreamdrop"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Chlorine",
+      "~CUSTOM:DormantHorridMercury",
+      "~CUSTOM:HorridFungusDeactivated",
+      "~CUSTOM:HorridMercury",
+      "~CUSTOM:HorridFungus",
+      "~CUSTOM:MoonMushroom",
       "~CUSTOM:PoisonSnapTrap",
       "~CUSTOM:SnapTrap",
       "~CUSTOM:RawSilverBlock",
@@ -9201,6 +9894,7 @@
   "tab_element_order": {
     "CUSTOM:MoonBlocks": [
       "MoonshroomMoss",
+      "MoonMushroom",
       "Moonshroom2Wood",
       "Moonshroom2Log",
       "Moonshroom2Planks",
@@ -9236,6 +9930,8 @@
       "ClearPlastc",
       "ReinforcedGlass",
       "FerrousSand",
+      "BloodCactus",
+      "ThornBerryBush",
       "Corestone",
       "CroatianWood",
       "CroatianLog",
@@ -9252,12 +9948,17 @@
       "StrangeStone",
       "StrangeRock",
       "MossyStrangeStone",
+      "HorridFungus",
+      "HorridMercury",
+      "HorridFungusDeactivated",
+      "DormantHorridMercury",
       "AquapherFlower",
       "StarFlower",
       "Fossil",
       "CrokVine",
       "CrokBulb",
       "CrokEssence",
+      "SnapTrap",
       "PoisonSnapTrap",
       "FragrentLeaves",
       "FragrentWood",
@@ -9399,6 +10100,7 @@
       "GlucosideExtract",
       "HellFruit",
       "TosserTot",
+      "Blueberry",
       "FragrentBark",
       "Meat",
       "CookedMeat",
@@ -9779,7 +10481,6 @@
       "item.mintyirlplanets.alumineum_hoe": "Aluminium Hoe",
       "item.mintyirlplanets.dummy_1_helmet": "Dummy 1 Helmet",
       "item.mintyirlplanets.demonic_armor_chestplate": "Demonic Chestplate",
-      "advancements.it_came_from_the_depths_of_hell.title": "It Came From The Depths Of Hell",
       "item.mintyirlplanets.brimstone_shovel": "Brimstone Shovel",
       "item.mintyirlplanets.soulstone_armor_leggings": "Soulstone Leggings",
       "block.mintyirlplanets.damned_fence_gate": "Damned Fence Gate",
@@ -9814,7 +10515,6 @@
       "effect.mintyirlplanets.anti_toxin": "Anti Toxin",
       "item.minecraft.potion.effect.toxic_gass": "Potion of Toxic Gas",
       "item.mintyirlplanets.moon_pebble": "Dark Moon Pebble",
-      "advancements.it_came_from_the_depths_of_hell.descr": "Get Brimstoneore",
       "block.mintyirlplanets.damned_leaves": "Damned Leaves",
       "item.mintyirlplanets.brimstone_sword": "Brimstone Sword",
       "item.mintyirlplanets.smoth_bone_slab": "Smooth Bone Slab",
@@ -9869,7 +10569,7 @@
       "item.mintyirlplanets.meat": "Meat?",
       "item.mintyirlplanets.cooked_meat": "Cooked Meat?",
       "item.mintyirlplanets.meteorite": "Meteorite",
-      "item.mintyirlplanets.moldedmeteorite": "Moldedmeteorite",
+      "item.mintyirlplanets.moldedmeteorite": "Moulded Meteorite",
       "advancements.blasted_meteor.descr": "You could say I\u0027m Blasted - Smelt a meteorite block in a blast furnace",
       "advancements.blasted_meteor.title": "Blasted Meteor",
       "item.mintyirlplanets.chlorite": "Chlorite",
@@ -9886,7 +10586,44 @@
       "death.attack.pinch.item": "%1$s was caught in a trap masterminded by %2$s while using using %3$s",
       "item.mintyirlplanets.poison_snap_trap": "Poison Snap Trap",
       "item.mintyirlplanets.plant_stem": "Plant Stem",
-      "item.mintyirlplanets.tv_meat": "Eyezore Stomach"
+      "item.mintyirlplanets.tv_meat": "Eyezore Stomach",
+      "item.mintyirlplanets.moon_mushroom": "Snap Trap",
+      "item.mintyirlplanets.icon_1": "Icon 1",
+      "advancements.get_moon_ore.descr": "Obtain one of the main minerals that spawns on the moon ",
+      "advancements.get_moon_ore.title": "Dreams and Nightmares",
+      "advancements.get_gustavium.title": "Gustav has moved from your dreams to the moon",
+      "advancements.get_gustavium.descr": "Obtain a gustavium bucket, a liquid originating from your dreams.",
+      "advancements.jelly_sweets.descr": "Grab yourself some Tosser Tots and eat one.",
+      "advancements.jelly_sweets.title": "Jelly sweets are better here",
+      "advancements.amazing_calore_density.title": "Amazing Calore Density",
+      "advancements.amazing_calore_density.descr": "make some hell fruit from smelted damned wood. Eat it, too, the name is decieving.",
+      "advancements.stomach_pains.title": "Stomach Pains",
+      "advancements.stomach_pains.descr": "On a crunch, huh? Eat the stomach of an Eyezore",
+      "item.mintyirlplanets.mars_ores": "Mars Ores",
+      "advancements.get_mars_ingots.descr": "Smelt yourself some adamantium or demonic ingots.",
+      "advancements.get_mars_ingots.title": "On The Real Stuff",
+      "advancements.repentance.title": "Repentance",
+      "advancements.repentance.descr": "Smelt brimstone ore to brimstone ingots",
+      "advancements.to_saturn.descr": "Begin to wander the caves of Saturn",
+      "advancements.to_saturn.title": "Get The Gear On Quick!",
+      "advancements.space_gear.title": "Prepared for Saturn",
+      "advancements.space_gear.descr": "get a full set of space gear",
+      "item.mintyirlplanets.space_leggings.description_0": "Set Bonus: Protects against toxic gas",
+      "item.mintyirlplanets.space_boots.description_0": "Set Bonus: Protects against toxic gas",
+      "item.mintyirlplanets.space_helmet.description_0": "Set Bonus: Protects against toxic gas",
+      "item.mintyirlplanets.space_chestplate.description_0": "Set Bonus: Protects against toxic gas",
+      "advancements.an_equivelent.descr": "Obtain Bauxite. A Diamond equivelant",
+      "advancements.an_equivelent.title": "An Equivelent",
+      "advancements.a_healing_presence.title": "A Healing Presence",
+      "advancements.a_healing_presence.descr": "Craft a flower crown",
+      "item.mintyirlplanets.horrid_fungus": "Horrid Fungus",
+      "item.mintyirlplanets.horrid_mercury": "Horrid Amalgum",
+      "item.mintyirlplanets.horrid_fungus_deactivated": "Dormant Horrid Fungus",
+      "item.mintyirlplanets.dormant_horrid_mercury": "Dormant Horrid Fungus",
+      "biome.mintyirlplanets.horrid_moss": "Horrid Moss",
+      "item.mintyirlplanets.blood_cactus": "Blood Cactus",
+      "item.mintyirlplanets.thorn_berry_bush": "Thorn Berry Bush",
+      "item.mintyirlplanets.blueberry": "Blueberry"
     }
   },
   "metadata": {

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mintyirlplanets:moonshroom_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1990468352
+  }
+}

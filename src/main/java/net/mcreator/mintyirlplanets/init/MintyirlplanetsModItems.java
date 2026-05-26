@@ -292,6 +292,16 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> POISON_SNAP_TRAP;
 	public static final DeferredItem<Item> PLANT_STEM;
 	public static final DeferredItem<Item> TV_MEAT;
+	public static final DeferredItem<Item> MOON_MUSHROOM;
+	public static final DeferredItem<Item> ICON_1;
+	public static final DeferredItem<Item> MARS_ORES;
+	public static final DeferredItem<Item> HORRID_FUNGUS;
+	public static final DeferredItem<Item> HORRID_MERCURY;
+	public static final DeferredItem<Item> HORRID_FUNGUS_DEACTIVATED;
+	public static final DeferredItem<Item> DORMANT_HORRID_MERCURY;
+	public static final DeferredItem<Item> BLOOD_CACTUS;
+	public static final DeferredItem<Item> THORN_BERRY_BUSH;
+	public static final DeferredItem<Item> BLUEBERRY;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
 		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.DEBUGGER.get(), properties));
@@ -555,6 +565,16 @@ public class MintyirlplanetsModItems {
 		POISON_SNAP_TRAP = block(MintyirlplanetsModBlocks.POISON_SNAP_TRAP, new Item.Properties().stacksTo(99).rarity(Rarity.RARE));
 		PLANT_STEM = register("plant_stem", PlantStemItem::new);
 		TV_MEAT = register("tv_meat", TvMeatItem::new);
+		MOON_MUSHROOM = block(MintyirlplanetsModBlocks.MOON_MUSHROOM, new Item.Properties().stacksTo(99).rarity(Rarity.RARE));
+		ICON_1 = register("icon_1", Icon1Item::new);
+		MARS_ORES = register("mars_ores", MarsOresItem::new);
+		HORRID_FUNGUS = block(MintyirlplanetsModBlocks.HORRID_FUNGUS, new Item.Properties().stacksTo(99));
+		HORRID_MERCURY = block(MintyirlplanetsModBlocks.HORRID_MERCURY, new Item.Properties().stacksTo(99));
+		HORRID_FUNGUS_DEACTIVATED = block(MintyirlplanetsModBlocks.HORRID_FUNGUS_DEACTIVATED, new Item.Properties().stacksTo(99));
+		DORMANT_HORRID_MERCURY = block(MintyirlplanetsModBlocks.DORMANT_HORRID_MERCURY, new Item.Properties().stacksTo(99));
+		BLOOD_CACTUS = block(MintyirlplanetsModBlocks.BLOOD_CACTUS, new Item.Properties().stacksTo(99));
+		THORN_BERRY_BUSH = block(MintyirlplanetsModBlocks.THORN_BERRY_BUSH);
+		BLUEBERRY = register("blueberry", BlueberryItem::new);
 	}
 
 	// Start of user code block custom items

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:mars_ores"
+    },
+    "title": {
+      "translate": "advancements.get_mars_ingots.title"
+    },
+    "description": {
+      "translate": "advancements.get_mars_ingots.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_mars_ingots_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mintyirlplanets:adamantiumm",
+              "mintyirlplanets:demonic_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 13
+  },
+  "parent": "mintyirlplanets:communication_recieved"
+}

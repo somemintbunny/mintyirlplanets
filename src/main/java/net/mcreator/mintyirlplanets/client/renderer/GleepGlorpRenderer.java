@@ -8,8 +8,6 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.mcreator.mintyirlplanets.entity.GleepGlorpEntity;
 import net.mcreator.mintyirlplanets.client.model.Modelgnarpgnarp;
 
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class GleepGlorpRenderer extends MobRenderer<GleepGlorpEntity, LivingEntityRenderState, Modelgnarpgnarp> {
 	private GleepGlorpEntity entity = null;
 	private final ResourceLocation entityTexture = ResourceLocation.parse("mintyirlplanets:textures/entities/gnarp_gnarp.png");
@@ -32,10 +30,5 @@ public class GleepGlorpRenderer extends MobRenderer<GleepGlorpEntity, LivingEnti
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
 		return entityTexture;
-	}
-
-	@Override
-	protected void scale(LivingEntityRenderState state, PoseStack poseStack) {
-		poseStack.scale(entity.getAgeScale(), entity.getAgeScale(), entity.getAgeScale());
 	}
 }

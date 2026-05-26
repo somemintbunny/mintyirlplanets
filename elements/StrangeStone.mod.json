@@ -42,7 +42,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.0,
+    "hardness": 4.3999999999999995,
     "resistance": 24.5,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -65,19 +65,19 @@
     "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "hasCustomOpacity": false,
     "lightOpacity": 15,
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "harp",
+    "noteBlockInstrument": "didgeridoo",
     "creativePickItem": {
       "value": ""
     },
@@ -141,6 +141,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "StrangeStoneOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

@@ -53,6 +53,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:MoonBlocks"
+      },
+      {
+        "value": "CUSTOM:SaturnBlocks"
       }
     ],
     "destroyTool": "pickaxe",

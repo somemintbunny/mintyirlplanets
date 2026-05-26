@@ -121,6 +121,13 @@ public class MintyirlplanetsModBlocks {
 	public static final DeferredBlock<Block> RAW_SILVER_BLOCK;
 	public static final DeferredBlock<Block> SNAP_TRAP;
 	public static final DeferredBlock<Block> POISON_SNAP_TRAP;
+	public static final DeferredBlock<Block> MOON_MUSHROOM;
+	public static final DeferredBlock<Block> HORRID_FUNGUS;
+	public static final DeferredBlock<Block> HORRID_MERCURY;
+	public static final DeferredBlock<Block> HORRID_FUNGUS_DEACTIVATED;
+	public static final DeferredBlock<Block> DORMANT_HORRID_MERCURY;
+	public static final DeferredBlock<Block> BLOOD_CACTUS;
+	public static final DeferredBlock<Block> THORN_BERRY_BUSH;
 	static {
 		MOON_ROCK = register("moon_rock", MoonRockBlock::new);
 		DARK_MOON_ROCK = register("dark_moon_rock", DarkMoonRockBlock::new);
@@ -227,6 +234,13 @@ public class MintyirlplanetsModBlocks {
 		RAW_SILVER_BLOCK = register("raw_silver_block", RawSilverBlockBlock::new);
 		SNAP_TRAP = register("snap_trap", SnapTrapBlock::new);
 		POISON_SNAP_TRAP = register("poison_snap_trap", PoisonSnapTrapBlock::new);
+		MOON_MUSHROOM = register("moon_mushroom", MoonMushroomBlock::new);
+		HORRID_FUNGUS = register("horrid_fungus", HorridFungusBlock::new);
+		HORRID_MERCURY = register("horrid_mercury", HorridMercuryBlock::new);
+		HORRID_FUNGUS_DEACTIVATED = register("horrid_fungus_deactivated", HorridFungusDeactivatedBlock::new);
+		DORMANT_HORRID_MERCURY = register("dormant_horrid_mercury", DormantHorridMercuryBlock::new);
+		BLOOD_CACTUS = register("blood_cactus", BloodCactusBlock::new);
+		THORN_BERRY_BUSH = register("thorn_berry_bush", ThornBerryBushBlock::new);
 	}
 
 	// Start of user code block custom blocks

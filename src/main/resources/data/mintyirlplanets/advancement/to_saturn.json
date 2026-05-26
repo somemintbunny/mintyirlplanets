@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:saturn"
+    },
+    "title": {
+      "translate": "advancements.to_saturn.title"
+    },
+    "description": {
+      "translate": "advancements.to_saturn.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "to_saturn_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mintyirlplanets:saturn"
+      }
+    }
+  },
+  "parent": "mintyirlplanets:space_gear"
+}

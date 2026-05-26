@@ -25,7 +25,7 @@
       "value": "CUSTOM:Gustavium"
     },
     "seaLevel": 4,
-    "generateOreVeins": true,
+    "generateOreVeins": false,
     "generateAquifers": true,
     "horizontalNoiseSize": 2,
     "verticalNoiseSize": 4,

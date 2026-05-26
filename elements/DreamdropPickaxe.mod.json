@@ -8,6 +8,7 @@
     "texture": "dreamdrop_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "guiTexture": "",
     "name": "Dreamdrop Pickaxe",
     "rarity": "COMMON",
     "specialInformation": {
@@ -18,7 +19,7 @@
         "value": "CUSTOM:WeaponsAndTools"
       }
     ],
-    "efficiency": 16.0,
+    "efficiency": 13.0,
     "attackSpeed": 15.0,
     "enchantability": 70,
     "damageVsEntity": 10.0,
