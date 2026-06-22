@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "mintyirlplanets:emerald_bricks",
+    "count": 4
+  }
+}

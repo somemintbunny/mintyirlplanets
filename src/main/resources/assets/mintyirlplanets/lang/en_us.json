@@ -35,7 +35,6 @@
   "block.mintyirlplanets.croatian_pressure_plate": "Croatian Pressure Plate",
   "advancements.getcomunication.descr": "Get the Galactic Communication Device from The Crusher",
   "death.attack.toxic_smoke": "%1$s Choked to death",
-  "item.mintyirlplanets.reaper_spawn_egg": "Reaper Spawn Egg",
   "item.mintyirlplanets.damned_fence": "Damned Fence",
   "block.mintyirlplanets.croatian_stairs": "Croatian Stairs",
   "item.mintyirlplanets.alumineum_shovel": "Aluminium Shovel",
@@ -258,7 +257,6 @@
   "item.mintyirlplanets.disc_1": "Life In Space",
   "advancements.the_presses.title": "The Printing Presses",
   "item.mintyirlplanets.dummy_1_helmet.description_0": "keeps out all those toxic gasses",
-  "entity.mintyirlplanets.reaper": "Reaper",
   "item.mintyirlplanets.still_slinger_spawn_egg": "Still Slinger Spawn Egg",
   "subtitles.darkmoon": "",
   "advancements.moonportal.title": "Portal Igniter Get",
@@ -479,5 +477,15 @@
   "biome.mintyirlplanets.horrid_moss": "Horrid Moss",
   "item.mintyirlplanets.blood_cactus": "Blood Cactus",
   "item.mintyirlplanets.thorn_berry_bush": "Thorn Berry Bush",
-  "item.mintyirlplanets.blueberry": "Blueberry"
+  "item.mintyirlplanets.blueberry": "Blueberry",
+  "item.mintyirlplanets.emerald_bricks": "Emerald Bricks",
+  "item.mintyirlplanets.emerald_slates": "Emerald Slates",
+  "item.mintyirlplanets.emerald_slate_stairs": "Emerald Slate Stairs",
+  "item.mintyirlplanets.emerald_trapdoor": "Emerald Trapdoor",
+  "item.mintyirlplanets.emerald_brick_stairs": "Emerald Brick Stairs",
+  "item.mintyirlplanets.emerald_brick_slab": "Emerald Brick Slab",
+  "item.mintyirlplanets.emerald_slate_slab": "Emerald Slate Slab",
+  "item.mintyirlplanets.chizzled_emerald": "Chizzled Emerald",
+  "item.mintyirlplanets.nettle_vines": "Nettle Vines",
+  "item.mintyirlplanets.cave_moss": "Cave Moss"
 }

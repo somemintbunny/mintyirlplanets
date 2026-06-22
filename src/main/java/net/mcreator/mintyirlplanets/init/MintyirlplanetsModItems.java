@@ -75,7 +75,6 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> DAMNED_BUTTON;
 	public static final DeferredItem<Item> GLUCOSIDE_EXTRACT;
 	public static final DeferredItem<Item> HELL_FRUIT;
-	public static final DeferredItem<Item> REAPER_SPAWN_EGG;
 	public static final DeferredItem<Item> SIVER_INGOT;
 	public static final DeferredItem<Item> SIVER_ORE;
 	public static final DeferredItem<Item> SIVER_BLOCK;
@@ -302,6 +301,16 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> BLOOD_CACTUS;
 	public static final DeferredItem<Item> THORN_BERRY_BUSH;
 	public static final DeferredItem<Item> BLUEBERRY;
+	public static final DeferredItem<Item> EMERALD_BRICKS;
+	public static final DeferredItem<Item> EMERALD_SLATES;
+	public static final DeferredItem<Item> EMERALD_SLATE_STAIRS;
+	public static final DeferredItem<Item> EMERALD_TRAPDOOR;
+	public static final DeferredItem<Item> EMERALD_BRICK_STAIRS;
+	public static final DeferredItem<Item> EMERALD_BRICK_SLAB;
+	public static final DeferredItem<Item> EMERALD_SLATE_SLAB;
+	public static final DeferredItem<Item> CHIZZLED_EMERALD;
+	public static final DeferredItem<Item> NETTLE_VINES;
+	public static final DeferredItem<Item> CAVE_MOSS;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
 		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.DEBUGGER.get(), properties));
@@ -348,7 +357,6 @@ public class MintyirlplanetsModItems {
 		DAMNED_BUTTON = block(MintyirlplanetsModBlocks.DAMNED_BUTTON, new Item.Properties().stacksTo(99));
 		GLUCOSIDE_EXTRACT = register("glucoside_extract", GlucosideExtractItem::new);
 		HELL_FRUIT = register("hell_fruit", HellFruitItem::new);
-		REAPER_SPAWN_EGG = register("reaper_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.REAPER.get(), properties));
 		SIVER_INGOT = register("siver_ingot", SiverIngotItem::new);
 		SIVER_ORE = block(MintyirlplanetsModBlocks.SIVER_ORE, new Item.Properties().stacksTo(99));
 		SIVER_BLOCK = block(MintyirlplanetsModBlocks.SIVER_BLOCK, new Item.Properties().stacksTo(99));
@@ -575,6 +583,16 @@ public class MintyirlplanetsModItems {
 		BLOOD_CACTUS = block(MintyirlplanetsModBlocks.BLOOD_CACTUS, new Item.Properties().stacksTo(99));
 		THORN_BERRY_BUSH = block(MintyirlplanetsModBlocks.THORN_BERRY_BUSH);
 		BLUEBERRY = register("blueberry", BlueberryItem::new);
+		EMERALD_BRICKS = block(MintyirlplanetsModBlocks.EMERALD_BRICKS, new Item.Properties().stacksTo(99));
+		EMERALD_SLATES = block(MintyirlplanetsModBlocks.EMERALD_SLATES, new Item.Properties().stacksTo(99));
+		EMERALD_SLATE_STAIRS = block(MintyirlplanetsModBlocks.EMERALD_SLATE_STAIRS, new Item.Properties().stacksTo(99));
+		EMERALD_TRAPDOOR = block(MintyirlplanetsModBlocks.EMERALD_TRAPDOOR, new Item.Properties().stacksTo(99));
+		EMERALD_BRICK_STAIRS = block(MintyirlplanetsModBlocks.EMERALD_BRICK_STAIRS, new Item.Properties().stacksTo(99));
+		EMERALD_BRICK_SLAB = block(MintyirlplanetsModBlocks.EMERALD_BRICK_SLAB, new Item.Properties().stacksTo(99));
+		EMERALD_SLATE_SLAB = block(MintyirlplanetsModBlocks.EMERALD_SLATE_SLAB, new Item.Properties().stacksTo(99));
+		CHIZZLED_EMERALD = block(MintyirlplanetsModBlocks.CHIZZLED_EMERALD, new Item.Properties().stacksTo(99));
+		NETTLE_VINES = block(MintyirlplanetsModBlocks.NETTLE_VINES, new Item.Properties().stacksTo(99));
+		CAVE_MOSS = block(MintyirlplanetsModBlocks.CAVE_MOSS, new Item.Properties().stacksTo(99));
 	}
 
 	// Start of user code block custom items

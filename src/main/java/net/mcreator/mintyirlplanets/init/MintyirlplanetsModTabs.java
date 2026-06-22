@@ -68,6 +68,8 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE_GATE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PRESSURE_PLATE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_BUTTON.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.NETTLE_VINES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CAVE_MOSS.get().asItem());
 			}).withTabsBefore(MOON_BLOCKS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SATURN_BLOCKS = REGISTRY.register("saturn_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.saturn_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOSSY_STRANGE_STONE.get())).displayItems((parameters, tabData) -> {
@@ -205,7 +207,6 @@ public class MintyirlplanetsModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOB_SPAWNING = REGISTRY.register("mob_spawning",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mob_spawning")).icon(() -> new ItemStack(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.REAPER_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.DEBUGGER_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.THE_CRUSHER_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.SHRUMPHER_SPAWN_EGG.get());
@@ -235,8 +236,16 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.ALUMINUM_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.ALUMINEUM_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.BAUXITE.get());
-				tabData.accept(MintyirlplanetsModItems.ALUMINEUM.get());
 				tabData.accept(MintyirlplanetsModBlocks.ALUMINUM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.ALUMINEUM.get());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_SLATES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_SLATE_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_SLATE_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CHIZZLED_EMERALD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_BRICKS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_BRICK_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_BRICK_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.EMERALD_TRAPDOOR.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.KRYPTONIUM.get());
 				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_ORE.get().asItem());

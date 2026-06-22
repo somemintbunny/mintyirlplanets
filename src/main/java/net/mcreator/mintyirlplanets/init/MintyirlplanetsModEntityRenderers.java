@@ -17,7 +17,6 @@ public class MintyirlplanetsModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(MintyirlplanetsModEntities.DEBUGGER.get(), DebuggerRenderer::new);
-		event.registerEntityRenderer(MintyirlplanetsModEntities.REAPER.get(), ReaperRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.TOSSER_GRENADE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.LAZER.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.EYEZOR.get(), EyezorRenderer::new);

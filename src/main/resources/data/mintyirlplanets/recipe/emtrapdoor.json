@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "mintyirlplanets:emerald_trapdoor",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/emeraldblock",
+    "up": "mintyirlplanets:block/emeraldblock",
+    "north": "mintyirlplanets:block/emslate",
+    "east": "mintyirlplanets:block/emslate",
+    "south": "mintyirlplanets:block/emslate",
+    "west": "mintyirlplanets:block/emslate",
+    "particle": "mintyirlplanets:block/emeraldblock"
+  },
+  "render_type": "solid"
+}

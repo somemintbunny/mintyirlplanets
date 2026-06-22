@@ -25,10 +25,6 @@ public class MintyirlplanetsModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, MintyirlplanetsMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<DebuggerEntity>> DEBUGGER = register("debugger",
 			EntityType.Builder.<DebuggerEntity>of(DebuggerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
-	public static final DeferredHolder<EntityType<?>, EntityType<ReaperEntity>> REAPER = register("reaper",
-			EntityType.Builder.<ReaperEntity>of(ReaperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<TosserGrenadeEntity>> TOSSER_GRENADE = register("tosser_grenade",
 			EntityType.Builder.<TosserGrenadeEntity>of(TosserGrenadeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<LazerEntity>> LAZER = register("lazer",
@@ -85,7 +81,6 @@ public class MintyirlplanetsModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		DebuggerEntity.init(event);
-		ReaperEntity.init(event);
 		EyezorEntity.init(event);
 		TheCrusherEntity.init(event);
 		MartianEntity.init(event);
@@ -100,7 +95,6 @@ public class MintyirlplanetsModEntities {
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(DEBUGGER.get(), DebuggerEntity.createAttributes().build());
-		event.put(REAPER.get(), ReaperEntity.createAttributes().build());
 		event.put(EYEZOR.get(), EyezorEntity.createAttributes().build());
 		event.put(THE_CRUSHER.get(), TheCrusherEntity.createAttributes().build());
 		event.put(MARTIAN.get(), MartianEntity.createAttributes().build());

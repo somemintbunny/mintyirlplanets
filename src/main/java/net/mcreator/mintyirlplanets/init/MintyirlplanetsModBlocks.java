@@ -128,6 +128,16 @@ public class MintyirlplanetsModBlocks {
 	public static final DeferredBlock<Block> DORMANT_HORRID_MERCURY;
 	public static final DeferredBlock<Block> BLOOD_CACTUS;
 	public static final DeferredBlock<Block> THORN_BERRY_BUSH;
+	public static final DeferredBlock<Block> EMERALD_BRICKS;
+	public static final DeferredBlock<Block> EMERALD_SLATES;
+	public static final DeferredBlock<Block> EMERALD_SLATE_STAIRS;
+	public static final DeferredBlock<Block> EMERALD_TRAPDOOR;
+	public static final DeferredBlock<Block> EMERALD_BRICK_STAIRS;
+	public static final DeferredBlock<Block> EMERALD_BRICK_SLAB;
+	public static final DeferredBlock<Block> EMERALD_SLATE_SLAB;
+	public static final DeferredBlock<Block> CHIZZLED_EMERALD;
+	public static final DeferredBlock<Block> NETTLE_VINES;
+	public static final DeferredBlock<Block> CAVE_MOSS;
 	static {
 		MOON_ROCK = register("moon_rock", MoonRockBlock::new);
 		DARK_MOON_ROCK = register("dark_moon_rock", DarkMoonRockBlock::new);
@@ -241,6 +251,16 @@ public class MintyirlplanetsModBlocks {
 		DORMANT_HORRID_MERCURY = register("dormant_horrid_mercury", DormantHorridMercuryBlock::new);
 		BLOOD_CACTUS = register("blood_cactus", BloodCactusBlock::new);
 		THORN_BERRY_BUSH = register("thorn_berry_bush", ThornBerryBushBlock::new);
+		EMERALD_BRICKS = register("emerald_bricks", EmeraldBricksBlock::new);
+		EMERALD_SLATES = register("emerald_slates", EmeraldSlatesBlock::new);
+		EMERALD_SLATE_STAIRS = register("emerald_slate_stairs", EmeraldSlateStairsBlock::new);
+		EMERALD_TRAPDOOR = register("emerald_trapdoor", EmeraldTrapdoorBlock::new);
+		EMERALD_BRICK_STAIRS = register("emerald_brick_stairs", EmeraldBrickStairsBlock::new);
+		EMERALD_BRICK_SLAB = register("emerald_brick_slab", EmeraldBrickSlabBlock::new);
+		EMERALD_SLATE_SLAB = register("emerald_slate_slab", EmeraldSlateSlabBlock::new);
+		CHIZZLED_EMERALD = register("chizzled_emerald", ChizzledEmeraldBlock::new);
+		NETTLE_VINES = register("nettle_vines", NettleVinesBlock::new);
+		CAVE_MOSS = register("cave_moss", CaveMossBlock::new);
 	}
 
 	// Start of user code block custom blocks

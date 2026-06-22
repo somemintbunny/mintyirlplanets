@@ -1,8 +1,14 @@
 {
   "replace": false,
   "values": [
+    "mintyirlplanets:emerald_slate_slab",
+    "mintyirlplanets:emerald_brick_stairs",
+    "mintyirlplanets:chizzled_emerald",
     "mintyirlplanets:raw_silver_block",
+    "mintyirlplanets:emerald_slate_stairs",
     "mintyirlplanets:kryptonium_ore",
+    "mintyirlplanets:emerald_slates",
+    "mintyirlplanets:emerald_trapdoor",
     "mintyirlplanets:siver_ore",
     "mintyirlplanets:aluminum_block"
   ]

@@ -1,0 +1,62 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "CUSTOM:EmeraldSlateStairs"
+      },
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      },
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      },
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      },
+      {
+        "value": "CUSTOM:EmeraldSlates"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmeraldSlateStairs"
+    },
+    "name": "emslatestair",
+    "namespace": "mod"
+  }
+}

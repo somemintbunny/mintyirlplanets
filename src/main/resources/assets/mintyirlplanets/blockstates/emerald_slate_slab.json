@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/emerald_slate_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/emerald_slate_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/emerald_slate_slab_full"
+    }
+  }
+}

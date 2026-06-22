@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "mintyirlplanets:block/embrick",
+    "bottom": "mintyirlplanets:block/embrick",
+    "top": "mintyirlplanets:block/embrick",
+    "side": "mintyirlplanets:block/embrick"
+  },
+  "render_type": "solid"
+}

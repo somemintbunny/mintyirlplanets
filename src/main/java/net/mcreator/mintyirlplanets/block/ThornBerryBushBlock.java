@@ -13,13 +13,14 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mintyirlplanets.procedures.ThornBerryBushValidPlacementConditionProcedure;
-import net.mcreator.mintyirlplanets.procedures.BloodCactusBlockValidPlacementConditionProcedure;
+import net.mcreator.mintyirlplanets.procedures.BloodCactusEntityCollidesInTheBlockProcedure;
 
 public class ThornBerryBushBlock extends Block {
 	private static final VoxelShape SHAPE = box(2, 0, 2, 14, 13, 14);
@@ -65,8 +66,14 @@ public class ThornBerryBushBlock extends Block {
 	}
 
 	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+		BloodCactusEntityCollidesInTheBlockProcedure.execute(world, entity);
+	}
+
+	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		BloodCactusBlockValidPlacementConditionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		BloodCactusEntityCollidesInTheBlockProcedure.execute(world, entity);
 	}
 }

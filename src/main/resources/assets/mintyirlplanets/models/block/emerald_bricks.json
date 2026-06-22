@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/embrick",
+    "up": "mintyirlplanets:block/embrick",
+    "north": "mintyirlplanets:block/embrick",
+    "east": "mintyirlplanets:block/embrick",
+    "south": "mintyirlplanets:block/embrick",
+    "west": "mintyirlplanets:block/embrick",
+    "particle": "mintyirlplanets:block/embrick"
+  },
+  "render_type": "solid"
+}

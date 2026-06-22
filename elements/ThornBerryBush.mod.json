@@ -144,8 +144,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "BloodCactusEntityCollidesInTheBlock"
+    },
     "onEntityWalksOn": {
-      "name": "BloodCactusBlockValidPlacementCondition"
+      "name": "BloodCactusEntityCollidesInTheBlock"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "mintyirlplanets:nettle_vines",
     "mintyirlplanets:thorn_berry_bush",
+    "mintyirlplanets:cave_moss",
     "mintyirlplanets:fiberglass",
     "mintyirlplanets:moonshroom_stem",
     "mintyirlplanets:blood_cactus"

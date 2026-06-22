@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "mintyirlplanets:block/emeraldtrapdoor",
+    "particle": "mintyirlplanets:block/emeraldtrapdoor"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:emerald_slates"
+  },
+  "result": {
+    "id": "mintyirlplanets:emerald_slate_slab",
+    "count": 6
+  }
+}
