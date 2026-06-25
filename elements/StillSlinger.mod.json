@@ -36,6 +36,7 @@
       "value": -9340236,
       "falpha": 0.0
     },
+    "spawnEggTexture": "fghfghfgh",
     "creativeTabs": [
       {
         "value": "CUSTOM:MobSpawning"

@@ -5,15 +5,23 @@ package net.mcreator.mintyirlplanets.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.event.BlockEntityTypeAddBlocksEvent;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.client.renderer.Sheets;
 
 import net.mcreator.mintyirlplanets.block.*;
 import net.mcreator.mintyirlplanets.MintyirlplanetsMod;
 
 import java.util.function.Function;
 
+@EventBusSubscriber
 public class MintyirlplanetsModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(MintyirlplanetsMod.MODID);
 	public static final DeferredBlock<Block> MOON_ROCK;
@@ -138,6 +146,25 @@ public class MintyirlplanetsModBlocks {
 	public static final DeferredBlock<Block> CHIZZLED_EMERALD;
 	public static final DeferredBlock<Block> NETTLE_VINES;
 	public static final DeferredBlock<Block> CAVE_MOSS;
+	public static final DeferredBlock<Block> SUBCONSIUS_LOG;
+	public static final DeferredBlock<Block> SUBCONSIUS_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_SUBCONSIUS_LOG;
+	public static final DeferredBlock<Block> STRIPPED_SUBCONSIUS_WOOD;
+	public static final DeferredBlock<Block> SUBCONSIUS_PLANKS;
+	public static final DeferredBlock<Block> SUBCONSIUS_LEAVES;
+	public static final DeferredBlock<Block> SUBCONSIUS_STAIRS;
+	public static final DeferredBlock<Block> SUBCONSIUS_SLAB;
+	public static final DeferredBlock<Block> SUBCONSIUS_FENCE;
+	public static final DeferredBlock<Block> SUBCONSIUS_FENCE_GATE;
+	public static final DeferredBlock<Block> SUBCONSIUS_DOOR;
+	public static final DeferredBlock<Block> SUBCONSIUS_TRAPDOOR;
+	public static final DeferredBlock<Block> SUBCONSIUS_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> SUBCONSIUS_BUTTON;
+	public static final DeferredBlock<Block> SUBCONSIUS_SIGN;
+	public static final DeferredBlock<Block> SUBCONSIUS_WALL_SIGN;
+	public static final DeferredBlock<Block> SUBCONSIUS_HANGING_SIGN;
+	public static final DeferredBlock<Block> SUBCONSIUS_WALL_HANGING_SIGN;
+	public static final DeferredBlock<Block> UNCONSIUM_SAPLING;
 	static {
 		MOON_ROCK = register("moon_rock", MoonRockBlock::new);
 		DARK_MOON_ROCK = register("dark_moon_rock", DarkMoonRockBlock::new);
@@ -261,11 +288,45 @@ public class MintyirlplanetsModBlocks {
 		CHIZZLED_EMERALD = register("chizzled_emerald", ChizzledEmeraldBlock::new);
 		NETTLE_VINES = register("nettle_vines", NettleVinesBlock::new);
 		CAVE_MOSS = register("cave_moss", CaveMossBlock::new);
+		SUBCONSIUS_LOG = register("subconsius_log", SubconsiusLogBlock::new);
+		SUBCONSIUS_WOOD = register("subconsius_wood", SubconsiusWoodBlock::new);
+		STRIPPED_SUBCONSIUS_LOG = register("stripped_subconsius_log", StrippedSubconsiusLogBlock::new);
+		STRIPPED_SUBCONSIUS_WOOD = register("stripped_subconsius_wood", StrippedSubconsiusWoodBlock::new);
+		SUBCONSIUS_PLANKS = register("subconsius_planks", SubconsiusPlanksBlock::new);
+		SUBCONSIUS_LEAVES = register("subconsius_leaves", SubconsiusLeavesBlock::new);
+		SUBCONSIUS_STAIRS = register("subconsius_stairs", SubconsiusStairsBlock::new);
+		SUBCONSIUS_SLAB = register("subconsius_slab", SubconsiusSlabBlock::new);
+		SUBCONSIUS_FENCE = register("subconsius_fence", SubconsiusFenceBlock::new);
+		SUBCONSIUS_FENCE_GATE = register("subconsius_fence_gate", SubconsiusFenceGateBlock::new);
+		SUBCONSIUS_DOOR = register("subconsius_door", SubconsiusDoorBlock::new);
+		SUBCONSIUS_TRAPDOOR = register("subconsius_trapdoor", SubconsiusTrapdoorBlock::new);
+		SUBCONSIUS_PRESSURE_PLATE = register("subconsius_pressure_plate", SubconsiusPressurePlateBlock::new);
+		SUBCONSIUS_BUTTON = register("subconsius_button", SubconsiusButtonBlock::new);
+		SUBCONSIUS_SIGN = register("subconsius_sign", SubconsiusSignBlock::new);
+		SUBCONSIUS_WALL_SIGN = register("subconsius_wall_sign", SubconsiusWallSignBlock::new);
+		SUBCONSIUS_HANGING_SIGN = register("subconsius_hanging_sign", SubconsiusHangingSignBlock::new);
+		SUBCONSIUS_WALL_HANGING_SIGN = register("subconsius_wall_hanging_sign", SubconsiusWallHangingSignBlock::new);
+		UNCONSIUM_SAPLING = register("unconsium_sapling", UnconsiumSaplingBlock::new);
 	}
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
 		return REGISTRY.registerBlock(name, supplier);
+	}
+
+	@EventBusSubscriber(Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			Sheets.addWoodType(MintyirlplanetsModWoodTypes.SUBCONSIUS_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(MintyirlplanetsModWoodTypes.SUBCONSIUS_HANGING_SIGN_WOOD_TYPE);
+		}
+	}
+
+	@SubscribeEvent
+	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
+		event.modify(BlockEntityType.SIGN, SUBCONSIUS_SIGN.get(), SUBCONSIUS_WALL_SIGN.get());
+		event.modify(BlockEntityType.HANGING_SIGN, SUBCONSIUS_HANGING_SIGN.get(), SUBCONSIUS_WALL_HANGING_SIGN.get());
 	}
 }

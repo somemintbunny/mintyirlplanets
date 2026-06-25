@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:subconsius_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:subconsius_boat",
+    "count": 1
+  }
+}

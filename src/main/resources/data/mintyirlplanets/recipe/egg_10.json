@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": "mintyirlplanets:raw_silver_block",
+    "b": "mintyirlplanets:empty_egg",
+    "c": "mintyirlplanets:brimstone_ore"
+  },
+  "result": {
+    "id": "mintyirlplanets:larry_spawn_egg",
+    "count": 20
+  }
+}

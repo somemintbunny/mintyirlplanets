@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": "mintyirlplanets:meat",
+    "b": "mintyirlplanets:fragrent_bark",
+    "c": "mintyirlplanets:empty_egg",
+    "d": "mintyirlplanets:alien_hyde"
+  },
+  "result": {
+    "id": "mintyirlplanets:gleep_glorp_spawn_egg",
+    "count": 20
+  }
+}

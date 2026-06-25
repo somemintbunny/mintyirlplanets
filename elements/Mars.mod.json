@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:LivingMars"
+      },
+      {
+        "value": "CUSTOM:MarsForest"
       }
     ],
     "biomesInDimensionCaves": [],

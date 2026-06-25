@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mintyirlplanets:subconsius_log",
+    "mintyirlplanets:subconsius_wood",
+    "mintyirlplanets:stripped_subconsius_log",
+    "mintyirlplanets:stripped_subconsius_wood"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "ChestBoat",
+    "name": "Subconsius Boat with Chest",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MarsBlocks"
+      }
+    ],
+    "entityTexture": "subconsius_chest_boat",
+    "itemTexture": "subconsius_chest_boat"
+  }
+}

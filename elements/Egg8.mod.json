@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 20,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EmptyEgg"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Adamantiumm"
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": "CUSTOM:Adamantiumm"
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": "CUSTOM:EmptyEgg"
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": "CUSTOM:Adamantiumm"
+      },
+      {
+        "value": "CUSTOM:FiberBall"
+      },
+      {
+        "value": "CUSTOM:Adamantiumm"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChokedZombie.spawn_egg"
+    },
+    "name": "egg_8",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:stripped_subconsius_log"
+  },
+  "result": {
+    "id": "mintyirlplanets:stripped_subconsius_wood",
+    "count": 3
+  }
+}

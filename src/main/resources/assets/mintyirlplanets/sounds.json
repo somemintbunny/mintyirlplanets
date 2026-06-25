@@ -199,5 +199,88 @@
         "stream": false
       }
     ]
+  },
+  "stagbeetlehurt": {
+    "subtitle": "subtitles.stagbeetlehurt",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:stagbeetlehurt4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetlehurt3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetlehurt2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetlehurt1",
+        "stream": false
+      }
+    ]
+  },
+  "stagbeetleidle": {
+    "subtitle": "subtitles.stagbeetleidle",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:stagbeetleidle4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetleidle3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetleidle2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetleidle1",
+        "stream": false
+      }
+    ]
+  },
+  "stagbeetlewalking": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:stagbeetlewalk4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetlewalk3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetlewalk2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:stagbeetlewalk1",
+        "stream": false
+      }
+    ]
+  },
+  "hoppernymphhurt": {
+    "subtitle": "subtitles.hoppernymphhurt",
+    "sounds": [
+      {
+        "name": "mintyirlplanets:hoppernymohurt4",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:hoppernymphurt3",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:hoppernymphurt2",
+        "stream": false
+      },
+      {
+        "name": "mintyirlplanets:hoppernymphurt1",
+        "stream": false
+      }
+    ]
   }
 }

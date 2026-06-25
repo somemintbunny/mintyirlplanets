@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "#mintyirlplanets:subconsius_logs"
+  ],
+  "result": {
+    "id": "mintyirlplanets:subconsius_planks",
+    "count": 4
+  }
+}

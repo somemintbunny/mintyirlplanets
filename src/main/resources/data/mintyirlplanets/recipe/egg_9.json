@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:soulstone",
+    "b": "mintyirlplanets:helium_shard",
+    "c": "mintyirlplanets:brimstone",
+    "d": "mintyirlplanets:empty_egg"
+  },
+  "result": {
+    "id": "mintyirlplanets:nightmare_spawn_egg",
+    "count": 20
+  }
+}

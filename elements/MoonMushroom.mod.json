@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Snap Trap",
+    "name": "Moonshroom Spore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,7 +48,7 @@
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 99,
-    "rarity": "RARE",
+    "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
       {

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:strange_energy",
+    "b": "mintyirlplanets:fiber_ball",
+    "c": "mintyirlplanets:empty_egg"
+  },
+  "result": {
+    "id": "mintyirlplanets:still_slinger_spawn_egg",
+    "count": 20
+  }
+}

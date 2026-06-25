@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Dormant Horrid Fungus",
+    "name": "Dormant Horrid Amalgum",
     "specialInformation": {
       "fixedValue": []
     },
@@ -144,17 +144,27 @@
     "onNeighbourBlockChanges": {
       "name": "TheGrass"
     },
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:HorridMoss"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "CUSTOM:HorridFungus"
+      },
+      {
+        "value": "CUSTOM:HorridFungusDeactivated"
+      },
+      {
+        "value": "CUSTOM:StrangeStone"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 64,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 120
   }
 }

@@ -3,7 +3,8 @@
   "biomes": [
     "mintyirlplanets:terracelium",
     "mintyirlplanets:mars_biome",
-    "mintyirlplanets:saturn_stone"
+    "mintyirlplanets:saturn_stone",
+    "mintyirlplanets:mars_forest"
   ],
   "spawners": {
     "type": "mintyirlplanets:shrumpher",

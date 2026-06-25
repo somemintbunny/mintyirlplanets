@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": "mintyirlplanets:cold_dust",
+    "b": "mintyirlplanets:space_helmet",
+    "c": "mintyirlplanets:empty_egg",
+    "d": "mintyirlplanets:space_leggings"
+  },
+  "result": {
+    "id": "mintyirlplanets:martian_spawn_egg",
+    "count": 20
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Subconsius Boat",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MarsBlocks"
+      }
+    ],
+    "entityTexture": "subconsius_boat",
+    "itemTexture": "subconsius_boat"
+  }
+}

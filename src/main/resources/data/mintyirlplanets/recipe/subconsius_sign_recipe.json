@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_sign",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    " b "
+  ],
+  "key": {
+    "a": "mintyirlplanets:subconsius_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "mintyirlplanets:subconsius_sign",
+    "count": 3
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:horrid_moss",
+  "features": "mintyirlplanets:dormant_horrid_mercury",
+  "step": "underground_ores"
+}

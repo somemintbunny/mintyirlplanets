@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/subconsius_log_top",
+    "up": "mintyirlplanets:block/subconsius_log_top",
+    "north": "mintyirlplanets:block/subconsius_log",
+    "east": "mintyirlplanets:block/subconsius_log",
+    "south": "mintyirlplanets:block/subconsius_log",
+    "west": "mintyirlplanets:block/subconsius_log",
+    "particle": "mintyirlplanets:block/subconsius_log"
+  },
+  "render_type": "solid"
+}

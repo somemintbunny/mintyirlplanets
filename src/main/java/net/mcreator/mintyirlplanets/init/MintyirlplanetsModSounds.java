@@ -30,4 +30,8 @@ public class MintyirlplanetsModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> TORNFIBERS = REGISTRY.register("tornfibers", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "tornfibers")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> GLEEP_HURT = REGISTRY.register("gleep_hurt", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "gleep_hurt")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> GLEEB_IDLE = REGISTRY.register("gleeb_idle", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "gleeb_idle")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> STAGBEETLEHURT = REGISTRY.register("stagbeetlehurt", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "stagbeetlehurt")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> STAGBEETLEIDLE = REGISTRY.register("stagbeetleidle", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "stagbeetleidle")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> STAGBEETLEWALKING = REGISTRY.register("stagbeetlewalking", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "stagbeetlewalking")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> HOPPERNYMPHHURT = REGISTRY.register("hoppernymphhurt", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "hoppernymphhurt")));
 }

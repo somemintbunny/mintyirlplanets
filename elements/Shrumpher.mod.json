@@ -36,6 +36,7 @@
       "value": -8046503,
       "falpha": 0.0
     },
+    "spawnEggTexture": "fghfdghfghfgh",
     "creativeTabs": [
       {
         "value": "CUSTOM:MobSpawning"
@@ -148,6 +149,9 @@
       },
       {
         "value": "CUSTOM:SaturnStone"
+      },
+      {
+        "value": "CUSTOM:MarsForest"
       }
     ],
     "spawnInDungeons": false,

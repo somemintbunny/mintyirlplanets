@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "mintyirlplanets:block/subconsius_planks",
+    "bottom": "mintyirlplanets:block/subconsius_planks",
+    "top": "mintyirlplanets:block/subconsius_planks",
+    "side": "mintyirlplanets:block/subconsius_planks"
+  },
+  "render_type": "solid"
+}

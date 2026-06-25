@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:mars_forest",
+  "features": "mintyirlplanets:unconsium_trees",
+  "step": "surface_structures"
+}

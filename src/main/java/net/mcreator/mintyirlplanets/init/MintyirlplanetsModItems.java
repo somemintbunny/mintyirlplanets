@@ -13,10 +13,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.SpawnEggItem;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.*;
 
 import net.mcreator.mintyirlplanets.item.*;
 import net.mcreator.mintyirlplanets.block.FragrentLogBlock;
@@ -311,6 +308,29 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> CHIZZLED_EMERALD;
 	public static final DeferredItem<Item> NETTLE_VINES;
 	public static final DeferredItem<Item> CAVE_MOSS;
+	public static final DeferredItem<Item> EMPTY_EGG;
+	public static final DeferredItem<Item> SUBCONSIUS_LOG;
+	public static final DeferredItem<Item> SUBCONSIUS_WOOD;
+	public static final DeferredItem<Item> STRIPPED_SUBCONSIUS_LOG;
+	public static final DeferredItem<Item> STRIPPED_SUBCONSIUS_WOOD;
+	public static final DeferredItem<Item> SUBCONSIUS_PLANKS;
+	public static final DeferredItem<Item> SUBCONSIUS_LEAVES;
+	public static final DeferredItem<Item> SUBCONSIUS_STAIRS;
+	public static final DeferredItem<Item> SUBCONSIUS_SLAB;
+	public static final DeferredItem<Item> SUBCONSIUS_FENCE;
+	public static final DeferredItem<Item> SUBCONSIUS_FENCE_GATE;
+	public static final DeferredItem<Item> SUBCONSIUS_DOOR;
+	public static final DeferredItem<Item> SUBCONSIUS_TRAPDOOR;
+	public static final DeferredItem<Item> SUBCONSIUS_PRESSURE_PLATE;
+	public static final DeferredItem<Item> SUBCONSIUS_BUTTON;
+	public static final DeferredItem<Item> SUBCONSIUS_SIGN;
+	public static final DeferredItem<Item> SUBCONSIUS_HANGING_SIGN;
+	public static final DeferredItem<Item> SUBCONSIUS_BOAT;
+	public static final DeferredItem<Item> SUBCONSIUS_CHEST_BOAT;
+	public static final DeferredItem<Item> UNCONSIUM_SAPLING;
+	public static final DeferredItem<Item> HERBAL_LEAF;
+	public static final DeferredItem<Item> STAG_BEETLE_SPAWN_EGG;
+	public static final DeferredItem<Item> HOPPER_NYMPH_SPAWN_EGG;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
 		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.DEBUGGER.get(), properties));
@@ -573,7 +593,7 @@ public class MintyirlplanetsModItems {
 		POISON_SNAP_TRAP = block(MintyirlplanetsModBlocks.POISON_SNAP_TRAP, new Item.Properties().stacksTo(99).rarity(Rarity.RARE));
 		PLANT_STEM = register("plant_stem", PlantStemItem::new);
 		TV_MEAT = register("tv_meat", TvMeatItem::new);
-		MOON_MUSHROOM = block(MintyirlplanetsModBlocks.MOON_MUSHROOM, new Item.Properties().stacksTo(99).rarity(Rarity.RARE));
+		MOON_MUSHROOM = block(MintyirlplanetsModBlocks.MOON_MUSHROOM, new Item.Properties().stacksTo(99));
 		ICON_1 = register("icon_1", Icon1Item::new);
 		MARS_ORES = register("mars_ores", MarsOresItem::new);
 		HORRID_FUNGUS = block(MintyirlplanetsModBlocks.HORRID_FUNGUS, new Item.Properties().stacksTo(99));
@@ -593,6 +613,29 @@ public class MintyirlplanetsModItems {
 		CHIZZLED_EMERALD = block(MintyirlplanetsModBlocks.CHIZZLED_EMERALD, new Item.Properties().stacksTo(99));
 		NETTLE_VINES = block(MintyirlplanetsModBlocks.NETTLE_VINES, new Item.Properties().stacksTo(99));
 		CAVE_MOSS = block(MintyirlplanetsModBlocks.CAVE_MOSS, new Item.Properties().stacksTo(99));
+		EMPTY_EGG = register("empty_egg", EmptyEggItem::new);
+		SUBCONSIUS_LOG = block(MintyirlplanetsModBlocks.SUBCONSIUS_LOG, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_WOOD = block(MintyirlplanetsModBlocks.SUBCONSIUS_WOOD, new Item.Properties().stacksTo(99));
+		STRIPPED_SUBCONSIUS_LOG = block(MintyirlplanetsModBlocks.STRIPPED_SUBCONSIUS_LOG, new Item.Properties().stacksTo(99));
+		STRIPPED_SUBCONSIUS_WOOD = block(MintyirlplanetsModBlocks.STRIPPED_SUBCONSIUS_WOOD, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_PLANKS = block(MintyirlplanetsModBlocks.SUBCONSIUS_PLANKS, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_LEAVES = block(MintyirlplanetsModBlocks.SUBCONSIUS_LEAVES, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_STAIRS = block(MintyirlplanetsModBlocks.SUBCONSIUS_STAIRS, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_SLAB = block(MintyirlplanetsModBlocks.SUBCONSIUS_SLAB, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_FENCE = block(MintyirlplanetsModBlocks.SUBCONSIUS_FENCE, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_FENCE_GATE = block(MintyirlplanetsModBlocks.SUBCONSIUS_FENCE_GATE, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_DOOR = doubleBlock(MintyirlplanetsModBlocks.SUBCONSIUS_DOOR, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_TRAPDOOR = block(MintyirlplanetsModBlocks.SUBCONSIUS_TRAPDOOR, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_PRESSURE_PLATE = block(MintyirlplanetsModBlocks.SUBCONSIUS_PRESSURE_PLATE, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_BUTTON = block(MintyirlplanetsModBlocks.SUBCONSIUS_BUTTON, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_SIGN = signBlock(MintyirlplanetsModBlocks.SUBCONSIUS_SIGN, MintyirlplanetsModBlocks.SUBCONSIUS_WALL_SIGN, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_HANGING_SIGN = hangingSignBlock(MintyirlplanetsModBlocks.SUBCONSIUS_HANGING_SIGN, MintyirlplanetsModBlocks.SUBCONSIUS_WALL_HANGING_SIGN, new Item.Properties().stacksTo(99));
+		SUBCONSIUS_BOAT = register("subconsius_boat", properties -> new BoatItem(MintyirlplanetsModEntities.SUBCONSIUS_BOAT.get(), properties.stacksTo(1)));
+		SUBCONSIUS_CHEST_BOAT = register("subconsius_chest_boat", properties -> new BoatItem(MintyirlplanetsModEntities.SUBCONSIUS_CHEST_BOAT.get(), properties.stacksTo(1)));
+		UNCONSIUM_SAPLING = block(MintyirlplanetsModBlocks.UNCONSIUM_SAPLING);
+		HERBAL_LEAF = register("herbal_leaf", HerbalLeafItem::new);
+		STAG_BEETLE_SPAWN_EGG = register("stag_beetle_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.STAG_BEETLE.get(), properties));
+		HOPPER_NYMPH_SPAWN_EGG = register("hopper_nymph_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.HOPPER_NYMPH.get(), properties));
 	}
 
 	// Start of user code block custom items
@@ -607,6 +650,30 @@ public class MintyirlplanetsModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
+	}
+
+	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
+		return signBlock(block, wallBlock, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new SignItem(block.get(), wallBlock.get(), prop), properties);
+	}
+
+	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
+		return hangingSignBlock(block, wallBlock, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new HangingSignItem(block.get(), wallBlock.get(), prop), properties);
 	}
 
 	@SubscribeEvent

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "mintyirlplanets:raw_silver_block",
+    "c": "mintyirlplanets:empty_egg"
+  },
+  "result": {
+    "id": "mintyirlplanets:the_crusher_spawn_egg",
+    "count": 20
+  }
+}

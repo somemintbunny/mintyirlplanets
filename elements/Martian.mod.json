@@ -36,6 +36,7 @@
       "value": -34567,
       "falpha": 0.0
     },
+    "spawnEggTexture": "fghgfhfgh",
     "creativeTabs": [
       {
         "value": "CUSTOM:MobSpawning"
@@ -167,6 +168,9 @@
       2
     ],
     "sensitiveToVibration": false,
-    "vibrationalEvents": []
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
   }
 }

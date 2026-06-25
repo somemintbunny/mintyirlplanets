@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:horrid_fungus"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:dormant_horrid_mercury"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:horrid_fungus_deactivated"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:dormant_horrid_mercury"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:strange_stone"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:dormant_horrid_mercury"
+        }
+      }
+    ]
+  }
+}

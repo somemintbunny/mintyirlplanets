@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 20,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EmptyEgg"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawSilverBlock"
+      },
+      {
+        "value": "CUSTOM:RawSilverBlock"
+      },
+      {
+        "value": "CUSTOM:RawSilverBlock"
+      },
+      {
+        "value": "CUSTOM:RawSilverBlock"
+      },
+      {
+        "value": "CUSTOM:EmptyEgg"
+      },
+      {
+        "value": "CUSTOM:RawSilverBlock"
+      },
+      {
+        "value": "CUSTOM:BrimstoneOre"
+      },
+      {
+        "value": "CUSTOM:BrimstoneOre"
+      },
+      {
+        "value": "CUSTOM:BrimstoneOre"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Larry.spawn_egg"
+    },
+    "name": "egg_10",
+    "namespace": "mod"
+  }
+}

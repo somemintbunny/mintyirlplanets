@@ -8969,7 +8969,10 @@
           "src/main/resources/assets/mintyirlplanets/items/dormant_horrid_mercury.json",
           "src/main/resources/assets/mintyirlplanets/blockstates/dormant_horrid_mercury.json",
           "src/main/java/net/mcreator/mintyirlplanets/block/DormantHorridMercuryBlock.java",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/dormant_horrid_mercury.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/dormant_horrid_mercury.json",
           "src/main/resources/assets/mintyirlplanets/models/item/dormant_horrid_mercury.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/dormant_horrid_mercury_biome_modifier.json",
           "src/main/resources/data/mintyirlplanets/loot_table/blocks/dormant_horrid_mercury.json",
           "src/main/resources/assets/mintyirlplanets/models/block/dormant_horrid_mercury.json"
         ]
@@ -9676,6 +9679,883 @@
           "src/main/resources/assets/mintyirlplanets/blockstates/cave_moss.json"
         ]
       }
+    },
+    {
+      "name": "EmptyEgg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/item/empty_egg.json",
+          "src/main/java/net/mcreator/mintyirlplanets/item/EmptyEggItem.java",
+          "src/main/resources/assets/mintyirlplanets/items/empty_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_1.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_2.json",
+          "src/main/resources/data/mintyirlplanets/recipe/egg_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_3.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_4.json",
+          "src/main/resources/data/mintyirlplanets/recipe/egg_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_5.json",
+          "src/main/resources/data/mintyirlplanets/recipe/egg_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg6",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_6.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg7",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_7.json",
+          "src/main/resources/data/mintyirlplanets/recipe/egg_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg8",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_8.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg9",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_9.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_9.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg10",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_10.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/egg_10.json"
+        ]
+      }
+    },
+    {
+      "name": "Egg11",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/egg_11.json"
+        ]
+      }
+    },
+    {
+      "name": "Horrid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/horrid.json",
+          "src/main/resources/data/mintyirlplanets/recipe/horrid.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusLogBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_log.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_log.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_log.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_log.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_wood.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_wood.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_wood.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusWoodBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_wood.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedSubconsiusLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_subconsius_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/blockstates/stripped_subconsius_log.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/stripped_subconsius_log.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/stripped_subconsius_log.json",
+          "src/main/resources/assets/mintyirlplanets/items/stripped_subconsius_log.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/StrippedSubconsiusLogBlock.java",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/stripped_subconsius_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedSubconsiusWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_subconsius_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/stripped_subconsius_wood.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/stripped_subconsius_wood.json",
+          "src/main/resources/assets/mintyirlplanets/items/stripped_subconsius_wood.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/StrippedSubconsiusWoodBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/stripped_subconsius_wood.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/stripped_subconsius_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusPlanksBlock.java",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_planks.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_planks.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_planks.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_planks.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusLeavesBlock.java",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_leaves.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_leaves.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_leaves.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_stairs.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_stairs.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_stairs_inner.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_stairs.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_stairs.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusStairsBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_stairs.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusSlabBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_slab.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_slab.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_slab.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_slab_top.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_slab_full.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_slab.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_fence.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_fence.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence_inventory.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusFenceBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence_post.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_fence.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence_gate_wall.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_fence_gate.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusFenceGateBlock.java",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_fence_gate.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_fence_gate.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence_gate.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence_gate_open.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_fence_gate.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_fence_gate_wall_open.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_top_right.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_door.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_top_left_open.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_door.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_top_left.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_bottom_right_open.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_bottom_left.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_door.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_top_right_open.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusDoorBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_bottom_left_open.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_door.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_door_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_trapdoor.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusTrapdoorBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_trapdoor_top.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_trapdoor_open.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_trapdoor.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_trapdoor.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_trapdoor.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_pressure_plate.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_pressure_plate_down.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusPressurePlateBlock.java",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_pressure_plate.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_pressure_plate.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_pressure_plate.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_button.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_button.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_button_inventory.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_button.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_button_pressed.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_button.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusButtonBlock.java",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_button.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_sign.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_sign.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusSignBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_wall_sign.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusWallSignBlock.java",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_sign.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_sign.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_hanging_sign.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_hanging_sign.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusWallHangingSignBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/block/subconsius_hanging_sign.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/subconsius_wall_hanging_sign.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SubconsiusHangingSignBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_hanging_sign.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_boat.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_boat.json",
+          "src/main/java/net/mcreator/mintyirlplanets/entity/SubconsiusBoatEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/entity/SubconsiusChestBoatEntity.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/subconsius_chest_boat.json",
+          "src/main/resources/assets/mintyirlplanets/items/subconsius_chest_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_leaves_composting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SubconsiusWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_wood_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedSubconsiusWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_subconsius_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/stripped_subconsius_wood_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/stripped_subconsius_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_planks_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_stairs_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_slab_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_fence_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_fence_gate_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_door_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_trapdoor_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_pressure_plate_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_button_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_sign_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_hanging_sign_recipe.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_boat_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SubconsiusChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subconsius_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/subconsius_chest_boat_recipe.json",
+          "src/main/resources/data/mintyirlplanets/recipe/subconsius_chest_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MarsForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/biome/mars_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "UnconsiumTrees",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unconsium_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/unconsium_trees.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/unconsium_trees_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/unconsium_trees.json"
+        ]
+      }
+    },
+    {
+      "name": "UnconsiumSapling",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unconsium_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/models/item/unconsium_sapling.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/unconsium_sapling.json",
+          "src/main/resources/assets/mintyirlplanets/items/unconsium_sapling.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/UnconsiumSaplingBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/block/unconsium_sapling.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/unconsium_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "SaplingSpawn",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapling_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/sapling_spawn_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/sapling_spawn.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/sapling_spawn.json"
+        ]
+      }
+    },
+    {
+      "name": "UnconsiumSaplingOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unconsium_sapling_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/UnconsiumSaplingOnBoneMealSuccessProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerbalLeaf",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbal_leaf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/item/HerbalLeafItem.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/herbal_leaf.json",
+          "src/main/resources/assets/mintyirlplanets/items/herbal_leaf.json"
+        ]
+      }
+    },
+    {
+      "name": "Leaf",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/subconsius_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "StagBeetle",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stag_beetle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/stag_beetle_spawn_egg.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/stag_beetle_biome_modifier.json",
+          "src/main/java/net/mcreator/mintyirlplanets/client/renderer/StagBeetleRenderer.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/stag_beetle_spawn_egg.json",
+          "src/main/java/net/mcreator/mintyirlplanets/entity/StagBeetleEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HopperNymph",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hopper_nymph",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/client/renderer/HopperNymphRenderer.java",
+          "src/main/java/net/mcreator/mintyirlplanets/entity/HopperNymphEntity.java",
+          "src/main/resources/assets/mintyirlplanets/items/hopper_nymph_spawn_egg.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/hopper_nymph_biome_modifier.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/hopper_nymph_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HopperNymphOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hopper_nymph_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/procedures/HopperNymphOnEntityTickUpdateProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -9823,6 +10703,50 @@
       ],
       "category": "neutral",
       "subtitle": "gleeb glorps"
+    },
+    {
+      "name": "stagbeetlehurt",
+      "files": [
+        "stagbeetlehurt4",
+        "stagbeetlehurt3",
+        "stagbeetlehurt2",
+        "stagbeetlehurt1"
+      ],
+      "category": "hostile",
+      "subtitle": "Stag Beetle being hurt"
+    },
+    {
+      "name": "stagbeetleidle",
+      "files": [
+        "stagbeetleidle4",
+        "stagbeetleidle3",
+        "stagbeetleidle2",
+        "stagbeetleidle1"
+      ],
+      "category": "hostile",
+      "subtitle": "Stag Beetle idle"
+    },
+    {
+      "name": "stagbeetlewalking",
+      "files": [
+        "stagbeetlewalk4",
+        "stagbeetlewalk3",
+        "stagbeetlewalk2",
+        "stagbeetlewalk1"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "hoppernymphhurt",
+      "files": [
+        "hoppernymohurt4",
+        "hoppernymphurt3",
+        "hoppernymphurt2",
+        "hoppernymphurt1"
+      ],
+      "category": "hostile",
+      "subtitle": "Hopper Nymph Hurt"
     }
   ],
   "tag_elements": {
@@ -9851,6 +10775,8 @@
       "~CUSTOM:Gustavium"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:UnconsiumSapling",
+      "~CUSTOM:SubconsiusLeaves",
       "~CUSTOM:CaveMoss",
       "~CUSTOM:NettleVines",
       "~CUSTOM:ThornBerryBush",
@@ -9893,6 +10819,7 @@
       "~CUSTOM:DebugPick"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SubconsiusStairs",
       "~CUSTOM:EmeraldBrickStairs",
       "~CUSTOM:EmeraldSlateStairs",
       "~CUSTOM:FragrentStairs",
@@ -10135,6 +11062,7 @@
       "~CUSTOM:DemonicIngot"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SubconsiusSlab",
       "~CUSTOM:EmeraldSlateSlab",
       "~CUSTOM:EmeraldBrickSlab",
       "~CUSTOM:FragrentSlab",
@@ -10233,6 +11161,23 @@
       "~CUSTOM:DebugPick"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SubconsiusHangingSign.wall",
+      "~CUSTOM:SubconsiusHangingSign",
+      "~CUSTOM:SubconsiusSign",
+      "~CUSTOM:SubconsiusSign.wall",
+      "~CUSTOM:SubconsiusButton",
+      "~CUSTOM:SubconsiusPressurePlate",
+      "~CUSTOM:SubconsiusTrapdoor",
+      "~CUSTOM:SubconsiusDoor",
+      "~CUSTOM:SubconsiusFenceGate",
+      "~CUSTOM:SubconsiusFence",
+      "~CUSTOM:SubconsiusSlab",
+      "~CUSTOM:SubconsiusStairs",
+      "~CUSTOM:SubconsiusPlanks",
+      "~CUSTOM:StrippedSubconsiusWood",
+      "~CUSTOM:StrippedSubconsiusLog",
+      "~CUSTOM:SubconsiusWood",
+      "~CUSTOM:SubconsiusLog",
       "~CUSTOM:StrippedFragrentLog",
       "~CUSTOM:StrippedFragrentWood",
       "~CUSTOM:CrokVine",
@@ -10287,6 +11232,7 @@
       "~CUSTOM:DebuggerArmour.legs"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:SubconsiusFence",
       "~CUSTOM:FragrentFence",
       "~CUSTOM:CroatianFence",
       "~CUSTOM:Moonshroom2Fence",
@@ -10296,12 +11242,14 @@
       "~block_change"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:SubconsiusPressurePlate",
       "~CUSTOM:FragrentPressurePlate",
       "~CUSTOM:CroatianPressurePlate",
       "~CUSTOM:Moonshroom2PressurePlate",
       "~CUSTOM:DamnedPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:SubconsiusButton",
       "~CUSTOM:FragrentButton",
       "~CUSTOM:CroatianButton",
       "~CUSTOM:Moonshroom2Button",
@@ -10316,6 +11264,63 @@
     ],
     "BLOCKS:minecraft:climbable": [
       "~CUSTOM:NettleVines"
+    ],
+    "BLOCKS:mod:subconsius_logs": [
+      "CUSTOM:SubconsiusLog",
+      "CUSTOM:SubconsiusWood",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:subconsius_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:SubconsiusPlanks"
+    ],
+    "ITEMS:mod:subconsius_logs": [
+      "CUSTOM:SubconsiusLog",
+      "CUSTOM:SubconsiusWood",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:subconsius_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:SubconsiusPlanks"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SubconsiusLeaves"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:SubconsiusDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:SubconsiusTrapdoor"
+    ],
+    "BLOCKS:minecraft:standing_signs": [
+      "~CUSTOM:SubconsiusSign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~CUSTOM:SubconsiusSign.wall"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~CUSTOM:SubconsiusHangingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~CUSTOM:SubconsiusHangingSign.wall"
+    ],
+    "ENTITIES:minecraft:boat": [
+      "~CUSTOM:SubconsiusBoat"
+    ],
+    "ITEMS:minecraft:boats": [
+      "~CUSTOM:SubconsiusBoat"
+    ],
+    "ENTITIES:c:boats": [
+      "~CUSTOM:SubconsiusChestBoat"
+    ],
+    "ITEMS:minecraft:chest_boats": [
+      "~CUSTOM:SubconsiusChestBoat"
     ]
   },
   "tab_element_order": {
@@ -10366,12 +11371,31 @@
       "CroatianLeaves",
       "CroatianStairs",
       "CroatianSlab",
+      "CroatianPressurePlate",
       "CroatianFence",
       "CroatianFenceGate",
-      "CroatianPressurePlate",
       "CroatianButton",
       "NettleVines",
-      "CaveMoss"
+      "CaveMoss",
+      "UnconsiumSapling",
+      "SubconsiusWood",
+      "SubconsiusLog",
+      "SubconsiusPlanks",
+      "SubconsiusLeaves",
+      "StrippedSubconsiusLog",
+      "StrippedSubconsiusWood",
+      "SubconsiusStairs",
+      "SubconsiusSlab",
+      "SubconsiusTrapdoor",
+      "SubconsiusPressurePlate",
+      "SubconsiusFence",
+      "SubconsiusFenceGate",
+      "SubconsiusButton",
+      "SubconsiusBoat",
+      "SubconsiusChestBoat",
+      "SubconsiusDoor",
+      "SubconsiusSign",
+      "SubconsiusHangingSign"
     ],
     "CUSTOM:SaturnBlocks": [
       "StrangeStone",
@@ -10471,16 +11495,19 @@
       "MixolydianArmor"
     ],
     "CUSTOM:MobSpawning": [
+      "EmptyEgg",
+      "Martian",
       "Eyezor",
+      "Shrumpher",
       "Debugger",
       "TheCrusher",
-      "Shrumpher",
-      "Martian",
+      "StagBeetle",
+      "HopperNymph",
       "ChokedZombie",
       "StillSlinger",
-      "Nightmare",
       "Larry",
-      "GleepGlorp"
+      "GleepGlorp",
+      "Nightmare"
     ],
     "CUSTOM:MusicDiscs": [
       "BlankDisc",
@@ -10540,7 +11567,8 @@
       "FragrentBark",
       "Meat",
       "CookedMeat",
-      "MartianSalad"
+      "MartianSalad",
+      "HerbalLeaf"
     ],
     "CUSTOM:Misc": [
       "TheMoon",
@@ -11021,7 +12049,7 @@
       "item.mintyirlplanets.poison_snap_trap": "Poison Snap Trap",
       "item.mintyirlplanets.plant_stem": "Plant Stem",
       "item.mintyirlplanets.tv_meat": "Eyezore Stomach",
-      "item.mintyirlplanets.moon_mushroom": "Snap Trap",
+      "item.mintyirlplanets.moon_mushroom": "Moonshroom Spore",
       "item.mintyirlplanets.icon_1": "Icon 1",
       "advancements.get_moon_ore.descr": "Obtain one of the main minerals that spawns on the moon ",
       "advancements.get_moon_ore.title": "Dreams and Nightmares",
@@ -11053,7 +12081,7 @@
       "item.mintyirlplanets.horrid_fungus": "Horrid Fungus",
       "item.mintyirlplanets.horrid_mercury": "Horrid Amalgum",
       "item.mintyirlplanets.horrid_fungus_deactivated": "Dormant Horrid Fungus",
-      "item.mintyirlplanets.dormant_horrid_mercury": "Dormant Horrid Fungus",
+      "item.mintyirlplanets.dormant_horrid_mercury": "Dormant Horrid Amalgum",
       "biome.mintyirlplanets.horrid_moss": "Horrid Moss",
       "item.mintyirlplanets.blood_cactus": "Blood Cactus",
       "item.mintyirlplanets.thorn_berry_bush": "Thorn Berry Bush",
@@ -11067,15 +12095,49 @@
       "item.mintyirlplanets.emerald_slate_slab": "Emerald Slate Slab",
       "item.mintyirlplanets.chizzled_emerald": "Chizzled Emerald",
       "item.mintyirlplanets.nettle_vines": "Nettle Vines",
-      "item.mintyirlplanets.cave_moss": "Cave Moss"
+      "item.mintyirlplanets.cave_moss": "Moss Grass",
+      "item.mintyirlplanets.empty_egg": "Empty Egg",
+      "item.mintyirlplanets.subconsius_log": "Subconsius Log",
+      "item.mintyirlplanets.subconsius_wood": "Subconsius Wood",
+      "item.mintyirlplanets.stripped_subconsius_log": "Stripped Subconsius Log",
+      "item.mintyirlplanets.stripped_subconsius_wood": "Stripped Subconsius Wood",
+      "item.mintyirlplanets.subconsius_planks": "Subconsius Planks",
+      "item.mintyirlplanets.subconsius_leaves": "Subconsius Leaves",
+      "item.mintyirlplanets.subconsius_stairs": "Subconsius Stairs",
+      "item.mintyirlplanets.subconsius_slab": "Subconsius Slab",
+      "item.mintyirlplanets.subconsius_fence": "Subconsius Fence",
+      "item.mintyirlplanets.subconsius_fence_gate": "Subconsius Fence Gate",
+      "item.mintyirlplanets.subconsius_door": "Subconsius Door",
+      "item.mintyirlplanets.subconsius_trapdoor": "Subconsius Trapdoor",
+      "item.mintyirlplanets.subconsius_pressure_plate": "Subconsius Pressure Plate",
+      "item.mintyirlplanets.subconsius_button": "Subconsius Button",
+      "item.mintyirlplanets.subconsius_sign": "Subconsius Sign",
+      "item.mintyirlplanets.subconsius_hanging_sign": "Subconsius Hanging Sign",
+      "item.mintyirlplanets.subconsius_boat": "Subconsius Boat",
+      "entity.mintyirlplanets.subconsius_boat": "Subconsius Boat",
+      "entity.mintyirlplanets.subconsius_chest_boat": "Subconsius Boat with Chest",
+      "item.mintyirlplanets.subconsius_chest_boat": "Subconsius Boat with Chest",
+      "biome.mintyirlplanets.mars_forest": "Mars Forest",
+      "item.mintyirlplanets.unconsium_sapling": "Unconsium Sapling",
+      "item.mintyirlplanets.herbal_leaf": "Herbal Leaf",
+      "entity.mintyirlplanets.stag_beetle": "Stag Beetle",
+      "item.mintyirlplanets.stag_beetle_spawn_egg": "Stag Beetle Spawn Egg",
+      "item.mintyirlplanets.hopper_nymph_spawn_egg": "Hopper Nymph Spawn Egg",
+      "entity.mintyirlplanets.hopper_nymph": "Hopper Nymph",
+      "subtitles.stagbeetlehurt": "Stag Beetle being hurt",
+      "subtitles.stagbeetleidle": "Stag Beetle idle",
+      "subtitles.stagbeetlewalking": "",
+      "subtitles.hoppernymphhurt": "Hopper Nymph Hurt"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModWoodTypes.java",
       "src/main/java/net/mcreator/mintyirlplanets/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/mintyirlplanets/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModFluidTypes.java",
       "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModFluids.java",
+      "src/main/resources/data/neoforge/data_maps/item/compostables.json",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModMobEffects.java",
       "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModPotions.java",
@@ -11090,7 +12152,8 @@
       "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModTabs.java",
       "src/main/resources/assets/mintyirlplanets/sounds.json",
       "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModModels.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/mintyirlplanets/init/MintyirlplanetsModDispenseBehaviors.java"
     ]
   },
   "foldersRoot": {

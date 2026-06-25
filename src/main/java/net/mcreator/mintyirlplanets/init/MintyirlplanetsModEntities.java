@@ -71,6 +71,18 @@ public class MintyirlplanetsModEntities {
 			EntityType.Builder.<GleepGlorpEntity>of(GleepGlorpEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<SubconsiusBoatEntity>> SUBCONSIUS_BOAT = register("subconsius_boat",
+			EntityType.Builder.<SubconsiusBoatEntity>of(SubconsiusBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
+	public static final DeferredHolder<EntityType<?>, EntityType<SubconsiusChestBoatEntity>> SUBCONSIUS_CHEST_BOAT = register("subconsius_chest_boat",
+			EntityType.Builder.<SubconsiusChestBoatEntity>of(SubconsiusChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
+	public static final DeferredHolder<EntityType<?>, EntityType<StagBeetleEntity>> STAG_BEETLE = register("stag_beetle",
+			EntityType.Builder.<StagBeetleEntity>of(StagBeetleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.8f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<HopperNymphEntity>> HOPPER_NYMPH = register("hopper_nymph",
+			EntityType.Builder.<HopperNymphEntity>of(HopperNymphEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.8f, 0.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -90,6 +102,8 @@ public class MintyirlplanetsModEntities {
 		NightmareEntity.init(event);
 		LarryEntity.init(event);
 		GleepGlorpEntity.init(event);
+		StagBeetleEntity.init(event);
+		HopperNymphEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -104,5 +118,7 @@ public class MintyirlplanetsModEntities {
 		event.put(NIGHTMARE.get(), NightmareEntity.createAttributes().build());
 		event.put(LARRY.get(), LarryEntity.createAttributes().build());
 		event.put(GLEEP_GLORP.get(), GleepGlorpEntity.createAttributes().build());
+		event.put(STAG_BEETLE.get(), StagBeetleEntity.createAttributes().build());
+		event.put(HOPPER_NYMPH.get(), HopperNymphEntity.createAttributes().build());
 	}
 }

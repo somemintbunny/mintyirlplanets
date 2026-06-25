@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:cold_dust",
+    "b": "mintyirlplanets:croatian_planks",
+    "c": "mintyirlplanets:empty_egg"
+  },
+  "result": {
+    "id": "mintyirlplanets:shrumpher_spawn_egg",
+    "count": 20
+  }
+}

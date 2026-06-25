@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:adamantiumm",
+    "b": "mintyirlplanets:fiber_ball",
+    "c": "mintyirlplanets:empty_egg"
+  },
+  "result": {
+    "id": "mintyirlplanets:choked_zombie_spawn_egg",
+    "count": 20
+  }
+}

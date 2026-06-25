@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#mintyirlplanets:subconsius_logs",
+      "required": false
+    }
+  ]
+}

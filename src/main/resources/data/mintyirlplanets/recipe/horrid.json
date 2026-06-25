@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:antimatter",
+    "b": "mintyirlplanets:dormant_horrid_mercury"
+  },
+  "result": {
+    "id": "mintyirlplanets:horrid_mercury",
+    "count": 1
+  }
+}

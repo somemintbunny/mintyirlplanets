@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:subconsius_planks"
+  },
+  "result": {
+    "id": "mintyirlplanets:subconsius_stairs",
+    "count": 4
+  }
+}

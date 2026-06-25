@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chest_boat",
+  "category": "misc",
+  "ingredients": [
+    "mintyirlplanets:subconsius_boat",
+    "minecraft:chest"
+  ],
+  "result": {
+    "id": "mintyirlplanets:subconsius_chest_boat",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mintyirlplanets:block/subconsius_leaves",
+    "particle": "mintyirlplanets:block/subconsius_leaves"
+  }
+}

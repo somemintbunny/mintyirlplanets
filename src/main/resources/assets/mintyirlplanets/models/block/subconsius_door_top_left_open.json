@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "mintyirlplanets:block/subconsius_door_bottom",
+    "bottom": "mintyirlplanets:block/subconsius_door_bottom",
+    "top": "mintyirlplanets:block/subconsius_door_top"
+  },
+  "render_type": "cutout"
+}

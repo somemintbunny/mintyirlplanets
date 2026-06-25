@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 20,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": "CUSTOM:FragrentBark"
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": "CUSTOM:FragrentBark"
+      },
+      {
+        "value": "CUSTOM:EmptyEgg"
+      },
+      {
+        "value": "CUSTOM:FragrentBark"
+      },
+      {
+        "value": "CUSTOM:AlienHyde"
+      },
+      {
+        "value": "CUSTOM:FragrentBark"
+      },
+      {
+        "value": "CUSTOM:AlienHyde"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GleepGlorp.spawn_egg"
+    },
+    "name": "egg_11",
+    "namespace": "mod"
+  }
+}

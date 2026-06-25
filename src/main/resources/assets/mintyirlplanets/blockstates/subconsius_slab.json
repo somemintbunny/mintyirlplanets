@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mintyirlplanets:block/subconsius_slab"
+    },
+    "type=top": {
+      "model": "mintyirlplanets:block/subconsius_slab_top"
+    },
+    "type=double": {
+      "model": "mintyirlplanets:block/subconsius_slab_full"
+    }
+  }
+}

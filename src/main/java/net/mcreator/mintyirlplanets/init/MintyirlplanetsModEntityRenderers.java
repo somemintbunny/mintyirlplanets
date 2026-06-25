@@ -9,6 +9,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+import net.minecraft.client.renderer.entity.BoatRenderer;
 
 import net.mcreator.mintyirlplanets.client.renderer.*;
 
@@ -32,5 +33,9 @@ public class MintyirlplanetsModEntityRenderers {
 		event.registerEntityRenderer(MintyirlplanetsModEntities.DDBLT.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.LARRY.get(), LarryRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.GLEEP_GLORP.get(), GleepGlorpRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.SUBCONSIUS_BOAT.get(), context -> new BoatRenderer(context, MintyirlplanetsModModels.SUBCONSIUS_BOAT_LAYER_LOCATION));
+		event.registerEntityRenderer(MintyirlplanetsModEntities.SUBCONSIUS_CHEST_BOAT.get(), context -> new BoatRenderer(context, MintyirlplanetsModModels.SUBCONSIUS_CHEST_BOAT_LAYER_LOCATION));
+		event.registerEntityRenderer(MintyirlplanetsModEntities.STAG_BEETLE.get(), StagBeetleRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.HOPPER_NYMPH.get(), HopperNymphRenderer::new);
 	}
 }

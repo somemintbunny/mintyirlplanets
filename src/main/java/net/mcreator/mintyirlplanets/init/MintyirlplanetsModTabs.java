@@ -64,12 +64,31 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_LEAVES.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_STAIRS.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PRESSURE_PLATE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_FENCE_GATE.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_PRESSURE_PLATE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CROATIAN_BUTTON.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.NETTLE_VINES.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CAVE_MOSS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.UNCONSIUM_SAPLING.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_PLANKS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_LEAVES.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.STRIPPED_SUBCONSIUS_LOG.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.STRIPPED_SUBCONSIUS_WOOD.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_STAIRS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_SLAB.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_TRAPDOOR.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_PRESSURE_PLATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_FENCE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_FENCE_GATE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_BUTTON.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.SUBCONSIUS_BOAT.get());
+				tabData.accept(MintyirlplanetsModItems.SUBCONSIUS_CHEST_BOAT.get());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_DOOR.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_SIGN.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SUBCONSIUS_HANGING_SIGN.get().asItem());
 			}).withTabsBefore(MOON_BLOCKS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SATURN_BLOCKS = REGISTRY.register("saturn_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.saturn_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOSSY_STRANGE_STONE.get())).displayItems((parameters, tabData) -> {
@@ -206,16 +225,19 @@ public class MintyirlplanetsModTabs {
 			}).withTabsBefore(WEAPONS_AND_TOOLS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOB_SPAWNING = REGISTRY.register("mob_spawning",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mob_spawning")).icon(() -> new ItemStack(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModItems.EMPTY_EGG.get());
+				tabData.accept(MintyirlplanetsModItems.MARTIAN_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get());
+				tabData.accept(MintyirlplanetsModItems.SHRUMPHER_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.DEBUGGER_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.THE_CRUSHER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.SHRUMPHER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.MARTIAN_SPAWN_EGG.get());
+				tabData.accept(MintyirlplanetsModItems.STAG_BEETLE_SPAWN_EGG.get());
+				tabData.accept(MintyirlplanetsModItems.HOPPER_NYMPH_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.CHOKED_ZOMBIE_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.STILL_SLINGER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.NIGHTMARE_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.LARRY_SPAWN_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.GLEEP_GLORP_SPAWN_EGG.get());
+				tabData.accept(MintyirlplanetsModItems.NIGHTMARE_SPAWN_EGG.get());
 			}).withTabsBefore(ARMOUR.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MUSIC_DISCS = REGISTRY.register("music_discs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.music_discs")).icon(() -> new ItemStack(MintyirlplanetsModItems.DISC_1.get())).displayItems((parameters, tabData) -> {
@@ -279,6 +301,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.COOKED_MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.MARTIAN_SALAD.get());
+				tabData.accept(MintyirlplanetsModItems.HERBAL_LEAF.get());
 			}).withTabsBefore(MINERALS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MISC = REGISTRY.register("misc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.misc")).icon(() -> new ItemStack(MintyirlplanetsModItems.THE_MOON.get())).displayItems((parameters, tabData) -> {

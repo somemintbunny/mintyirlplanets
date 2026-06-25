@@ -3,7 +3,8 @@
   "biomes": [
     "mintyirlplanets:mars_biome",
     "mintyirlplanets:living_mars",
-    "mintyirlplanets:fiberglass_desert"
+    "mintyirlplanets:fiberglass_desert",
+    "mintyirlplanets:mars_forest"
   ],
   "features": "mintyirlplanets:moss_grass_spawn",
   "step": "underground_decoration"

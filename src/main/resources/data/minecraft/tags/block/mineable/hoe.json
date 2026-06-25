@@ -1,10 +1,12 @@
 {
   "replace": false,
   "values": [
+    "mintyirlplanets:subconsius_leaves",
     "mintyirlplanets:nettle_vines",
     "mintyirlplanets:thorn_berry_bush",
     "mintyirlplanets:cave_moss",
     "mintyirlplanets:fiberglass",
+    "mintyirlplanets:unconsium_sapling",
     "mintyirlplanets:moonshroom_stem",
     "mintyirlplanets:blood_cactus"
   ]

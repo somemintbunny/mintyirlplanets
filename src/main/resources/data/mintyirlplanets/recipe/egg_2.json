@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": "mintyirlplanets:kryptonium",
+    "b": "mintyirlplanets:debugger_armour_helmet",
+    "c": "mintyirlplanets:empty_egg",
+    "d": "mintyirlplanets:cold_dust"
+  },
+  "result": {
+    "id": "mintyirlplanets:debugger_spawn_egg",
+    "count": 20
+  }
+}

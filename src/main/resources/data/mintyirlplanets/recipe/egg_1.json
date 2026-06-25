@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "mintyirlplanets:antimatter",
+    "b": "mintyirlplanets:moon_rock",
+    "c": "mintyirlplanets:crok_essence",
+    "d": "minecraft:egg"
+  },
+  "result": {
+    "id": "mintyirlplanets:empty_egg",
+    "count": 1
+  }
+}
