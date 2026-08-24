@@ -1,20 +1,14 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 5,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.POISONOUS_POTATO"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:SnapTrap"
-      }
+      "Items.POISONOUS_POTATO",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:SnapTrap"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -22,37 +16,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SnapTrap"
-      },
-      {
-        "value": "Items.POISONOUS_POTATO"
-      },
-      {
-        "value": "CUSTOM:SnapTrap"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:SnapTrap"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:SnapTrap"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:SnapTrap"
-      }
+      "CUSTOM:SnapTrap",
+      "Items.POISONOUS_POTATO",
+      "CUSTOM:SnapTrap",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:SnapTrap",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:SnapTrap",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:SnapTrap"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:PoisonSnapTrap"
-    },
+    "recipeReturnStack": "CUSTOM:PoisonSnapTrap",
     "name": "poison_trapupg",
     "namespace": "mod"
   }

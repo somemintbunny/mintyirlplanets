@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentPlanksBlock extends Block {
 	public FragrentPlanksBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(20f, 18.9287203344f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(20f, 18.9287203344f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

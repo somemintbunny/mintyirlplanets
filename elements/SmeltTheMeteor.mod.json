@@ -1,26 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Meteorite"
-      }
+      "CUSTOM:Meteorite"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 4.699999999999999,
     "cookingTime": 145,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "CUSTOM:Meteorite"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:Moldedmeteorite"
-    },
+    "blastingInputStack": "CUSTOM:Meteorite",
+    "blastingReturnStack": "CUSTOM:Moldedmeteorite",
     "name": "smelt_the_meteor",
     "namespace": "mod"
   }

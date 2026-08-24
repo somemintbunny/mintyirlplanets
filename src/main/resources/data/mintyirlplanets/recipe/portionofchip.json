@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bab",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:baked_potato",
+    "b": "minecraft:paper"
+  },
+  "result": {
+    "id": "mintyirlplanets:portion_of_chips",
+    "count": 1
+  }
+}

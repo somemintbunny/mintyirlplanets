@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:BlankDisc"
-      }
+      "CUSTOM:BlankDisc"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FerrousSand"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FerrousSand"
-      },
-      {
-        "value": "CUSTOM:BlankDisc"
-      },
-      {
-        "value": "CUSTOM:FerrousSand"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FerrousSand"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "CUSTOM:FerrousSand",
+      "",
+      "CUSTOM:FerrousSand",
+      "CUSTOM:BlankDisc",
+      "CUSTOM:FerrousSand",
+      "",
+      "CUSTOM:FerrousSand",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:MusicDiscMars"
-    },
+    "recipeReturnStack": "CUSTOM:MusicDiscMars",
     "name": "disc_4",
     "namespace": "mod"
   }

@@ -3,7 +3,8 @@
   "biomes": [
     "mintyirlplanets:mars_biome",
     "mintyirlplanets:fiberglass_desert",
-    "mintyirlplanets:living_mars"
+    "mintyirlplanets:living_mars",
+    "mintyirlplanets:mars_forest"
   ],
   "features": "mintyirlplanets:chlorite",
   "step": "underground_ores"

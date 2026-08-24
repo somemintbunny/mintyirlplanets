@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      }
+      "CUSTOM:StrippedSubconsiusLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog",
+      "",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:StrippedSubconsiusWood"
-    },
+    "recipeReturnStack": "CUSTOM:StrippedSubconsiusWood",
     "name": "stripped_subconsius_wood_recipe",
     "namespace": "mod"
   }

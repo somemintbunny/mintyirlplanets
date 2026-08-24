@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "CUSTOM:FragrentPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks",
+      "",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.CRAFTING_TABLE"
-    },
+    "recipeReturnStack": "Blocks.CRAFTING_TABLE",
     "name": "crafefd",
     "namespace": "mod"
   }

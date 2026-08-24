@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:MartianSalad"
-      }
+      "CUSTOM:MartianSalad"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:StrangeStone"
-      },
-      {
-        "value": "CUSTOM:ClearPlastc"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:StrangeStone"
-      },
-      {
-        "value": "CUSTOM:MartianSalad"
-      },
-      {
-        "value": "CUSTOM:Soulstone"
-      },
-      {
-        "value": "CUSTOM:StrangeStone"
-      },
-      {
-        "value": "CUSTOM:ClearPlastc"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:StrangeStone",
+      "CUSTOM:ClearPlastc",
+      "",
+      "CUSTOM:StrangeStone",
+      "CUSTOM:MartianSalad",
+      "CUSTOM:Soulstone",
+      "CUSTOM:StrangeStone",
+      "CUSTOM:ClearPlastc",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:TheAntidote"
-    },
+    "recipeReturnStack": "CUSTOM:TheAntidote",
     "name": "synge",
     "namespace": "mod"
   }

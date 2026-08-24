@@ -1,29 +1,17 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:Moon"
-      },
-      {
-        "value": "CUSTOM:DarkMoon"
-      },
-      {
-        "value": "CUSTOM:Moonshroom"
-      },
-      {
-        "value": "CUSTOM:Terracelium"
-      }
+      "CUSTOM:Moon",
+      "CUSTOM:DarkMoon",
+      "CUSTOM:Moonshroom",
+      "CUSTOM:Terracelium"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:MoonRock"
-    },
-    "fluidBlock": {
-      "value": "CUSTOM:Gustavium"
-    },
+    "mainFillerBlock": "CUSTOM:MoonRock",
+    "fluidBlock": "CUSTOM:Gustavium",
     "seaLevel": 4,
     "generateOreVeins": false,
     "generateAquifers": true,
@@ -33,7 +21,7 @@
     "useCustomEffects": true,
     "hasClouds": false,
     "cloudHeight": 192,
-    "skyType": "END",
+    "skyType": "NONE",
     "airColor": {
       "value": -16777216,
       "falpha": 0.0
@@ -44,27 +32,31 @@
     "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": true,
-    "fixedTimeValue": 18600,
+    "fixedTimeValue": 16000,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "skyboxTextureUp": "",
+    "skyboxTextureDown": "",
+    "skyboxTextureNorth": "",
+    "skyboxTextureSouth": "",
+    "skyboxTextureWest": "",
+    "skyboxTextureEast": "",
+    "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
-    "piglinSafe": false,
+    "piglinSafe": true,
     "hasRaids": false,
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": {
-      "value": "Blocks.WARPED_PLANKS"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "portalFrame": "Blocks.WARPED_PLANKS",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "The Moon Portal Igniter",
     "igniterRarity": "COMMON",
@@ -75,9 +67,7 @@
       ]
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Misc"
-      }
+      "CUSTOM:Misc"
     ],
     "texture": "moonportalign",
     "portalTexture": "mooonportal",

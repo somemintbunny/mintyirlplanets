@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "wooden_slab",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:CroatianPlanks"
-      }
+      "CUSTOM:CroatianPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CroatianPlanks"
-      },
-      {
-        "value": "CUSTOM:CroatianPlanks"
-      },
-      {
-        "value": "CUSTOM:CroatianPlanks"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:CroatianPlanks",
+      "CUSTOM:CroatianPlanks",
+      "CUSTOM:CroatianPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CroatianSlab"
-    },
+    "recipeReturnStack": "CUSTOM:CroatianSlab",
     "name": "croatian_slab_recipe",
     "namespace": "mod"
   }

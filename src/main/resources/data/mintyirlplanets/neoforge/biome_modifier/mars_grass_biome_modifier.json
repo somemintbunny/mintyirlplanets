@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "mintyirlplanets:mars_biome",
+    "mintyirlplanets:mars_forest",
+    "mintyirlplanets:living_mars"
+  ],
+  "features": "mintyirlplanets:mars_grass",
+  "step": "surface_structures"
+}

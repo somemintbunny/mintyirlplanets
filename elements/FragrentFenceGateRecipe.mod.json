@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "wooden_fence_gate",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "CUSTOM:FragrentLog",
+      "CUSTOM:FragrentPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "Items.STICK"
-      }
+      "",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:FragrentPlanks",
+      "Items.STICK",
+      "Items.STICK",
+      "CUSTOM:FragrentPlanks",
+      "Items.STICK"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:FragrentFenceGate"
-    },
+    "recipeReturnStack": "CUSTOM:FragrentFenceGate",
     "name": "fragrent_fence_gate_recipe",
     "namespace": "mod"
   }

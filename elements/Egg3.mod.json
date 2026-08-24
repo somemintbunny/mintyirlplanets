@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 20,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:EmptyEgg"
-      }
+      "CUSTOM:EmptyEgg"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.SPIDER_EYE"
-      },
-      {
-        "value": "Items.SPIDER_EYE"
-      },
-      {
-        "value": "Items.SPIDER_EYE"
-      },
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": "CUSTOM:EmptyEgg"
-      },
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": "CUSTOM:TvMeat"
-      },
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": "CUSTOM:TvMeat"
-      }
+      "Items.SPIDER_EYE",
+      "Items.SPIDER_EYE",
+      "Items.SPIDER_EYE",
+      "CUSTOM:DamnedPlanks",
+      "CUSTOM:EmptyEgg",
+      "CUSTOM:DamnedPlanks",
+      "CUSTOM:TvMeat",
+      "CUSTOM:DamnedPlanks",
+      "CUSTOM:TvMeat"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Eyezor.spawn_egg"
-    },
+    "recipeReturnStack": "CUSTOM:Eyezor.spawn_egg",
     "name": "egg_3",
     "namespace": "mod"
   }

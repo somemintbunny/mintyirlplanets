@@ -1,34 +1,26 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Moonshroom",
-    "groundBlock": {
-      "value": "CUSTOM:MoonshroomMoss"
+    "groundBlock": "CUSTOM:MoonshroomMoss",
+    "undergroundBlock": "CUSTOM:MoonRock",
+    "underwaterBlock": "CUSTOM:DarkMoonRock",
+    "airColor": {
+      "value": -13605242,
+      "falpha": 0.0
     },
-    "undergroundBlock": {
-      "value": "CUSTOM:MoonRock"
+    "fogColor": {
+      "value": -14536374,
+      "falpha": 0.0
     },
-    "underwaterBlock": {
-      "value": "CUSTOM:DarkMoonRock"
-    },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": "CUSTOM:disc3"
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "CUSTOM:disc3",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
+    "particleToSpawn": "EXPLOSION_NORMAL",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -59,22 +51,14 @@
       "min": 0.6,
       "max": 0.9
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -98,18 +82,14 @@
     "spawnRuinedPortal": "NONE",
     "spawnEntries": [
       {
-        "entity": {
-          "value": "CUSTOM:Debugger"
-        },
+        "entity": "CUSTOM:Debugger",
         "minGroup": 4,
         "maxGroup": 13,
         "weight": 20,
         "spawnType": "ambient"
       },
       {
-        "entity": {
-          "value": "CUSTOM:Martian"
-        },
+        "entity": "CUSTOM:Martian",
         "minGroup": 1,
         "maxGroup": 15,
         "weight": 20,

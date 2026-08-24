@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.CHEST",
+      "Items.LEATHER"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.LEATHER",
+      "Items.LEATHER",
+      "Items.LEATHER",
+      "Items.LEATHER",
+      "Blocks.CHEST",
+      "Items.LEATHER",
+      "Items.LEATHER",
+      "Items.LEATHER",
+      "Items.LEATHER"
+    ],
+    "recipeReturnStack": "Blocks.BROWN_SHULKER_BOX",
+    "name": "shulker_box",
+    "namespace": "minecraft"
+  }
+}

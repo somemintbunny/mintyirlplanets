@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class CroatianButtonBlock extends ButtonBlock {
 	public CroatianButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

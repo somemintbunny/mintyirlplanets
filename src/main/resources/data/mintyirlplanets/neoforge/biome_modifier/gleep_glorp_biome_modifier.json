@@ -6,8 +6,8 @@
   ],
   "spawners": {
     "type": "mintyirlplanets:gleep_glorp",
-    "weight": 15,
-    "minCount": 3,
-    "maxCount": 6
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
   }
 }

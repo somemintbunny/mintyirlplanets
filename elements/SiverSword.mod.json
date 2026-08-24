@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -15,9 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:WeaponsAndTools"
-      }
+      "CUSTOM:WeaponsAndTools"
     ],
     "efficiency": 0.0,
     "attackSpeed": 1.4,
@@ -28,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:SiverIngot"
-      }
+      "CUSTOM:SiverIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "IRON",

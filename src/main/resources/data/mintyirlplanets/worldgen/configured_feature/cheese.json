@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 3,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:moon_rock"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:cheese"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mintyirlplanets:dark_moon_rock"
+          }
+        },
+        "state": {
+          "Name": "mintyirlplanets:cheese"
+        }
+      }
+    ]
+  }
+}

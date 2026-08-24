@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:TosserTot"
-            },
+            "item": "CUSTOM:TosserTot",
             "weight": 9,
             "minCount": 1,
             "maxCount": 4,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:TosserBush"
-            },
+            "item": "CUSTOM:TosserBush",
             "weight": 5,
             "minCount": 1,
             "maxCount": 1,

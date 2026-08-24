@@ -2,6 +2,7 @@ package net.mcreator.mintyirlplanets.block;
 
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.resources.ResourceLocation;
@@ -13,6 +14,6 @@ public class CrokBulbBlock extends Block {
 				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:plasticbreak")),
 						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:plasticwalk")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:holowplastichit")),
 						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:plastichit")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglassbreak"))))
-				.strength(1f, 10f).lightLevel(blockstate -> 15));
+				.strength(1f, 10f).lightLevel(blockstate -> 15).instrument(NoteBlockInstrument.HARP));
 	}
 }

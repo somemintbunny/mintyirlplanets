@@ -25,7 +25,7 @@ public class SubconsiusLogBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public SubconsiusLogBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(6f, 4.8164493706f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(6f, 4.8164493706f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

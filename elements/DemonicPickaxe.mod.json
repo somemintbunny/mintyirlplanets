@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
@@ -8,15 +8,14 @@
     "texture": "demonic_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Demonic Pickaxe",
+    "guiTexture": "",
+    "name": "Demonite Pickaxe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:WeaponsAndTools"
-      }
+      "CUSTOM:WeaponsAndTools"
     ],
     "efficiency": 26.0,
     "attackSpeed": 5.0,
@@ -27,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:DemonicIngot"
-      }
+      "CUSTOM:DemonicIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",

@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:DragonFossil"
-      },
-      {
-        "value": "CUSTOM:CrokEssence"
-      }
+      "CUSTOM:DragonFossil",
+      "CUSTOM:CrokEssence"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DragonFossil"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DragonFossil"
-      },
-      {
-        "value": "CUSTOM:CrokEssence"
-      },
-      {
-        "value": "CUSTOM:DragonFossil"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DragonFossil"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "CUSTOM:DragonFossil",
+      "",
+      "CUSTOM:DragonFossil",
+      "CUSTOM:CrokEssence",
+      "CUSTOM:DragonFossil",
+      "",
+      "CUSTOM:DragonFossil",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrokBulb"
-    },
+    "recipeReturnStack": "CUSTOM:CrokBulb",
     "name": "bulbrecipe",
     "namespace": "mod"
   }

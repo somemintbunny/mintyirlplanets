@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2SlabBlock extends SlabBlock {
 	public Moonshroom2SlabBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

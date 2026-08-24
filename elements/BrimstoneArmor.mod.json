@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,10 +10,9 @@
     "textureLeggings": "bloodstonepants",
     "enableBoots": true,
     "textureBoots": "bloodstoneshoes",
+    "onHelmetTick": "Magnumger",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "bloodstone_armor",
     "helmetName": "Brimstone Helmet",
@@ -96,14 +95,11 @@
     "enchantability": 72,
     "toughness": 8.0,
     "knockbackResistance": 1.7000000000000002,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Brimstone"
-      }
+      "CUSTOM:Brimstone"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

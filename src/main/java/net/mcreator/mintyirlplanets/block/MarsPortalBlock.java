@@ -2,8 +2,6 @@ package net.mcreator.mintyirlplanets.block;
 
 import org.slf4j.Logger;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.portal.TeleportTransition;
 import net.minecraft.world.level.material.PushReaction;

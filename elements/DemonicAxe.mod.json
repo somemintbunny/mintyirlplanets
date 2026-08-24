@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -8,15 +8,14 @@
     "texture": "demonic_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Demonic Axe",
+    "guiTexture": "",
+    "name": "Demonite Axe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:WeaponsAndTools"
-      }
+      "CUSTOM:WeaponsAndTools"
     ],
     "efficiency": 25.5,
     "attackSpeed": 2.0,
@@ -27,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:DemonicIngot"
-      }
+      "CUSTOM:DemonicIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",

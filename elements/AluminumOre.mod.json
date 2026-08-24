@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "bauxiteore",
@@ -51,14 +51,10 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Minerals"
-      }
+      "CUSTOM:Minerals"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": "CUSTOM:Bauxite"
-    },
+    "customDrop": "CUSTOM:Bauxite",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,14 +74,10 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "basedrum",
-    "creativePickItem": {
-      "value": "CUSTOM:AluminumOre"
-    },
+    "creativePickItem": "CUSTOM:AluminumOre",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -95,25 +87,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "STONE",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "STONE"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -143,19 +123,15 @@
     "fluidRestrictions": [],
     "generateFeature": true,
     "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
+      "#is_overworld"
     ],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
+      "TAG:stone_ore_replaceables"
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
+    "frequencyPerChunks": 7,
     "frequencyOnChunk": 4,
     "minGenerateHeight": -64,
-    "maxGenerateHeight": 21
+    "maxGenerateHeight": 24
   }
 }

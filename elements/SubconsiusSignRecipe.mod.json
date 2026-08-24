@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "wooden_sign",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "CUSTOM:SubconsiusPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusSign"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusSign",
     "name": "subconsius_sign_recipe",
     "namespace": "mod"
   }

@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:DamnedLog"
-      }
+      "CUSTOM:DamnedLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:DamnedLog"
-      },
-      {
-        "value": "CUSTOM:DamnedLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DamnedLog"
-      },
-      {
-        "value": "CUSTOM:DamnedLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:DamnedLog",
+      "CUSTOM:DamnedLog",
+      "",
+      "CUSTOM:DamnedLog",
+      "CUSTOM:DamnedLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DamnedWood"
-    },
+    "recipeReturnStack": "CUSTOM:DamnedWood",
     "name": "damned_wood_recipe",
     "namespace": "mod"
   }

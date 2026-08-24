@@ -26,7 +26,7 @@ public class MoonMushroomBlock extends Block implements BonemealableBlock {
 	private static final VoxelShape SHAPE = box(2, 0, 2, 14, 12, 14);
 
 	public MoonMushroomBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.LAPIS).sound(SoundType.ROOTS).strength(1f, 8f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HAT));
+		super(properties.mapColor(MapColor.LAPIS).sound(SoundType.ROOTS).strength(1f, 8f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

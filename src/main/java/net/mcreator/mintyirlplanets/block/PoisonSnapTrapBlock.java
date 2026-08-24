@@ -4,7 +4,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.redstone.Orientation;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -27,7 +26,7 @@ public class PoisonSnapTrapBlock extends Block {
 	private static final VoxelShape SHAPE = box(2, 0, 2, 14, 12, 14);
 
 	public PoisonSnapTrapBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.DEEPSLATE).strength(1.5f, 12f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.XYLOPHONE));
+		super(properties.sound(SoundType.DEEPSLATE).strength(1.5f, 12f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

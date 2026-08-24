@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class SiverOreBlock extends Block {
 	public SiverOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(3f, 5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(3f, 5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

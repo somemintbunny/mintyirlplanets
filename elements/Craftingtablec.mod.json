@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:DamnedLog"
-      }
+      "CUSTOM:DamnedLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": "CUSTOM:DamnedPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:DamnedPlanks",
+      "CUSTOM:DamnedPlanks",
+      "",
+      "CUSTOM:DamnedPlanks",
+      "CUSTOM:DamnedPlanks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.CRAFTING_TABLE"
-    },
+    "recipeReturnStack": "Blocks.CRAFTING_TABLE",
     "name": "craftingtablec",
     "namespace": "mod"
   }

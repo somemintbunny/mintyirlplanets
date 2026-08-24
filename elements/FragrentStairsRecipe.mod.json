@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "wooden_stairs",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "CUSTOM:FragrentLog",
+      "CUSTOM:FragrentPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "CUSTOM:FragrentPlanks",
+      "",
+      "",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks",
+      "",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:FragrentStairs"
-    },
+    "recipeReturnStack": "CUSTOM:FragrentStairs",
     "name": "fragrent_stairs_recipe",
     "namespace": "mod"
   }

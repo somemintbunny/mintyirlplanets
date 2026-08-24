@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Kryptonium"
-            },
+            "item": "CUSTOM:Kryptonium",
             "weight": 1,
             "minCount": 1,
             "maxCount": 2,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumOre"
-            },
+            "item": "CUSTOM:KryptoniumOre",
             "weight": 3,
             "minCount": 1,
             "maxCount": 1,
@@ -59,9 +55,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Antimatter"
-            },
+            "item": "CUSTOM:Antimatter",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -11,12 +11,8 @@
     "enableBoots": true,
     "textureBoots": "debuggeryeezees",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:EndgameBlocks"
-      },
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:EndgameBlocks",
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "arm1",
     "helmetName": "§cDebugger Glasses",
@@ -99,14 +95,11 @@
     "enchantability": 15,
     "toughness": 4.0,
     "knockbackResistance": 0.1,
-    "equipSound": {
-      "value": "block.big_dripleaf.fall"
-    },
+    "equipSound": "block.big_dripleaf.fall",
     "repairItems": [
-      {
-        "value": "CUSTOM:DebugPick"
-      }
+      "CUSTOM:DebugPick"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

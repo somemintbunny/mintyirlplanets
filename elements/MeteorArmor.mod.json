@@ -1,0 +1,105 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "meteor_head",
+    "enableBody": true,
+    "textureBody": "meteor_body",
+    "enableLeggings": true,
+    "textureLeggings": "meteor_leggings",
+    "enableBoots": true,
+    "textureBoots": "meteor_boots",
+    "onHelmetTick": "Theuhhthingy",
+    "creativeTabs": [
+      "CUSTOM:Armour"
+    ],
+    "armorTextureFile": "meteor",
+    "helmetName": "Meteor Helmet",
+    "bodyName": "Meteor Chestplate",
+    "leggingsName": "Meteor Leggings",
+    "bootsName": "Meteor Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 175,
+    "damageValueHelmet": 28,
+    "damageValueBody": 64,
+    "damageValueLeggings": 52,
+    "damageValueBoots": 24,
+    "enchantability": 90,
+    "toughness": 14.0,
+    "knockbackResistance": 0.0,
+    "equipSound": "",
+    "repairItems": [
+      "CUSTOM:Moldedmeteorite"
+    ],
+    "rarity": "UNCOMMON",
+    "attributeModifiers": []
+  }
+}

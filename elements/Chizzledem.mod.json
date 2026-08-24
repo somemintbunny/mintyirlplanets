@@ -1,23 +1,15 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Blocks.EMERALD_BLOCK"
-      },
-      {
-        "value": "CUSTOM:EmeraldBricks"
-      },
-      {
-        "value": "CUSTOM:EmeraldSlateSlab"
-      }
+      "Items.EMERALD",
+      "Blocks.EMERALD_BLOCK",
+      "CUSTOM:EmeraldBricks",
+      "CUSTOM:EmeraldSlateSlab"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -25,37 +17,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:EmeraldSlateSlab"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:EmeraldSlateSlab"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "CUSTOM:EmeraldSlateSlab",
+      "",
+      "",
+      "CUSTOM:EmeraldSlateSlab",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChizzledEmerald"
-    },
+    "recipeReturnStack": "CUSTOM:ChizzledEmerald",
     "name": "chizzledem",
     "namespace": "mod"
   }

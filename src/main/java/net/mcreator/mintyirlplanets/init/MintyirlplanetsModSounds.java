@@ -34,4 +34,6 @@ public class MintyirlplanetsModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> STAGBEETLEIDLE = REGISTRY.register("stagbeetleidle", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "stagbeetleidle")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> STAGBEETLEWALKING = REGISTRY.register("stagbeetlewalking", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "stagbeetlewalking")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> HOPPERNYMPHHURT = REGISTRY.register("hoppernymphhurt", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "hoppernymphhurt")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> MARSTREES = REGISTRY.register("marstrees", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "marstrees")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> RABBATTLE = REGISTRY.register("rabbattle", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("mintyirlplanets", "rabbattle")));
 }

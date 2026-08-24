@@ -1,20 +1,14 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "duplicates",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:RawAdamantium"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:StrangeEnergy"
-      }
+      "CUSTOM:RawAdamantium",
+      "CUSTOM:Antimatter",
+      "CUSTOM:StrangeEnergy"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -22,37 +16,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:RawAdamantium"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      }
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:RawAdamantium",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:StrangeEnergy"
-    },
+    "recipeReturnStack": "CUSTOM:StrangeEnergy",
     "name": "duplicate_energy_2",
     "namespace": "mod"
   }

@@ -1,10 +1,13 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "mintyirlplanets:mars_forest",
+  "biomes": [
+    "mintyirlplanets:mars_forest",
+    "mintyirlplanets:horrid_moss"
+  ],
   "spawners": {
     "type": "mintyirlplanets:stag_beetle",
-    "weight": 25,
-    "minCount": 4,
-    "maxCount": 8
+    "weight": 15,
+    "minCount": 8,
+    "maxCount": 14
   }
 }

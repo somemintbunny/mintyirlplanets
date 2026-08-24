@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": "mintyirlplanets:slice_of_cheese",
+    "b": "minecraft:beetroot",
+    "c": "minecraft:bread"
+  },
+  "result": {
+    "id": "mintyirlplanets:pizza",
+    "count": 2
+  }
+}

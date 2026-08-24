@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -11,9 +11,7 @@
     "enableBoots": true,
     "textureBoots": "aluminium_boots",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "aluminium",
     "helmetName": "Alumineum Helmet",
@@ -96,14 +94,11 @@
     "enchantability": 23,
     "toughness": 2.5,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Alumineum"
-      }
+      "CUSTOM:Alumineum"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

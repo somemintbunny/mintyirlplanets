@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "sticks",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "CUSTOM:FragrentLog",
+      "CUSTOM:FragrentPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:FragrentPlanks",
+      "",
+      "",
+      "CUSTOM:FragrentPlanks",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Items.STICK"
-    },
+    "recipeReturnStack": "Items.STICK",
     "name": "fragrent_stick_recipe",
     "namespace": "mod"
   }

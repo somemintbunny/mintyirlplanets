@@ -1,34 +1,22 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Horrid Moss",
-    "groundBlock": {
-      "value": "CUSTOM:HorridFungus"
+    "groundBlock": "CUSTOM:HorridFungus",
+    "undergroundBlock": "CUSTOM:StrangeStone",
+    "underwaterBlock": "CUSTOM:StrangeStone",
+    "fogColor": {
+      "value": -10796525,
+      "falpha": 0.0
     },
-    "undergroundBlock": {
-      "value": "CUSTOM:StrangeStone"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:StrangeStone"
-    },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "ASH"
-    },
+    "particleToSpawn": "ASH",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -63,18 +51,10 @@
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves"
     ],

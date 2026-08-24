@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:SoulstoneOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:Soulstone"
-    },
+    "smeltingInputStack": "CUSTOM:SoulstoneOre",
+    "smeltingReturnStack": "CUSTOM:Soulstone",
     "name": "soulstone_ore_smelting",
     "namespace": "mod"
   }

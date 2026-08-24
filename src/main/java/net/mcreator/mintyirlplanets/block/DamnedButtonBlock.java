@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedButtonBlock extends ButtonBlock {
 	public DamnedButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

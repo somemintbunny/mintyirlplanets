@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class CroatianFenceGateBlock extends FenceGateBlock {
 	public CroatianFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 
 	@Override

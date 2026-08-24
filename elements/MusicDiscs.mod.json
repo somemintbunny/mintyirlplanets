@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Music Discs",
-    "icon": {
-      "value": "CUSTOM:Disc1"
-    },
+    "icon": "CUSTOM:Disc1",
     "showSearch": false
   }
 }

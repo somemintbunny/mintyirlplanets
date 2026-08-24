@@ -37,5 +37,9 @@ public class MintyirlplanetsModEntityRenderers {
 		event.registerEntityRenderer(MintyirlplanetsModEntities.SUBCONSIUS_CHEST_BOAT.get(), context -> new BoatRenderer(context, MintyirlplanetsModModels.SUBCONSIUS_CHEST_BOAT_LAYER_LOCATION));
 		event.registerEntityRenderer(MintyirlplanetsModEntities.STAG_BEETLE.get(), StagBeetleRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.HOPPER_NYMPH.get(), HopperNymphRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.EVIL_CHICKEN.get(), EvilChickenRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.SHROOMPLE.get(), ShroompleRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.MOON_FLOWER.get(), MoonFlowerRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.EVIL_MOON_FLOWER.get(), EvilMoonFlowerRenderer::new);
 	}
 }

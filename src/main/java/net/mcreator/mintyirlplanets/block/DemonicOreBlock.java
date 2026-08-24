@@ -12,7 +12,7 @@ import net.mcreator.mintyirlplanets.procedures.DemonicOreAdditionalHarvestCondit
 
 public class DemonicOreBlock extends Block {
 	public DemonicOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(12f, 15.1571656651f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(12f, 15.1571656651f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

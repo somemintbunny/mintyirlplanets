@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,27 +10,42 @@
     "textureLeggings": "demonic_pants",
     "enableBoots": true,
     "textureBoots": "demonic_boots",
+    "onHelmetTick": "DGearemonic",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "demonic",
-    "helmetName": "Demonic Helmet",
-    "bodyName": "Demonic Chestplate",
-    "leggingsName": "Demonic Leggings",
-    "bootsName": "Demonic Boots",
+    "helmetName": "Demonite Helmet",
+    "bodyName": "Demonite Chestplate",
+    "leggingsName": "Demonite Leggings",
+    "bootsName": "Demonite Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increased Health",
+        "Set Bonus: Replicates the power of a conduit",
+        "Reacts Badly With Adamantium"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increased Health",
+        "Set Bonus: Replicates the power of the confuit",
+        "Reacts Badly With Adamantium"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increased Health",
+        "Set Bonus Replicates the power of a conduit",
+        "Reacts Badly With Adamantium"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increased Health",
+        "Set Bonus Replicates the power of a conduit",
+        "Reacts Badly With Adamantium"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -89,21 +104,18 @@
       "fixedValue": false
     },
     "maxDamage": 76,
-    "damageValueHelmet": 16,
-    "damageValueBody": 24,
-    "damageValueLeggings": 20,
-    "damageValueBoots": 14,
+    "damageValueHelmet": 14,
+    "damageValueBody": 22,
+    "damageValueLeggings": 18,
+    "damageValueBoots": 12,
     "enchantability": 36,
     "toughness": 6.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:DemonicIngot"
-      }
+      "CUSTOM:DemonicIngot"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

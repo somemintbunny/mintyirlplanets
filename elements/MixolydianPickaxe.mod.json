@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
@@ -15,9 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:WeaponsAndTools"
-      }
+      "CUSTOM:WeaponsAndTools"
     ],
     "efficiency": 74.0,
     "attackSpeed": 12.0,

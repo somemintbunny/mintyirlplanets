@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChizzeledBone"
-      }
+      "CUSTOM:ChizzeledBone"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SmotheBone"
-      },
-      {
-        "value": "CUSTOM:SmotheBone"
-      },
-      {
-        "value": "CUSTOM:SmotheBone"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:SmotheBone",
+      "CUSTOM:SmotheBone",
+      "CUSTOM:SmotheBone",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SmothBoneSlab"
-    },
+    "recipeReturnStack": "CUSTOM:SmothBoneSlab",
     "name": "smoothboneslab",
     "namespace": "mod"
   }

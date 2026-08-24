@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Toxic Gas",
@@ -8,9 +8,7 @@
     "arrowName": "Toxic Arrow",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:ToxicGas"
-        },
+        "effect": "CUSTOM:ToxicGas",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

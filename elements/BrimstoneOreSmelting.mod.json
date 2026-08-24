@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -12,43 +12,19 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": ""
-    },
-    "smeltingInputStack": {
-      "value": "CUSTOM:BrimstoneOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:Brimstone"
-    },
+    "recipeReturnStack": "",
+    "smeltingInputStack": "CUSTOM:BrimstoneOre",
+    "smeltingReturnStack": "CUSTOM:Brimstone",
     "name": "brimstone_ore_smelting",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,10 +10,9 @@
     "textureLeggings": "adamantium_leggings",
     "enableBoots": true,
     "textureBoots": "adamantium_boots",
+    "onHelmetTick": "AdamantiumGear",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "adamantium",
     "helmetName": "Adamantiumm Helmet",
@@ -21,16 +20,32 @@
     "leggingsName": "Adamantiumm Leggings",
     "bootsName": "Adamantiumm Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Gramts Regeneration",
+        "Set Bonus: Increased Luck",
+        "Reacts Badly With Demonic Gear"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Grants Regeneration",
+        "Set Bonus: Increased Luck",
+        "Reacts Badly With Demonic Gear"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Grants Regeneration",
+        "Set Bonus: Increased Luck",
+        "Reacts Badly With Demonic Gear"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Grants Regeneration",
+        "Set Bonus: Increased Luck",
+        "Reacts Badly With Demonic Gear"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -89,21 +104,18 @@
       "fixedValue": false
     },
     "maxDamage": 63,
-    "damageValueHelmet": 12,
-    "damageValueBody": 21,
-    "damageValueLeggings": 18,
-    "damageValueBoots": 11,
+    "damageValueHelmet": 9,
+    "damageValueBody": 18,
+    "damageValueLeggings": 16,
+    "damageValueBoots": 9,
     "enchantability": 46,
     "toughness": 5.0,
     "knockbackResistance": 3.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Adamantiumm"
-      }
+      "CUSTOM:Adamantiumm"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

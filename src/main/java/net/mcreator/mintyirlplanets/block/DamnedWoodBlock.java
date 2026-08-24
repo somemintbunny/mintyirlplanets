@@ -19,7 +19,7 @@ public class DamnedWoodBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public DamnedWoodBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(13.4f, 9.1598811314f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(13.4f, 9.1598811314f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

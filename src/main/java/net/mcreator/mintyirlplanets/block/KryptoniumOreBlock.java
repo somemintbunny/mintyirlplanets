@@ -6,6 +6,6 @@ import net.minecraft.world.level.block.Block;
 
 public class KryptoniumOreBlock extends Block {
 	public KryptoniumOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(3f, 5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(3f, 5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 }

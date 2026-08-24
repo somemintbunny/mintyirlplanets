@@ -8,5 +8,5 @@
     "mintyirlplanets:glowing_caves"
   ],
   "features": "mintyirlplanets:stones",
-  "step": "underground_decoration"
+  "step": "surface_structures"
 }

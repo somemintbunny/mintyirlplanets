@@ -11,9 +11,7 @@ public class FlowerCrownHelmetTickEventProcedure {
 			return;
 		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(MobEffects.REGENERATION))) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 120, 3, false, false));
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 0, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 1, false, false));
 		}
 	}
 }

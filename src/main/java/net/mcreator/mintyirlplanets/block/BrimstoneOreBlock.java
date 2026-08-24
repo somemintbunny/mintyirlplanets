@@ -22,7 +22,7 @@ import java.util.function.Consumer;
 
 public class BrimstoneOreBlock extends Block {
 	public BrimstoneOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(24f, 26.3901582155f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(24f, 26.3901582155f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

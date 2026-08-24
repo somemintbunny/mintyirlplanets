@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 
 public class HorridFungusBlock extends Block {
 	public HorridFungusBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.NYLIUM).strength(4.5f, 20.5f).requiresCorrectToolForDrops().randomTicks().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.NYLIUM).strength(4.5f, 20.5f).requiresCorrectToolForDrops().randomTicks().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

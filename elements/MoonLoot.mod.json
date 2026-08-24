@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Chest",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:GlucosideExtract"
-            },
+            "item": "CUSTOM:GlucosideExtract",
             "weight": 4,
             "minCount": 0,
             "maxCount": 2,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Dreamdrop"
-            },
+            "item": "CUSTOM:Dreamdrop",
             "weight": 3,
             "minCount": 1,
             "maxCount": 2,
@@ -59,9 +55,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Kryptonium"
-            },
+            "item": "CUSTOM:Kryptonium",
             "weight": 5,
             "minCount": 1,
             "maxCount": 3,
@@ -82,9 +76,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Antimatter"
-            },
+            "item": "CUSTOM:Antimatter",
             "weight": 3,
             "minCount": 1,
             "maxCount": 3,
@@ -105,9 +97,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropPickaxe"
-            },
+            "item": "CUSTOM:DreamdropPickaxe",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -119,9 +109,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropSword"
-            },
+            "item": "CUSTOM:DreamdropSword",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -133,9 +121,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropAxe"
-            },
+            "item": "CUSTOM:DreamdropAxe",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -147,9 +133,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropShovel"
-            },
+            "item": "CUSTOM:DreamdropShovel",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -161,9 +145,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropHoe"
-            },
+            "item": "CUSTOM:DreamdropHoe",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -175,9 +157,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumPickaxe"
-            },
+            "item": "CUSTOM:KryptoniumPickaxe",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -189,9 +169,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumSword"
-            },
+            "item": "CUSTOM:KryptoniumSword",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -203,9 +181,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumAxe"
-            },
+            "item": "CUSTOM:KryptoniumAxe",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -226,9 +202,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumArmor.body"
-            },
+            "item": "CUSTOM:KryptoniumArmor.body",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -240,9 +214,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumArmor.helmet"
-            },
+            "item": "CUSTOM:KryptoniumArmor.helmet",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -254,9 +226,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumArmor.boots"
-            },
+            "item": "CUSTOM:KryptoniumArmor.boots",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -268,9 +238,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:KryptoniumArmor.legs"
-            },
+            "item": "CUSTOM:KryptoniumArmor.legs",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -291,9 +259,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Disc2"
-            },
+            "item": "CUSTOM:Disc2",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -314,9 +280,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "Blocks.WEB"
-            },
+            "item": "Blocks.WEB",
             "weight": 1,
             "minCount": 1,
             "maxCount": 2,
@@ -337,9 +301,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropArmor.helmet"
-            },
+            "item": "CUSTOM:DreamdropArmor.helmet",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -351,9 +313,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropArmor.body"
-            },
+            "item": "CUSTOM:DreamdropArmor.body",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -365,9 +325,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropArmor.legs"
-            },
+            "item": "CUSTOM:DreamdropArmor.legs",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -379,14 +337,33 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DreamdropArmor.boots"
-            },
+            "item": "CUSTOM:DreamdropArmor.boots",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 30,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 0,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": "CUSTOM:ChipShopMenu",
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0

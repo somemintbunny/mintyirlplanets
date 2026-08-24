@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Minerals",
-    "icon": {
-      "value": "CUSTOM:Dreamdrop"
-    },
+    "icon": "CUSTOM:Dreamdrop",
     "showSearch": false
   }
 }

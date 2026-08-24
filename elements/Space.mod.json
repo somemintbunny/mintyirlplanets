@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,13 +10,9 @@
     "textureLeggings": "spacesuit_leggings",
     "enableBoots": true,
     "textureBoots": "spaceboots",
-    "onHelmetTick": {
-      "name": "SpaceHelmetTickEvent"
-    },
+    "onHelmetTick": "SpaceHelmetTickEvent",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "spacesuit",
     "helmetName": "Space Helmet",
@@ -107,14 +103,11 @@
     "enchantability": 9,
     "toughness": 2.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Dreamdrop"
-      }
+      "CUSTOM:Dreamdrop"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

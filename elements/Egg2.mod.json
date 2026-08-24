@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 20,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:EmptyEgg"
-      }
+      "CUSTOM:EmptyEgg"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Kryptonium"
-      },
-      {
-        "value": "CUSTOM:DebuggerArmour.helmet"
-      },
-      {
-        "value": "CUSTOM:Kryptonium"
-      },
-      {
-        "value": "CUSTOM:Kryptonium"
-      },
-      {
-        "value": "CUSTOM:EmptyEgg"
-      },
-      {
-        "value": "CUSTOM:Kryptonium"
-      },
-      {
-        "value": "CUSTOM:ColdDust"
-      },
-      {
-        "value": "CUSTOM:ColdDust"
-      },
-      {
-        "value": "CUSTOM:ColdDust"
-      }
+      "CUSTOM:Kryptonium",
+      "CUSTOM:DebuggerArmour.helmet",
+      "CUSTOM:Kryptonium",
+      "CUSTOM:Kryptonium",
+      "CUSTOM:EmptyEgg",
+      "CUSTOM:Kryptonium",
+      "CUSTOM:ColdDust",
+      "CUSTOM:ColdDust",
+      "CUSTOM:ColdDust"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Debugger.spawn_egg"
-    },
+    "recipeReturnStack": "CUSTOM:Debugger.spawn_egg",
     "name": "egg_2",
     "namespace": "mod"
   }

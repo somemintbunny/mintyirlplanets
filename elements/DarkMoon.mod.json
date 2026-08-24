@@ -1,34 +1,42 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Dark Moon",
-    "groundBlock": {
-      "value": "CUSTOM:DarkMoonRock"
+    "groundBlock": "CUSTOM:DarkMoonRock",
+    "undergroundBlock": "CUSTOM:DarkMoonRock",
+    "underwaterBlock": "CUSTOM:DarkMoonRock",
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
     },
-    "undergroundBlock": {
-      "value": "CUSTOM:DarkMoonRock"
+    "fogColor": {
+      "value": -16777216,
+      "falpha": 0.0
     },
-    "underwaterBlock": {
-      "value": "CUSTOM:DarkMoonRock"
+    "grassColor": {
+      "value": -15000546,
+      "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
+    "foliageColor": {
+      "value": -15000546,
+      "falpha": 0.0
     },
-    "additionsSound": {
-      "value": ""
+    "waterColor": {
+      "value": -15000546,
+      "falpha": 0.0
     },
-    "music": {
-      "value": "CUSTOM:darkmoon"
+    "waterFogColor": {
+      "value": -15000546,
+      "falpha": 0.0
     },
-    "moodSound": {
-      "value": "ambient.cave"
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "CUSTOM:darkmoon",
+    "moodSound": "ambient.cave",
     "moodSoundDelay": 6000,
     "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "ASH"
-    },
+    "particleToSpawn": "ASH",
     "particlesProbability": 1.0,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -63,18 +71,10 @@
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves"
     ],

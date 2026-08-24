@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2FenceBlock extends FenceBlock {
 	public Moonshroom2FenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 
 	@Override

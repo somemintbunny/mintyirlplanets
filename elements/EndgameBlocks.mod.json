@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Endgame Items",
-    "icon": {
-      "value": "CUSTOM:DebugPick"
-    },
+    "icon": "CUSTOM:DebugPick",
     "showSearch": false
   }
 }

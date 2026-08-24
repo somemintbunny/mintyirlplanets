@@ -1,26 +1,16 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:SaturnMoss"
-      },
-      {
-        "value": "CUSTOM:SaturnStone"
-      },
-      {
-        "value": "CUSTOM:HorridMoss"
-      }
+      "CUSTOM:SaturnMoss",
+      "CUSTOM:SaturnStone",
+      "CUSTOM:HorridMoss"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Nether like gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:StrangeStone"
-    },
-    "fluidBlock": {
-      "value": "Blocks.LAVA"
-    },
+    "mainFillerBlock": "CUSTOM:StrangeStone",
+    "fluidBlock": "Blocks.LAVA",
     "seaLevel": 5,
     "generateOreVeins": true,
     "generateAquifers": true,
@@ -28,7 +18,7 @@
     "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
-    "hasClouds": true,
+    "hasClouds": false,
     "cloudHeight": 192,
     "skyType": "NONE",
     "airColor": {
@@ -37,37 +27,37 @@
     },
     "sunHeightAffectsFog": false,
     "canRespawnHere": true,
-    "hasFog": true,
-    "ambientLight": 0.05,
+    "hasFog": false,
+    "ambientLight": 0.3,
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "skyboxTextureUp": "",
+    "skyboxTextureDown": "",
+    "skyboxTextureNorth": "",
+    "skyboxTextureSouth": "",
+    "skyboxTextureWest": "",
+    "skyboxTextureEast": "",
+    "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
     "bedWorks": true,
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
     "piglinSafe": true,
     "hasRaids": true,
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 15,
     "monsterSpawnBlockLightLimit": 15,
-    "onPlayerEntersDimension": {
-      "name": "SaturnPlayerEntersDimension"
-    },
-    "onPlayerLeavesDimension": {
-      "name": "SaturnPlayerLeavesDimension"
-    },
-    "portalFrame": {
-      "value": "CUSTOM:CroatianPlanks"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "onPlayerEntersDimension": "SaturnPlayerEntersDimension",
+    "onPlayerLeavesDimension": "SaturnPlayerLeavesDimension",
+    "portalFrame": "CUSTOM:CroatianPlanks",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "Antiseptic Portal Cream",
     "igniterRarity": "COMMON",
@@ -75,9 +65,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Misc"
-      }
+      "CUSTOM:Misc"
     ],
     "texture": "saturnjuice",
     "portalTexture": "strangecobble",

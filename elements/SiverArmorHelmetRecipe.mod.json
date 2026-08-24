@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": "CUSTOM:SiverOre"
-      }
+      "CUSTOM:SiverIngot",
+      "CUSTOM:SiverOre"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SiverIngot",
+      "CUSTOM:SiverIngot",
+      "CUSTOM:SiverIngot",
+      "CUSTOM:SiverIngot",
+      "",
+      "CUSTOM:SiverIngot",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SiverArmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:SiverArmor.helmet",
     "name": "siver_armor_helmet_recipe",
     "namespace": "mod"
   }

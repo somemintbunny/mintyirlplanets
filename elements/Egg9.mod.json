@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 20,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:EmptyEgg"
-      }
+      "CUSTOM:EmptyEgg"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Soulstone"
-      },
-      {
-        "value": "CUSTOM:HeliumShard"
-      },
-      {
-        "value": "CUSTOM:Brimstone"
-      },
-      {
-        "value": "CUSTOM:HeliumShard"
-      },
-      {
-        "value": "CUSTOM:EmptyEgg"
-      },
-      {
-        "value": "CUSTOM:HeliumShard"
-      },
-      {
-        "value": "CUSTOM:Brimstone"
-      },
-      {
-        "value": "CUSTOM:HeliumShard"
-      },
-      {
-        "value": "CUSTOM:Soulstone"
-      }
+      "CUSTOM:Soulstone",
+      "CUSTOM:HeliumShard",
+      "CUSTOM:Brimstone",
+      "CUSTOM:HeliumShard",
+      "CUSTOM:EmptyEgg",
+      "CUSTOM:HeliumShard",
+      "CUSTOM:Brimstone",
+      "CUSTOM:HeliumShard",
+      "CUSTOM:Soulstone"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Nightmare.spawn_egg"
-    },
+    "recipeReturnStack": "CUSTOM:Nightmare.spawn_egg",
     "name": "egg_9",
     "namespace": "mod"
   }

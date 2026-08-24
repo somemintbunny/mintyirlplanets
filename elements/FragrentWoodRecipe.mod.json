@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentLog"
-      }
+      "CUSTOM:FragrentLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:FragrentLog",
+      "CUSTOM:FragrentLog",
+      "",
+      "CUSTOM:FragrentLog",
+      "CUSTOM:FragrentLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:FragrentWood"
-    },
+    "recipeReturnStack": "CUSTOM:FragrentWood",
     "name": "fragrent_wood_recipe",
     "namespace": "mod"
   }

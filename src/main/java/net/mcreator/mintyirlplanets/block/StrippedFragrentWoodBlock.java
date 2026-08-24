@@ -19,7 +19,7 @@ public class StrippedFragrentWoodBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public StrippedFragrentWoodBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(20f, 12.6191468896f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(20f, 12.6191468896f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

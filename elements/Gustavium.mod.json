@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Gustavium",
@@ -20,9 +20,7 @@
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": false,
-    "dripParticle": {
-      "value": "EXPLOSION_NORMAL"
-    },
+    "dripParticle": "EXPLOSION_NORMAL",
     "flowStrength": 1.0,
     "luminosity": 0,
     "density": 1000,
@@ -32,13 +30,9 @@
     "generateBucket": true,
     "textureBucket": "",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Misc"
-      }
+      "CUSTOM:Misc"
     ],
-    "emptySound": {
-      "value": ""
-    },
+    "emptySound": "",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -52,8 +46,6 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "onEntityCollides": {
-      "name": "GustaviumMobplayerCollidesBlock"
-    }
+    "onEntityCollides": "GustaviumMobplayerCollidesBlock"
   }
 }

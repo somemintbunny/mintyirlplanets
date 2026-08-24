@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Martian",
@@ -38,31 +38,17 @@
     },
     "spawnEggTexture": "fghgfhfgh",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:MobSpawning"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": "CUSTOM:DreamdropSword"
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": "CUSTOM:Space.helmet"
-    },
-    "equipmentBody": {
-      "value": "CUSTOM:Space.body"
-    },
-    "equipmentLeggings": {
-      "value": "CUSTOM:Space.legs"
-    },
-    "equipmentBoots": {
-      "value": "CUSTOM:Space.boots"
-    },
+    "equipmentMainHand": "CUSTOM:DreamdropSword",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "CUSTOM:Space.helmet",
+    "equipmentBody": "CUSTOM:Space.body",
+    "equipmentLeggings": "CUSTOM:Space.legs",
+    "equipmentBoots": "CUSTOM:Space.boots",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
@@ -102,24 +88,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": ""
-    },
-    "livingSound": {
-      "value": ""
-    },
-    "hurtSound": {
-      "value": "entity.generic.hurt"
-    },
-    "deathSound": {
-      "value": "entity.generic.death"
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "entity.generic.death",
+    "stepSound": "",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
@@ -128,34 +102,23 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 12,
+    "spawningProbability": 16,
     "mobSpawningType": "ambient",
-    "minNumberOfMobsPerGroup": 1,
+    "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:MarsBiome"
-      },
-      {
-        "value": "CUSTOM:DarkMoon"
-      },
-      {
-        "value": "CUSTOM:Moon"
-      },
-      {
-        "value": "CUSTOM:Moonshroom"
-      },
-      {
-        "value": "CUSTOM:SaturnStone"
-      }
+      "CUSTOM:MarsBiome",
+      "CUSTOM:DarkMoon",
+      "CUSTOM:Moon",
+      "CUSTOM:Moonshroom",
+      "CUSTOM:SaturnStone",
+      "CUSTOM:Terracelium"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:bread",
+    "b": "mintyirlplanets:portion_of_chips"
+  },
+  "result": {
+    "id": "mintyirlplanets:chip_butty",
+    "count": 1
+  }
+}

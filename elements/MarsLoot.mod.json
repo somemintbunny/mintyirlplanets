@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Chest",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "Blocks.WEB"
-            },
+            "item": "Blocks.WEB",
             "weight": 5,
             "minCount": 1,
             "maxCount": 2,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Dreamdrop"
-            },
+            "item": "CUSTOM:Dreamdrop",
             "weight": 4,
             "minCount": 0,
             "maxCount": 1,
@@ -59,9 +55,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:RawAdamantium"
-            },
+            "item": "CUSTOM:RawAdamantium",
             "weight": 3,
             "minCount": 1,
             "maxCount": 1,
@@ -82,9 +76,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:RawDemonicOre"
-            },
+            "item": "CUSTOM:RawDemonicOre",
             "weight": 3,
             "minCount": 0,
             "maxCount": 2,
@@ -105,9 +97,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Soulstone"
-            },
+            "item": "CUSTOM:Soulstone",
             "weight": 0,
             "minCount": 0,
             "maxCount": 1,
@@ -128,9 +118,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "Items.BONE"
-            },
+            "item": "Items.BONE",
             "weight": 6,
             "minCount": 0,
             "maxCount": 1,
@@ -151,9 +139,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:StrangeEnergy"
-            },
+            "item": "CUSTOM:StrangeEnergy",
             "weight": 8,
             "minCount": 1,
             "maxCount": 2,
@@ -174,9 +160,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Antimatter"
-            },
+            "item": "CUSTOM:Antimatter",
             "weight": 1,
             "minCount": 1,
             "maxCount": 3,
@@ -197,9 +181,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "Items.NETHERITE_SCRAP"
-            },
+            "item": "Items.NETHERITE_SCRAP",
             "weight": 2,
             "minCount": 0,
             "maxCount": 1,
@@ -220,9 +202,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Moldedmeteorite"
-            },
+            "item": "CUSTOM:Moldedmeteorite",
             "weight": 1,
             "minCount": 1,
             "maxCount": 2,
@@ -243,9 +223,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:AdamantiummArmor.legs"
-            },
+            "item": "CUSTOM:AdamantiummArmor.legs",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -266,9 +244,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:DemonicArmor.helmet"
-            },
+            "item": "CUSTOM:DemonicArmor.helmet",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -289,9 +265,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:BrimstoneOre"
-            },
+            "item": "CUSTOM:BrimstoneOre",
             "weight": 0,
             "minCount": 0,
             "maxCount": 1,

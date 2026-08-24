@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Soulstone"
-      }
+      "CUSTOM:Soulstone"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Soulstone"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Soulstone"
-      },
-      {
-        "value": "CUSTOM:AdamantiummAxe"
-      },
-      {
-        "value": "CUSTOM:Soulstone"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Soulstone"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      }
+      "CUSTOM:Antimatter",
+      "CUSTOM:Soulstone",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Soulstone",
+      "CUSTOM:AdamantiummAxe",
+      "CUSTOM:Soulstone",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Soulstone",
+      "CUSTOM:Antimatter"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SoulstoneAxe"
-    },
+    "recipeReturnStack": "CUSTOM:SoulstoneAxe",
     "name": "soulstone_axe_recipe",
     "namespace": "mod"
   }

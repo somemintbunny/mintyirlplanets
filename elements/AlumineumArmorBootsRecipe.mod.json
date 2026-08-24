@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Alumineum"
-      },
-      {
-        "value": "CUSTOM:Bauxite"
-      }
+      "CUSTOM:Alumineum",
+      "CUSTOM:Bauxite"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Alumineum"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Alumineum"
-      },
-      {
-        "value": "CUSTOM:Alumineum"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Alumineum"
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:Alumineum",
+      "",
+      "CUSTOM:Alumineum",
+      "CUSTOM:Alumineum",
+      "",
+      "CUSTOM:Alumineum"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AlumineumArmor.boots"
-    },
+    "recipeReturnStack": "CUSTOM:AlumineumArmor.boots",
     "name": "alumineum_armor_boots_recipe",
     "namespace": "mod"
   }

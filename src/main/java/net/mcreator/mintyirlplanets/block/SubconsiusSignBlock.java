@@ -9,6 +9,6 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModWoodTypes;
 
 public class SubconsiusSignBlock extends StandingSignBlock {
 	public SubconsiusSignBlock(BlockBehaviour.Properties properties) {
-		super(MintyirlplanetsModWoodTypes.SUBCONSIUS_SIGN_WOOD_TYPE, properties.sound(SoundType.WOOD).strength(3f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(MintyirlplanetsModWoodTypes.SUBCONSIUS_SIGN_WOOD_TYPE, properties.sound(SoundType.WOOD).strength(3f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 }

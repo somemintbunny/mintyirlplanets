@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "bca",
+    "aa "
+  ],
+  "key": {
+    "a": "minecraft:bread",
+    "b": "mintyirlplanets:portion_of_kebab_meat",
+    "c": "mintyirlplanets:portion_of_chips"
+  },
+  "result": {
+    "id": "mintyirlplanets:kebab_wrap_with_chips",
+    "count": 1
+  }
+}

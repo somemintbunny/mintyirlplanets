@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
@@ -11,12 +11,8 @@
     "cookingTime": 126,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "CUSTOM:RawDemonicOre"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:DemonicIngot"
-    },
+    "blastingInputStack": "CUSTOM:RawDemonicOre",
+    "blastingReturnStack": "CUSTOM:DemonicIngot",
     "name": "raw_dem_sandblast",
     "namespace": "mod"
   }

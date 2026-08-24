@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:LazerShooter"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      }
+      "CUSTOM:LazerShooter",
+      "CUSTOM:Dreamdrop"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:LazerShooter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      }
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:LazerShooter",
+      "CUSTOM:Antimatter",
+      "",
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Antimatter"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:MysticalShooter"
-    },
+    "recipeReturnStack": "CUSTOM:MysticalShooter",
     "name": "mysticshooter",
     "namespace": "mod"
   }

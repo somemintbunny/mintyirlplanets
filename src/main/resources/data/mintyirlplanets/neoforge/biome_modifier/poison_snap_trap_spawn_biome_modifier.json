@@ -5,5 +5,5 @@
     "mintyirlplanets:saturn_stone"
   ],
   "features": "mintyirlplanets:poison_snap_trap_spawn",
-  "step": "underground_decoration"
+  "step": "surface_structures"
 }

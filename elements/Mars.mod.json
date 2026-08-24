@@ -1,29 +1,17 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:MarsBiome"
-      },
-      {
-        "value": "CUSTOM:FiberglassDesert"
-      },
-      {
-        "value": "CUSTOM:LivingMars"
-      },
-      {
-        "value": "CUSTOM:MarsForest"
-      }
+      "CUSTOM:MarsBiome",
+      "CUSTOM:FiberglassDesert",
+      "CUSTOM:LivingMars",
+      "CUSTOM:MarsForest"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:AlumineumBlock"
-    },
-    "fluidBlock": {
-      "value": "CUSTOM:ToxicWaste"
-    },
+    "mainFillerBlock": "CUSTOM:AlumineumBlock",
+    "fluidBlock": "CUSTOM:ToxicWaste",
     "seaLevel": 8,
     "generateOreVeins": true,
     "generateAquifers": true,
@@ -44,9 +32,19 @@
     "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": true,
-    "fixedTimeValue": 18000,
+    "fixedTimeValue": 20000,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "skyboxTextureUp": "",
+    "skyboxTextureDown": "",
+    "skyboxTextureNorth": "",
+    "skyboxTextureSouth": "",
+    "skyboxTextureWest": "",
+    "skyboxTextureEast": "",
+    "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
@@ -55,16 +53,10 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": {
-      "value": "CUSTOM:DamnedPlanks"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "portalFrame": "CUSTOM:DamnedPlanks",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "Galactic Communication Device",
     "igniterRarity": "COMMON",
@@ -72,9 +64,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Misc"
-      }
+      "CUSTOM:Misc"
     ],
     "texture": "trsns",
     "portalTexture": "coomrock",

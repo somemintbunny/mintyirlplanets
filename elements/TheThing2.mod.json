@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:StrippedFragrentWood"
-      }
+      "CUSTOM:StrippedFragrentWood"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:StrippedFragrentWood"
-      },
-      {
-        "value": "CUSTOM:StrippedFragrentWood"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:StrippedFragrentWood"
-      },
-      {
-        "value": "CUSTOM:StrippedFragrentWood"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:StrippedFragrentWood",
+      "CUSTOM:StrippedFragrentWood",
+      "",
+      "CUSTOM:StrippedFragrentWood",
+      "CUSTOM:StrippedFragrentWood",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:StrippedFragrentLog"
-    },
+    "recipeReturnStack": "CUSTOM:StrippedFragrentLog",
     "name": "the_thing_2",
     "namespace": "mod"
   }

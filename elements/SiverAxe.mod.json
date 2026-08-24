@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -15,9 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:WeaponsAndTools"
-      }
+      "CUSTOM:WeaponsAndTools"
     ],
     "efficiency": 9.5,
     "attackSpeed": 0.7999999999999999,
@@ -28,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:SiverIngot"
-      }
+      "CUSTOM:SiverIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "IRON",

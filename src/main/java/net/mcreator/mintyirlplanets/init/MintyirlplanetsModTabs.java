@@ -5,18 +5,24 @@ package net.mcreator.mintyirlplanets.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.mintyirlplanets.MintyirlplanetsMod;
 
+@EventBusSubscriber
 public class MintyirlplanetsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MintyirlplanetsMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOON_BLOCKS = REGISTRY.register("moon_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.moon_blocks")).icon(() -> new ItemStack(MintyirlplanetsModBlocks.MOON_ROCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModBlocks.CHEESE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_MOSS.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.MOON_MUSHROOM.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.MOONSHROOM_2_WOOD.get().asItem());
@@ -155,6 +161,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.ADAMANTIUMM_AXE.get());
 				tabData.accept(MintyirlplanetsModItems.ADAMANTIUMM_SHOVEL.get());
 				tabData.accept(MintyirlplanetsModItems.ADAMANTIUMM_HOE.get());
+				tabData.accept(MintyirlplanetsModItems.STAG_DO.get());
 				tabData.accept(MintyirlplanetsModItems.ADAMANTIUM_SHOOTER.get());
 				tabData.accept(MintyirlplanetsModItems.SILVER_BULLET.get());
 				tabData.accept(MintyirlplanetsModItems.BRIMSTONE_PICKAXE.get());
@@ -222,23 +229,11 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_ARMOR_CHESTPLATE.get());
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_ARMOR_LEGGINGS.get());
 				tabData.accept(MintyirlplanetsModItems.MIXOLYDIAN_ARMOR_BOOTS.get());
+				tabData.accept(MintyirlplanetsModItems.METEOR_ARMOR_HELMET.get());
+				tabData.accept(MintyirlplanetsModItems.METEOR_ARMOR_CHESTPLATE.get());
+				tabData.accept(MintyirlplanetsModItems.METEOR_ARMOR_LEGGINGS.get());
+				tabData.accept(MintyirlplanetsModItems.METEOR_ARMOR_BOOTS.get());
 			}).withTabsBefore(WEAPONS_AND_TOOLS.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOB_SPAWNING = REGISTRY.register("mob_spawning",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.mob_spawning")).icon(() -> new ItemStack(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MintyirlplanetsModItems.EMPTY_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.MARTIAN_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.SHRUMPHER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.DEBUGGER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.THE_CRUSHER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.STAG_BEETLE_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.HOPPER_NYMPH_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.CHOKED_ZOMBIE_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.STILL_SLINGER_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.LARRY_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.GLEEP_GLORP_SPAWN_EGG.get());
-				tabData.accept(MintyirlplanetsModItems.NIGHTMARE_SPAWN_EGG.get());
-			}).withTabsBefore(ARMOUR.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MUSIC_DISCS = REGISTRY.register("music_discs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.music_discs")).icon(() -> new ItemStack(MintyirlplanetsModItems.DISC_1.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.BLANK_DISC.get());
@@ -247,7 +242,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.MUSIC_DISC_MARS.get());
 				tabData.accept(MintyirlplanetsModItems.TORN_FIBERS.get());
 				tabData.accept(MintyirlplanetsModItems.DISC_1.get());
-			}).withTabsBefore(MOB_SPAWNING.getId()).build());
+			}).withTabsBefore(ARMOUR.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MINERALS = REGISTRY.register("minerals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.minerals")).icon(() -> new ItemStack(MintyirlplanetsModItems.DREAMDROP.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModBlocks.SIVER_ORE.get().asItem());
@@ -292,16 +287,25 @@ public class MintyirlplanetsModTabs {
 			}).withTabsBefore(MUSIC_DISCS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FOOD = REGISTRY.register("food",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.food")).icon(() -> new ItemStack(MintyirlplanetsModItems.HELL_FRUIT.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModItems.SLICE_OF_CHEESE.get());
+				tabData.accept(MintyirlplanetsModItems.PORTION_OF_KEBAB_MEAT.get());
+				tabData.accept(MintyirlplanetsModItems.PORTION_OF_CHIPS.get());
+				tabData.accept(MintyirlplanetsModItems.BUNJER.get());
+				tabData.accept(MintyirlplanetsModItems.CHIP_BUTTY.get());
+				tabData.accept(MintyirlplanetsModItems.KEBAB_WRAP_WITH_CHIPS.get());
+				tabData.accept(MintyirlplanetsModItems.PIZZA.get());
+				tabData.accept(MintyirlplanetsModItems.BIG_SALMON.get());
+				tabData.accept(MintyirlplanetsModItems.BIG_COD.get());
 				tabData.accept(MintyirlplanetsModItems.TV_MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.GLUCOSIDE_EXTRACT.get());
 				tabData.accept(MintyirlplanetsModItems.HELL_FRUIT.get());
 				tabData.accept(MintyirlplanetsModItems.TOSSER_TOT.get());
 				tabData.accept(MintyirlplanetsModItems.BLUEBERRY.get());
+				tabData.accept(MintyirlplanetsModItems.HERBAL_LEAF.get());
 				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
 				tabData.accept(MintyirlplanetsModItems.MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.COOKED_MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.MARTIAN_SALAD.get());
-				tabData.accept(MintyirlplanetsModItems.HERBAL_LEAF.get());
 			}).withTabsBefore(MINERALS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MISC = REGISTRY.register("misc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.misc")).icon(() -> new ItemStack(MintyirlplanetsModItems.THE_MOON.get())).displayItems((parameters, tabData) -> {
@@ -314,12 +318,17 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.LIGHT_MOON_PEBBLE.get());
 				tabData.accept(MintyirlplanetsModItems.MOON_PEBBLE.get());
 				tabData.accept(MintyirlplanetsModItems.FIBER_BALL.get());
+				tabData.accept(MintyirlplanetsModItems.MANDIBLE.get());
 				tabData.accept(MintyirlplanetsModItems.FRAGRENT_BARK.get());
 				tabData.accept(MintyirlplanetsModItems.ALIEN_HYDE.get());
+				tabData.accept(MintyirlplanetsModItems.HELIUM_SHARD.get());
 				tabData.accept(MintyirlplanetsModItems.STRANGE_PEBBLE.get());
+				tabData.accept(MintyirlplanetsModItems.EMPTY_EGG.get());
 				tabData.accept(MintyirlplanetsModItems.DRAGON_FOSSIL.get());
 				tabData.accept(MintyirlplanetsModBlocks.UNLIT_FANCY_CANDLE.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.THE_ANTIDOTE.get());
+				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_HELMET.get());
+				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_CHESTPLATE.get());
 				tabData.accept(MintyirlplanetsModItems.GUSTAVIUM_BUCKET.get());
 				tabData.accept(MintyirlplanetsModItems.TOXIC_WASTE_BUCKET.get());
 				tabData.accept(MintyirlplanetsModBlocks.SMOTHE_BONE.get().asItem());
@@ -331,9 +340,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.CHIZZELED_BONE_SLAB.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CRACKED_BONE_BRICK_SLAB.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.BONE_SLAB.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.HELIUM_SHARD.get());
-				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_HELMET.get());
-				tabData.accept(MintyirlplanetsModItems.FLOWER_CROWN_CHESTPLATE.get());
+				tabData.accept(MintyirlplanetsModItems.CHIP_SHOP_MENU.get());
 			}).withTabsBefore(FOOD.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ENDGAME_BLOCKS = REGISTRY.register("endgame_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.endgame_blocks")).icon(() -> new ItemStack(MintyirlplanetsModItems.DEBUG_PICK.get())).displayItems((parameters, tabData) -> {
@@ -343,4 +350,26 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_LEGGINGS.get());
 				tabData.accept(MintyirlplanetsModItems.DEBUGGER_ARMOUR_BOOTS.get());
 			}).withTabsBefore(MISC.getId()).build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(MintyirlplanetsModItems.MARTIAN_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.EYEZOR_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.SHRUMPHER_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.DEBUGGER_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.THE_CRUSHER_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.STAG_BEETLE_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.HOPPER_NYMPH_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.CHOKED_ZOMBIE_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.STILL_SLINGER_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.GLEEP_GLORP_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.NIGHTMARE_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.LARRY_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.EVIL_CHICKEN_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.SHROOMPLE_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.MOON_FLOWER_SPAWN_EGG.get());
+			tabData.accept(MintyirlplanetsModItems.EVIL_MOON_FLOWER_SPAWN_EGG.get());
+		}
+	}
 }

@@ -1,50 +1,38 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Mars Biome",
-    "groundBlock": {
-      "value": "CUSTOM:FerrousSand"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:FerrousSand"
-    },
-    "underwaterBlock": {
-      "value": ""
-    },
+    "groundBlock": "CUSTOM:FerrousSand",
+    "undergroundBlock": "CUSTOM:FerrousSand",
+    "underwaterBlock": "",
     "airColor": {
       "value": -12582912,
       "falpha": 0.0
     },
+    "fogColor": {
+      "value": -15597545,
+      "falpha": 0.0
+    },
     "grassColor": {
-      "value": -3302230,
+      "value": -11725275,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -3302230,
+      "value": -11594716,
       "falpha": 0.0
     },
     "waterColor": {
       "value": -13435037,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": "CUSTOM:mars"
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "CUSTOM:mars",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
+    "particleToSpawn": "EXPLOSION_NORMAL",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
     "temperature": 0.5,
@@ -79,18 +67,10 @@
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves"
     ],

@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.WARPED_PLANKS"
-      },
-      {
-        "value": "Blocks.CRIMSON_PLANKS"
-      }
+      "Blocks.WARPED_PLANKS",
+      "Blocks.CRIMSON_PLANKS"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.WARPED_PLANKS"
-      },
-      {
-        "value": "Blocks.CRIMSON_PLANKS"
-      },
-      {
-        "value": "Blocks.CRIMSON_PLANKS"
-      },
-      {
-        "value": "Blocks.WARPED_PLANKS"
-      },
-      {
-        "value": "Blocks.WARPED_PLANKS"
-      },
-      {
-        "value": "Blocks.CRIMSON_PLANKS"
-      },
-      {
-        "value": "Blocks.WARPED_PLANKS"
-      },
-      {
-        "value": "Blocks.WARPED_PLANKS"
-      },
-      {
-        "value": "Blocks.CRIMSON_PLANKS"
-      }
+      "Blocks.WARPED_PLANKS",
+      "Blocks.CRIMSON_PLANKS",
+      "Blocks.CRIMSON_PLANKS",
+      "Blocks.WARPED_PLANKS",
+      "Blocks.WARPED_PLANKS",
+      "Blocks.CRIMSON_PLANKS",
+      "Blocks.WARPED_PLANKS",
+      "Blocks.WARPED_PLANKS",
+      "Blocks.CRIMSON_PLANKS"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:TheMoon"
-    },
+    "recipeReturnStack": "CUSTOM:TheMoon",
     "name": "theigniter",
     "namespace": "mod"
   }

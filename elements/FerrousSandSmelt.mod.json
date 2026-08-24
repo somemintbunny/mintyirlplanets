@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 150,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:FerrousSand"
-    },
-    "smeltingReturnStack": {
-      "value": "Items.IRON_INGOT"
-    },
+    "smeltingInputStack": "CUSTOM:FerrousSand",
+    "smeltingReturnStack": "Items.IRON_INGOT",
     "name": "ferrous_sand_smelt",
     "namespace": "mod"
   }

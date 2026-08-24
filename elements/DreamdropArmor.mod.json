@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,10 +10,12 @@
     "textureLeggings": "dreamdrop_leggings",
     "enableBoots": true,
     "textureBoots": "dreamdrop_boots",
+    "onHelmetTick": "DreamdropGear",
+    "onBodyTick": "DreamdropGear",
+    "onLeggingsTick": "DreamdropGear",
+    "onBootsTick": "DreamdropGear",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "dreamdrop",
     "helmetName": "Dreamdrop Helmet",
@@ -21,16 +23,28 @@
     "leggingsName": "Dreamdrop Leggings",
     "bootsName": "Dreamdrop Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Boosts the health of the user",
+        "reacts badly with kryptonium"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Boosts the health of the user",
+        "reacts badly with kryptonium"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Boosts the health of the user",
+        "Reacts badly with kryptonium"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Boosts the health of the user",
+        "Reacts badly with kryptonium"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -89,21 +103,18 @@
       "fixedValue": false
     },
     "maxDamage": 62,
-    "damageValueHelmet": 10,
-    "damageValueBody": 30,
-    "damageValueLeggings": 25,
-    "damageValueBoots": 10,
+    "damageValueHelmet": 4,
+    "damageValueBody": 12,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 5,
     "enchantability": 45,
     "toughness": 3.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Dreamdrop"
-      }
+      "CUSTOM:Dreamdrop"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

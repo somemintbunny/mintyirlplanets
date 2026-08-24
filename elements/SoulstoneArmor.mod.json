@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,10 +10,9 @@
     "textureLeggings": "seranium_leggings",
     "enableBoots": true,
     "textureBoots": "seranium_boots",
+    "onHelmetTick": "SGearoyul",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "seranium",
     "helmetName": "Soulstone Helmet",
@@ -96,14 +95,11 @@
     "enchantability": 75,
     "toughness": 10.0,
     "knockbackResistance": 1.5,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Soulstone"
-      }
+      "CUSTOM:Soulstone"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "krypton",
@@ -51,14 +51,10 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Minerals"
-      }
+      "CUSTOM:Minerals"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": "CUSTOM:Kryptonium"
-    },
+    "customDrop": "CUSTOM:Kryptonium",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,14 +74,10 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "basedrum",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -95,25 +87,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "STONE",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "STONE"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -143,23 +123,13 @@
     "fluidRestrictions": [],
     "generateFeature": true,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Moon"
-      },
-      {
-        "value": "CUSTOM:DarkMoon"
-      },
-      {
-        "value": "CUSTOM:Moonshroom"
-      },
-      {
-        "value": "CUSTOM:Terracelium"
-      }
+      "CUSTOM:Moon",
+      "CUSTOM:DarkMoon",
+      "CUSTOM:Moonshroom",
+      "CUSTOM:Terracelium"
     ],
     "blocksToReplace": [
-      {
-        "value": "CUSTOM:MoonRock"
-      }
+      "CUSTOM:MoonRock"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 11,

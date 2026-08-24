@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,24 +10,25 @@
     "textureLeggings": "disc3",
     "enableBoots": false,
     "textureBoots": "dwbuggwearmour_head",
-    "onHelmetTick": {
-      "name": "FlowerCrownHelmetTickEvent"
-    },
+    "onHelmetTick": "FlowerCrownEffect",
+    "onBodyTick": "FlowerCrownHelmetTickEvent",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Misc"
-      }
+      "CUSTOM:Misc"
     ],
     "armorTextureFile": "kryptonium",
     "helmetName": "Flower Crown",
-    "bodyName": "Flower Crown Chestplate",
+    "bodyName": "Flower Shirt",
     "leggingsName": "Flower Crown Leggings",
     "bootsName": "Flower Crown Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Grants health boost"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Grants regeneration"
+      ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": []
@@ -92,17 +93,16 @@
       "fixedValue": false
     },
     "maxDamage": 15,
-    "damageValueHelmet": 4,
-    "damageValueBody": 6,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
     "enchantability": 9,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": "CUSTOM:gleep_hurt"
-    },
+    "equipSound": "CUSTOM:gleep_hurt",
     "repairItems": [],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

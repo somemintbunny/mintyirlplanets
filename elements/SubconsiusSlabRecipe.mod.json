@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "wooden_slab",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "CUSTOM:SubconsiusPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusSlab"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusSlab",
     "name": "subconsius_slab_recipe",
     "namespace": "mod"
   }

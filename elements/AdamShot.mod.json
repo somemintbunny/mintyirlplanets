@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Adamantiumm"
-      }
+      "CUSTOM:Adamantiumm"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Adamantiumm"
-      },
-      {
-        "value": "CUSTOM:Adamantiumm"
-      },
-      {
-        "value": "CUSTOM:Adamantiumm"
-      },
-      {
-        "value": "CUSTOM:Adamantiumm"
-      },
-      {
-        "value": "CUSTOM:MysticalShooter"
-      },
-      {
-        "value": "CUSTOM:Adamantiumm"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Adamantiumm"
-      }
+      "CUSTOM:Adamantiumm",
+      "CUSTOM:Adamantiumm",
+      "CUSTOM:Adamantiumm",
+      "CUSTOM:Adamantiumm",
+      "CUSTOM:MysticalShooter",
+      "CUSTOM:Adamantiumm",
+      "",
+      "",
+      "CUSTOM:Adamantiumm"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AdamantiumShooter"
-    },
+    "recipeReturnStack": "CUSTOM:AdamantiumShooter",
     "name": "adam_shot",
     "namespace": "mod"
   }

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PlantStem",
+      "CUSTOM:Mandible"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:Mandible",
+      "",
+      "CUSTOM:PlantStem",
+      "Items.STICK",
+      "CUSTOM:PlantStem",
+      "",
+      "CUSTOM:PlantStem",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StagDo",
+    "name": "stagdorecipe",
+    "namespace": "mod"
+  }
+}

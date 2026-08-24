@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentSlabBlock extends SlabBlock {
 	public FragrentSlabBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

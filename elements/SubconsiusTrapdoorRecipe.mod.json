@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "wooden_trapdoor",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "CUSTOM:SubconsiusPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusTrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusTrapdoor",
     "name": "subconsius_trapdoor_recipe",
     "namespace": "mod"
   }

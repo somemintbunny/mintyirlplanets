@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "unconsiumsapling",
@@ -47,18 +47,14 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
-    "maxStackSize": 64,
+    "maxStackSize": 99,
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:MarsBlocks"
-      }
+      "CUSTOM:MarsBlocks"
     ],
     "destroyTool": "hoe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,14 +74,10 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -95,37 +87,21 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": true,
+    "soundOnStep": "PLANT",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "PLANT"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
     "unbreakable": false,
     "vanillaToolTier": "IRON",
-    "placingCondition": {
-      "name": "ThornBerryBushValidPlacementCondition"
-    },
+    "placingCondition": "ThornBerryBushValidPlacementCondition",
     "isBonemealable": true,
-    "onBonemealSuccess": {
-      "name": "UnconsiumSaplingOnBoneMealSuccess"
-    },
+    "onBonemealSuccess": "UnconsiumSaplingOnBoneMealSuccess",
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {

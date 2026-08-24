@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Moon Blocks",
-    "icon": {
-      "value": "CUSTOM:MoonRock"
-    },
+    "icon": "CUSTOM:MoonRock",
     "showSearch": false
   }
 }

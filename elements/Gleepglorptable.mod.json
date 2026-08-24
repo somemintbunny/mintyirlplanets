@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Entity",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:AlienHyde"
-            },
+            "item": "CUSTOM:AlienHyde",
             "weight": 1,
             "minCount": 0,
             "maxCount": 2,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:HeliumShard"
-            },
+            "item": "CUSTOM:HeliumShard",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -59,9 +55,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:Meat"
-            },
+            "item": "CUSTOM:Meat",
             "weight": 1,
             "minCount": 1,
             "maxCount": 2,

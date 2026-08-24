@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class CroatianStairsBlock extends StairBlock {
 	public CroatianStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(7.05f, 20.5f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(7.05f, 20.5f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

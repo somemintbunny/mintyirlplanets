@@ -1,26 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:AluminumOre"
-      }
+      "CUSTOM:AluminumOre"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 1.75,
     "cookingTime": 126,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "CUSTOM:AluminumOre"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:Alumineum"
-    },
+    "blastingInputStack": "CUSTOM:AluminumOre",
+    "blastingReturnStack": "CUSTOM:Alumineum",
     "name": "alumineum_oreblast",
     "namespace": "mod"
   }

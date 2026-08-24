@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:TosserTot"
-      }
+      "CUSTOM:TosserTot"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:TosserTot"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "CUSTOM:TosserTot"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "CUSTOM:TosserTot"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "CUSTOM:TosserTot"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "CUSTOM:TosserTot"
-      }
+      "CUSTOM:TosserTot",
+      "Items.GUNPOWDER",
+      "CUSTOM:TosserTot",
+      "Items.GUNPOWDER",
+      "CUSTOM:TosserTot",
+      "Items.GUNPOWDER",
+      "CUSTOM:TosserTot",
+      "Items.GUNPOWDER",
+      "CUSTOM:TosserTot"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:TosserGrenadeItem"
-    },
+    "recipeReturnStack": "CUSTOM:TosserGrenadeItem",
     "name": "tossergtrr",
     "namespace": "mod"
   }

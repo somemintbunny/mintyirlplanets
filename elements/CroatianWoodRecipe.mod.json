@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:CroatianLog"
-      }
+      "CUSTOM:CroatianLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CroatianLog"
-      },
-      {
-        "value": "CUSTOM:CroatianLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CroatianLog"
-      },
-      {
-        "value": "CUSTOM:CroatianLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CroatianLog",
+      "CUSTOM:CroatianLog",
+      "",
+      "CUSTOM:CroatianLog",
+      "CUSTOM:CroatianLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CroatianWood"
-    },
+    "recipeReturnStack": "CUSTOM:CroatianWood",
     "name": "croatian_wood_recipe",
     "namespace": "mod"
   }

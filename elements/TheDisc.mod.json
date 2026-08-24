@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Entity",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:BlankDisc"
-            },
+            "item": "CUSTOM:BlankDisc",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -27,9 +25,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:FiberBall"
-            },
+            "item": "CUSTOM:FiberBall",
             "weight": 3,
             "minCount": 0,
             "maxCount": 1,

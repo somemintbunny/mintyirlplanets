@@ -1,23 +1,17 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "structure",
   "definition": {
     "structure": "marstructure",
     "projection": "rigid",
     "ignoredBlocks": [
-      {
-        "value": "Blocks.STRUCTURE_BLOCK"
-      },
-      {
-        "value": "Blocks.AIR"
-      }
+      "Blocks.STRUCTURE_BLOCK",
+      "Blocks.AIR"
     ],
     "spacing": 26,
     "separation": 17,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:FiberglassDesert"
-      }
+      "CUSTOM:FiberglassDesert"
     ],
     "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES",

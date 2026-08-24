@@ -1,32 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "structure",
   "definition": {
     "structure": "hiddenchest",
     "projection": "rigid",
     "ignoredBlocks": [
-      {
-        "value": "Blocks.STRUCTURE_BLOCK"
-      },
-      {
-        "value": "Blocks.AIR"
-      }
+      "Blocks.STRUCTURE_BLOCK",
+      "Blocks.AIR"
     ],
     "spacing": 5,
     "separation": 2,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Moon"
-      },
-      {
-        "value": "CUSTOM:Terracelium"
-      },
-      {
-        "value": "CUSTOM:Moonshroom"
-      },
-      {
-        "value": "CUSTOM:GlowingCaves"
-      }
+      "CUSTOM:Moon",
+      "CUSTOM:Terracelium",
+      "CUSTOM:Moonshroom",
+      "CUSTOM:GlowingCaves"
     ],
     "terrainAdaptation": "beard_thin",
     "generationStep": "UNDERGROUND_DECORATION",

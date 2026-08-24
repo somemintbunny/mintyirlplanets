@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Meat"
-      },
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "CUSTOM:Meat"
-      },
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "CUSTOM:EmptyEgg"
-      },
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "CUSTOM:AlienHyde"
-      },
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "CUSTOM:AlienHyde"
-      }
+      "CUSTOM:Meat",
+      "CUSTOM:FragrentBark",
+      "CUSTOM:Meat",
+      "CUSTOM:FragrentBark",
+      "CUSTOM:EmptyEgg",
+      "CUSTOM:FragrentBark",
+      "CUSTOM:AlienHyde",
+      "CUSTOM:FragrentBark",
+      "CUSTOM:AlienHyde"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:GleepGlorp.spawn_egg"
-    },
+    "recipeReturnStack": "CUSTOM:GleepGlorp.spawn_egg",
     "name": "egg_11",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Eyezor",
@@ -38,31 +38,17 @@
     },
     "spawnEggTexture": "fghfgdhfghfgh",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:MobSpawning"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": "CUSTOM:LazerShooter"
-    },
-    "equipmentOffHand": {
-      "value": "CUSTOM:StrangeEnergy"
-    },
-    "equipmentHelmet": {
-      "value": "CUSTOM:DreamdropArmor.helmet"
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "CUSTOM:LazerShooter",
+    "equipmentOffHand": "CUSTOM:StrangeEnergy",
+    "equipmentHelmet": "CUSTOM:DreamdropArmor.helmet",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 7,
@@ -102,24 +88,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": true,
-    "mobDrop": {
-      "value": ""
-    },
-    "livingSound": {
-      "value": ""
-    },
-    "hurtSound": {
-      "value": "entity.generic.hurt"
-    },
-    "deathSound": {
-      "value": "ambient.cave"
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "ambient.cave",
+    "stepSound": "",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "Skeleton",
@@ -128,9 +102,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": true,
-    "rangedAttackItem": {
-      "value": "CUSTOM:LazerShooter"
-    },
+    "rangedAttackItem": "CUSTOM:LazerShooter",
     "rangedItemType": "Lazer",
     "rangedAttackInterval": 17,
     "rangedAttackRadius": 40.0,
@@ -141,15 +113,9 @@
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 10,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:DarkMoon"
-      },
-      {
-        "value": "CUSTOM:LivingMars"
-      },
-      {
-        "value": "CUSTOM:SaturnStone"
-      }
+      "CUSTOM:DarkMoon",
+      "CUSTOM:LivingMars",
+      "CUSTOM:SaturnStone"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

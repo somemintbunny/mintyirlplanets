@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:StrangeRock"
-            },
+            "item": "CUSTOM:StrangeRock",
             "weight": 0,
             "minCount": 0,
             "maxCount": 1,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:StrangePebble"
-            },
+            "item": "CUSTOM:StrangePebble",
             "weight": 0,
             "minCount": 0,
             "maxCount": 1,

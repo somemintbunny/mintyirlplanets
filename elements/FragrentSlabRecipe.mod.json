@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "wooden_slab",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentLog"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "CUSTOM:FragrentLog",
+      "CUSTOM:FragrentPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      },
-      {
-        "value": "CUSTOM:FragrentPlanks"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks",
+      "CUSTOM:FragrentPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:FragrentSlab"
-    },
+    "recipeReturnStack": "CUSTOM:FragrentSlab",
     "name": "fragrent_slab_recipe",
     "namespace": "mod"
   }

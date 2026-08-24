@@ -3,6 +3,7 @@ package net.mcreator.mintyirlplanets.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -17,7 +18,7 @@ import net.mcreator.mintyirlplanets.procedures.TosserBushBlockAddedProcedure;
 
 public class TosserBushBlock extends Block {
 	public TosserBushBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.SLIME_BLOCK).strength(0f, 10f).lightLevel(blockstate -> 2).noCollission().isRedstoneConductor((bs, br, bp) -> false).replaceable());
+		super(properties.sound(SoundType.SLIME_BLOCK).strength(0f, 10f).lightLevel(blockstate -> 2).noCollission().isRedstoneConductor((bs, br, bp) -> false).replaceable().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

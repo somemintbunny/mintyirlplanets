@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.BONE_BLOCK"
-      }
+      "Blocks.BONE_BLOCK"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.BONE_BLOCK",
+      "Blocks.BONE_BLOCK",
+      "",
+      "Blocks.BONE_BLOCK",
+      "Blocks.BONE_BLOCK",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BoneBricks"
-    },
+    "recipeReturnStack": "CUSTOM:BoneBricks",
     "name": "bonebrick",
     "namespace": "mod"
   }

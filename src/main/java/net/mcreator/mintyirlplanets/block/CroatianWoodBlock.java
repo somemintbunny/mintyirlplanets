@@ -19,7 +19,7 @@ public class CroatianWoodBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public CroatianWoodBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(7f, 16.5f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(7f, 16.5f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2StairsBlock extends StairBlock {
 	public Moonshroom2StairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(3f, 2f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(3f, 2f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

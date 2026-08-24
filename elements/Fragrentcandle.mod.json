@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:FragrentBark"
-      }
+      "CUSTOM:FragrentBark"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "CUSTOM:SiverIngot"
-      },
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": "CUSTOM:FragrentBark"
-      },
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": "Items.CLAY_BALL"
-      },
-      {
-        "value": "Blocks.CHAIN"
-      }
+      "CUSTOM:FragrentBark",
+      "CUSTOM:SiverIngot",
+      "CUSTOM:FragrentBark",
+      "Blocks.CHAIN",
+      "CUSTOM:FragrentBark",
+      "Blocks.CHAIN",
+      "Blocks.CHAIN",
+      "Items.CLAY_BALL",
+      "Blocks.CHAIN"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:UnlitFancyCandle"
-    },
+    "recipeReturnStack": "CUSTOM:UnlitFancyCandle",
     "name": "fragrentcandle",
     "namespace": "mod"
   }

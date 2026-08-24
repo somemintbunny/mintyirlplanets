@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2ButtonBlock extends ButtonBlock {
 	public Moonshroom2ButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 4).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 4).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

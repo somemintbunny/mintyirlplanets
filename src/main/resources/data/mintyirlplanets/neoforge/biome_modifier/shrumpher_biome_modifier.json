@@ -1,10 +1,10 @@
 {
   "type": "neoforge:add_spawns",
   "biomes": [
-    "mintyirlplanets:terracelium",
     "mintyirlplanets:mars_biome",
     "mintyirlplanets:saturn_stone",
-    "mintyirlplanets:mars_forest"
+    "mintyirlplanets:mars_forest",
+    "mintyirlplanets:living_mars"
   ],
   "spawners": {
     "type": "mintyirlplanets:shrumpher",

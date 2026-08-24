@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SubconsiusLog"
-      }
+      "CUSTOM:SubconsiusLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:SubconsiusLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:SubconsiusLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SubconsiusLog",
+      "CUSTOM:SubconsiusLog",
+      "",
+      "CUSTOM:SubconsiusLog",
+      "CUSTOM:SubconsiusLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusWood"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusWood",
     "name": "subconsius_wood_recipe",
     "namespace": "mod"
   }

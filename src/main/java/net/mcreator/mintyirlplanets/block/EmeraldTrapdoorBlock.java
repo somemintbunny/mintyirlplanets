@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class EmeraldTrapdoorBlock extends TrapDoorBlock {
 	public EmeraldTrapdoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.IRON, properties.sound(SoundType.METAL).strength(1.45f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.IRON_XYLOPHONE));
+		super(BlockSetType.IRON, properties.sound(SoundType.METAL).strength(1.45f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

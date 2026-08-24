@@ -1,11 +1,8 @@
 {
   "type": "neoforge:add_features",
-  "biomes": [
-    "mintyirlplanets:mars_biome",
-    "mintyirlplanets:living_mars",
-    "mintyirlplanets:fiberglass_desert",
-    "mintyirlplanets:mars_forest"
-  ],
+  "biomes": {
+    "type": "neoforge:any"
+  },
   "features": "mintyirlplanets:moss_grass_spawn",
-  "step": "underground_decoration"
+  "step": "surface_structures"
 }

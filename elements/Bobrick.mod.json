@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Stone cutting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "stoneCuttingInputStack": {
-      "value": "Blocks.BONE_BLOCK"
-    },
-    "stoneCuttingReturnStack": {
-      "value": "CUSTOM:BoneBricks"
-    },
+    "stoneCuttingInputStack": "Blocks.BONE_BLOCK",
+    "stoneCuttingReturnStack": "CUSTOM:BoneBricks",
     "name": "bobrick",
     "namespace": "mod"
   }

@@ -13,7 +13,7 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModBlocks;
 
 public class DreamdropOreBlock extends Block {
 	public DreamdropOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(15f, 18.1194915919f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(15f, 18.1194915919f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

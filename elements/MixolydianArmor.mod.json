@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,10 +10,9 @@
     "textureLeggings": "mixolydian_leggings",
     "enableBoots": true,
     "textureBoots": "mixolydian_boots",
+    "onHelmetTick": "Combine",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "mixolydian",
     "helmetName": "Mixolydian Helmet",
@@ -96,10 +95,9 @@
     "enchantability": 90,
     "toughness": 11.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

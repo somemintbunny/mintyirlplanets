@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentPressurePlateBlock extends PressurePlateBlock {
 	public FragrentPressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 
 	@Override

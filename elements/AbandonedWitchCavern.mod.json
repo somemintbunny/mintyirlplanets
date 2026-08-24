@@ -1,32 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "structure",
   "definition": {
     "structure": "abandonedwitchhut",
     "projection": "rigid",
     "ignoredBlocks": [
-      {
-        "value": "Blocks.STRUCTURE_BLOCK"
-      },
-      {
-        "value": "Blocks.STRUCTURE_VOID"
-      },
-      {
-        "value": "Blocks.AIR"
-      }
+      "Blocks.STRUCTURE_BLOCK",
+      "Blocks.STRUCTURE_VOID",
+      "Blocks.AIR"
     ],
     "spacing": 11,
     "separation": 4,
     "restrictionBiomes": [
-      {
-        "value": "void"
-      },
-      {
-        "value": "mangrove_swamp"
-      },
-      {
-        "value": "swamp"
-      }
+      "void",
+      "mangrove_swamp",
+      "swamp"
     ],
     "terrainAdaptation": "beard_box",
     "generationStep": "SURFACE_STRUCTURES",

@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:HorridMercury"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      }
+      "CUSTOM:HorridMercury",
+      "CUSTOM:Antimatter"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:DormantHorridMercury"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      },
-      {
-        "value": "CUSTOM:Antimatter"
-      }
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:DormantHorridMercury",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter",
+      "CUSTOM:Antimatter"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:HorridMercury"
-    },
+    "recipeReturnStack": "CUSTOM:HorridMercury",
     "name": "horrid",
     "namespace": "mod"
   }

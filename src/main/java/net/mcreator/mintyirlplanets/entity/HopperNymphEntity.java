@@ -6,6 +6,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -17,13 +18,17 @@ import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.mintyirlplanets.procedures.HopperNymphOnEntityTickUpdateProcedure;
+import net.mcreator.mintyirlplanets.procedures.HopperNymphEntityIsHurtProcedure;
+import net.mcreator.mintyirlplanets.procedures.HopperNymphEntityDiesProcedure;
 import net.mcreator.mintyirlplanets.init.MintyirlplanetsModEntities;
 
 public class HopperNymphEntity extends Monster {
@@ -46,6 +51,7 @@ public class HopperNymphEntity extends Monster {
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, EnderMan.class, false, false));
 	}
 
 	@Override
@@ -54,9 +60,41 @@ public class HopperNymphEntity extends Monster {
 	}
 
 	@Override
+	public boolean hurtServer(ServerLevel level, DamageSource damagesource, float amount) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		Entity sourceentity = damagesource.getEntity();
+		Entity immediatesourceentity = damagesource.getDirectEntity();
+
+		HopperNymphEntityIsHurtProcedure.execute(world, x, y, z);
+		return super.hurtServer(level, damagesource, amount);
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		HopperNymphEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
+	public void awardKillScore(Entity entity, DamageSource damageSource) {
+		super.awardKillScore(entity, damageSource);
+		HopperNymphEntityIsHurtProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
 	public void baseTick() {
 		super.baseTick();
 		HopperNymphOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+	}
+
+	@Override
+	public void playerTouch(Player sourceentity) {
+		super.playerTouch(sourceentity);
+		HopperNymphEntityIsHurtProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

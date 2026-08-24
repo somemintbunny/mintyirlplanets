@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:HerbalLeaf"
-            },
+            "item": "CUSTOM:HerbalLeaf",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -36,9 +34,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:UnconsiumSapling"
-            },
+            "item": "CUSTOM:UnconsiumSapling",
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
@@ -59,9 +55,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:SubconsiusLeaves"
-            },
+            "item": "CUSTOM:SubconsiusLeaves",
             "weight": 1,
             "minCount": 1,
             "maxCount": 1,

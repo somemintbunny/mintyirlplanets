@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:bread",
+    "b": "minecraft:cooked_beef"
+  },
+  "result": {
+    "id": "mintyirlplanets:bunjer",
+    "count": 1
+  }
+}

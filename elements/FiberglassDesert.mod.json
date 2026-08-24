@@ -1,17 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Fiberglass Desert",
-    "groundBlock": {
-      "value": "CUSTOM:Fiberglass"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:Fiberglass"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:Fiberglass"
-    },
+    "groundBlock": "CUSTOM:Fiberglass",
+    "undergroundBlock": "CUSTOM:Fiberglass",
+    "underwaterBlock": "CUSTOM:Fiberglass",
     "airColor": {
       "value": -7697217,
       "falpha": 0.0
@@ -24,23 +18,13 @@
       "value": -10924516,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": "CUSTOM:mars"
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "CUSTOM:mars",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "END_ROD"
-    },
+    "particleToSpawn": "END_ROD",
     "particlesProbability": 0.7999999999999999,
     "rainingPossibility": 0.0,
     "temperature": 0.5,
@@ -75,18 +59,10 @@
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
-    "treeStem": {
-      "value": "Blocks.AIR"
-    },
-    "treeBranch": {
-      "value": "Blocks.AIR"
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "Blocks.AIR",
+    "treeBranch": "Blocks.AIR",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves"
     ],

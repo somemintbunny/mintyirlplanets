@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "wooden_door",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "CUSTOM:SubconsiusPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusDoor"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusDoor",
     "name": "subconsius_door_recipe",
     "namespace": "mod"
   }

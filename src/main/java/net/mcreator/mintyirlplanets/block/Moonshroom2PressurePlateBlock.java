@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2PressurePlateBlock extends PressurePlateBlock {
 	public Moonshroom2PressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 5).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 5).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 
 	@Override

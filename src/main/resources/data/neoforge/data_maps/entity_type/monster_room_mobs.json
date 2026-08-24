@@ -2,6 +2,9 @@
   "values": {
     "mintyirlplanets:debugger": {
       "weight": 100
+    },
+    "mintyirlplanets:evil_chicken": {
+      "weight": 100
     }
   }
 }

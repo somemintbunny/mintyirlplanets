@@ -1,17 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Mars Forest",
-    "groundBlock": {
-      "value": "CUSTOM:FerrousSand"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:FerrousSand"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:AlumineumBlock"
-    },
+    "groundBlock": "CUSTOM:FerrousSand",
+    "undergroundBlock": "CUSTOM:FerrousSand",
+    "underwaterBlock": "CUSTOM:AlumineumBlock",
     "airColor": {
       "value": -13955519,
       "falpha": 0.0
@@ -20,8 +14,12 @@
       "value": -13955519,
       "falpha": 0.0
     },
+    "grassColor": {
+      "value": -5010638,
+      "falpha": 0.0
+    },
     "foliageColor": {
-      "value": -2902379,
+      "value": -14277,
       "falpha": 0.0
     },
     "waterColor": {
@@ -32,23 +30,13 @@
       "value": -7379950,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "CUSTOM:marstrees",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "ASH"
-    },
+    "particleToSpawn": "ASH",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.8,
     "temperature": 0.7999999999999999,
@@ -83,18 +71,10 @@
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": "CUSTOM:SubconsiusLog"
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "CUSTOM:SubconsiusLog",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -116,6 +96,14 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": "EntityEnderman",
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 16,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

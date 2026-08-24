@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "heliumc",
@@ -52,9 +52,7 @@
     "immuneToFire": false,
     "creativeTabs": [],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -74,14 +72,10 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": "CUSTOM:HeliumShard"
-    },
+    "creativePickItem": "CUSTOM:HeliumShard",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -91,25 +85,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": true,
+    "soundOnStep": "AMETHYST_CLUSTER",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "AMETHYST_CLUSTER"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -137,18 +119,10 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "HCrystalNeighbourBlockChanges"
-    },
-    "onNeighbourBlockChanges": {
-      "name": "HCrystalNeighbourBlockChanges"
-    },
-    "onTickUpdate": {
-      "name": "Del"
-    },
-    "onDestroyedByPlayer": {
-      "name": "HCrystalNeighbourBlockChanges"
-    },
+    "onBlockAdded": "HCrystalNeighbourBlockChanges",
+    "onNeighbourBlockChanges": "HCrystalNeighbourBlockChanges",
+    "onTickUpdate": "Del",
+    "onDestroyedByPlayer": "HCrystalNeighbourBlockChanges",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

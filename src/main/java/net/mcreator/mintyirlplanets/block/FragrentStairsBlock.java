@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentStairsBlock extends StairBlock {
 	public FragrentStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(30f, 20f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(30f, 20f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

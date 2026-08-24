@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,10 +10,12 @@
     "textureLeggings": "krypton_leggings",
     "enableBoots": true,
     "textureBoots": "krypton_boots",
+    "onHelmetTick": "KryptoniumGear",
+    "onBodyTick": "KryptoniumGear",
+    "onLeggingsTick": "KryptoniumGear",
+    "onBootsTick": "KryptoniumGear",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:Armour"
-      }
+      "CUSTOM:Armour"
     ],
     "armorTextureFile": "krypton",
     "helmetName": "Kryptonium Helmet",
@@ -21,16 +23,28 @@
     "leggingsName": "Kryptonium Leggings",
     "bootsName": "Kryptonium Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increase health regeneration",
+        "Reacts badly with dreamdrop"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increase health regeneration",
+        "reacts badly with dreamdrop"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increase health regeneration",
+        "Reacts badly with dreamdrop"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Increase health regeneration",
+        "Reacts badly with dreamdrop"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -96,14 +110,11 @@
     "enchantability": 18,
     "toughness": 3.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:Kryptonium"
-      }
+      "CUSTOM:Kryptonium"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

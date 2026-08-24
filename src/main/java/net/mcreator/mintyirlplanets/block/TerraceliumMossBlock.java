@@ -1,5 +1,6 @@
 package net.mcreator.mintyirlplanets.block;
 
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -13,7 +14,7 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModBlocks;
 
 public class TerraceliumMossBlock extends Block {
 	public TerraceliumMossBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRAVEL).strength(4f, 10f).speedFactor(1.2f));
+		super(properties.sound(SoundType.GRAVEL).strength(4f, 10f).speedFactor(1.2f).instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

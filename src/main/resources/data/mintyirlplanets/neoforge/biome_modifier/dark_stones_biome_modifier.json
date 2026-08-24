@@ -7,5 +7,5 @@
     "mintyirlplanets:dark_moon"
   ],
   "features": "mintyirlplanets:dark_stones",
-  "step": "underground_decoration"
+  "step": "surface_structures"
 }

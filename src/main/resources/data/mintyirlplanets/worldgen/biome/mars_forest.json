@@ -3,8 +3,19 @@
   "temperature": 0.8,
   "downfall": 0.8,
   "effects": {
-    "foliage_color": -2902379,
-    "grass_color": 9470285,
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "mintyirlplanets:marstrees",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "foliage_color": -14277,
+    "grass_color": -5010638,
     "sky_color": -13955519,
     "fog_color": -13955519,
     "water_color": -6389709,

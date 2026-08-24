@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:ChipShopMenu"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.BREAD",
+      "Items.BREAD",
+      "",
+      "CUSTOM:PortionOfKebabMeat",
+      "CUSTOM:PortionOfChips",
+      "Items.BREAD",
+      "Items.BREAD",
+      "Items.BREAD",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:KebabWrapWithChips",
+    "name": "wrap",
+    "namespace": "mod"
+  }
+}

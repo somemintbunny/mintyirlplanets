@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedPlanksBlock extends Block {
 	public DamnedPlanksBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(13.4f, 13.7398216971f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(13.4f, 13.7398216971f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

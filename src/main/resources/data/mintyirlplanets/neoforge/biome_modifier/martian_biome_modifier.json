@@ -5,12 +5,13 @@
     "mintyirlplanets:dark_moon",
     "mintyirlplanets:moon",
     "mintyirlplanets:moonshroom",
-    "mintyirlplanets:saturn_stone"
+    "mintyirlplanets:saturn_stone",
+    "mintyirlplanets:terracelium"
   ],
   "spawners": {
     "type": "mintyirlplanets:martian",
-    "weight": 12,
-    "minCount": 1,
+    "weight": 16,
+    "minCount": 2,
     "maxCount": 4
   }
 }

@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "hanging_sign",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      }
+      "CUSTOM:StrippedSubconsiusLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSubconsiusLog"
-      }
+      "Blocks.CHAIN",
+      "",
+      "Blocks.CHAIN",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog",
+      "CUSTOM:StrippedSubconsiusLog"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusHangingSign"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusHangingSign",
     "name": "subconsius_hanging_sign_recipe",
     "namespace": "mod"
   }

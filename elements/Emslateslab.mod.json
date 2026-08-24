@@ -1,23 +1,15 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Blocks.EMERALD_BLOCK"
-      },
-      {
-        "value": "CUSTOM:EmeraldSlateSlab"
-      },
-      {
-        "value": "CUSTOM:EmeraldSlates"
-      }
+      "Items.EMERALD",
+      "Blocks.EMERALD_BLOCK",
+      "CUSTOM:EmeraldSlateSlab",
+      "CUSTOM:EmeraldSlates"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -25,37 +17,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:EmeraldSlates"
-      },
-      {
-        "value": "CUSTOM:EmeraldSlates"
-      },
-      {
-        "value": "CUSTOM:EmeraldSlates"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:EmeraldSlates",
+      "CUSTOM:EmeraldSlates",
+      "CUSTOM:EmeraldSlates"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldSlateSlab"
-    },
+    "recipeReturnStack": "CUSTOM:EmeraldSlateSlab",
     "name": "emslateslab",
     "namespace": "mod"
   }

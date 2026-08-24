@@ -165,6 +165,7 @@ public class MintyirlplanetsModBlocks {
 	public static final DeferredBlock<Block> SUBCONSIUS_HANGING_SIGN;
 	public static final DeferredBlock<Block> SUBCONSIUS_WALL_HANGING_SIGN;
 	public static final DeferredBlock<Block> UNCONSIUM_SAPLING;
+	public static final DeferredBlock<Block> CHEESE;
 	static {
 		MOON_ROCK = register("moon_rock", MoonRockBlock::new);
 		DARK_MOON_ROCK = register("dark_moon_rock", DarkMoonRockBlock::new);
@@ -307,6 +308,7 @@ public class MintyirlplanetsModBlocks {
 		SUBCONSIUS_HANGING_SIGN = register("subconsius_hanging_sign", SubconsiusHangingSignBlock::new);
 		SUBCONSIUS_WALL_HANGING_SIGN = register("subconsius_wall_hanging_sign", SubconsiusWallHangingSignBlock::new);
 		UNCONSIUM_SAPLING = register("unconsium_sapling", UnconsiumSaplingBlock::new);
+		CHEESE = register("cheese", CheeseBlock::new);
 	}
 
 	// Start of user code block custom blocks

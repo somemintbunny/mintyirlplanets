@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Toxic Gas",
@@ -14,8 +14,6 @@
     "renderStatusInHUD": true,
     "isCuredbyHoney": false,
     "modifiers": [],
-    "onActiveTick": {
-      "name": "ToxicGasOnEffectActiveTick"
-    }
+    "onActiveTick": "ToxicGasOnEffectActiveTick"
   }
 }

@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedPressurePlateBlock extends PressurePlateBlock {
 	public DamnedPressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 
 	@Override

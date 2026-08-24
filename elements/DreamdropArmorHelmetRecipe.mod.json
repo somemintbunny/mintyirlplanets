@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Dreamdrop"
-      }
+      "CUSTOM:Dreamdrop"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Dreamdrop"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Dreamdrop",
+      "CUSTOM:Dreamdrop",
+      "",
+      "CUSTOM:Dreamdrop",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DreamdropArmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:DreamdropArmor.helmet",
     "name": "dreamdrop_armor_helmet_recipe",
     "namespace": "mod"
   }

@@ -1,20 +1,14 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:StarFlower"
-      },
-      {
-        "value": "CUSTOM:AquapherFlower"
-      },
-      {
-        "value": "CUSTOM:PlantStem"
-      }
+      "CUSTOM:StarFlower",
+      "CUSTOM:AquapherFlower",
+      "CUSTOM:PlantStem"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -22,37 +16,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:StarFlower"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AquapherFlower"
-      },
-      {
-        "value": "CUSTOM:AquapherFlower"
-      },
-      {
-        "value": "CUSTOM:PlantStem"
-      },
-      {
-        "value": "CUSTOM:StarFlower"
-      },
-      {
-        "value": "CUSTOM:StarFlower"
-      },
-      {
-        "value": "CUSTOM:PlantStem"
-      },
-      {
-        "value": "CUSTOM:AquapherFlower"
-      }
+      "CUSTOM:StarFlower",
+      "",
+      "CUSTOM:AquapherFlower",
+      "CUSTOM:AquapherFlower",
+      "CUSTOM:PlantStem",
+      "CUSTOM:StarFlower",
+      "CUSTOM:StarFlower",
+      "CUSTOM:PlantStem",
+      "CUSTOM:AquapherFlower"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:FlowerCrown.body"
-    },
+    "recipeReturnStack": "CUSTOM:FlowerCrown.body",
     "name": "flowershirt",
     "namespace": "mod"
   }

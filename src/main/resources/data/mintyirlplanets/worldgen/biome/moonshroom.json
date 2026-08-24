@@ -16,28 +16,15 @@
     ],
     "foliage_color": 10387789,
     "grass_color": 9470285,
-    "sky_color": 7972607,
-    "fog_color": 12638463,
+    "sky_color": -13605242,
+    "fog_color": -14536374,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
   "spawners": {
     "monster": [],
     "creature": [],
-    "ambient": [
-      {
-        "type": "mintyirlplanets:debugger",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 13
-      },
-      {
-        "type": "mintyirlplanets:martian",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 15
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
@@ -56,9 +43,7 @@
     [],
     [],
     [],
-    [
-      "mintyirlplanets:moonshroom_tree"
-    ],
+    [],
     []
   ]
 }

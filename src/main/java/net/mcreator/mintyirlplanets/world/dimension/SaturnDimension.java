@@ -31,7 +31,7 @@ public class SaturnDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.register(ResourceLocation.parse("mintyirlplanets:saturn"), customEffect);

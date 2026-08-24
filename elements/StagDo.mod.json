@@ -1,0 +1,41 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "stagdo",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Stag Do",
+    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": [
+        "Inflicts your enemies with poison"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:WeaponsAndTools"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 2.6,
+    "enchantability": 2,
+    "damageVsEntity": 26.0,
+    "usageCount": 6893,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:Mandible"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "BoomLivingEntityIsHitWithTool"
+  }
+}

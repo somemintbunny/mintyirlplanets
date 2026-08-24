@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Hoe",
@@ -8,15 +8,14 @@
     "texture": "demonic_hoe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Demonic Hoe",
+    "guiTexture": "",
+    "name": "Demonite Hoe",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:WeaponsAndTools"
-      }
+      "CUSTOM:WeaponsAndTools"
     ],
     "efficiency": 14.0,
     "attackSpeed": 12.0,
@@ -27,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:DemonicIngot"
-      }
+      "CUSTOM:DemonicIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",

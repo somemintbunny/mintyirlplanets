@@ -1,12 +1,10 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "achievement",
   "definition": {
     "achievementName": "Communication Recieved",
     "achievementDescription": "get to mars using a Galactic Communication Device on a frame of damned planks",
-    "achievementIcon": {
-      "value": "CUSTOM:Mars"
-    },
+    "achievementIcon": "CUSTOM:Mars",
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
@@ -16,9 +14,7 @@
     "rewardRecipes": [],
     "rewardXP": 55,
     "achievementType": "task",
-    "parent": {
-      "value": "CUSTOM:BlastedMeteor"
-    },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\"><field name=\"dimension\">CUSTOM:Mars</field></block></next></block></xml>"
+    "parent": "CUSTOM:BlastedMeteor",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\"><field name=\"dimension\">CUSTOM:Mars</field></block></next></block></xml>"
   }
 }

@@ -1,5 +1,6 @@
 package net.mcreator.mintyirlplanets.block;
 
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -10,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2LeavesBlock extends Block {
 	public Moonshroom2LeavesBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.ROOTS).strength(0.2f).lightLevel(blockstate -> 7));
+		super(properties.sound(SoundType.ROOTS).strength(0.2f).lightLevel(blockstate -> 1).instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

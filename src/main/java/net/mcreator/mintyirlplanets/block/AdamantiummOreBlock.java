@@ -5,7 +5,7 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
@@ -14,9 +14,23 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.mintyirlplanets.procedures.AdamantiummOreAdditionalHarvestConditionProcedure;
 import net.mcreator.mintyirlplanets.procedures.AdamProcedure;
 
-public class AdamantiummOreBlock extends Block {
+import com.mojang.serialization.MapCodec;
+
+public class AdamantiummOreBlock extends FallingBlock {
+	public static final MapCodec<AdamantiummOreBlock> CODEC = simpleCodec(AdamantiummOreBlock::new);
+
+	@Override
+	public MapCodec<AdamantiummOreBlock> codec() {
+		return CODEC;
+	}
+
+	@Override
+	public int getDustColor(BlockState blockstate, BlockGetter world, BlockPos pos) {
+		return blockstate.getMapColor(world, pos).col;
+	}
+
 	public AdamantiummOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.SUSPICIOUS_SAND).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.sound(SoundType.SUSPICIOUS_SAND).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

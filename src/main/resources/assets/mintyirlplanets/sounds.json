@@ -282,5 +282,25 @@
         "stream": false
       }
     ]
+  },
+  "marstrees": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:marscool",
+        "stream": true
+      },
+      {
+        "name": "mintyirlplanets:trees_grow_on_mars",
+        "stream": true
+      }
+    ]
+  },
+  "rabbattle": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:rap_battle_shury_vs_gorentias",
+        "stream": true
+      }
+    ]
   }
 }

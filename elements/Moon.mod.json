@@ -1,42 +1,30 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Moon",
-    "groundBlock": {
-      "value": "CUSTOM:MoonRock"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:MoonRock"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:DarkMoonRock"
-    },
+    "groundBlock": "CUSTOM:MoonRock",
+    "undergroundBlock": "CUSTOM:MoonRock",
+    "underwaterBlock": "CUSTOM:DarkMoonRock",
     "airColor": {
       "value": -16777216,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -15987699,
       "falpha": 0.0
     },
     "grassColor": {
       "value": -6710887,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": "CUSTOM:disc3"
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "CUSTOM:disc3",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
+    "particleToSpawn": "EXPLOSION_NORMAL",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -71,18 +59,10 @@
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
-    "treeStem": {
-      "value": ""
-    },
-    "treeBranch": {
-      "value": ""
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "",
+    "treeBranch": "",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves"
     ],

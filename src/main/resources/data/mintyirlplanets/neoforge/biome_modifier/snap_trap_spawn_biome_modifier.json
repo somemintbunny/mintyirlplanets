@@ -9,5 +9,5 @@
     "mintyirlplanets:saturn_moss"
   ],
   "features": "mintyirlplanets:snap_trap_spawn",
-  "step": "underground_decoration"
+  "step": "surface_structures"
 }

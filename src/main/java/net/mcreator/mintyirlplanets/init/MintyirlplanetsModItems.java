@@ -331,6 +331,27 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> HERBAL_LEAF;
 	public static final DeferredItem<Item> STAG_BEETLE_SPAWN_EGG;
 	public static final DeferredItem<Item> HOPPER_NYMPH_SPAWN_EGG;
+	public static final DeferredItem<Item> MANDIBLE;
+	public static final DeferredItem<Item> STAG_DO;
+	public static final DeferredItem<Item> METEOR_ARMOR_HELMET;
+	public static final DeferredItem<Item> METEOR_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> METEOR_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> METEOR_ARMOR_BOOTS;
+	public static final DeferredItem<Item> KEBAB_WRAP_WITH_CHIPS;
+	public static final DeferredItem<Item> PORTION_OF_CHIPS;
+	public static final DeferredItem<Item> CHIP_BUTTY;
+	public static final DeferredItem<Item> CHIP_SHOP_MENU;
+	public static final DeferredItem<Item> PORTION_OF_KEBAB_MEAT;
+	public static final DeferredItem<Item> BUNJER;
+	public static final DeferredItem<Item> PIZZA;
+	public static final DeferredItem<Item> SLICE_OF_CHEESE;
+	public static final DeferredItem<Item> CHEESE;
+	public static final DeferredItem<Item> BIG_SALMON;
+	public static final DeferredItem<Item> BIG_COD;
+	public static final DeferredItem<Item> EVIL_CHICKEN_SPAWN_EGG;
+	public static final DeferredItem<Item> SHROOMPLE_SPAWN_EGG;
+	public static final DeferredItem<Item> MOON_FLOWER_SPAWN_EGG;
+	public static final DeferredItem<Item> EVIL_MOON_FLOWER_SPAWN_EGG;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
 		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.DEBUGGER.get(), properties));
@@ -632,10 +653,31 @@ public class MintyirlplanetsModItems {
 		SUBCONSIUS_HANGING_SIGN = hangingSignBlock(MintyirlplanetsModBlocks.SUBCONSIUS_HANGING_SIGN, MintyirlplanetsModBlocks.SUBCONSIUS_WALL_HANGING_SIGN, new Item.Properties().stacksTo(99));
 		SUBCONSIUS_BOAT = register("subconsius_boat", properties -> new BoatItem(MintyirlplanetsModEntities.SUBCONSIUS_BOAT.get(), properties.stacksTo(1)));
 		SUBCONSIUS_CHEST_BOAT = register("subconsius_chest_boat", properties -> new BoatItem(MintyirlplanetsModEntities.SUBCONSIUS_CHEST_BOAT.get(), properties.stacksTo(1)));
-		UNCONSIUM_SAPLING = block(MintyirlplanetsModBlocks.UNCONSIUM_SAPLING);
+		UNCONSIUM_SAPLING = block(MintyirlplanetsModBlocks.UNCONSIUM_SAPLING, new Item.Properties().stacksTo(99));
 		HERBAL_LEAF = register("herbal_leaf", HerbalLeafItem::new);
 		STAG_BEETLE_SPAWN_EGG = register("stag_beetle_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.STAG_BEETLE.get(), properties));
 		HOPPER_NYMPH_SPAWN_EGG = register("hopper_nymph_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.HOPPER_NYMPH.get(), properties));
+		MANDIBLE = register("mandible", MandibleItem::new);
+		STAG_DO = register("stag_do", StagDoItem::new);
+		METEOR_ARMOR_HELMET = register("meteor_armor_helmet", MeteorArmorItem.Helmet::new);
+		METEOR_ARMOR_CHESTPLATE = register("meteor_armor_chestplate", MeteorArmorItem.Chestplate::new);
+		METEOR_ARMOR_LEGGINGS = register("meteor_armor_leggings", MeteorArmorItem.Leggings::new);
+		METEOR_ARMOR_BOOTS = register("meteor_armor_boots", MeteorArmorItem.Boots::new);
+		KEBAB_WRAP_WITH_CHIPS = register("kebab_wrap_with_chips", KebabWrapWithChipsItem::new);
+		PORTION_OF_CHIPS = register("portion_of_chips", PortionOfChipsItem::new);
+		CHIP_BUTTY = register("chip_butty", ChipButtyItem::new);
+		CHIP_SHOP_MENU = register("chip_shop_menu", ChipShopMenuItem::new);
+		PORTION_OF_KEBAB_MEAT = register("portion_of_kebab_meat", PortionOfKebabMeatItem::new);
+		BUNJER = register("bunjer", BunjerItem::new);
+		PIZZA = register("pizza", PizzaItem::new);
+		SLICE_OF_CHEESE = register("slice_of_cheese", SliceOfCheeseItem::new);
+		CHEESE = block(MintyirlplanetsModBlocks.CHEESE);
+		BIG_SALMON = register("big_salmon", BigSalmonItem::new);
+		BIG_COD = register("big_cod", BigCodItem::new);
+		EVIL_CHICKEN_SPAWN_EGG = register("evil_chicken_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.EVIL_CHICKEN.get(), properties));
+		SHROOMPLE_SPAWN_EGG = register("shroomple_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.SHROOMPLE.get(), properties));
+		MOON_FLOWER_SPAWN_EGG = register("moon_flower_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.MOON_FLOWER.get(), properties));
+		EVIL_MOON_FLOWER_SPAWN_EGG = register("evil_moon_flower_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.EVIL_MOON_FLOWER.get(), properties));
 	}
 
 	// Start of user code block custom items

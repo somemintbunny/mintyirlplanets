@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:beef",
+    "b": "minecraft:cooked_mutton",
+    "c": "minecraft:paper"
+  },
+  "result": {
+    "id": "mintyirlplanets:portion_of_kebab_meat",
+    "count": 1
+  }
+}

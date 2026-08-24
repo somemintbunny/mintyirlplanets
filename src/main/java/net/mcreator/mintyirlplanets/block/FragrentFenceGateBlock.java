@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentFenceGateBlock extends FenceGateBlock {
 	public FragrentFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class SubconsiusStairsBlock extends StairBlock {
 	public SubconsiusStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(6f, 9f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(6f, 9f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

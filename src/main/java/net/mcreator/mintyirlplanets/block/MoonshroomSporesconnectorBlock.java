@@ -4,6 +4,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.redstone.Orientation;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -20,7 +21,7 @@ import javax.annotation.Nullable;
 
 public class MoonshroomSporesconnectorBlock extends Block {
 	public MoonshroomSporesconnectorBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WEEPING_VINES).instabreak().noCollission().isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.WEEPING_VINES).instabreak().noCollission().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

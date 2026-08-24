@@ -13,7 +13,7 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModBlocks;
 
 public class AluminumOreBlock extends Block {
 	public AluminumOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(3f, 5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+		super(properties.strength(3f, 5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override

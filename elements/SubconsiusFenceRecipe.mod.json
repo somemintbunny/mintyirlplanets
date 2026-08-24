@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "wooden_fence",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "CUSTOM:SubconsiusPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:SubconsiusPlanks"
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:SubconsiusPlanks",
+      "Items.STICK",
+      "CUSTOM:SubconsiusPlanks",
+      "CUSTOM:SubconsiusPlanks",
+      "Items.STICK",
+      "CUSTOM:SubconsiusPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SubconsiusFence"
-    },
+    "recipeReturnStack": "CUSTOM:SubconsiusFence",
     "name": "subconsius_fence_recipe",
     "namespace": "mod"
   }

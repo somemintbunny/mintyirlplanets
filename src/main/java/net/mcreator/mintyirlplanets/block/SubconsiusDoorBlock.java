@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.DoorBlock;
 
 public class SubconsiusDoorBlock extends DoorBlock {
 	public SubconsiusDoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(9f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(9f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 }

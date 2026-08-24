@@ -3,7 +3,7 @@
   "biomes": "mintyirlplanets:moonshroom",
   "spawners": {
     "type": "mintyirlplanets:debugger",
-    "weight": 20,
+    "weight": 11,
     "minCount": 1,
     "maxCount": 35
   }

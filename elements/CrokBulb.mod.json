@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "bulb",
@@ -51,14 +51,10 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:SaturnBlocks"
-      }
+      "CUSTOM:SaturnBlocks"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,14 +74,10 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -95,25 +87,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "GROUND",
     "isCustomSoundType": true,
-    "soundOnStep": {
-      "value": "GROUND"
-    },
-    "breakSound": {
-      "value": "CUSTOM:plasticbreak"
-    },
-    "fallSound": {
-      "value": "CUSTOM:fiberglassbreak"
-    },
-    "hitSound": {
-      "value": "CUSTOM:plastichit"
-    },
-    "placeSound": {
-      "value": "CUSTOM:holowplastichit"
-    },
-    "stepSound": {
-      "value": "CUSTOM:plasticwalk"
-    },
+    "breakSound": "CUSTOM:plasticbreak",
+    "fallSound": "CUSTOM:fiberglassbreak",
+    "hitSound": "CUSTOM:plastichit",
+    "placeSound": "CUSTOM:holowplastichit",
+    "stepSound": "CUSTOM:plasticwalk",
     "luminance": {
       "fixedValue": 15.0
     },
@@ -144,9 +124,7 @@
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
+      "TAG:stone_ore_replaceables"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

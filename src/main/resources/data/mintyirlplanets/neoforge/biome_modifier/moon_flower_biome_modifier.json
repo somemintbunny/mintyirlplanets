@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:moon",
+    "mintyirlplanets:moonshroom"
+  ],
+  "spawners": {
+    "type": "mintyirlplanets:moon_flower",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

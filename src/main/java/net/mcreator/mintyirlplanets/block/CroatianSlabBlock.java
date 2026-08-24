@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CroatianSlabBlock extends SlabBlock {
 	public CroatianSlabBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(8f, 14f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+		super(properties.sound(SoundType.WOOD).strength(8f, 14f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
 	}
 
 	@Override
