@@ -188,7 +188,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.DEBUG_PICK.get());
 			}).withTabsBefore(SATURN_BLOCKS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ARMOUR = REGISTRY.register("armour",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.armour")).icon(() -> new ItemStack(MintyirlplanetsModItems.DELETED_MOD_ELEMENT_HELMET.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.armour")).icon(() -> new ItemStack(MintyirlplanetsModItems.DREAMDROP_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MintyirlplanetsModItems.SIVER_ARMOR_HELMET.get());
 				tabData.accept(MintyirlplanetsModItems.SIVER_ARMOR_CHESTPLATE.get());
 				tabData.accept(MintyirlplanetsModItems.SIVER_ARMOR_LEGGINGS.get());
