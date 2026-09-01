@@ -167,50 +167,6 @@
       }
     },
     {
-      "name": "Dummy1",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dummy_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mintyirlplanets/items/dummy_1_helmet.json",
-          "src/main/resources/assets/mintyirlplanets/items/dummy_1_leggings.json",
-          "src/main/java/net/mcreator/mintyirlplanets/item/Dummy1Item.java",
-          "src/main/resources/assets/mintyirlplanets/equipment/dummy_1.json",
-          "src/main/resources/assets/mintyirlplanets/items/dummy_1_chestplate.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_1_leggings.json",
-          "src/main/java/net/mcreator/mintyirlplanets/client/renderer/item/Dummy1Armor.java",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_1_helmet.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_1_boots.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_1_chestplate.json",
-          "src/main/resources/assets/mintyirlplanets/items/dummy_1_boots.json"
-        ]
-      }
-    },
-    {
-      "name": "Dummy2",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dummy_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mintyirlplanets/items/dummy_2_helmet.json",
-          "src/main/java/net/mcreator/mintyirlplanets/client/renderer/item/Dummy2Armor.java",
-          "src/main/java/net/mcreator/mintyirlplanets/item/Dummy2Item.java",
-          "src/main/resources/assets/mintyirlplanets/items/dummy_2_leggings.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_2_chestplate.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_2_leggings.json",
-          "src/main/resources/assets/mintyirlplanets/equipment/dummy_2.json",
-          "src/main/resources/assets/mintyirlplanets/items/dummy_2_boots.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_2_helmet.json",
-          "src/main/resources/assets/mintyirlplanets/items/dummy_2_chestplate.json",
-          "src/main/resources/assets/mintyirlplanets/models/item/dummy_2_boots.json"
-        ]
-      }
-    },
-    {
       "name": "MoonRock",
       "type": "block",
       "compiles": true,
@@ -6072,24 +6028,6 @@
       }
     },
     {
-      "name": "Dummy1HelmetTickEvent",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dummy_1_helmet_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mintyirlplanets/procedures/Dummy1HelmetTickEventProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "SaturnPlayerLeavesDimension",
       "type": "procedure",
       "compiles": true,
@@ -6918,7 +6856,6 @@
         "files": [
           "src/main/resources/assets/mintyirlplanets/items/nightmare_spawn_egg.json",
           "src/main/resources/assets/mintyirlplanets/models/item/nightmare_spawn_egg.json",
-          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/nightmare_biome_modifier.json",
           "src/main/java/net/mcreator/mintyirlplanets/client/renderer/NightmareRenderer.java",
           "src/main/java/net/mcreator/mintyirlplanets/entity/NightmareEntity.java"
         ]
@@ -7560,8 +7497,7 @@
           "src/main/resources/assets/mintyirlplanets/models/block/chlorite.json",
           "src/main/resources/assets/mintyirlplanets/models/item/chlorite.json",
           "src/main/resources/assets/mintyirlplanets/blockstates/chlorite.json",
-          "src/main/java/net/mcreator/mintyirlplanets/block/ChlorineBlock.java",
-          "src/main/resources/data/mintyirlplanets/loot_table/blocks/chlorite.json"
+          "src/main/java/net/mcreator/mintyirlplanets/block/ChlorineBlock.java"
         ]
       }
     },
@@ -11329,9 +11265,7 @@
       "registry_name": "rock_mars_cave",
       "metadata": {
         "files": [
-          "src/main/resources/data/mintyirlplanets/worldgen/biome/rock_mars_cave.json",
-          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/rock_mars_cave_tree.json",
-          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/rock_mars_cave_tree.json"
+          "src/main/resources/data/mintyirlplanets/worldgen/biome/rock_mars_cave.json"
         ]
       }
     },
@@ -11571,7 +11505,6 @@
       "locked_code": false,
       "registry_name": "unbderrgrosr",
       "metadata": {
-        "has_nbt_structure": true,
         "files": [
           "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/unbderrgrosr.json",
           "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/unbderrgrosr.json",
@@ -11838,6 +11771,216 @@
       "metadata": {
         "files": [
           "src/main/resources/data/mintyirlplanets/loot_table/blocks/chloric_adamantiumm_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ChloricCoal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chloric_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/chloric_coal.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/ChloricCoalBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/chloric_coal.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/chloric_coal.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/chloric_coal_biome_modifier.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/chloric_coal.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/chloric_coal.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/chloric_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "Cc",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/chloric_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonCoal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_coal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/block/MoonCoalBlock.java",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/moon_coal.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/moon_coal.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/moon_coal.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/moon_coal_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/moon_coal.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/moon_coal.json",
+          "src/main/resources/assets/mintyirlplanets/items/moon_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "Mc",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/moon_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepChard",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_chard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/biome/deep_chard.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/deep_chard_tree.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/deep_chard_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Endothermia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endothermia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/endothermia.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/endothermia.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/endothermia.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/endothermia.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/EndothermiaBlock.java",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/endothermia.json",
+          "src/main/resources/assets/mintyirlplanets/items/endothermia.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/endothermia_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MossyMulch",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_mulch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/mossy_mulch.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/mossy_mulch.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/MossyMulchBlock.java",
+          "src/main/resources/assets/mintyirlplanets/models/block/mossy_mulch.json",
+          "src/main/resources/assets/mintyirlplanets/blockstates/mossy_mulch.json",
+          "src/main/resources/assets/mintyirlplanets/items/mossy_mulch.json"
+        ]
+      }
+    },
+    {
+      "name": "SiliconMulch",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_mulch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/silicon_mulch.json",
+          "src/main/java/net/mcreator/mintyirlplanets/block/SiliconMulchBlock.java",
+          "src/main/resources/assets/mintyirlplanets/blockstates/silicon_mulch.json",
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/silicon_mulch.json",
+          "src/main/resources/data/mintyirlplanets/neoforge/biome_modifier/silicon_mulch_biome_modifier.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/placed_feature/silicon_mulch.json",
+          "src/main/resources/assets/mintyirlplanets/models/block/silicon_mulch.json",
+          "src/main/resources/data/mintyirlplanets/worldgen/configured_feature/silicon_mulch.json",
+          "src/main/resources/assets/mintyirlplanets/models/item/silicon_mulch.json"
+        ]
+      }
+    },
+    {
+      "name": "EndothermicDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endothermic_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mintyirlplanets/item/EndothermicDustItem.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/endothermic_dust.json",
+          "src/main/resources/assets/mintyirlplanets/items/endothermic_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Rndo",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rndo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/endothermia.json"
+        ]
+      }
+    },
+    {
+      "name": "ChloriteShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorite_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mintyirlplanets/items/chlorite_shard.json",
+          "src/main/java/net/mcreator/mintyirlplanets/item/ChloriteShardItem.java",
+          "src/main/resources/assets/mintyirlplanets/models/item/chlorite_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "Chld",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chld",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/chld.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/chld.json"
+        ]
+      }
+    },
+    {
+      "name": "Cskjlklmxc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cskjlklmxc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/recipe/cskjlklmxc.json",
+          "src/main/resources/data/mintyirlplanets/advancement/recipes/cskjlklmxc.json"
+        ]
+      }
+    },
+    {
+      "name": "Fhghgfgfh",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fhghgfgfh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mintyirlplanets/loot_table/blocks/chlorite.json"
         ]
       }
     }
@@ -12321,8 +12464,6 @@
       "~AlumineumArmor@CUSTOM:AlumineumArmor.helmet",
       "~SiverArmor@CUSTOM:SiverArmor.helmet",
       "~DreamdropArmor@CUSTOM:DreamdropArmor.helmet",
-      "~Dummy2@CUSTOM:Dummy2.helmet",
-      "~Dummy1@CUSTOM:Dummy1.helmet",
       "~DebuggerArmour@CUSTOM:DebuggerArmour.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
@@ -12338,8 +12479,6 @@
       "~AlumineumArmor@CUSTOM:AlumineumArmor.body",
       "~SiverArmor@CUSTOM:SiverArmor.body",
       "~DreamdropArmor@CUSTOM:DreamdropArmor.body",
-      "~Dummy2@CUSTOM:Dummy2.body",
-      "~Dummy1@CUSTOM:Dummy1.body",
       "~DebuggerArmour@CUSTOM:DebuggerArmour.body"
     ],
     "ITEMS:minecraft:leg_armor": [
@@ -12354,8 +12493,6 @@
       "~AlumineumArmor@CUSTOM:AlumineumArmor.legs",
       "~SiverArmor@CUSTOM:SiverArmor.legs",
       "~DreamdropArmor@CUSTOM:DreamdropArmor.legs",
-      "~Dummy2@CUSTOM:Dummy2.legs",
-      "~Dummy1@CUSTOM:Dummy1.legs",
       "~DebuggerArmour@CUSTOM:DebuggerArmour.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
@@ -12370,8 +12507,6 @@
       "~AlumineumArmor@CUSTOM:AlumineumArmor.boots",
       "~SiverArmor@CUSTOM:SiverArmor.boots",
       "~DreamdropArmor@CUSTOM:DreamdropArmor.boots",
-      "~Dummy2@CUSTOM:Dummy2.boots",
-      "~Dummy1@CUSTOM:Dummy1.boots",
       "~DebuggerArmour@CUSTOM:DebuggerArmour.boots"
     ],
     "ITEMS:minecraft:music_discs": [
@@ -12382,13 +12517,11 @@
       "~Disc1@CUSTOM:Disc1"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~MoonCoal@CUSTOM:MoonCoal",
+      "~ChloricCoal@CUSTOM:ChloricCoal",
+      "~StaringMoonRock@CUSTOM:StaringMoonRock",
       "~ShinyRockyAlumineumBlock@CUSTOM:ShinyRockyAlumineumBlock",
       "~ChloricAdamantiummOre@CUSTOM:ChloricAdamantiummOre",
-      "~Glowing@CUSTOM:Glowing",
-      "~DreamdropOre@CUSTOM:DreamdropOre",
-      "~KryptoniumOre@CUSTOM:KryptoniumOre",
-      "~Chlorine@CUSTOM:Chlorine",
-      "~StaringMoonRock@CUSTOM:StaringMoonRock",
       "~ChloricDemonicOre@CUSTOM:ChloricDemonicOre",
       "~RockyAlumineumBlock@CUSTOM:RockyAlumineumBlock",
       "~ChizzledEmerald@CUSTOM:ChizzledEmerald",
@@ -12409,6 +12542,7 @@
       "~RawSilverBlock@CUSTOM:RawSilverBlock",
       "~DarkMoonStone@CUSTOM:DarkMoonStone",
       "~LightMoonStone@CUSTOM:LightMoonStone",
+      "~Chlorine@CUSTOM:Chlorine",
       "~Meteorite@CUSTOM:Meteorite",
       "~HCrystal@CUSTOM:HCrystal",
       "~Fossil@CUSTOM:Fossil",
@@ -12417,6 +12551,7 @@
       "~SoulstoneOre@CUSTOM:SoulstoneOre",
       "~BrimstoneBlock@CUSTOM:BrimstoneBlock",
       "~BrimstoneOre@CUSTOM:BrimstoneOre",
+      "~Glowing@CUSTOM:Glowing",
       "~ClearPlastc@CUSTOM:ClearPlastc",
       "~BoneSlab@CUSTOM:BoneSlab",
       "~CrackedBoneBrickSlab@CUSTOM:CrackedBoneBrickSlab",
@@ -12435,42 +12570,46 @@
       "~AdamantiummBlock@CUSTOM:AdamantiummBlock",
       "~Corestone@CUSTOM:Corestone",
       "~KryptoniumBlock@CUSTOM:KryptoniumBlock",
+      "~KryptoniumOre@CUSTOM:KryptoniumOre",
       "~AlumineumBlock@CUSTOM:AlumineumBlock",
       "~AluminumBlock@CUSTOM:AluminumBlock",
       "~AluminumOre@CUSTOM:AluminumOre",
       "~SiverBlock@CUSTOM:SiverBlock",
       "~SiverOre@CUSTOM:SiverOre",
       "~DreamdropBlock@CUSTOM:DreamdropBlock",
+      "~DreamdropOre@CUSTOM:DreamdropOre",
       "~DarkMoonRock@CUSTOM:DarkMoonRock",
       "~MoonRock@CUSTOM:MoonRock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Saturn@CUSTOM:MossyStrangeStone",
+      "~Saturn@CUSTOM:HorridFungus",
+      "~Saturn@CUSTOM:StrangeStone",
+      "~Mars@CUSTOM:MossyMulch",
       "~Mars@CUSTOM:RockyAlumineumBlock",
       "~Mars@CUSTOM:Chlorine",
       "~Mars@CUSTOM:FerrousSand",
       "~Mars@CUSTOM:Fiberglass",
+      "~Mars@CUSTOM:SiliconMulch",
       "~Mars@CUSTOM:AlumineumBlock",
       "~Mars@Blocks.DIRT#0",
       "~Mars@Blocks.GRASS",
       "~TheMoon@CUSTOM:TerraceliumMoss",
       "~TheMoon@CUSTOM:MoonshroomMoss",
       "~TheMoon@CUSTOM:MoonRock",
-      "~TheMoon@CUSTOM:DarkMoonRock",
-      "~Saturn@CUSTOM:MossyStrangeStone",
-      "~Saturn@CUSTOM:HorridFungus",
-      "~Saturn@CUSTOM:StrangeStone"
+      "~TheMoon@CUSTOM:DarkMoonRock"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~StaringMoonRock@CUSTOM:StaringMoonRock",
       "~ShinyRockyAlumineumBlock@CUSTOM:ShinyRockyAlumineumBlock",
       "~ChloricAdamantiummOre@CUSTOM:ChloricAdamantiummOre",
-      "~DreamdropOre@CUSTOM:DreamdropOre",
-      "~StaringMoonRock@CUSTOM:StaringMoonRock",
       "~ChloricDemonicOre@CUSTOM:ChloricDemonicOre",
       "~RockyAlumineumBlock@CUSTOM:RockyAlumineumBlock",
       "~DormantHorridMercury@CUSTOM:DormantHorridMercury",
       "~HorridFungusDeactivated@CUSTOM:HorridFungusDeactivated",
       "~HorridMercury@CUSTOM:HorridMercury",
       "~HorridFungus@CUSTOM:HorridFungus",
+      "~Chlorine@CUSTOM:Chlorine",
       "~Meteorite@CUSTOM:Meteorite",
       "~HCrystal@CUSTOM:HCrystal",
       "~ReinforcedGlass@CUSTOM:ReinforcedGlass",
@@ -12488,7 +12627,8 @@
       "~AlumineumBlock@CUSTOM:AlumineumBlock",
       "~AluminumOre@CUSTOM:AluminumOre",
       "~SiverBlock@CUSTOM:SiverBlock",
-      "~DreamdropBlock@CUSTOM:DreamdropBlock"
+      "~DreamdropBlock@CUSTOM:DreamdropBlock",
+      "~DreamdropOre@CUSTOM:DreamdropOre"
     ],
     "ITEMS:minecraft:shovels": [
       "~MixolydianShovel@CUSTOM:MixolydianShovel",
@@ -12592,7 +12732,6 @@
       "~DamnedButton@CUSTOM:DamnedButton"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~KryptoniumOre@CUSTOM:KryptoniumOre",
       "~ChizzledEmerald@CUSTOM:ChizzledEmerald",
       "~EmeraldSlateSlab@CUSTOM:EmeraldSlateSlab",
       "~EmeraldBrickStairs@CUSTOM:EmeraldBrickStairs",
@@ -12600,6 +12739,7 @@
       "~EmeraldSlateStairs@CUSTOM:EmeraldSlateStairs",
       "~EmeraldSlates@CUSTOM:EmeraldSlates",
       "~RawSilverBlock@CUSTOM:RawSilverBlock",
+      "~KryptoniumOre@CUSTOM:KryptoniumOre",
       "~AluminumBlock@CUSTOM:AluminumBlock",
       "~SiverOre@CUSTOM:SiverOre"
     ],
@@ -12618,13 +12758,18 @@
       "~LazerShooter@CUSTOM:LazerShooter"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~SiliconMulch@CUSTOM:SiliconMulch",
+      "~MossyMulch@CUSTOM:MossyMulch",
       "~AdamantiummOre@CUSTOM:AdamantiummOre",
       "~FerrousSand@CUSTOM:FerrousSand"
     ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~MarsBiome@CUSTOM:MarsBiome"
+    ],
     "BLOCKS:minecraft:replaceable": [
+      "~TosserBush@CUSTOM:TosserBush",
       "~ToxicWaste@CUSTOM:ToxicWaste",
-      "~Gustavium@CUSTOM:Gustavium",
-      "~TosserBush@CUSTOM:TosserBush"
+      "~Gustavium@CUSTOM:Gustavium"
     ],
     "GAME_EVENTS:minecraft:larry_can_listen": [
       "~Larry@BLOCK_CHANGE"
@@ -12672,8 +12817,9 @@
     "ITEMS:minecraft:chest_boats": [
       "~SubconsiusChestBoat@CUSTOM:SubconsiusChestBoat"
     ],
-    "BIOMES:minecraft:has_structure/mineshaft": [
-      "~MarsBiome@CUSTOM:MarsBiome"
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~MoonCoal@CUSTOM:MoonCoal",
+      "~ChloricCoal@CUSTOM:ChloricCoal"
     ]
   },
   "tab_element_order": {
@@ -12715,9 +12861,11 @@
       "Fiberglass",
       "ClearPlastc",
       "ReinforcedGlass",
-      "Chlorine",
       "FerrousSand",
       "RockyAlumineumBlock",
+      "Chlorine",
+      "MossyMulch",
+      "SiliconMulch",
       "BloodCactus",
       "ThornBerryBush",
       "Corestone",
@@ -12881,6 +13029,7 @@
       "EmeraldTrapdoor",
       "Kryptonium",
       "KryptoniumBlock",
+      "MoonCoal",
       "KryptoniumOre",
       "Dreamdrop",
       "DreamdropBlock",
@@ -12890,26 +13039,30 @@
       "Opal",
       "Meteorite",
       "Moldedmeteorite",
+      "ChloricCoal",
       "AdamantiummBlock",
       "RawAdamantium",
       "Adamantiumm",
       "AdamantiummOre",
+      "ChloricDemonicOre",
       "DemonicBlock",
       "RawDemonicOre",
       "DemonicIngot",
       "DemonicOre",
       "Chlorine",
-      "ChloricDemonicOre",
+      "ChloriteShard",
       "ChloricAdamantiummOre",
       "RockyAlumineumBlock",
       "ShinyRockyAlumineumBlock",
       "InspiringEssence",
+      "EndothermicDust",
       "Brimstone",
       "BrimstoneOre",
       "BrimstoneBlock",
       "Soulstone",
       "SoulstoneOre",
-      "SoulstoneBlock"
+      "SoulstoneBlock",
+      "Endothermia"
     ],
     "CUSTOM:Food": [
       "ChickenNugget",
@@ -13055,7 +13208,6 @@
       "block.mintyirlplanets.damned_stairs": "Damned Stairs",
       "item.mintyirlplanets.tosser_tot": "Tosser Tot",
       "block.mintyirlplanets.bone_bricks": "Bone Bricks",
-      "item.mintyirlplanets.dummy_1_leggings": "Dummy 1 Leggings",
       "item.mintyirlplanets.adamantiumm_block": "Block of Adamantiumm",
       "item.mintyirlplanets.dreamdrop_shovel": "Dreamdrop Shovel",
       "item.mintyirlplanets.chizzeled_bone_slab": "Chizzeled Bone Slab",
@@ -13095,7 +13247,6 @@
       "item.mintyirlplanets.bauxite": "Raw Bauxite",
       "item.mintyirlplanets.adamantiumm_sword": "Adamantium Sword",
       "item.mintyirlplanets.damned_log": "Damned Log",
-      "item.mintyirlplanets.dummy_2_leggings": "Dummy 2 Leggings",
       "item.mintyirlplanets.the_antidote.description_1": "30 minute duration",
       "biome.mintyirlplanets.glowing_caves": "Glowing Caves",
       "item.mintyirlplanets.terracelium_moss": "Terracelium Moss",
@@ -13157,10 +13308,8 @@
       "block.mintyirlplanets.brimstone_block": "Brimstone Block",
       "item.mintyirlplanets.moonshroom_2_button": "Moonshroom Button",
       "item.mintyirlplanets.adamantiumm_axe": "Adamantium Battleaxe",
-      "item.mintyirlplanets.dummy_1_boots.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.kryptonium": "Kryptonium",
       "item.mintyirlplanets.croatian_button": "Croatian Button",
-      "item.mintyirlplanets.dummy_1_leggings.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.dreamdrop_pickaxe": "Dreamdrop Pickaxe",
       "item.mintyirlplanets.fragrent_wood": "Fragrent Wood",
       "item.mintyirlplanets.corestone": "Corestone",
@@ -13170,7 +13319,6 @@
       "biome.mintyirlplanets.mars_biome": "Mars Biome",
       "item.mintyirlplanets.raw_adamantium": "Raw Adamantium",
       "item.mintyirlplanets.brimstone_pickaxe": "Brimstone Pickaxe",
-      "item.mintyirlplanets.dummy_1_chestplate.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.glucoside_extract": "Glucoside Extract",
       "item.mintyirlplanets.brimstone": "Brimstone Bar",
       "item.mintyirlplanets.dreamdrop_armor_chestplate": "Dreamdrop Chestplate",
@@ -13183,7 +13331,6 @@
       "item.mintyirlplanets.fragrent_fence_gate": "Fragrent Fence Gate",
       "item.mintyirlplanets.music_disc_mars": "Music Disc: Mars",
       "item.mintyirlplanets.space_helmet": "Space Helmet",
-      "item.mintyirlplanets.dummy_1_chestplate": "Dummy 1 Chestplate",
       "item_group.mintyirlplanets.armour": "Armour",
       "item.mintyirlplanets.adamantiumm_armor_leggings": "Adamantiumm Leggings",
       "block.mintyirlplanets.fiberglass": "Fiberglass",
@@ -13197,7 +13344,6 @@
       "item.mintyirlplanets.debugger_armour_chestplate": "§cDebugger Shirt",
       "item.mintyirlplanets.demonic_pickaxe": "Demonite Pickaxe",
       "block.mintyirlplanets.gustavium": "Gustavium",
-      "item.mintyirlplanets.dummy_2_chestplate": "Dummy 2 Chestplate",
       "item.mintyirlplanets.demonic_sword": "Demonite Sword",
       "item.mintyirlplanets.croatian_wood": "Croatian Wood",
       "block.mintyirlplanets.glowing": "Glowing",
@@ -13212,7 +13358,6 @@
       "item.mintyirlplanets.brimstone_ore": "Brimstone",
       "death.attack.leprocy.player": "%1$s was goopled away from %2$s",
       "subtitles.saturnost": "",
-      "item.mintyirlplanets.dummy_2_helmet": "Dummy 2 Helmet",
       "item.mintyirlplanets.strange_stone": "Strange Stone",
       "item_group.mintyirlplanets.music_discs": "Music Discs",
       "item.mintyirlplanets.aluminum_block": "Block of Aluminium",
@@ -13251,7 +13396,6 @@
       "item.mintyirlplanets.disc_2": "Biome Disc - On The Moon",
       "item.mintyirlplanets.disc_1": "Life In Space",
       "advancements.the_presses.title": "The Printing Presses",
-      "item.mintyirlplanets.dummy_1_helmet.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.still_slinger_spawn_egg": "Still Slinger Spawn Egg",
       "subtitles.darkmoon": "",
       "advancements.moonportal.title": "Portal Igniter Get",
@@ -13328,7 +13472,6 @@
       "block.mintyirlplanets.siver_block": "Block of Siver",
       "item.mintyirlplanets.kryptonium_armor_leggings": "Kryptonium Leggings",
       "item.mintyirlplanets.alumineum_hoe": "Aluminium Hoe",
-      "item.mintyirlplanets.dummy_1_helmet": "Dummy 1 Helmet",
       "item.mintyirlplanets.demonic_armor_chestplate": "Demonite Chestplate",
       "item.mintyirlplanets.brimstone_shovel": "Brimstone Shovel",
       "item.mintyirlplanets.soulstone_armor_leggings": "Soulstone Leggings",
@@ -13353,7 +13496,6 @@
       "item.mintyirlplanets.kryptonium_armor_chestplate": "Kryptonium Chestplate",
       "item.mintyirlplanets.adamantiumm_armor_boots": "Adamantiumm Boots",
       "item.mintyirlplanets.siver_pickaxe": "Silver Pickaxe",
-      "item.mintyirlplanets.dummy_1_boots": "Dummy 1 Boots",
       "item.mintyirlplanets.debug_pick": "Debug Pick",
       "item.mintyirlplanets.kryptonium_axe": "Kryptonium Axe",
       "item.mintyirlplanets.mixolydian_armor_chestplate": "Mixolydian Chestplate",
@@ -13369,7 +13511,6 @@
       "item.mintyirlplanets.smoth_bone_slab": "Smooth Bone Slab",
       "item.mintyirlplanets.debugger_armour_helmet": "§cDebugger Glasses",
       "advancements.gettomoon.title": "To Space!",
-      "item.mintyirlplanets.dummy_2_boots": "Dummy 2 Boots",
       "item.mintyirlplanets.siver_armor_helmet": "Siver Helmet",
       "biome.mintyirlplanets.terracelium": "Terracelium",
       "item.mintyirlplanets.adamantiumm_armor_helmet": "Adamantiumm Helmet",
@@ -13606,7 +13747,15 @@
       "entity.mintyirlplanets.worm": "Worm",
       "item.mintyirlplanets.worm_item": "Worm",
       "item.mintyirlplanets.worm_item.description_1": "you can place the worm",
-      "item.mintyirlplanets.worm_item.description_0": "How\u0027s the worm doin?"
+      "item.mintyirlplanets.worm_item.description_0": "How\u0027s the worm doin?",
+      "item.mintyirlplanets.chloric_coal": "Chloric Coal",
+      "item.mintyirlplanets.moon_coal": "Moon Coal Ore",
+      "biome.mintyirlplanets.deep_chard": "Deep Chard",
+      "item.mintyirlplanets.endothermia": "Endothermia",
+      "item.mintyirlplanets.mossy_mulch": "Mossy Mulch",
+      "item.mintyirlplanets.silicon_mulch": "Silicon Mulch",
+      "item.mintyirlplanets.endothermic_dust": "Endothermic Dust",
+      "item.mintyirlplanets.chlorite_shard": "Chlorite Shard"
     },
     "en_gb": {
       "item.mintyirlplanets.gustavium_bucket": "Gustavium Bucket",
@@ -13669,7 +13818,6 @@
       "block.mintyirlplanets.damned_stairs": "Damned Stairs",
       "item.mintyirlplanets.tosser_tot": "Tosser Tot",
       "block.mintyirlplanets.bone_bricks": "Bone Bricks",
-      "item.mintyirlplanets.dummy_1_leggings": "Dummy 1 Leggings",
       "item.mintyirlplanets.adamantiumm_block": "Block of Adamantiumm",
       "item.mintyirlplanets.dreamdrop_shovel": "Dreamdrop Shovel",
       "item.mintyirlplanets.chizzeled_bone_slab": "Chizzeled Bone Slab",
@@ -13709,7 +13857,6 @@
       "item.mintyirlplanets.bauxite": "Raw Bauxite",
       "item.mintyirlplanets.adamantiumm_sword": "Adamantium Sword",
       "item.mintyirlplanets.damned_log": "Damned Log",
-      "item.mintyirlplanets.dummy_2_leggings": "Dummy 2 Leggings",
       "item.mintyirlplanets.the_antidote.description_1": "30 minute duration",
       "biome.mintyirlplanets.glowing_caves": "Glowing Caves",
       "item.mintyirlplanets.terracelium_moss": "Terracelium Moss",
@@ -13771,10 +13918,8 @@
       "block.mintyirlplanets.brimstone_block": "Brimstone Block",
       "item.mintyirlplanets.moonshroom_2_button": "Moonshroom Button",
       "item.mintyirlplanets.adamantiumm_axe": "Adamantium Battleaxe",
-      "item.mintyirlplanets.dummy_1_boots.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.kryptonium": "Kryptonium",
       "item.mintyirlplanets.croatian_button": "Croatian Button",
-      "item.mintyirlplanets.dummy_1_leggings.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.dreamdrop_pickaxe": "Dreamdrop Pickaxe",
       "item.mintyirlplanets.fragrent_wood": "Fragrent Wood",
       "item.mintyirlplanets.corestone": "Corestone",
@@ -13784,7 +13929,6 @@
       "biome.mintyirlplanets.mars_biome": "Mars Biome",
       "item.mintyirlplanets.raw_adamantium": "Raw Adamantium",
       "item.mintyirlplanets.brimstone_pickaxe": "Brimstone Pickaxe",
-      "item.mintyirlplanets.dummy_1_chestplate.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.glucoside_extract": "Glucoside Extract",
       "item.mintyirlplanets.brimstone": "Brimstone Bar",
       "item.mintyirlplanets.dreamdrop_armor_chestplate": "Dreamdrop Chestplate",
@@ -13797,7 +13941,6 @@
       "item.mintyirlplanets.fragrent_fence_gate": "Fragrent Fence Gate",
       "item.mintyirlplanets.music_disc_mars": "Music Disc: Mars",
       "item.mintyirlplanets.space_helmet": "Space Helmet",
-      "item.mintyirlplanets.dummy_1_chestplate": "Dummy 1 Chestplate",
       "item_group.mintyirlplanets.armour": "Armour",
       "item.mintyirlplanets.adamantiumm_armor_leggings": "Adamantiumm Leggings",
       "block.mintyirlplanets.fiberglass": "Fiberglass",
@@ -13811,7 +13954,6 @@
       "item.mintyirlplanets.debugger_armour_chestplate": "§cDebugger Shirt",
       "item.mintyirlplanets.demonic_pickaxe": "Demonite Pickaxe",
       "block.mintyirlplanets.gustavium": "Gustavium",
-      "item.mintyirlplanets.dummy_2_chestplate": "Dummy 2 Chestplate",
       "item.mintyirlplanets.demonic_sword": "Demonite Sword",
       "item.mintyirlplanets.croatian_wood": "Croatian Wood",
       "block.mintyirlplanets.glowing": "Glowing",
@@ -13826,7 +13968,6 @@
       "item.mintyirlplanets.brimstone_ore": "Brimstone",
       "death.attack.leprocy.player": "%1$s was goopled away from %2$s",
       "subtitles.saturnost": "",
-      "item.mintyirlplanets.dummy_2_helmet": "Dummy 2 Helmet",
       "item.mintyirlplanets.strange_stone": "Strange Stone",
       "item_group.mintyirlplanets.music_discs": "Music Discs",
       "item.mintyirlplanets.aluminum_block": "Block of Aluminium",
@@ -13865,7 +14006,6 @@
       "item.mintyirlplanets.disc_2": "Biome Disc - On The Moon",
       "item.mintyirlplanets.disc_1": "Life In Space",
       "advancements.the_presses.title": "The Printing Presses",
-      "item.mintyirlplanets.dummy_1_helmet.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.still_slinger_spawn_egg": "Still Slinger Spawn Egg",
       "subtitles.darkmoon": "",
       "advancements.moonportal.title": "Portal Igniter Get",
@@ -13942,7 +14082,6 @@
       "block.mintyirlplanets.siver_block": "Block of Siver",
       "item.mintyirlplanets.kryptonium_armor_leggings": "Kryptonium Leggings",
       "item.mintyirlplanets.alumineum_hoe": "Aluminium Hoe",
-      "item.mintyirlplanets.dummy_1_helmet": "Dummy 1 Helmet",
       "item.mintyirlplanets.demonic_armor_chestplate": "Demonite Chestplate",
       "item.mintyirlplanets.brimstone_shovel": "Brimstone Shovel",
       "item.mintyirlplanets.soulstone_armor_leggings": "Soulstone Leggings",
@@ -13967,7 +14106,6 @@
       "item.mintyirlplanets.kryptonium_armor_chestplate": "Kryptonium Chestplate",
       "item.mintyirlplanets.adamantiumm_armor_boots": "Adamantiumm Boots",
       "item.mintyirlplanets.siver_pickaxe": "Silver Pickaxe",
-      "item.mintyirlplanets.dummy_1_boots": "Dummy 1 Boots",
       "item.mintyirlplanets.debug_pick": "Debug Pick",
       "item.mintyirlplanets.kryptonium_axe": "Kryptonium Axe",
       "item.mintyirlplanets.mixolydian_armor_chestplate": "Mixolydian Chestplate",
@@ -13983,7 +14121,6 @@
       "item.mintyirlplanets.smoth_bone_slab": "Smooth Bone Slab",
       "item.mintyirlplanets.debugger_armour_helmet": "§cDebugger Glasses",
       "advancements.gettomoon.title": "To Space!",
-      "item.mintyirlplanets.dummy_2_boots": "Dummy 2 Boots",
       "item.mintyirlplanets.siver_armor_helmet": "Siver Helmet",
       "biome.mintyirlplanets.terracelium": "Terracelium",
       "item.mintyirlplanets.adamantiumm_armor_helmet": "Adamantiumm Helmet",
@@ -14220,7 +14357,15 @@
       "entity.mintyirlplanets.worm": "Worm",
       "item.mintyirlplanets.worm_item": "Worm",
       "item.mintyirlplanets.worm_item.description_1": "you can place the worm",
-      "item.mintyirlplanets.worm_item.description_0": "How\u0027s the worm doin?"
+      "item.mintyirlplanets.worm_item.description_0": "How\u0027s the worm doin?",
+      "item.mintyirlplanets.chloric_coal": "Demonite Ore",
+      "item.mintyirlplanets.moon_coal": "Staring Moon Rock",
+      "biome.mintyirlplanets.deep_chard": "Mars Cave",
+      "item.mintyirlplanets.endothermia": "Endothermia",
+      "item.mintyirlplanets.mossy_mulch": "Mossy Mulch",
+      "item.mintyirlplanets.silicon_mulch": "Silicon Mulch",
+      "item.mintyirlplanets.endothermic_dust": "Endothermic Dust",
+      "item.mintyirlplanets.chlorite_shard": "Chlorite Shard"
     },
     "en_pt": {
       "item.mintyirlplanets.gustavium_bucket": "Gustavium Bucket",
@@ -14283,7 +14428,6 @@
       "block.mintyirlplanets.damned_stairs": "Damned Stairs",
       "item.mintyirlplanets.tosser_tot": "Tosser Tot",
       "block.mintyirlplanets.bone_bricks": "Bone Bricks",
-      "item.mintyirlplanets.dummy_1_leggings": "Dummy 1 Leggings",
       "item.mintyirlplanets.adamantiumm_block": "Block of Adamantiumm",
       "item.mintyirlplanets.dreamdrop_shovel": "Dreamdrop Shovel",
       "item.mintyirlplanets.chizzeled_bone_slab": "Chizzeled Bone Slab",
@@ -14323,7 +14467,6 @@
       "item.mintyirlplanets.bauxite": "Raw Bauxite",
       "item.mintyirlplanets.adamantiumm_sword": "Adamantium Sword",
       "item.mintyirlplanets.damned_log": "Damned Log",
-      "item.mintyirlplanets.dummy_2_leggings": "Dummy 2 Leggings",
       "item.mintyirlplanets.the_antidote.description_1": "30 minute duration",
       "biome.mintyirlplanets.glowing_caves": "Glowing Caves",
       "item.mintyirlplanets.terracelium_moss": "Terracelium Moss",
@@ -14385,10 +14528,8 @@
       "block.mintyirlplanets.brimstone_block": "Brimstone Block",
       "item.mintyirlplanets.moonshroom_2_button": "Moonshroom Button",
       "item.mintyirlplanets.adamantiumm_axe": "Adamantium Battleaxe",
-      "item.mintyirlplanets.dummy_1_boots.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.kryptonium": "Kryptonium",
       "item.mintyirlplanets.croatian_button": "Croatian Button",
-      "item.mintyirlplanets.dummy_1_leggings.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.dreamdrop_pickaxe": "Dreamdrop Pickaxe",
       "item.mintyirlplanets.fragrent_wood": "Fragrent Wood",
       "item.mintyirlplanets.corestone": "Corestone",
@@ -14398,7 +14539,6 @@
       "biome.mintyirlplanets.mars_biome": "Mars Biome",
       "item.mintyirlplanets.raw_adamantium": "Raw Adamantium",
       "item.mintyirlplanets.brimstone_pickaxe": "Brimstone Pickaxe",
-      "item.mintyirlplanets.dummy_1_chestplate.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.glucoside_extract": "Glucoside Extract",
       "item.mintyirlplanets.brimstone": "Brimstone Bar",
       "item.mintyirlplanets.dreamdrop_armor_chestplate": "Dreamdrop Chestplate",
@@ -14411,7 +14551,6 @@
       "item.mintyirlplanets.fragrent_fence_gate": "Fragrent Fence Gate",
       "item.mintyirlplanets.music_disc_mars": "Music Disc: Mars",
       "item.mintyirlplanets.space_helmet": "Space Helmet",
-      "item.mintyirlplanets.dummy_1_chestplate": "Dummy 1 Chestplate",
       "item_group.mintyirlplanets.armour": "Armour",
       "item.mintyirlplanets.adamantiumm_armor_leggings": "Adamantiumm Leggings",
       "block.mintyirlplanets.fiberglass": "Fiberglass",
@@ -14425,7 +14564,6 @@
       "item.mintyirlplanets.debugger_armour_chestplate": "§cDebugger Shirt",
       "item.mintyirlplanets.demonic_pickaxe": "Demonite Pickaxe",
       "block.mintyirlplanets.gustavium": "Gustavium",
-      "item.mintyirlplanets.dummy_2_chestplate": "Dummy 2 Chestplate",
       "item.mintyirlplanets.demonic_sword": "Demonite Sword",
       "item.mintyirlplanets.croatian_wood": "Croatian Wood",
       "block.mintyirlplanets.glowing": "Glowing",
@@ -14440,7 +14578,6 @@
       "item.mintyirlplanets.brimstone_ore": "Brimstone",
       "death.attack.leprocy.player": "%1$s was goopled away from %2$s",
       "subtitles.saturnost": "",
-      "item.mintyirlplanets.dummy_2_helmet": "Dummy 2 Helmet",
       "item.mintyirlplanets.strange_stone": "Strange Stone",
       "item_group.mintyirlplanets.music_discs": "Music Discs",
       "item.mintyirlplanets.aluminum_block": "Block of Aluminium",
@@ -14479,7 +14616,6 @@
       "item.mintyirlplanets.disc_2": "Biome Disc - On The Moon",
       "item.mintyirlplanets.disc_1": "Life In Space",
       "advancements.the_presses.title": "The Printing Presses",
-      "item.mintyirlplanets.dummy_1_helmet.description_0": "keeps out all those toxic gasses",
       "item.mintyirlplanets.still_slinger_spawn_egg": "Still Slinger Spawn Egg",
       "subtitles.darkmoon": "",
       "advancements.moonportal.title": "Portal Igniter Get",
@@ -14556,7 +14692,6 @@
       "block.mintyirlplanets.siver_block": "Block of Siver",
       "item.mintyirlplanets.kryptonium_armor_leggings": "Kryptonium Leggings",
       "item.mintyirlplanets.alumineum_hoe": "Aluminium Hoe",
-      "item.mintyirlplanets.dummy_1_helmet": "Dummy 1 Helmet",
       "item.mintyirlplanets.demonic_armor_chestplate": "Demonite Chestplate",
       "item.mintyirlplanets.brimstone_shovel": "Brimstone Shovel",
       "item.mintyirlplanets.soulstone_armor_leggings": "Soulstone Leggings",
@@ -14581,7 +14716,6 @@
       "item.mintyirlplanets.kryptonium_armor_chestplate": "Kryptonium Chestplate",
       "item.mintyirlplanets.adamantiumm_armor_boots": "Adamantiumm Boots",
       "item.mintyirlplanets.siver_pickaxe": "Silver Pickaxe",
-      "item.mintyirlplanets.dummy_1_boots": "Dummy 1 Boots",
       "item.mintyirlplanets.debug_pick": "Debug Pick",
       "item.mintyirlplanets.kryptonium_axe": "Kryptonium Axe",
       "item.mintyirlplanets.mixolydian_armor_chestplate": "Mixolydian Chestplate",
@@ -14597,7 +14731,6 @@
       "item.mintyirlplanets.smoth_bone_slab": "Smooth Bone Slab",
       "item.mintyirlplanets.debugger_armour_helmet": "§cDebugger Glasses",
       "advancements.gettomoon.title": "To Space!",
-      "item.mintyirlplanets.dummy_2_boots": "Dummy 2 Boots",
       "item.mintyirlplanets.siver_armor_helmet": "Siver Helmet",
       "biome.mintyirlplanets.terracelium": "Terracelium",
       "item.mintyirlplanets.adamantiumm_armor_helmet": "Adamantiumm Helmet",
@@ -14834,7 +14967,15 @@
       "entity.mintyirlplanets.worm": "Worm",
       "item.mintyirlplanets.worm_item": "Worm",
       "item.mintyirlplanets.worm_item.description_1": "you can place the worm",
-      "item.mintyirlplanets.worm_item.description_0": "How\u0027s the worm doin?"
+      "item.mintyirlplanets.worm_item.description_0": "How\u0027s the worm doin?",
+      "item.mintyirlplanets.chloric_coal": "Demonite Ore",
+      "item.mintyirlplanets.moon_coal": "Staring Moon Rock",
+      "biome.mintyirlplanets.deep_chard": "Mars Cave",
+      "item.mintyirlplanets.endothermia": "Endothermia",
+      "item.mintyirlplanets.mossy_mulch": "Mossy Mulch",
+      "item.mintyirlplanets.silicon_mulch": "Silicon Mulch",
+      "item.mintyirlplanets.endothermic_dust": "Endothermic Dust",
+      "item.mintyirlplanets.chlorite_shard": "Chlorite Shard"
     }
   },
   "metadata": {

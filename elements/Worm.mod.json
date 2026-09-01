@@ -120,7 +120,8 @@
       "CUSTOM:DeepMarsCave",
       "CUSTOM:DeepMoon",
       "CUSTOM:MoonCave",
-      "CUSTOM:UndergroundMoonshroom"
+      "CUSTOM:UndergroundMoonshroom",
+      "CUSTOM:DeepChard"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

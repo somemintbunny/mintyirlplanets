@@ -4,12 +4,16 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mintyirlplanets.procedures.AdamantiummOreAdditionalHarvestConditionProcedure;
@@ -32,6 +36,11 @@ public class AdamantiummOreBlock extends FallingBlock {
 
 	public AdamantiummOreBlock(BlockBehaviour.Properties properties) {
 		super(properties.sound(SoundType.SUSPICIOUS_SAND).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
+	}
+
+	@Override
+	public int getExpDrop(BlockState state, LevelAccessor level, BlockPos pos, BlockEntity blockEntity, Entity breaker, ItemStack tool) {
+		return Mth.randomBetweenInclusive(level.getRandom(), 27, 35);
 	}
 
 	@Override

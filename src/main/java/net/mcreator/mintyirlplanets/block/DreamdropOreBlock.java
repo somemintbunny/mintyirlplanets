@@ -3,11 +3,15 @@ package net.mcreator.mintyirlplanets.block;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mintyirlplanets.procedures.DemonicOreAdditionalHarvestConditionProcedure;
@@ -21,6 +25,11 @@ public class DreamdropOreBlock extends Block {
 	@Override
 	public ItemStack getCloneItemStack(LevelReader world, BlockPos pos, BlockState state, boolean includeData, Player entity) {
 		return new ItemStack(MintyirlplanetsModBlocks.DREAMDROP_ORE.get());
+	}
+
+	@Override
+	public int getExpDrop(BlockState state, LevelAccessor level, BlockPos pos, BlockEntity blockEntity, Entity breaker, ItemStack tool) {
+		return Mth.randomBetweenInclusive(level.getRandom(), 14, 20);
 	}
 
 	@Override

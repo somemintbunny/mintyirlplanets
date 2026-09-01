@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "mintyirlplanets:chloric_adamantiumm_ore",
+    "mintyirlplanets:chloric_coal",
     "mintyirlplanets:horrid_fungus_deactivated",
     "mintyirlplanets:emerald_brick_stairs",
     "mintyirlplanets:staring_moon_rock",
@@ -52,6 +53,7 @@
     "mintyirlplanets:soulstone_ore",
     "mintyirlplanets:kryptonium_ore",
     "mintyirlplanets:glowing",
+    "mintyirlplanets:moon_coal",
     "mintyirlplanets:snap_trap",
     "mintyirlplanets:bone_slab",
     "mintyirlplanets:aluminum_ore",

@@ -106,7 +106,7 @@
     "rangedItemType": "TosserGrenadeEnemy",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
+    "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 2,
     "mobSpawningType": "monster",

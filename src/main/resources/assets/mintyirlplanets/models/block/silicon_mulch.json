@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/siliconmulch",
+    "up": "mintyirlplanets:block/siliconmulch",
+    "north": "mintyirlplanets:block/siliconmulch",
+    "east": "mintyirlplanets:block/siliconmulch",
+    "south": "mintyirlplanets:block/siliconmulch",
+    "west": "mintyirlplanets:block/siliconmulch",
+    "particle": "mintyirlplanets:block/siliconmulch"
+  }
+}

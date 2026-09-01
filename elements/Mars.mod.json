@@ -11,7 +11,8 @@
     "biomesInDimensionCaves": [
       "CUSTOM:MarsCave",
       "CUSTOM:RockMarsCave",
-      "CUSTOM:DeepMarsCave"
+      "CUSTOM:DeepMarsCave",
+      "CUSTOM:DeepChard"
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": "CUSTOM:AlumineumBlock",

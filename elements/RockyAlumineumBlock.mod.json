@@ -62,7 +62,7 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "hasCustomOpacity": false,
     "lightOpacity": 15,

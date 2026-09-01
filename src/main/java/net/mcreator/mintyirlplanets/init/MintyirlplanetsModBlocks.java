@@ -171,6 +171,11 @@ public class MintyirlplanetsModBlocks {
 	public static final DeferredBlock<Block> CHLORIC_ADAMANTIUMM_ORE;
 	public static final DeferredBlock<Block> SHINY_ROCKY_ALUMINEUM_BLOCK;
 	public static final DeferredBlock<Block> STARING_MOON_ROCK;
+	public static final DeferredBlock<Block> CHLORIC_COAL;
+	public static final DeferredBlock<Block> MOON_COAL;
+	public static final DeferredBlock<Block> ENDOTHERMIA;
+	public static final DeferredBlock<Block> MOSSY_MULCH;
+	public static final DeferredBlock<Block> SILICON_MULCH;
 	static {
 		MOON_ROCK = register("moon_rock", MoonRockBlock::new);
 		DARK_MOON_ROCK = register("dark_moon_rock", DarkMoonRockBlock::new);
@@ -319,6 +324,11 @@ public class MintyirlplanetsModBlocks {
 		CHLORIC_ADAMANTIUMM_ORE = register("chloric_adamantiumm_ore", ChloricAdamantiummOreBlock::new);
 		SHINY_ROCKY_ALUMINEUM_BLOCK = register("shiny_rocky_alumineum_block", ShinyRockyAlumineumBlockBlock::new);
 		STARING_MOON_ROCK = register("staring_moon_rock", StaringMoonRockBlock::new);
+		CHLORIC_COAL = register("chloric_coal", ChloricCoalBlock::new);
+		MOON_COAL = register("moon_coal", MoonCoalBlock::new);
+		ENDOTHERMIA = register("endothermia", EndothermiaBlock::new);
+		MOSSY_MULCH = register("mossy_mulch", MossyMulchBlock::new);
+		SILICON_MULCH = register("silicon_mulch", SiliconMulchBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:deep_chard",
+  "features": "mintyirlplanets:silicon_mulch",
+  "step": "underground_ores"
+}

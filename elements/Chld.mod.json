@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:Chlorine"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard",
+      "CUSTOM:ChloriteShard"
+    ],
+    "recipeReturnStack": "CUSTOM:Chlorine",
+    "name": "chld",
+    "namespace": "mod"
+  }
+}

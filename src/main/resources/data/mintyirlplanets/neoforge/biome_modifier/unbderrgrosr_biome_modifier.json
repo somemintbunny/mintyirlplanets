@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "mintyirlplanets:underground_moonshroom",
+  "biomes": "mintyirlplanets:deep_chard",
   "features": "mintyirlplanets:unbderrgrosr",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

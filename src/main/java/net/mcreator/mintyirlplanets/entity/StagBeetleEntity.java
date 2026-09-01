@@ -14,6 +14,7 @@ import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -47,11 +48,12 @@ public class StagBeetleEntity extends Monster {
 			}
 		});
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, true, false));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ShrumpherEntity.class, true, false));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, true, true));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ShrumpherEntity.class, true, true));
 		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 8));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(7, new FloatGoal(this));
+		this.goalSelector.addGoal(6, new AvoidEntityGoal<>(this, WormEntity.class, (float) 6, 1, 1.2));
+		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(8, new FloatGoal(this));
 	}
 
 	@Override
@@ -90,7 +92,7 @@ public class StagBeetleEntity extends Monster {
 		builder = builder.add(Attributes.MAX_HEALTH, 50);
 		builder = builder.add(Attributes.ARMOR, 14);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 1);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 20);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 15);
 		builder = builder.add(Attributes.STEP_HEIGHT, 0.6);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.4);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1);

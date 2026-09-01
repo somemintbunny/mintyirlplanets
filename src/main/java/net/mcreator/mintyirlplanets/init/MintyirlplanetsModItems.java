@@ -35,14 +35,6 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> DEBUGGER_ARMOUR_BOOTS;
 	public static final DeferredItem<Item> DISC_1;
 	public static final DeferredItem<Item> DISC_2;
-	public static final DeferredItem<Item> DUMMY_1_HELMET;
-	public static final DeferredItem<Item> DUMMY_1_CHESTPLATE;
-	public static final DeferredItem<Item> DUMMY_1_LEGGINGS;
-	public static final DeferredItem<Item> DUMMY_1_BOOTS;
-	public static final DeferredItem<Item> DUMMY_2_HELMET;
-	public static final DeferredItem<Item> DUMMY_2_CHESTPLATE;
-	public static final DeferredItem<Item> DUMMY_2_LEGGINGS;
-	public static final DeferredItem<Item> DUMMY_2_BOOTS;
 	public static final DeferredItem<Item> MOON_ROCK;
 	public static final DeferredItem<Item> DARK_MOON_ROCK;
 	public static final DeferredItem<Item> MOONSHROOM_MOSS;
@@ -364,6 +356,13 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> YOUR_MOTHERS_CREDIT_CARD;
 	public static final DeferredItem<Item> BUS_PASS;
 	public static final DeferredItem<Item> WORM_ITEM;
+	public static final DeferredItem<Item> CHLORIC_COAL;
+	public static final DeferredItem<Item> MOON_COAL;
+	public static final DeferredItem<Item> ENDOTHERMIA;
+	public static final DeferredItem<Item> MOSSY_MULCH;
+	public static final DeferredItem<Item> SILICON_MULCH;
+	public static final DeferredItem<Item> ENDOTHERMIC_DUST;
+	public static final DeferredItem<Item> CHLORITE_SHARD;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
 		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.DEBUGGER.get())));
@@ -373,14 +372,6 @@ public class MintyirlplanetsModItems {
 		DEBUGGER_ARMOUR_BOOTS = register("debugger_armour_boots", DebuggerArmourItem.Boots::new);
 		DISC_1 = register("disc_1", Disc1Item::new);
 		DISC_2 = register("disc_2", Disc2Item::new);
-		DUMMY_1_HELMET = register("dummy_1_helmet", Dummy1Item.Helmet::new);
-		DUMMY_1_CHESTPLATE = register("dummy_1_chestplate", Dummy1Item.Chestplate::new);
-		DUMMY_1_LEGGINGS = register("dummy_1_leggings", Dummy1Item.Leggings::new);
-		DUMMY_1_BOOTS = register("dummy_1_boots", Dummy1Item.Boots::new);
-		DUMMY_2_HELMET = register("dummy_2_helmet", Dummy2Item.Helmet::new);
-		DUMMY_2_CHESTPLATE = register("dummy_2_chestplate", Dummy2Item.Chestplate::new);
-		DUMMY_2_LEGGINGS = register("dummy_2_leggings", Dummy2Item.Leggings::new);
-		DUMMY_2_BOOTS = register("dummy_2_boots", Dummy2Item.Boots::new);
 		MOON_ROCK = block(MintyirlplanetsModBlocks.MOON_ROCK, new Item.Properties().stacksTo(99));
 		DARK_MOON_ROCK = register("dark_moon_rock", properties -> new DarkMoonRockBlock.Item(properties.stacksTo(99)));
 		MOONSHROOM_MOSS = block(MintyirlplanetsModBlocks.MOONSHROOM_MOSS, new Item.Properties().stacksTo(99));
@@ -615,7 +606,7 @@ public class MintyirlplanetsModItems {
 		COOKED_MEAT = register("cooked_meat", CookedMeatItem::new);
 		METEORITE = block(MintyirlplanetsModBlocks.METEORITE, new Item.Properties().stacksTo(99));
 		MOLDEDMETEORITE = register("moldedmeteorite", MoldedmeteoriteItem::new);
-		CHLORITE = block(MintyirlplanetsModBlocks.CHLORITE);
+		CHLORITE = block(MintyirlplanetsModBlocks.CHLORITE, new Item.Properties().stacksTo(99));
 		LIGHT_MOON_STONE = block(MintyirlplanetsModBlocks.LIGHT_MOON_STONE, new Item.Properties().stacksTo(99));
 		DARK_MOON_STONE = block(MintyirlplanetsModBlocks.DARK_MOON_STONE, new Item.Properties().stacksTo(99));
 		LIGHT_MOON_PEBBLE = register("light_moon_pebble", LightMoonPebbleItem::new);
@@ -702,6 +693,13 @@ public class MintyirlplanetsModItems {
 		YOUR_MOTHERS_CREDIT_CARD = register("your_mothers_credit_card", YourMothersCreditCardItem::new);
 		BUS_PASS = register("bus_pass", BusPassItem::new);
 		WORM_ITEM = register("worm_item", WormItemItem::new);
+		CHLORIC_COAL = block(MintyirlplanetsModBlocks.CHLORIC_COAL, new Item.Properties().stacksTo(99));
+		MOON_COAL = block(MintyirlplanetsModBlocks.MOON_COAL, new Item.Properties().stacksTo(99));
+		ENDOTHERMIA = block(MintyirlplanetsModBlocks.ENDOTHERMIA, new Item.Properties().stacksTo(99));
+		MOSSY_MULCH = block(MintyirlplanetsModBlocks.MOSSY_MULCH, new Item.Properties().stacksTo(99));
+		SILICON_MULCH = block(MintyirlplanetsModBlocks.SILICON_MULCH, new Item.Properties().stacksTo(99));
+		ENDOTHERMIC_DUST = register("endothermic_dust", EndothermicDustItem::new);
+		CHLORITE_SHARD = register("chlorite_shard", ChloriteShardItem::new);
 	}
 
 	// Start of user code block custom items

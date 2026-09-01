@@ -47,8 +47,8 @@ public class HopperNymphEntity extends Monster {
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, EnderMan.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, true, true));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, EnderMan.class, true, true));
 	}
 
 	@Override

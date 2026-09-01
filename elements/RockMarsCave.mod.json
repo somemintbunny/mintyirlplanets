@@ -40,21 +40,18 @@
       "max": 0.2
     },
     "genDepth": {
-      "min": 0.1,
+      "min": 0.5,
       "max": 0.9
     },
-    "treesPerChunk": 1,
-    "vanillaTreeType": "Default",
-    "treeType": 0,
-    "minHeight": 7,
-    "treeStem": "",
-    "treeBranch": "",
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": "CUSTOM:CroatianLeaves",
+    "treeBranch": "CUSTOM:CroatianLog",
     "treeVines": "",
     "treeFruits": "",
     "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer",
       "Dripstone"
     ],
     "spawnStronghold": false,

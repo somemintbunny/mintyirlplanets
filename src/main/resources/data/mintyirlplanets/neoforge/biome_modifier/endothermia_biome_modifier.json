@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:deep_chard",
+  "features": "mintyirlplanets:endothermia",
+  "step": "underground_ores"
+}

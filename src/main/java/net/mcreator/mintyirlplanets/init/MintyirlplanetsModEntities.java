@@ -76,7 +76,7 @@ public class MintyirlplanetsModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<SubconsiusChestBoatEntity>> SUBCONSIUS_CHEST_BOAT = register("subconsius_chest_boat",
 			EntityType.Builder.<SubconsiusChestBoatEntity>of(SubconsiusChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 	public static final DeferredHolder<EntityType<?>, EntityType<StagBeetleEntity>> STAG_BEETLE = register("stag_beetle",
-			EntityType.Builder.<StagBeetleEntity>of(StagBeetleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<StagBeetleEntity>of(StagBeetleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(45).setUpdateInterval(3)
 
 					.notInPeaceful().sized(0.8f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<HopperNymphEntity>> HOPPER_NYMPH = register("hopper_nymph",

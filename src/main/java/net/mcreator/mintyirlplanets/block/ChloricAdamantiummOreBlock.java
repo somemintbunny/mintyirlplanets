@@ -37,7 +37,7 @@ public class ChloricAdamantiummOreBlock extends FallingBlock {
 
 	@Override
 	public int getExpDrop(BlockState state, LevelAccessor level, BlockPos pos, BlockEntity blockEntity, Entity breaker, ItemStack tool) {
-		return Mth.randomBetweenInclusive(level.getRandom(), 1, 14);
+		return Mth.randomBetweenInclusive(level.getRandom(), 55, 83);
 	}
 
 	@Override

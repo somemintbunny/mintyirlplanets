@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "mintyirlplanets:block/siliconmulch",
+    "top": "mintyirlplanets:block/cavemosstop",
+    "side": "mintyirlplanets:block/cavemossside",
+    "overlay": "mintyirlplanets:block/cavemossside",
+    "particle": "mintyirlplanets:block/siliconmulch"
+  }
+}

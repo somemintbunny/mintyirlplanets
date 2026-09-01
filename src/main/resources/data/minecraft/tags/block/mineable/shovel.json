@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "mintyirlplanets:silicon_mulch",
     "mintyirlplanets:ferrous_sand",
+    "mintyirlplanets:mossy_mulch",
     "mintyirlplanets:adamantiumm_ore"
   ]
 }

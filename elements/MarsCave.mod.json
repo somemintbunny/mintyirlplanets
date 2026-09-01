@@ -64,15 +64,15 @@
       "max": 1.0
     },
     "genDepth": {
-      "min": 0.2,
+      "min": 0.5,
       "max": 0.9
     },
     "treesPerChunk": 1,
-    "vanillaTreeType": "Default",
-    "treeType": 0,
-    "minHeight": 7,
-    "treeStem": "",
-    "treeBranch": "",
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": "CUSTOM:CroatianLog",
+    "treeBranch": "CUSTOM:CroatianLeaves",
     "treeVines": "",
     "treeFruits": "",
     "defaultFeatures": [

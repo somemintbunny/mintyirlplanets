@@ -1,0 +1,65 @@
+{
+  "has_precipitation": true,
+  "temperature": -1,
+  "downfall": 1,
+  "effects": {
+    "foliage_color": -15065821,
+    "grass_color": -15065821,
+    "water_color": -13498621
+  },
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "mintyirlplanets:marstrees",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/sky_color": -16642523,
+    "minecraft:visual/fog_color": -12276310,
+    "minecraft:visual/water_fog_color": -14875647
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "mintyirlplanets:worm",
+        "weight": 32,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:large_dripstone"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mintyirlplanets:deep_chard_tree",
+      "minecraft:forest_flowers"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

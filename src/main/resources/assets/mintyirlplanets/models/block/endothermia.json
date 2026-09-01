@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mintyirlplanets:block/endothermia",
+    "up": "mintyirlplanets:block/endothermia",
+    "north": "mintyirlplanets:block/endothermia",
+    "east": "mintyirlplanets:block/endothermia",
+    "south": "mintyirlplanets:block/endothermia",
+    "west": "mintyirlplanets:block/endothermia",
+    "particle": "mintyirlplanets:block/endothermia"
+  }
+}

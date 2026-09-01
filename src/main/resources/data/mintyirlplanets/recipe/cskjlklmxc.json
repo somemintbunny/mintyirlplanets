@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "mintyirlplanets:chlorite"
+  },
+  "result": {
+    "id": "mintyirlplanets:chlorite_shard",
+    "count": 9
+  }
+}
