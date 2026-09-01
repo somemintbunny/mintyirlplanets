@@ -2,16 +2,18 @@
   "replace": false,
   "values": [
     "mintyirlplanets:dark_moon_rock",
+    "minecraft:grass_block",
     "mintyirlplanets:moon_rock",
     "mintyirlplanets:strange_stone",
-    "minecraft:grass_block",
     "minecraft:dirt",
+    "mintyirlplanets:fiberglass",
+    "mintyirlplanets:chlorite",
+    "mintyirlplanets:rocky_alumineum_block",
+    "mintyirlplanets:terracelium_moss",
     "mintyirlplanets:horrid_fungus",
     "mintyirlplanets:alumineum_block",
     "mintyirlplanets:mossy_strange_stone",
-    "mintyirlplanets:fiberglass",
-    "mintyirlplanets:moonshroom_moss",
     "mintyirlplanets:ferrous_sand",
-    "mintyirlplanets:terracelium_moss"
+    "mintyirlplanets:moonshroom_moss"
   ]
 }

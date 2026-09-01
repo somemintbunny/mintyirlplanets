@@ -3,26 +3,32 @@
   "temperature": 0.8,
   "downfall": 0.8,
   "effects": {
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": "mintyirlplanets:marstrees",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": true
-        }
-      }
-    ],
     "foliage_color": -14277,
     "grass_color": -5010638,
-    "sky_color": -13955519,
-    "fog_color": -13955519,
-    "water_color": -6389709,
-    "water_fog_color": -7379950
+    "water_color": -6389709
+  },
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "mintyirlplanets:marstrees",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/sky_color": -13955519,
+    "minecraft:visual/fog_color": -13955519,
+    "minecraft:visual/water_fog_color": -7379950
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "enderman",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

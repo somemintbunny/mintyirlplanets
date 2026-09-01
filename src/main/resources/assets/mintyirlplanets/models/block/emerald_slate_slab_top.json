@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/emeraldblock",
     "top": "mintyirlplanets:block/emeraldblock",
     "side": "mintyirlplanets:block/emslate"
-  },
-  "render_type": "solid"
+  }
 }

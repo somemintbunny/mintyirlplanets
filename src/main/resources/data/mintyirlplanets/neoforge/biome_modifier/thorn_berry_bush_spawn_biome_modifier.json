@@ -7,5 +7,5 @@
     "mintyirlplanets:mars_forest"
   ],
   "features": "mintyirlplanets:thorn_berry_bush_spawn",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

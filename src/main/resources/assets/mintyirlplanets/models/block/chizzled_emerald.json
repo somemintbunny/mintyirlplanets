@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/chizzledemerald",
     "west": "mintyirlplanets:block/chizzledemerald",
     "particle": "mintyirlplanets:block/chizzledemerald"
-  },
-  "render_type": "solid"
+  }
 }

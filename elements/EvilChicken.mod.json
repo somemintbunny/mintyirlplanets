@@ -88,7 +88,7 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": "",
+    "mobDrop": "CUSTOM:ChickenNugget",
     "livingSound": "",
     "hurtSound": "entity.generic.hurt",
     "deathSound": "entity.generic.death",
@@ -113,7 +113,18 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [
-      "#minecraft:is_overworld"
+      "CUSTOM:DeepMoon",
+      "plains",
+      "snowy_tundra",
+      "mutated_plains",
+      "birch_forest",
+      "crimson_forest",
+      "roofed_forest",
+      "mutated_forest",
+      "forest",
+      "mutated_birch_forest",
+      "warped_forest",
+      "extreme_hills_with_trees"
     ],
     "spawnInDungeons": true,
     "raidSpawnsCount": [

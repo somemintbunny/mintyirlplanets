@@ -4,8 +4,8 @@ import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
@@ -15,7 +15,7 @@ import java.util.function.Consumer;
 
 public class DarkMoondiscItem extends Item {
 	public DarkMoondiscItem(Item.Properties properties) {
-		super(properties.stacksTo(99).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(MintyirlplanetsMod.MODID, "dark_moondisc"))));
+		super(properties.stacksTo(99).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, Identifier.fromNamespaceAndPath(MintyirlplanetsMod.MODID, "dark_moondisc"))));
 	}
 
 	@Override

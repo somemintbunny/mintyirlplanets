@@ -11,7 +11,8 @@
     "spacing": 5,
     "separation": 2,
     "restrictionBiomes": [
-      "CUSTOM:Moonshroom"
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:UndergroundMoonshroom"
     ],
     "terrainAdaptation": "beard_thin",
     "generationStep": "UNDERGROUND_DECORATION",

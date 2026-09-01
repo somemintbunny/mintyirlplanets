@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/mossystrangestoneside",
     "west": "mintyirlplanets:block/mossystrangestoneside",
     "particle": "mintyirlplanets:block/strangestone"
-  },
-  "render_type": "solid"
+  }
 }

@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/yeah",
     "west": "mintyirlplanets:block/yeah",
     "particle": "mintyirlplanets:block/updown"
-  },
-  "render_type": "solid"
+  }
 }

@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/heliumc",
     "particle": "mintyirlplanets:block/heliumc"
-  },
-  "render_type": "cutout_mipped"
+  }
 }

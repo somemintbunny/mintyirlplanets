@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class SubconsiusFenceBlock extends FenceBlock {
 	public SubconsiusFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(6f, 9f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(properties.sound(SoundType.WOOD).strength(6f, 9f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

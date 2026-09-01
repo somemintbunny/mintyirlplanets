@@ -123,16 +123,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [
       "CUSTOM:Moonshroom",
       "CUSTOM:Terracelium",
       "CUSTOM:Moon",
       "CUSTOM:DarkMoon"
     ],
-    "blocksToReplace": [
-      "CUSTOM:MoonRock"
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 64,
     "frequencyOnChunk": 64,

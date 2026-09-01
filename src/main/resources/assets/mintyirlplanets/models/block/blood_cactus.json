@@ -4,6 +4,5 @@
     "all": "mintyirlplanets:block/bloodcactus",
     "particle": "mintyirlplanets:block/bloodcactus",
     "0": "mintyirlplanets:block/bloodcactus"
-  },
-  "render_type": "cutout"
+  }
 }

@@ -6,7 +6,11 @@
     "mintyirlplanets:moon",
     "mintyirlplanets:moonshroom",
     "mintyirlplanets:saturn_stone",
-    "mintyirlplanets:terracelium"
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:deep_moon",
+    "mintyirlplanets:underground_moonshroom",
+    "mintyirlplanets:glowing_caves",
+    "mintyirlplanets:moon_cave"
   ],
   "spawners": {
     "type": "mintyirlplanets:martian",

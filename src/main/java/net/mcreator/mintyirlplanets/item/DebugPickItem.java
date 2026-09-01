@@ -8,6 +8,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ItemInstance;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -18,7 +19,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
@@ -27,7 +28,7 @@ import net.mcreator.mintyirlplanets.procedures.DebugPickRightclicked2Procedure;
 import net.mcreator.mintyirlplanets.procedures.DebugPickBlockDestroyedWithToolProcedure;
 
 public class DebugPickItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 20000, 70f, 0, 30, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:debug_pick_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 20000, 70f, 0, 30, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:debug_pick_repair_items")));
 
 	public DebugPickItem(Item.Properties properties) {
 		super(TOOL_MATERIAL.applyToolProperties(properties, BlockTags.MINEABLE_WITH_PICKAXE, 18f, -2f, 0)
@@ -42,7 +43,7 @@ public class DebugPickItem extends Item {
 	}
 
 	@Override
-	public boolean canPerformAction(ItemStack stack, ItemAbility toolAction) {
+	public boolean canPerformAction(ItemInstance stack, ItemAbility toolAction) {
 		return ItemAbilities.DEFAULT_AXE_ACTIONS.contains(toolAction) || ItemAbilities.DEFAULT_HOE_ACTIONS.contains(toolAction) || ItemAbilities.DEFAULT_SHOVEL_ACTIONS.contains(toolAction) || toolAction == ItemAbilities.SWORD_SWEEP;
 	}
 
@@ -53,14 +54,14 @@ public class DebugPickItem extends Item {
 
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
-		itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
+		itemstack.hurtAndBreak(1, entity, entity.getUsedItemHand().asEquipmentSlot());
 		DebugPickBlockDestroyedWithToolProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return true;
 	}
 
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-		itemstack.hurtAndBreak(2, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
+		itemstack.hurtAndBreak(2, entity, entity.getUsedItemHand().asEquipmentSlot());
 		DebugPickRightclickedProcedure.execute(entity.level(), entity);
 	}
 

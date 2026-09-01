@@ -10,7 +10,7 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModBlocks;
 
 public class SubconsiusWallHangingSignBlock extends WallHangingSignBlock {
 	public SubconsiusWallHangingSignBlock(BlockBehaviour.Properties properties) {
-		super(MintyirlplanetsModWoodTypes.SUBCONSIUS_HANGING_SIGN_WOOD_TYPE, properties.sound(SoundType.HANGING_SIGN).strength(3f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn()
+		super(MintyirlplanetsModWoodTypes.SUBCONSIUS_HANGING_SIGN_WOOD_TYPE, properties.sound(SoundType.HANGING_SIGN).strength(3f).noCollision().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn()
 				.overrideLootTable(MintyirlplanetsModBlocks.SUBCONSIUS_HANGING_SIGN.get().getLootTable()).overrideDescription(MintyirlplanetsModBlocks.SUBCONSIUS_HANGING_SIGN.get().getDescriptionId()));
 	}
 }

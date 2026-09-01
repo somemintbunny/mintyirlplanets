@@ -6,6 +6,5 @@
     "side": "mintyirlplanets:block/horridamalgum",
     "overlay": "mintyirlplanets:block/horridamalgum",
     "particle": "mintyirlplanets:block/horridamalgum"
-  },
-  "render_type": "cutout_mipped"
+  }
 }

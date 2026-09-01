@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/strippedfragrentlog",
     "particle": "mintyirlplanets:block/strippedfragrentlog"
-  },
-  "render_type": "solid"
+  }
 }

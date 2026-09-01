@@ -16,7 +16,7 @@
     },
     "ambientSound": "",
     "additionsSound": "",
-    "music": "CUSTOM:disc3",
+    "music": "CUSTOM:moonbiomes",
     "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
@@ -48,7 +48,7 @@
       "max": 0.1
     },
     "genDepth": {
-      "min": 0.6,
+      "min": 0.7,
       "max": 0.9
     },
     "treesPerChunk": 0,

@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CroatianFenceBlock extends FenceBlock {
 	public CroatianFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

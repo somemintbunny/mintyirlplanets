@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2FenceGateBlock extends FenceGateBlock {
 	public Moonshroom2FenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

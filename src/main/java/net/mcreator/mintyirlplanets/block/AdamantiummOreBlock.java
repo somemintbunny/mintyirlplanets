@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
@@ -30,7 +31,7 @@ public class AdamantiummOreBlock extends FallingBlock {
 	}
 
 	public AdamantiummOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.SUSPICIOUS_SAND).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.SUSPICIOUS_SAND).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
 	}
 
 	@Override
@@ -39,8 +40,8 @@ public class AdamantiummOreBlock extends FallingBlock {
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, ItemStack toolStack, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, toolStack, willHarvest, fluid);
 		AdamProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 		return retval;
 	}

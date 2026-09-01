@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/strippedfragrentlog",
     "west": "mintyirlplanets:block/strippedfragrentlog",
     "particle": "mintyirlplanets:block/fragrent_log_top"
-  },
-  "render_type": "solid"
+  }
 }

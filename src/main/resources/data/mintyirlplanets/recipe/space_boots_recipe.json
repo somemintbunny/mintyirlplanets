@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "b b"
+  ],
+  "key": {
+    "a": "mintyirlplanets:opal",
+    "b": "mintyirlplanets:gustavium_stuff",
+    "c": "mintyirlplanets:inspiring_essence"
+  },
+  "result": {
+    "id": "mintyirlplanets:space_boots",
+    "count": 1
+  }
+}

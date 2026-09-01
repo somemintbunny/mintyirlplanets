@@ -14,9 +14,9 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      "Items.BEEF",
+      "Items.COOKED_BEEF",
       "Items.COOKED_MUTTON",
-      "Items.BEEF",
+      "Items.COOKED_BEEF",
       "Items.PAPER",
       "Items.COOKED_MUTTON",
       "Items.PAPER",

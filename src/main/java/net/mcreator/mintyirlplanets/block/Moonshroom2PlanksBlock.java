@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class Moonshroom2PlanksBlock extends Block {
 	public Moonshroom2PlanksBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WOOD).strength(2f, 3f).lightLevel(blockstate -> 7).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override

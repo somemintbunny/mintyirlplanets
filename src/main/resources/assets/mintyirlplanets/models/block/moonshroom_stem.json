@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/moonshroomsporesconnect",
     "west": "mintyirlplanets:block/moonshroomsporesconnect",
     "particle": "mintyirlplanets:block/moonshroomsporesconnect"
-  },
-  "render_type": "translucent"
+  }
 }

@@ -38,11 +38,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Glowing",
+    "name": "Glowing Rock",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 26.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -50,9 +50,11 @@
     "maxStackSize": 99,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
-    "destroyTool": "Not specified",
-    "customDrop": "",
+    "creativeTabs": [
+      "CUSTOM:Minerals"
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": "CUSTOM:GustaviumStuff",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -96,7 +98,7 @@
       "fixedValue": 15.0
     },
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -119,15 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:Moonshroom"
+    ],
     "blocksToReplace": [
-      "TAG:stone_ore_replaceables"
+      "CUSTOM:MoonRock"
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 16,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 70
   }
 }

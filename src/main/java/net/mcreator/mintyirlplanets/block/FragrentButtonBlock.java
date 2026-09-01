@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentButtonBlock extends ButtonBlock {
 	public FragrentButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override

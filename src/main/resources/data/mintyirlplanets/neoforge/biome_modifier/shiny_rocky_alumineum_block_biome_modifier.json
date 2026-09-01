@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:rock_mars_cave",
+  "features": "mintyirlplanets:shiny_rocky_alumineum_block",
+  "step": "underground_ores"
+}

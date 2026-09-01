@@ -11,6 +11,6 @@ public class ToxicWasteMobplayerCollidesBlockProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MintyirlplanetsModMobEffects.TOXIC_GAS, 1200, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MintyirlplanetsModMobEffects.TOXIC_GAS, 80, 1, false, false));
 	}
 }

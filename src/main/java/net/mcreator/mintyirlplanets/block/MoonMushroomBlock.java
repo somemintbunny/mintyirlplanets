@@ -14,7 +14,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.BlockAndTintGetter;
+import net.minecraft.world.level.BlockAndLightGetter;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
@@ -26,7 +26,7 @@ public class MoonMushroomBlock extends Block implements BonemealableBlock {
 	private static final VoxelShape SHAPE = box(2, 0, 2, 14, 12, 14);
 
 	public MoonMushroomBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.LAPIS).sound(SoundType.ROOTS).strength(1f, 8f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HARP));
+		super(properties.mapColor(MapColor.LAPIS).sound(SoundType.ROOTS).strength(1f, 8f).noCollision().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HAT));
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class MoonMushroomBlock extends Block implements BonemealableBlock {
 	}
 
 	@Override
-	public boolean shouldDisplayFluidOverlay(BlockState state, BlockAndTintGetter world, BlockPos pos, FluidState fluidstate) {
+	public boolean shouldDisplayFluidOverlay(BlockState state, BlockAndLightGetter world, BlockPos pos, FluidState fluidstate) {
 		return true;
 	}
 

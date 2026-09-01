@@ -7,7 +7,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.client.resources.model.EquipmentClientInfo;
 
 import net.mcreator.mintyirlplanets.init.MintyirlplanetsModItems;
@@ -17,34 +17,34 @@ public class Dummy1Armor {
 	@SubscribeEvent
 	public static void registerItemExtensions(RegisterClientExtensionsEvent event) {
 		event.registerItem(new IClientItemExtensions() {
-			private final ResourceLocation armorTexture = ResourceLocation.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_1.png");
+			private final Identifier armorTexture = Identifier.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_1.png");
 
 			@Override
-			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation original) {
+			public Identifier getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, Identifier original) {
 				return armorTexture;
 			}
 		}, MintyirlplanetsModItems.DUMMY_1_HELMET.get());
 		event.registerItem(new IClientItemExtensions() {
-			private final ResourceLocation armorTexture = ResourceLocation.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_1.png");
+			private final Identifier armorTexture = Identifier.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_1.png");
 
 			@Override
-			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation original) {
+			public Identifier getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, Identifier original) {
 				return armorTexture;
 			}
 		}, MintyirlplanetsModItems.DUMMY_1_CHESTPLATE.get());
 		event.registerItem(new IClientItemExtensions() {
-			private final ResourceLocation armorTexture = ResourceLocation.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_2.png");
+			private final Identifier armorTexture = Identifier.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_2.png");
 
 			@Override
-			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation original) {
+			public Identifier getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, Identifier original) {
 				return armorTexture;
 			}
 		}, MintyirlplanetsModItems.DUMMY_1_LEGGINGS.get());
 		event.registerItem(new IClientItemExtensions() {
-			private final ResourceLocation armorTexture = ResourceLocation.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_1.png");
+			private final Identifier armorTexture = Identifier.parse("mintyirlplanets:textures/models/armor/dreamdrop_layer_1.png");
 
 			@Override
-			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation original) {
+			public Identifier getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, Identifier original) {
 				return armorTexture;
 			}
 		}, MintyirlplanetsModItems.DUMMY_1_BOOTS.get());

@@ -3,23 +3,22 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": "mintyirlplanets:disc3",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": true
-        }
-      }
-    ],
     "foliage_color": 10387789,
     "grass_color": -6710887,
-    "sky_color": -16777216,
-    "fog_color": -15987699,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4159204
+  },
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "mintyirlplanets:moonbiomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/sky_color": -16777216,
+    "minecraft:visual/fog_color": -15987699,
+    "minecraft:visual/water_fog_color": 329011
   },
   "spawners": {
     "monster": [],

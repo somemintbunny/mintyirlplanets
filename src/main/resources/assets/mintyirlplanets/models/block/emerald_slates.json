@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/emslate",
     "west": "mintyirlplanets:block/emslate",
     "particle": "mintyirlplanets:block/emeraldblock"
-  },
-  "render_type": "solid"
+  }
 }

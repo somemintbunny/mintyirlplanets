@@ -1,6 +1,5 @@
 package net.mcreator.mintyirlplanets.block;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -13,7 +12,7 @@ import net.mcreator.mintyirlplanets.procedures.StrangeFungusOnTickUpdateProcedur
 
 public class MossyStrangeStoneBlock extends Block {
 	public MossyStrangeStoneBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.NETHER_ORE).strength(5f, 10f).randomTicks().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.NETHER_ORE).strength(5f, 10f).randomTicks());
 	}
 
 	@Override

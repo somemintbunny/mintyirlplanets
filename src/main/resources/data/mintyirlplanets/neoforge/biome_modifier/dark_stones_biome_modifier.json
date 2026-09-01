@@ -4,8 +4,10 @@
     "mintyirlplanets:moon",
     "mintyirlplanets:terracelium",
     "mintyirlplanets:moonshroom",
-    "mintyirlplanets:dark_moon"
+    "mintyirlplanets:dark_moon",
+    "mintyirlplanets:deep_moon",
+    "mintyirlplanets:moon_cave"
   ],
   "features": "mintyirlplanets:dark_stones",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

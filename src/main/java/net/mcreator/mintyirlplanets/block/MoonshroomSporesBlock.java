@@ -4,7 +4,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.redstone.Orientation;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -20,8 +19,7 @@ import javax.annotation.Nullable;
 
 public class MoonshroomSporesBlock extends Block {
 	public MoonshroomSporesBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WEEPING_VINES).strength(0f, 10f).lightLevel(blockstate -> 6).noCollission().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false)
-				.instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WEEPING_VINES).strength(0f, 10f).lightLevel(blockstate -> 15).noCollision().postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -30,7 +28,7 @@ public class MoonshroomSporesBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return 0;
 	}
 

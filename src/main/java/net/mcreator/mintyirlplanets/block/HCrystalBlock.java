@@ -5,7 +5,6 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -27,7 +26,7 @@ import javax.annotation.Nullable;
 
 public class HCrystalBlock extends Block {
 	public HCrystalBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.AMETHYST_CLUSTER).strength(1f, 10f).requiresCorrectToolForDrops().noCollission().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.AMETHYST_CLUSTER).strength(1f, 10f).requiresCorrectToolForDrops().noCollision().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -36,7 +35,7 @@ public class HCrystalBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return 0;
 	}
 
@@ -69,8 +68,8 @@ public class HCrystalBlock extends Block {
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, ItemStack toolStack, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, toolStack, willHarvest, fluid);
 		HCrystalNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
 	}

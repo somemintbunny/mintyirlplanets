@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/extaceliun",
     "west": "mintyirlplanets:block/extaceliun",
     "particle": "mintyirlplanets:block/moonrockblock"
-  },
-  "render_type": "solid"
+  }
 }

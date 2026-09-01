@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "mintyirlplanets:glowing_caves",
+    "mintyirlplanets:mars_cave",
+    "mintyirlplanets:rock_mars_cave",
+    "mintyirlplanets:deep_mars_cave",
+    "mintyirlplanets:deep_moon",
+    "mintyirlplanets:moon_cave",
+    "mintyirlplanets:underground_moonshroom"
+  ],
+  "spawners": {
+    "type": "mintyirlplanets:worm",
+    "weight": 20,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

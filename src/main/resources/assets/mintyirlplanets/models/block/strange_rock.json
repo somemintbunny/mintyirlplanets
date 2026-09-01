@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/strangecobble",
     "west": "mintyirlplanets:block/strangecobble",
     "particle": "mintyirlplanets:block/strangecobble"
-  },
-  "render_type": "solid"
+  }
 }

@@ -3,6 +3,7 @@ package net.mcreator.mintyirlplanets.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -11,7 +12,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.BlockAndTintGetter;
+import net.minecraft.world.level.BlockAndLightGetter;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mintyirlplanets.procedures.LightMoonStoneBlockAddedProcedure;
@@ -20,7 +21,7 @@ public class LightMoonStoneBlock extends Block {
 	private static final VoxelShape SHAPE = box(2, 0, 2, 14, 12, 14);
 
 	public LightMoonStoneBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.DEEPSLATE).strength(1.5f, 12f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HARP));
+		super(properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.DEEPSLATE).strength(1.5f, 12f).noCollision().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.XYLOPHONE));
 	}
 
 	@Override
@@ -29,7 +30,7 @@ public class LightMoonStoneBlock extends Block {
 	}
 
 	@Override
-	public boolean shouldDisplayFluidOverlay(BlockState state, BlockAndTintGetter world, BlockPos pos, FluidState fluidstate) {
+	public boolean shouldDisplayFluidOverlay(BlockState state, BlockAndLightGetter world, BlockPos pos, FluidState fluidstate) {
 		return true;
 	}
 

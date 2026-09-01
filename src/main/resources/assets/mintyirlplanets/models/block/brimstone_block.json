@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/bloodstone_ore_block",
     "particle": "mintyirlplanets:block/bloodstone_ore_block"
-  },
-  "render_type": "solid"
+  }
 }

@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/damned_planks",
     "top": "mintyirlplanets:block/damned_planks",
     "side": "mintyirlplanets:block/damned_planks"
-  },
-  "render_type": "solid"
+  }
 }

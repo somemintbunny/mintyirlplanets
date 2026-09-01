@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/silver_ore_block",
     "particle": "mintyirlplanets:block/silver_ore_block"
-  },
-  "render_type": "solid"
+  }
 }

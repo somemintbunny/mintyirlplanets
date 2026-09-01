@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/end",
     "particle": "mintyirlplanets:block/end"
-  },
-  "render_type": "solid"
+  }
 }

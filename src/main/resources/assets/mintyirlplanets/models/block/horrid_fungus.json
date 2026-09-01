@@ -6,6 +6,5 @@
     "side": "mintyirlplanets:block/sidehorror",
     "overlay": "mintyirlplanets:block/sidehorror",
     "particle": "mintyirlplanets:block/strangestone"
-  },
-  "render_type": "cutout_mipped"
+  }
 }

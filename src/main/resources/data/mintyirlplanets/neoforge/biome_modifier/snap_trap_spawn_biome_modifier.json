@@ -6,8 +6,11 @@
     "mintyirlplanets:moonshroom",
     "mintyirlplanets:dark_moon",
     "mintyirlplanets:saturn_stone",
-    "mintyirlplanets:saturn_moss"
+    "mintyirlplanets:saturn_moss",
+    "mintyirlplanets:deep_moon",
+    "mintyirlplanets:moon_cave",
+    "mintyirlplanets:glowing_caves"
   ],
   "features": "mintyirlplanets:snap_trap_spawn",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

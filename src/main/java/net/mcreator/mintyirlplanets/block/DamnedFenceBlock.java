@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedFenceBlock extends FenceBlock {
 	public DamnedFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

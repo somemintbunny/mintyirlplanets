@@ -3,7 +3,8 @@
   "biomes": [
     "mintyirlplanets:dark_moon",
     "mintyirlplanets:living_mars",
-    "mintyirlplanets:saturn_stone"
+    "mintyirlplanets:saturn_stone",
+    "mintyirlplanets:deep_moon"
   ],
   "spawners": {
     "type": "mintyirlplanets:eyezor",

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:flower_crown_helmet"
+    },
+    "title": {
+      "translate": "advancements.a_healing_presence.title"
+    },
+    "description": {
+      "translate": "advancements.a_healing_presence.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_healing_presence_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:flower_crown_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mintyirlplanets:to_saturn"
+}

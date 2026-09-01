@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/cheese",
     "west": "mintyirlplanets:block/cheese",
     "particle": "mintyirlplanets:block/cheese"
-  },
-  "render_type": "solid"
+  }
 }

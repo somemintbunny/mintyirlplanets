@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/adamantiumor",
     "particle": "mintyirlplanets:block/adamantiumor"
-  },
-  "render_type": "solid"
+  }
 }

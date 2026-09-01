@@ -113,7 +113,9 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 35,
     "restrictionBiomes": [
-      "CUSTOM:Moonshroom"
+      "CUSTOM:Moonshroom",
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:UndergroundMoonshroom"
     ],
     "spawnInDungeons": true,
     "raidSpawnsCount": [

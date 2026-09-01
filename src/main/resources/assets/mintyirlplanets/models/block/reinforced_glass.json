@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/reinforcedglass",
     "west": "mintyirlplanets:block/reinforcedglass",
     "particle": "mintyirlplanets:block/reinforcedglass"
-  },
-  "render_type": "translucent"
+  }
 }

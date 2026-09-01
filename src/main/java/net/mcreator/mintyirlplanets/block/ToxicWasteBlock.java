@@ -16,12 +16,12 @@ import net.mcreator.mintyirlplanets.init.MintyirlplanetsModFluids;
 
 public class ToxicWasteBlock extends LiquidBlock {
 	public ToxicWasteBlock(BlockBehaviour.Properties properties) {
-		super(MintyirlplanetsModFluids.TOXIC_WASTE.get(), properties.mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(MintyirlplanetsModFluids.TOXIC_WASTE.get(), properties.mapColor(MapColor.WATER).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		ToxicWasteMobplayerCollidesBlockProcedure.execute(entity);
 	}
 }

@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/moonpebble",
     "particle": "mintyirlplanets:block/moonpebble"
-  },
-  "render_type": "cutout"
+  }
 }

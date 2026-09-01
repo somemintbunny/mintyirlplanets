@@ -13,8 +13,8 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.mintyirlplanets.entity.*;
@@ -24,41 +24,41 @@ import net.mcreator.mintyirlplanets.MintyirlplanetsMod;
 public class MintyirlplanetsModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, MintyirlplanetsMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<DebuggerEntity>> DEBUGGER = register("debugger",
-			EntityType.Builder.<DebuggerEntity>of(DebuggerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+			EntityType.Builder.<DebuggerEntity>of(DebuggerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).notInPeaceful().sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<TosserGrenadeEntity>> TOSSER_GRENADE = register("tosser_grenade",
 			EntityType.Builder.<TosserGrenadeEntity>of(TosserGrenadeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<LazerEntity>> LAZER = register("lazer",
 			EntityType.Builder.<LazerEntity>of(LazerEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<EyezorEntity>> EYEZOR = register("eyezor",
-			EntityType.Builder.<EyezorEntity>of(EyezorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+			EntityType.Builder.<EyezorEntity>of(EyezorEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).notInPeaceful().sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<TheCrusherEntity>> THE_CRUSHER = register("the_crusher",
 			EntityType.Builder.<TheCrusherEntity>of(TheCrusherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(2f, 1.8f));
+					.notInPeaceful().sized(2f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<MartianEntity>> MARTIAN = register("martian",
-			EntityType.Builder.<MartianEntity>of(MartianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<MartianEntity>of(MartianEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+					.ridingOffset(-0.6f).notInPeaceful().sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ShrumpherEntity>> SHRUMPHER = register("shrumpher",
-			EntityType.Builder.<ShrumpherEntity>of(ShrumpherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<ShrumpherEntity>of(ShrumpherEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+					.ridingOffset(-0.6f).notInPeaceful().sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<BiberEntity>> BIBER = register("biber",
 			EntityType.Builder.<BiberEntity>of(BiberEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<StillSlingerEntity>> STILL_SLINGER = register("still_slinger",
-			EntityType.Builder.<StillSlingerEntity>of(StillSlingerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+			EntityType.Builder.<StillSlingerEntity>of(StillSlingerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
-					.sized(0.6f, 1.8f));
+					.notInPeaceful().sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ChokedZombieEntity>> CHOKED_ZOMBIE = register("choked_zombie",
 			EntityType.Builder.<ChokedZombieEntity>of(ChokedZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+					.ridingOffset(-0.6f).notInPeaceful().sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<TosserGrenadeEnemyEntity>> TOSSER_GRENADE_ENEMY = register("tosser_grenade_enemy",
 			EntityType.Builder.<TosserGrenadeEnemyEntity>of(TosserGrenadeEnemyEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<NightmareEntity>> NIGHTMARE = register("nightmare",
 			EntityType.Builder.<NightmareEntity>of(NightmareEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(76).setUpdateInterval(3).fireImmune()
 
-					.sized(0.4f, 0.3f));
+					.notInPeaceful().sized(0.4f, 0.3f));
 	public static final DeferredHolder<EntityType<?>, EntityType<SbltEntity>> SBLT = register("sblt",
 			EntityType.Builder.<SbltEntity>of(SbltEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<DdbltEntity>> DDBLT = register("ddblt",
@@ -66,7 +66,7 @@ public class MintyirlplanetsModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<LarryEntity>> LARRY = register("larry",
 			EntityType.Builder.<LarryEntity>of(LarryEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(1f, 7.8f));
+					.notInPeaceful().sized(1f, 7.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<GleepGlorpEntity>> GLEEP_GLORP = register("gleep_glorp",
 			EntityType.Builder.<GleepGlorpEntity>of(GleepGlorpEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -78,32 +78,36 @@ public class MintyirlplanetsModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<StagBeetleEntity>> STAG_BEETLE = register("stag_beetle",
 			EntityType.Builder.<StagBeetleEntity>of(StagBeetleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.8f, 0.5f));
+					.notInPeaceful().sized(0.8f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<HopperNymphEntity>> HOPPER_NYMPH = register("hopper_nymph",
 			EntityType.Builder.<HopperNymphEntity>of(HopperNymphEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.8f, 0.7f));
+					.notInPeaceful().sized(0.8f, 0.7f));
 	public static final DeferredHolder<EntityType<?>, EntityType<EvilChickenEntity>> EVIL_CHICKEN = register("evil_chicken",
-			EntityType.Builder.<EvilChickenEntity>of(EvilChickenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<EvilChickenEntity>of(EvilChickenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.4f, 0.7f));
+					.notInPeaceful().sized(0.4f, 0.7f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ShroompleEntity>> SHROOMPLE = register("shroomple",
-			EntityType.Builder.<ShroompleEntity>of(ShroompleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<ShroompleEntity>of(ShroompleEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1f));
+					.notInPeaceful().sized(0.6f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<MoonFlowerEntity>> MOON_FLOWER = register("moon_flower",
-			EntityType.Builder.<MoonFlowerEntity>of(MoonFlowerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<MoonFlowerEntity>of(MoonFlowerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1f));
+					.notInPeaceful().sized(0.6f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<EvilMoonFlowerEntity>> EVIL_MOON_FLOWER = register("evil_moon_flower",
-			EntityType.Builder.<EvilMoonFlowerEntity>of(EvilMoonFlowerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<EvilMoonFlowerEntity>of(EvilMoonFlowerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1f));
+					.notInPeaceful().sized(0.6f, 1f));
+	public static final DeferredHolder<EntityType<?>, EntityType<WormEntity>> WORM = register("worm",
+			EntityType.Builder.<WormEntity>of(WormEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.notInPeaceful().sized(0.7f, 0.2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
-		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(MintyirlplanetsMod.MODID, registryname))));
+		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, Identifier.fromNamespaceAndPath(MintyirlplanetsMod.MODID, registryname))));
 	}
 
 	@SubscribeEvent
@@ -124,6 +128,7 @@ public class MintyirlplanetsModEntities {
 		ShroompleEntity.init(event);
 		MoonFlowerEntity.init(event);
 		EvilMoonFlowerEntity.init(event);
+		WormEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -144,5 +149,6 @@ public class MintyirlplanetsModEntities {
 		event.put(SHROOMPLE.get(), ShroompleEntity.createAttributes().build());
 		event.put(MOON_FLOWER.get(), MoonFlowerEntity.createAttributes().build());
 		event.put(EVIL_MOON_FLOWER.get(), EvilMoonFlowerEntity.createAttributes().build());
+		event.put(WORM.get(), WormEntity.createAttributes().build());
 	}
 }

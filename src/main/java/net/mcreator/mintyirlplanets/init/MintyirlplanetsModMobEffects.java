@@ -15,6 +15,6 @@ import net.mcreator.mintyirlplanets.MintyirlplanetsMod;
 
 public class MintyirlplanetsModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, MintyirlplanetsMod.MODID);
-	public static final DeferredHolder<MobEffect, MobEffect> ANTI_TOXIN = REGISTRY.register("anti_toxin", () -> new AntiToxinMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> TOXIC_GAS = REGISTRY.register("toxic_gas", () -> new ToxicGasMobEffect());
+	public static final DeferredHolder<MobEffect, MobEffect> ANTI_TOXIN = REGISTRY.register("anti_toxin", AntiToxinMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> TOXIC_GAS = REGISTRY.register("toxic_gas", ToxicGasMobEffect::new);
 }

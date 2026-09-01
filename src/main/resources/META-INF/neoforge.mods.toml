@@ -22,14 +22,14 @@ description="This is a mod which adds dimensions inspired by planets. these dime
 [[dependencies.mintyirlplanets]]
     modId="neoforge"
     type="required"
-    versionRange="[21.8.31,)"
+    versionRange="[26.1.2.95,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.mintyirlplanets]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.8]"
+    versionRange="[26.1.2]"
     ordering="AFTER"
     side="BOTH"
 

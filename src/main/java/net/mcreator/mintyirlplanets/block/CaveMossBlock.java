@@ -3,7 +3,6 @@ package net.mcreator.mintyirlplanets.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -23,7 +22,7 @@ public class CaveMossBlock extends Block {
 	private static final VoxelShape SHAPE = box(1, 0, 1, 15, 10, 15);
 
 	public CaveMossBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRASS).strength(1f, 10f).noCollission().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.GRASS).strength(1f, 10f).noCollision().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

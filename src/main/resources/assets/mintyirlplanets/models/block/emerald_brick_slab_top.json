@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/embrick",
     "top": "mintyirlplanets:block/embrick",
     "side": "mintyirlplanets:block/embrick"
-  },
-  "render_type": "solid"
+  }
 }

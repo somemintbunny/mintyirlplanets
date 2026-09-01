@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class FragrentFenceBlock extends FenceBlock {
 	public FragrentFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(properties.sound(SoundType.WOOD).strength(20f, 30f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

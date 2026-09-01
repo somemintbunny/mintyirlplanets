@@ -1,0 +1,67 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": -13420734,
+    "grass_color": -16777216,
+    "water_color": -12828343
+  },
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "mintyirlplanets:moonbiomes",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "cloud"
+        },
+        "probability": 0.001
+      }
+    ],
+    "minecraft:visual/sky_color": -16777216,
+    "minecraft:visual/fog_color": -16777216,
+    "minecraft:visual/water_fog_color": -14671058
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:large_dripstone"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

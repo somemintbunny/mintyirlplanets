@@ -9,7 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
@@ -18,7 +18,7 @@ import net.mcreator.mintyirlplanets.procedures.BoomLivingEntityIsHitWithToolProc
 import java.util.function.Consumer;
 
 public class StagDoItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 6893, 8f, 0, 2, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:stag_do_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 6893, 8f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:stag_do_repair_items")));
 
 	public StagDoItem(Item.Properties properties) {
 		super(properties.sword(TOOL_MATERIAL, 25f, -1.4f).rarity(Rarity.EPIC));

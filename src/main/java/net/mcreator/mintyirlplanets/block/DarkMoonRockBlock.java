@@ -1,6 +1,5 @@
 package net.mcreator.mintyirlplanets.block;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
@@ -17,7 +16,7 @@ import java.util.function.Consumer;
 
 public class DarkMoonRockBlock extends Block {
 	public DarkMoonRockBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.BASALT).strength(6.35f, 10f).speedFactor(0.6f).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.BASALT).strength(6.35f, 10f).speedFactor(0.6f));
 	}
 
 	public static class Item extends BlockItem {

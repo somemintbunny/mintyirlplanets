@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/unconsiumsapling",
     "particle": "mintyirlplanets:block/unconsiumsapling"
-  },
-  "render_type": "cutout"
+  }
 }

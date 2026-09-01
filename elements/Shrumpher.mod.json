@@ -116,7 +116,10 @@
       "CUSTOM:MarsBiome",
       "CUSTOM:SaturnStone",
       "CUSTOM:MarsForest",
-      "CUSTOM:LivingMars"
+      "CUSTOM:LivingMars",
+      "CUSTOM:MarsCave",
+      "CUSTOM:RockMarsCave",
+      "CUSTOM:DeepMarsCave"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

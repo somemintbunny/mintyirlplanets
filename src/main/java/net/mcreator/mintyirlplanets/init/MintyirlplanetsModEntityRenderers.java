@@ -41,5 +41,6 @@ public class MintyirlplanetsModEntityRenderers {
 		event.registerEntityRenderer(MintyirlplanetsModEntities.SHROOMPLE.get(), ShroompleRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.MOON_FLOWER.get(), MoonFlowerRenderer::new);
 		event.registerEntityRenderer(MintyirlplanetsModEntities.EVIL_MOON_FLOWER.get(), EvilMoonFlowerRenderer::new);
+		event.registerEntityRenderer(MintyirlplanetsModEntities.WORM.get(), WormRenderer::new);
 	}
 }

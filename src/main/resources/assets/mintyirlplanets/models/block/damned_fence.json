@@ -3,6 +3,5 @@
   "textures": {
     "texture": "mintyirlplanets:block/damned_planks",
     "particle": "mintyirlplanets:block/damned_planks"
-  },
-  "render_type": "solid"
+  }
 }

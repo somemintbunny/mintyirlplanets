@@ -11,8 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -24,8 +24,8 @@ import java.util.Map;
 
 public abstract class BrimstoneArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(120, Map.of(ArmorType.BOOTS, 18, ArmorType.LEGGINGS, 33, ArmorType.CHESTPLATE, 48, ArmorType.HELMET, 22, ArmorType.BODY, 48), 72,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 8f, 1.7f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:brimstone_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:brimstone_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 8f, 1.7f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:brimstone_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:brimstone_armor")));
 
 	private BrimstoneArmorItem(Item.Properties properties) {
 		super(properties);

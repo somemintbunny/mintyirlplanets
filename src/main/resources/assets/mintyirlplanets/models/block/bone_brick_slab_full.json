@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/bonebricks",
     "top": "mintyirlplanets:block/bonebricks",
     "side": "mintyirlplanets:block/bonebricks"
-  },
-  "render_type": "solid"
+  }
 }

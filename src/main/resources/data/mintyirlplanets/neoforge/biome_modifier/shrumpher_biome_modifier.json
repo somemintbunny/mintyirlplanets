@@ -4,7 +4,10 @@
     "mintyirlplanets:mars_biome",
     "mintyirlplanets:saturn_stone",
     "mintyirlplanets:mars_forest",
-    "mintyirlplanets:living_mars"
+    "mintyirlplanets:living_mars",
+    "mintyirlplanets:mars_cave",
+    "mintyirlplanets:rock_mars_cave",
+    "mintyirlplanets:deep_mars_cave"
   ],
   "spawners": {
     "type": "mintyirlplanets:shrumpher",

@@ -127,13 +127,16 @@
       "CUSTOM:MarsBiome",
       "CUSTOM:FiberglassDesert",
       "CUSTOM:LivingMars",
-      "CUSTOM:MarsForest"
+      "CUSTOM:MarsForest",
+      "CUSTOM:MarsCave",
+      "CUSTOM:RockMarsCave",
+      "CUSTOM:DeepMarsCave"
     ],
     "blocksToReplace": [
       "CUSTOM:AlumineumBlock"
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 12,
+    "frequencyPerChunks": 5,
     "frequencyOnChunk": 6,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 40

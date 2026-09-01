@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/meteorite",
     "particle": "mintyirlplanets:block/meteorite"
-  },
-  "render_type": "solid"
+  }
 }

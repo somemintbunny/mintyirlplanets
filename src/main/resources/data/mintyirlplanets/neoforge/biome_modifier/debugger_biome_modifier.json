@@ -1,6 +1,10 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "mintyirlplanets:moonshroom",
+  "biomes": [
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:glowing_caves",
+    "mintyirlplanets:underground_moonshroom"
+  ],
   "spawners": {
     "type": "mintyirlplanets:debugger",
     "weight": 11,

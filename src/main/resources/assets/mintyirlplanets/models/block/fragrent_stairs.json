@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/fragrent_planks",
     "top": "mintyirlplanets:block/fragrent_planks",
     "side": "mintyirlplanets:block/fragrent_planks"
-  },
-  "render_type": "solid"
+  }
 }

@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/demonicore",
     "particle": "mintyirlplanets:block/demonicore"
-  },
-  "render_type": "solid"
+  }
 }

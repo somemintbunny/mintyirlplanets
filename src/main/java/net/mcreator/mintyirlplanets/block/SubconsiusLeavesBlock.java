@@ -1,7 +1,6 @@
 package net.mcreator.mintyirlplanets.block;
 
 import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.UntintedParticleLeavesBlock;
@@ -14,8 +13,8 @@ import net.minecraft.core.BlockPos;
 
 public class SubconsiusLeavesBlock extends UntintedParticleLeavesBlock {
 	public SubconsiusLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -3298240), properties.sound(SoundType.GRASS).strength(0.6f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava()
-				.instrument(NoteBlockInstrument.HARP).isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+		super(0f, ColorParticleOption.create(ParticleTypes.TINTED_LEAVES, -3298240),
+				properties.sound(SoundType.GRASS).strength(0.6f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
 	}
 
 	@Override

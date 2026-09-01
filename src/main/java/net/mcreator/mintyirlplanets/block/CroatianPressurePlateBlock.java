@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class CroatianPressurePlateBlock extends PressurePlateBlock {
 	public CroatianPressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

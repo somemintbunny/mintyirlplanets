@@ -114,7 +114,8 @@
     "maxNumberOfMobsPerGroup": 14,
     "restrictionBiomes": [
       "CUSTOM:MarsForest",
-      "CUSTOM:HorridMoss"
+      "CUSTOM:HorridMoss",
+      "CUSTOM:MarsCave"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

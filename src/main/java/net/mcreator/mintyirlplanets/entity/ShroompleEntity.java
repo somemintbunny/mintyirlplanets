@@ -17,10 +17,9 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.mintyirlplanets.init.MintyirlplanetsModItems;
@@ -48,7 +47,7 @@ public class ShroompleEntity extends Monster {
 		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
 		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(8, new FloatGoal(this));
-		this.goalSelector.addGoal(9, new TemptGoal(this, 1, Ingredient.of(MintyirlplanetsModItems.HELL_FRUIT.get()), false));
+		this.goalSelector.addGoal(9, new TemptGoal(this, 1, (Ingredient.of(MintyirlplanetsModItems.HELL_FRUIT.get())), false));
 	}
 
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
@@ -58,12 +57,12 @@ public class ShroompleEntity extends Monster {
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.generic.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.generic.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.generic.death"));
 	}
 
 	@Override
@@ -76,9 +75,7 @@ public class ShroompleEntity extends Monster {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(MintyirlplanetsModEntities.SHROOMPLE.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)),
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+		event.register(MintyirlplanetsModEntities.SHROOMPLE.get(), SpawnPlacementTypes.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

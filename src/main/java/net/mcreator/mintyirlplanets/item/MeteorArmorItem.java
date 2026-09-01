@@ -12,8 +12,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -25,8 +25,8 @@ import java.util.Map;
 
 public abstract class MeteorArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(175, Map.of(ArmorType.BOOTS, 24, ArmorType.LEGGINGS, 52, ArmorType.CHESTPLATE, 64, ArmorType.HELMET, 28, ArmorType.BODY, 64), 90,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 14f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:meteor_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:meteor_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 14f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:meteor_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:meteor_armor")));
 
 	private MeteorArmorItem(Item.Properties properties) {
 		super(properties);

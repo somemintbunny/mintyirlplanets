@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/dreamdrop",
     "particle": "mintyirlplanets:block/dreamdrop"
-  },
-  "render_type": "solid"
+  }
 }

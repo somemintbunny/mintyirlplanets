@@ -1,45 +1,63 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:simple_random_selector",
   "config": {
-    "tries": 400,
-    "xz_spread": 13,
-    "y_spread": 8,
-    "feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "mintyirlplanets:light_moon_stone"
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "mintyirlplanets:light_moon_stone"
+              }
+            },
+            "schedule_tick": true
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 400
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:trapezoid",
+              "plateau": 0,
+              "min": -13,
+              "max": 13
+            },
+            "y_spread": {
+              "type": "minecraft:trapezoid",
+              "plateau": 0,
+              "min": -8,
+              "max": 8
             }
           },
-          "schedule_tick": true
-        }
-      },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:all_of",
-            "predicates": [
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:air"
-              },
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": "mintyirlplanets:moon_rock",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
-              }
-            ]
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:air"
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "mintyirlplanets:moon_rock",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ]
+                }
+              ]
+            }
           }
-        }
-      ]
-    }
+        ]
+      }
+    ]
   }
 }

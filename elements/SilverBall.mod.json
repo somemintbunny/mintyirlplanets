@@ -14,7 +14,10 @@
       "CUSTOM:Moon",
       "CUSTOM:Terracelium",
       "CUSTOM:Moonshroom",
-      "CUSTOM:GlowingCaves"
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:DeepMoon",
+      "CUSTOM:MoonCave",
+      "CUSTOM:UndergroundMoonshroom"
     ],
     "terrainAdaptation": "beard_thin",
     "generationStep": "UNDERGROUND_DECORATION",

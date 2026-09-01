@@ -50,7 +50,10 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      "CUSTOM:Minerals",
+      "CUSTOM:MarsBlocks"
+    ],
     "destroyTool": "pickaxe",
     "customDrop": "",
     "dropAmount": 1,
@@ -119,9 +122,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [
-      "CUSTOM:MarsBiome",
       "CUSTOM:FiberglassDesert",
       "CUSTOM:LivingMars",
       "CUSTOM:MarsForest"

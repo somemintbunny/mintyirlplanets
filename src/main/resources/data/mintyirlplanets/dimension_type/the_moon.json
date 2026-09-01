@@ -1,16 +1,32 @@
 {
-  "ultrawarm": false,
-  "natural": true,
-  "piglin_safe": true,
-  "respawn_anchor_works": false,
-  "bed_works": true,
-  "has_raids": false,
-  "has_skylight": true,
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "creative": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.creative"
+      },
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.game"
+      }
+    },
+    "minecraft:gameplay/eyeblossom_open": true,
+    "minecraft:gameplay/creaking_active": true,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:visual/ambient_light_color": "#1d1d1d",
+    "minecraft:visual/fog_color": "#000000",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/respawn_anchor_works": false
+  },
+  "has_skylight": false,
   "has_ceiling": false,
+  "has_ender_dragon_fight": false,
   "coordinate_scale": 1,
-  "ambient_light": 0,
+  "ambient_light": 0.08,
   "infiniburn": "#minecraft:infiniburn_overworld",
-  "fixed_time": 16000,
   "min_y": -64,
   "height": 384,
   "logical_height": 384,
@@ -20,5 +36,5 @@
     "max_inclusive": 7
   },
   "monster_spawn_block_light_limit": 0,
-  "effects": "mintyirlplanets:the_moon"
+  "skybox": "none"
 }

@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/stripped_subconsius_log",
     "particle": "mintyirlplanets:block/stripped_subconsius_log"
-  },
-  "render_type": "solid"
+  }
 }

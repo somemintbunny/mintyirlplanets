@@ -25,7 +25,9 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      "CUSTOM:Opal"
+    ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",
     "blocksAffected": [],

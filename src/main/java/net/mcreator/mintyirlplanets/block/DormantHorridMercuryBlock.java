@@ -15,7 +15,7 @@ import javax.annotation.Nullable;
 
 public class DormantHorridMercuryBlock extends Block {
 	public DormantHorridMercuryBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.NYLIUM).strength(4.5f, 20.5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.NYLIUM).strength(4.5f, 20.5f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override

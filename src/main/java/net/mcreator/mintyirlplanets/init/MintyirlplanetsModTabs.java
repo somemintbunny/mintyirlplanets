@@ -60,7 +60,9 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.FIBERGLASS.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CLEAR_PLASTC.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.REINFORCED_GLASS.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CHLORITE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.FERROUS_SAND.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.ROCKY_ALUMINEUM_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.BLOOD_CACTUS.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.THORN_BERRY_BUSH.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.CORESTONE.get().asItem());
@@ -268,25 +270,36 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.KRYPTONIUM_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.DREAMDROP.get());
 				tabData.accept(MintyirlplanetsModBlocks.DREAMDROP_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.GLOWING.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.GUSTAVIUM_STUFF.get());
+				tabData.accept(MintyirlplanetsModBlocks.STARING_MOON_ROCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.OPAL.get());
+				tabData.accept(MintyirlplanetsModBlocks.METEORITE.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.MOLDEDMETEORITE.get());
+				tabData.accept(MintyirlplanetsModBlocks.ADAMANTIUMM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.RAW_ADAMANTIUM.get());
+				tabData.accept(MintyirlplanetsModItems.ADAMANTIUMM.get());
+				tabData.accept(MintyirlplanetsModBlocks.ADAMANTIUMM_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.DEMONIC_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.RAW_DEMONIC_ORE.get());
 				tabData.accept(MintyirlplanetsModItems.DEMONIC_INGOT.get());
 				tabData.accept(MintyirlplanetsModBlocks.DEMONIC_ORE.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.RAW_ADAMANTIUM.get());
-				tabData.accept(MintyirlplanetsModItems.ADAMANTIUMM.get());
-				tabData.accept(MintyirlplanetsModBlocks.ADAMANTIUMM_BLOCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.ADAMANTIUMM_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CHLORITE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CHLORIC_DEMONIC_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.CHLORIC_ADAMANTIUMM_ORE.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.ROCKY_ALUMINEUM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModBlocks.SHINY_ROCKY_ALUMINEUM_BLOCK.get().asItem());
+				tabData.accept(MintyirlplanetsModItems.INSPIRING_ESSENCE.get());
 				tabData.accept(MintyirlplanetsModItems.BRIMSTONE.get());
 				tabData.accept(MintyirlplanetsModBlocks.BRIMSTONE_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.BRIMSTONE_BLOCK.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.SOULSTONE.get());
 				tabData.accept(MintyirlplanetsModBlocks.SOULSTONE_ORE.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.SOULSTONE_BLOCK.get().asItem());
-				tabData.accept(MintyirlplanetsModBlocks.METEORITE.get().asItem());
-				tabData.accept(MintyirlplanetsModItems.MOLDEDMETEORITE.get());
 			}).withTabsBefore(MUSIC_DISCS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FOOD = REGISTRY.register("food",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.food")).icon(() -> new ItemStack(MintyirlplanetsModItems.HELL_FRUIT.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MintyirlplanetsModItems.CHICKEN_NUGGET.get());
 				tabData.accept(MintyirlplanetsModItems.SLICE_OF_CHEESE.get());
 				tabData.accept(MintyirlplanetsModItems.PORTION_OF_KEBAB_MEAT.get());
 				tabData.accept(MintyirlplanetsModItems.PORTION_OF_CHIPS.get());
@@ -312,6 +325,8 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModItems.THE_MOON.get());
 				tabData.accept(MintyirlplanetsModItems.MARS.get());
 				tabData.accept(MintyirlplanetsModItems.SATURN.get());
+				tabData.accept(MintyirlplanetsModItems.BUS_PASS.get());
+				tabData.accept(MintyirlplanetsModItems.YOUR_MOTHERS_CREDIT_CARD.get());
 				tabData.accept(MintyirlplanetsModItems.COLD_DUST.get());
 				tabData.accept(MintyirlplanetsModItems.PLANT_STEM.get());
 				tabData.accept(MintyirlplanetsModItems.ANTIMATTER.get());
@@ -341,6 +356,7 @@ public class MintyirlplanetsModTabs {
 				tabData.accept(MintyirlplanetsModBlocks.CRACKED_BONE_BRICK_SLAB.get().asItem());
 				tabData.accept(MintyirlplanetsModBlocks.BONE_SLAB.get().asItem());
 				tabData.accept(MintyirlplanetsModItems.CHIP_SHOP_MENU.get());
+				tabData.accept(MintyirlplanetsModItems.WORM_ITEM.get());
 			}).withTabsBefore(FOOD.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ENDGAME_BLOCKS = REGISTRY.register("endgame_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mintyirlplanets.endgame_blocks")).icon(() -> new ItemStack(MintyirlplanetsModItems.DEBUG_PICK.get())).displayItems((parameters, tabData) -> {

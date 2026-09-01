@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/fossil",
     "west": "mintyirlplanets:block/fossil",
     "particle": "mintyirlplanets:block/fossil"
-  },
-  "render_type": "solid"
+  }
 }

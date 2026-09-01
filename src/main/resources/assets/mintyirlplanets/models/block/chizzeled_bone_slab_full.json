@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/chizzeledbone",
     "top": "mintyirlplanets:block/chizzeledbone",
     "side": "mintyirlplanets:block/chizzeledbone"
-  },
-  "render_type": "solid"
+  }
 }

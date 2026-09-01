@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "mintyirlplanets:moonshroom",
+  "biomes": [
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:underground_moonshroom"
+  ],
   "features": "mintyirlplanets:mushroom",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

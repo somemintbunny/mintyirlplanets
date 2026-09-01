@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/glowing",
     "west": "mintyirlplanets:block/glowing",
     "particle": "mintyirlplanets:block/glowing"
-  },
-  "render_type": "solid"
+  }
 }

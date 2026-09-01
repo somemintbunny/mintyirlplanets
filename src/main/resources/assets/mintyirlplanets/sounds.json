@@ -302,5 +302,17 @@
         "stream": true
       }
     ]
+  },
+  "moonbiomes": {
+    "sounds": [
+      {
+        "name": "mintyirlplanets:miracle_of_space",
+        "stream": true
+      },
+      {
+        "name": "mintyirlplanets:on_the_moon2",
+        "stream": true
+      }
+    ]
   }
 }

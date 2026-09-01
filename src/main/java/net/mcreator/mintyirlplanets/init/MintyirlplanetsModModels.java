@@ -8,16 +8,16 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
+import net.minecraft.client.model.object.boat.BoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
-import net.minecraft.client.model.BoatModel;
 
 import net.mcreator.mintyirlplanets.client.model.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class MintyirlplanetsModModels {
-	public static final ModelLayerLocation SUBCONSIUS_BOAT_LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.parse("mintyirlplanets:boat/subconsius_boat"), "main");
-	public static final ModelLayerLocation SUBCONSIUS_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.parse("mintyirlplanets:chest_boat/subconsius_chest_boat"), "main");
+	public static final ModelLayerLocation SUBCONSIUS_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("mintyirlplanets:boat/subconsius_boat"), "main");
+	public static final ModelLayerLocation SUBCONSIUS_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("mintyirlplanets:chest_boat/subconsius_chest_boat"), "main");
 
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
@@ -30,6 +30,7 @@ public class MintyirlplanetsModModels {
 		event.registerLayerDefinition(Modelgnarpgnarp.LAYER_LOCATION, Modelgnarpgnarp::createBodyLayer);
 		event.registerLayerDefinition(ModelStagBeetle.LAYER_LOCATION, ModelStagBeetle::createBodyLayer);
 		event.registerLayerDefinition(ModelMuchroomBoi.LAYER_LOCATION, ModelMuchroomBoi::createBodyLayer);
+		event.registerLayerDefinition(ModelWorm.LAYER_LOCATION, ModelWorm::createBodyLayer);
 		event.registerLayerDefinition(Modelstillslinger.LAYER_LOCATION, Modelstillslinger::createBodyLayer);
 		event.registerLayerDefinition(SUBCONSIUS_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 		event.registerLayerDefinition(SUBCONSIUS_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);

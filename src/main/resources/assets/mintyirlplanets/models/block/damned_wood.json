@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/damned_log_side",
     "particle": "mintyirlplanets:block/damned_log_side"
-  },
-  "render_type": "solid"
+  }
 }

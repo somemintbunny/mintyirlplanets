@@ -115,7 +115,8 @@
     "restrictionBiomes": [
       "CUSTOM:DarkMoon",
       "CUSTOM:LivingMars",
-      "CUSTOM:SaturnStone"
+      "CUSTOM:SaturnStone",
+      "CUSTOM:DeepMoon"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

@@ -26,7 +26,7 @@ public class FerrousSandBlock extends FallingBlock {
 	}
 
 	public FerrousSandBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.SAND).strength(6f, 10f).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.SAND).strength(6f, 10f).instrument(NoteBlockInstrument.SNARE));
 	}
 
 	@Override

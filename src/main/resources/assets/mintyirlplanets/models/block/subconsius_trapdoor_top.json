@@ -3,6 +3,5 @@
   "textures": {
     "texture": "mintyirlplanets:block/subconsius_trapdoor",
     "particle": "mintyirlplanets:block/subconsius_trapdoor"
-  },
-  "render_type": "cutout"
+  }
 }

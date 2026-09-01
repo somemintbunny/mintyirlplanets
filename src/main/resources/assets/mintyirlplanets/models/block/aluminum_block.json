@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/aluminium_ore_block",
     "particle": "mintyirlplanets:block/aluminium_ore_block"
-  },
-  "render_type": "solid"
+  }
 }

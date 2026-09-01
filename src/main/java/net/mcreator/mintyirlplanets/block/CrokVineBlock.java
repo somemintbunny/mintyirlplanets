@@ -1,6 +1,5 @@
 package net.mcreator.mintyirlplanets.block;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -17,7 +16,7 @@ public class CrokVineBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public CrokVineBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WEEPING_VINES).strength(3.5f, 20f).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WEEPING_VINES).strength(3.5f, 20f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
@@ -29,7 +28,10 @@ public class CrokVineBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(AXIS, context.getClickedFace().getAxis());
+		BlockState state = super.getStateForPlacement(context);
+		if (state == null)
+			return null;
+		return state.setValue(AXIS, context.getClickedFace().getAxis());
 	}
 
 	@Override

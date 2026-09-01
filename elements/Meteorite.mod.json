@@ -123,16 +123,9 @@
     "fluidRestrictions": [],
     "generateFeature": true,
     "restrictionBiomes": [
-      "CUSTOM:Moon",
-      "CUSTOM:Terracelium",
-      "CUSTOM:Moonshroom",
-      "CUSTOM:DarkMoon",
-      "CUSTOM:MarsBiome",
-      "CUSTOM:SaturnStone",
-      "CUSTOM:SaturnMoss",
-      "CUSTOM:FiberglassDesert",
-      "CUSTOM:LivingMars",
-      "CUSTOM:GlowingCaves"
+      "CUSTOM:DeepMoon",
+      "CUSTOM:DeepMarsCave",
+      "CUSTOM:SaturnMoss"
     ],
     "blocksToReplace": [
       "TAG:stone_ore_replaceables",

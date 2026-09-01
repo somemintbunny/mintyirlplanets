@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class SubconsiusFenceGateBlock extends FenceGateBlock {
 	public SubconsiusFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(6f, 9f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(6f, 9f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

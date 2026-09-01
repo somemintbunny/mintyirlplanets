@@ -4,7 +4,9 @@
     "mintyirlplanets:dark_moon",
     "mintyirlplanets:moon",
     "mintyirlplanets:moonshroom",
-    "mintyirlplanets:terracelium"
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:glowing_caves",
+    "mintyirlplanets:deep_moon"
   ],
   "features": "mintyirlplanets:dreamdrop_ore",
   "step": "underground_ores"

@@ -118,7 +118,11 @@
       "CUSTOM:Moon",
       "CUSTOM:Moonshroom",
       "CUSTOM:SaturnStone",
-      "CUSTOM:Terracelium"
+      "CUSTOM:Terracelium",
+      "CUSTOM:DeepMoon",
+      "CUSTOM:UndergroundMoonshroom",
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:MoonCave"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

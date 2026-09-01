@@ -2,13 +2,12 @@ package net.mcreator.mintyirlplanets.block;
 
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.util.TriState;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -29,11 +28,9 @@ public class FiberglassBlock extends FallingBlock {
 	}
 
 	public FiberglassBlock(BlockBehaviour.Properties properties) {
-		super(properties
-				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglassbreak")),
-						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglasswalk")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglasshit")),
-						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglasshit")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglasshit"))))
-				.strength(1f, 10f).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:fiberglassbreak")),
+				() -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:fiberglasswalk")), () -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:fiberglasshit")),
+				() -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:fiberglasshit")), () -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:fiberglasshit")))).strength(1f, 10f));
 	}
 
 	@Override

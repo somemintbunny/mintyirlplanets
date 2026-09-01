@@ -14,8 +14,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
@@ -29,8 +29,8 @@ import java.util.Map;
 
 public abstract class FlowerCrownItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(15, Map.of(ArmorType.BOOTS, 2, ArmorType.LEGGINGS, 5, ArmorType.CHESTPLATE, 0, ArmorType.HELMET, 0, ArmorType.BODY, 0), 9,
-			DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("mintyirlplanets:gleep_hurt")), 0f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:flower_crown_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:flower_crown")));
+			DeferredHolder.create(Registries.SOUND_EVENT, Identifier.parse("mintyirlplanets:gleep_hurt")), 0f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:flower_crown_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:flower_crown")));
 
 	private FlowerCrownItem(Item.Properties properties) {
 		super(properties);

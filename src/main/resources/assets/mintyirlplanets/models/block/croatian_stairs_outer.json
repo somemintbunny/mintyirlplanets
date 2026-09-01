@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/hellwood_planks",
     "top": "mintyirlplanets:block/hellwood_planks",
     "side": "mintyirlplanets:block/hellwood_planks"
-  },
-  "render_type": "solid"
+  }
 }

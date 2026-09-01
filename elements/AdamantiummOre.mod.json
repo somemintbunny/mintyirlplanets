@@ -128,7 +128,10 @@
       "CUSTOM:MarsBiome",
       "CUSTOM:FiberglassDesert",
       "CUSTOM:LivingMars",
-      "CUSTOM:MarsForest"
+      "CUSTOM:MarsForest",
+      "CUSTOM:MarsCave",
+      "CUSTOM:RockMarsCave",
+      "CUSTOM:DeepMarsCave"
     ],
     "blocksToReplace": [
       "CUSTOM:FerrousSand"

@@ -118,7 +118,8 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 8,
     "restrictionBiomes": [
-      "CUSTOM:MarsForest"
+      "CUSTOM:MarsForest",
+      "CUSTOM:RockMarsCave"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

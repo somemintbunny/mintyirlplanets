@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/moonshroom_planks",
     "top": "mintyirlplanets:block/moonshroom_planks",
     "side": "mintyirlplanets:block/moonshroom_planks"
-  },
-  "render_type": "solid"
+  }
 }

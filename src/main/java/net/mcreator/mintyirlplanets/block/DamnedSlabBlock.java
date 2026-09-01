@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedSlabBlock extends SlabBlock {
 	public DamnedSlabBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override

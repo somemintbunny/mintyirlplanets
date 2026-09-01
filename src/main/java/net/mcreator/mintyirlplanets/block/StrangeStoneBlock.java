@@ -16,7 +16,7 @@ import net.mcreator.mintyirlplanets.procedures.StrangeStoneOnTickUpdateProcedure
 
 public class StrangeStoneBlock extends Block {
 	public StrangeStoneBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.BASALT).strength(4.4f, 24.5f).randomTicks().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.BASALT).strength(4.4f, 24.5f).randomTicks().instrument(NoteBlockInstrument.DIDGERIDOO));
 	}
 
 	@Override

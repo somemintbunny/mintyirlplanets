@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/darkmoonrock",
     "west": "mintyirlplanets:block/darkmoonrock",
     "particle": "mintyirlplanets:block/darkmoonrock"
-  },
-  "render_type": "solid"
+  }
 }

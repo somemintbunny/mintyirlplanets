@@ -1,6 +1,6 @@
 package net.mcreator.mintyirlplanets.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -9,8 +9,7 @@ import net.mcreator.mintyirlplanets.entity.HopperNymphEntity;
 import net.mcreator.mintyirlplanets.client.model.ModelHopperNymph;
 
 public class HopperNymphRenderer extends MobRenderer<HopperNymphEntity, LivingEntityRenderState, ModelHopperNymph> {
-	private HopperNymphEntity entity = null;
-	private final ResourceLocation entityTexture = ResourceLocation.parse("mintyirlplanets:textures/entities/hoppernymph.png");
+	private final Identifier entityTexture = Identifier.parse("mintyirlplanets:textures/entities/hoppernymph.png");
 
 	public HopperNymphRenderer(EntityRendererProvider.Context context) {
 		super(context, new ModelHopperNymph(context.bakeLayer(ModelHopperNymph.LAYER_LOCATION)), 0.5f);
@@ -24,11 +23,10 @@ public class HopperNymphRenderer extends MobRenderer<HopperNymphEntity, LivingEn
 	@Override
 	public void extractRenderState(HopperNymphEntity entity, LivingEntityRenderState state, float partialTicks) {
 		super.extractRenderState(entity, state, partialTicks);
-		this.entity = entity;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
+	public Identifier getTextureLocation(LivingEntityRenderState state) {
 		return entityTexture;
 	}
 }

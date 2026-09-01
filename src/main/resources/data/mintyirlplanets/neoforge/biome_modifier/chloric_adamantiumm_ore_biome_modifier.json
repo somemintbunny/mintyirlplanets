@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mintyirlplanets:deep_mars_cave",
+  "features": "mintyirlplanets:chloric_adamantiumm_ore",
+  "step": "underground_ores"
+}

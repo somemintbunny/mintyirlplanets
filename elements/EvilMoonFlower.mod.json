@@ -113,7 +113,8 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
-      "CUSTOM:Terracelium"
+      "CUSTOM:Terracelium",
+      "CUSTOM:DeepMoon"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

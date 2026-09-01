@@ -3,6 +3,5 @@
   "textures": {
     "texture": "mintyirlplanets:block/fragrent_planks",
     "particle": "mintyirlplanets:block/fragrent_planks"
-  },
-  "render_type": "solid"
+  }
 }

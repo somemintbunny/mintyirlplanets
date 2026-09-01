@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/moonshroom_leaves",
     "particle": "mintyirlplanets:block/moonshroom_leaves"
-  },
-  "render_type": "solid"
+  }
 }

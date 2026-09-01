@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/trsndp",
     "particle": "mintyirlplanets:block/trsndp"
-  },
-  "render_type": "cutout"
+  }
 }

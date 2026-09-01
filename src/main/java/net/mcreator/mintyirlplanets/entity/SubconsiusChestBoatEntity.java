@@ -1,7 +1,7 @@
 package net.mcreator.mintyirlplanets.entity;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.vehicle.ChestBoat;
+import net.minecraft.world.entity.vehicle.boat.ChestBoat;
 import net.minecraft.world.entity.EntityType;
 
 import net.mcreator.mintyirlplanets.init.MintyirlplanetsModItems;

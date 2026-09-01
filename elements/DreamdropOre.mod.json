@@ -99,6 +99,7 @@
     },
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",
+    "additionalHarvestCondition": "DemonicOreAdditionalHarvestCondition",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -126,15 +127,17 @@
       "CUSTOM:DarkMoon",
       "CUSTOM:Moon",
       "CUSTOM:Moonshroom",
-      "CUSTOM:Terracelium"
+      "CUSTOM:Terracelium",
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:DeepMoon"
     ],
     "blocksToReplace": [
       "CUSTOM:MoonRock"
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 8,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": -50,
-    "maxGenerateHeight": 80
+    "maxGenerateHeight": 15
   }
 }

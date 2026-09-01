@@ -13,8 +13,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -28,8 +28,8 @@ import java.util.Map;
 
 public abstract class AdamantiummArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(63, Map.of(ArmorType.BOOTS, 9, ArmorType.LEGGINGS, 16, ArmorType.CHESTPLATE, 18, ArmorType.HELMET, 9, ArmorType.BODY, 18), 46,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 5f, 3f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:adamantiumm_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:adamantiumm_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 5f, 3f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:adamantiumm_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:adamantiumm_armor")));
 
 	private AdamantiummArmorItem(Item.Properties properties) {
 		super(properties);

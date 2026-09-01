@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class SubconsiusTrapdoorBlock extends TrapDoorBlock {
 	public SubconsiusTrapdoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(9f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(9f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 }

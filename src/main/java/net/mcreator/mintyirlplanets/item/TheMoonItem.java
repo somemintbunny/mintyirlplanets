@@ -7,7 +7,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
@@ -45,7 +44,7 @@ public class TheMoonItem extends Item {
 			boolean success = false;
 			if (world.isEmptyBlock(pos) && true) {
 				TheMoonPortalBlock.portalSpawn(world, pos);
-				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(context.getHand()));
+				itemstack.hurtAndBreak(1, entity, context.getHand().asEquipmentSlot());
 				success = true;
 			}
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;

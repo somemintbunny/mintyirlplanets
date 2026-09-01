@@ -13,8 +13,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -28,8 +28,8 @@ import java.util.Map;
 
 public abstract class DemonicArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(76, Map.of(ArmorType.BOOTS, 12, ArmorType.LEGGINGS, 18, ArmorType.CHESTPLATE, 22, ArmorType.HELMET, 14, ArmorType.BODY, 22), 36,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 6f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:demonic_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:demonic_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 6f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:demonic_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:demonic_armor")));
 
 	private DemonicArmorItem(Item.Properties properties) {
 		super(properties);

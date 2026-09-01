@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/fragrent_leaves",
     "particle": "mintyirlplanets:block/fragrent_leaves"
-  },
-  "render_type": "translucent"
+  }
 }

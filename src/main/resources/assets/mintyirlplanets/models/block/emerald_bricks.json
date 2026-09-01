@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/embrick",
     "west": "mintyirlplanets:block/embrick",
     "particle": "mintyirlplanets:block/embrick"
-  },
-  "render_type": "solid"
+  }
 }

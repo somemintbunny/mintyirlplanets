@@ -22,12 +22,12 @@ import java.util.function.Consumer;
 
 public class BrimstoneOreBlock extends Block {
 	public BrimstoneOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.strength(24f, 26.3901582155f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
+		super(properties.strength(24f, 26.3901582155f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, ItemStack toolStack, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, toolStack, willHarvest, fluid);
 		BrimstoneOreBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 		return retval;
 	}

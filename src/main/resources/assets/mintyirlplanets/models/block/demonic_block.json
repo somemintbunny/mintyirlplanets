@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/demonic_ore_block",
     "particle": "mintyirlplanets:block/demonic_ore_block"
-  },
-  "render_type": "solid"
+  }
 }

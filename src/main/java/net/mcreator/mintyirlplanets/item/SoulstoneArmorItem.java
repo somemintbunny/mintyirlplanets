@@ -11,8 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -24,8 +24,8 @@ import java.util.Map;
 
 public abstract class SoulstoneArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(125, Map.of(ArmorType.BOOTS, 24, ArmorType.LEGGINGS, 43, ArmorType.CHESTPLATE, 50, ArmorType.HELMET, 28, ArmorType.BODY, 50), 75,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 10f, 1.5f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:soulstone_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:soulstone_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 10f, 1.5f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:soulstone_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:soulstone_armor")));
 
 	private SoulstoneArmorItem(Item.Properties properties) {
 		super(properties);

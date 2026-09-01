@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "mintyirlplanets:mars_forest",
+  "biomes": [
+    "mintyirlplanets:mars_forest",
+    "mintyirlplanets:rock_mars_cave"
+  ],
   "spawners": {
     "type": "mintyirlplanets:hopper_nymph",
     "weight": 25,

@@ -3,7 +3,6 @@ package net.mcreator.mintyirlplanets.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -27,7 +26,7 @@ import net.mcreator.mintyirlplanets.procedures.BloodCactusEntityCollidesInTheBlo
 
 public class NettleVinesBlock extends Block {
 	public NettleVinesBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WEEPING_VINES).strength(6.15f, 37.5f).noCollission().randomTicks().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WEEPING_VINES).strength(6.15f, 37.5f).noCollision().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -36,7 +35,7 @@ public class NettleVinesBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return 0;
 	}
 
@@ -68,8 +67,8 @@ public class NettleVinesBlock extends Block {
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		BloodCactusEntityCollidesInTheBlockProcedure.execute(world, entity);
 	}
 

@@ -4,7 +4,7 @@
   "size": 1,
   "max_distance_from_center": 64,
   "spawn_overrides": {},
-  "step": "surface_structures",
+  "step": "underground_decoration",
   "terrain_adaptation": "beard_thin",
   "start_height": {
     "type": "minecraft:uniform",
@@ -15,6 +15,9 @@
       "absolute": 36
     }
   },
-  "biomes": "mintyirlplanets:moonshroom",
+  "biomes": [
+    "mintyirlplanets:glowing_caves",
+    "mintyirlplanets:underground_moonshroom"
+  ],
   "use_expansion_hack": false
 }

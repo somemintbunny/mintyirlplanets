@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/damned_leaves",
     "particle": "mintyirlplanets:block/damned_leaves"
-  },
-  "render_type": "translucent"
+  }
 }

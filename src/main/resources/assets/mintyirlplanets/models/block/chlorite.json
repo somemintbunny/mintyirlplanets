@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/chlorine",
     "particle": "mintyirlplanets:block/chlorine"
-  },
-  "render_type": "solid"
+  }
 }

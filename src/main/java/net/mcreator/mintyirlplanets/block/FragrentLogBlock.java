@@ -34,7 +34,7 @@ public class FragrentLogBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public FragrentLogBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(20f, 12.6191468896f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WOOD).strength(20f, 12.6191468896f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
@@ -46,7 +46,10 @@ public class FragrentLogBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(AXIS, context.getClickedFace().getAxis());
+		BlockState state = super.getStateForPlacement(context);
+		if (state == null)
+			return null;
+		return state.setValue(AXIS, context.getClickedFace().getAxis());
 	}
 
 	@Override

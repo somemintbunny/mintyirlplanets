@@ -8,6 +8,7 @@
     "texture": "1",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "guiTexture": "",
     "name": "Mixolydian Axe",
     "rarity": "COMMON",
     "specialInformation": {
@@ -24,7 +25,9 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      "CUSTOM:Opal"
+    ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",
     "blocksAffected": [],

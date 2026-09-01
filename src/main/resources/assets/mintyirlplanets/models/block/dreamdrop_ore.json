@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/skydreamore",
     "particle": "mintyirlplanets:block/skydreamore"
-  },
-  "render_type": "solid"
+  }
 }

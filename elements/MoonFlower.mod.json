@@ -115,7 +115,10 @@
     "restrictionBiomes": [
       "CUSTOM:Terracelium",
       "CUSTOM:Moon",
-      "CUSTOM:Moonshroom"
+      "CUSTOM:Moonshroom",
+      "CUSTOM:GlowingCaves",
+      "CUSTOM:MoonCave",
+      "CUSTOM:UndergroundMoonshroom"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

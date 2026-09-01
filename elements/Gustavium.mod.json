@@ -28,7 +28,7 @@
     "temperature": 300,
     "type": "WATER",
     "generateBucket": true,
-    "textureBucket": "",
+    "textureBucket": "bucketofytsa",
     "creativeTabs": [
       "CUSTOM:Misc"
     ],

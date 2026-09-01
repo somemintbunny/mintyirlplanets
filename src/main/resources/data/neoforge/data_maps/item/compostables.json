@@ -2,6 +2,9 @@
   "values": {
     "mintyirlplanets:subconsius_leaves": {
       "chance": 0.3
+    },
+    "mintyirlplanets:inspiring_essence": {
+      "chance": 0.3
     }
   }
 }

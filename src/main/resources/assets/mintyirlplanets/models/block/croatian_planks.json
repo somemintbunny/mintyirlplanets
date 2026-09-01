@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/hellwood_planks",
     "particle": "mintyirlplanets:block/hellwood_planks"
-  },
-  "render_type": "solid"
+  }
 }

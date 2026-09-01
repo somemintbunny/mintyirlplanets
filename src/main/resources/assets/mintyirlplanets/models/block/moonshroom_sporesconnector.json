@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/moonshroomspores",
     "particle": "mintyirlplanets:block/moonshroomspores"
-  },
-  "render_type": "translucent"
+  }
 }

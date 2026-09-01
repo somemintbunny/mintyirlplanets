@@ -2,6 +2,5 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "mintyirlplanets:item/moonshroomshroom"
-  },
-  "render_type": "translucent"
+  }
 }

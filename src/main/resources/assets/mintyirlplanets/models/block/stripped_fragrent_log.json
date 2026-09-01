@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/fragrent_log_side",
     "particle": "mintyirlplanets:block/fragrent_log_side"
-  },
-  "render_type": "solid"
+  }
 }

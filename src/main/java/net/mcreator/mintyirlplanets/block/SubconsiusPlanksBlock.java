@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class SubconsiusPlanksBlock extends Block {
 	public SubconsiusPlanksBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(6f, 7.2246740558f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WOOD).strength(6f, 7.2246740558f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override

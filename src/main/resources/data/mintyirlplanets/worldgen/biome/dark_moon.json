@@ -3,35 +3,38 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "mood_sound": {
-      "sound": "ambient.cave",
-      "tick_delay": 6000,
-      "offset": 8,
-      "block_search_extent": 2
-    },
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": "mintyirlplanets:darkmoon",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": true
-        }
-      }
-    ],
-    "particle": {
-      "options": {
-        "type": "ash"
-      },
-      "probability": 0.01
-    },
     "foliage_color": -15000546,
     "grass_color": -15000546,
-    "sky_color": -16777216,
-    "fog_color": -16777216,
-    "water_color": -15000546,
-    "water_fog_color": -15000546
+    "water_color": -15000546
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "mintyirlplanets:darkmoon",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "ash"
+        },
+        "probability": 0.01
+      }
+    ],
+    "minecraft:visual/sky_color": -16777216,
+    "minecraft:visual/fog_color": -16777216,
+    "minecraft:visual/water_fog_color": -15000546
   },
   "spawners": {
     "monster": [],

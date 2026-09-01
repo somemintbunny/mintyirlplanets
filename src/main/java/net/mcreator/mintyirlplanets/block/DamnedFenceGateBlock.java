@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedFenceGateBlock extends FenceGateBlock {
 	public DamnedFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(13.4f, 20.1f).ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 
 	@Override

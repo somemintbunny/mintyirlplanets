@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "mintyirlplanets:terracelium",
+  "biomes": [
+    "mintyirlplanets:terracelium",
+    "mintyirlplanets:deep_moon"
+  ],
   "spawners": {
     "type": "mintyirlplanets:evil_moon_flower",
     "weight": 1,

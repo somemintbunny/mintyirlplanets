@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/seranium_ore_block",
     "particle": "mintyirlplanets:block/seranium_ore_block"
-  },
-  "render_type": "solid"
+  }
 }

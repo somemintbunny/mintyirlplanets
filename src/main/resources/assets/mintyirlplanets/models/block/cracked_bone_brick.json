@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/crackedbonebricks",
     "west": "mintyirlplanets:block/crackedbonebricks",
     "particle": "mintyirlplanets:block/crackedbonebricks"
-  },
-  "render_type": "solid"
+  }
 }

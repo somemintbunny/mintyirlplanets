@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/damned_log_side",
     "west": "mintyirlplanets:block/damned_log_side",
     "particle": "mintyirlplanets:block/damned_log_top"
-  },
-  "render_type": "solid"
+  }
 }

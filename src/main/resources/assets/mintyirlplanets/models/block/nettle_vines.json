@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/spikevines",
     "particle": "mintyirlplanets:block/spikevines"
-  },
-  "render_type": "cutout"
+  }
 }

@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/bonebricks",
     "west": "mintyirlplanets:block/bonebricks",
     "particle": "mintyirlplanets:block/bonebricks"
-  },
-  "render_type": "solid"
+  }
 }

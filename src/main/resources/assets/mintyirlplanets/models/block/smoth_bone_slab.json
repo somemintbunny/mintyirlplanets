@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/smoothebone",
     "top": "mintyirlplanets:block/smoothebone",
     "side": "mintyirlplanets:block/smoothebone"
-  },
-  "render_type": "solid"
+  }
 }

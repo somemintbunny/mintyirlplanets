@@ -3,7 +3,10 @@
   "biomes": [
     "mintyirlplanets:terracelium",
     "mintyirlplanets:moon",
-    "mintyirlplanets:moonshroom"
+    "mintyirlplanets:moonshroom",
+    "mintyirlplanets:glowing_caves",
+    "mintyirlplanets:moon_cave",
+    "mintyirlplanets:underground_moonshroom"
   ],
   "spawners": {
     "type": "mintyirlplanets:moon_flower",

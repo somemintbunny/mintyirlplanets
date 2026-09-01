@@ -5,6 +5,5 @@
     "bottom": "mintyirlplanets:block/crackedbonebricks",
     "top": "mintyirlplanets:block/crackedbonebricks",
     "side": "mintyirlplanets:block/crackedbonebricks"
-  },
-  "render_type": "solid"
+  }
 }

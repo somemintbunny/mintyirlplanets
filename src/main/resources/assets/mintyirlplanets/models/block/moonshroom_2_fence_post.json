@@ -3,6 +3,5 @@
   "textures": {
     "texture": "mintyirlplanets:block/moonshroom_planks",
     "particle": "mintyirlplanets:block/moonshroom_planks"
-  },
-  "render_type": "solid"
+  }
 }

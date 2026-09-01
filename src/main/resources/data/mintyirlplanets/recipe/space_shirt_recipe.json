@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "mintyirlplanets:gustavium_stuff",
+    "b": "mintyirlplanets:inspiring_essence"
+  },
+  "result": {
+    "id": "mintyirlplanets:space_chestplate",
+    "count": 1
+  }
+}

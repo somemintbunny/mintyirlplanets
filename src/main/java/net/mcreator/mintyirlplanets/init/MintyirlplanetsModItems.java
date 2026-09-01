@@ -3,10 +3,10 @@
  */
 package net.mcreator.mintyirlplanets.init;
 
+import net.neoforged.neoforge.transfer.fluid.BucketResourceHandler;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -352,9 +352,21 @@ public class MintyirlplanetsModItems {
 	public static final DeferredItem<Item> SHROOMPLE_SPAWN_EGG;
 	public static final DeferredItem<Item> MOON_FLOWER_SPAWN_EGG;
 	public static final DeferredItem<Item> EVIL_MOON_FLOWER_SPAWN_EGG;
+	public static final DeferredItem<Item> ROCKY_ALUMINEUM_BLOCK;
+	public static final DeferredItem<Item> CHLORIC_DEMONIC_ORE;
+	public static final DeferredItem<Item> CHLORIC_ADAMANTIUMM_ORE;
+	public static final DeferredItem<Item> SHINY_ROCKY_ALUMINEUM_BLOCK;
+	public static final DeferredItem<Item> INSPIRING_ESSENCE;
+	public static final DeferredItem<Item> OPAL;
+	public static final DeferredItem<Item> STARING_MOON_ROCK;
+	public static final DeferredItem<Item> GUSTAVIUM_STUFF;
+	public static final DeferredItem<Item> CHICKEN_NUGGET;
+	public static final DeferredItem<Item> YOUR_MOTHERS_CREDIT_CARD;
+	public static final DeferredItem<Item> BUS_PASS;
+	public static final DeferredItem<Item> WORM_ITEM;
 	static {
 		DEBUG_PICK = register("debug_pick", DebugPickItem::new);
-		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.DEBUGGER.get(), properties));
+		DEBUGGER_SPAWN_EGG = register("debugger_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.DEBUGGER.get())));
 		DEBUGGER_ARMOUR_HELMET = register("debugger_armour_helmet", DebuggerArmourItem.Helmet::new);
 		DEBUGGER_ARMOUR_CHESTPLATE = register("debugger_armour_chestplate", DebuggerArmourItem.Chestplate::new);
 		DEBUGGER_ARMOUR_LEGGINGS = register("debugger_armour_leggings", DebuggerArmourItem.Leggings::new);
@@ -439,7 +451,7 @@ public class MintyirlplanetsModItems {
 		MOONSHROOM_STEM = block(MintyirlplanetsModBlocks.MOONSHROOM_STEM, new Item.Properties().stacksTo(99));
 		COLD_DUST = register("cold_dust", ColdDustItem::new);
 		LAZER_SHOOTER = register("lazer_shooter", LazerShooterItem::new);
-		EYEZOR_SPAWN_EGG = register("eyezor_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.EYEZOR.get(), properties));
+		EYEZOR_SPAWN_EGG = register("eyezor_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.EYEZOR.get())));
 		DARK_MOONDISC = register("dark_moondisc", DarkMoondiscItem::new);
 		STRANGE_ENERGY = register("strange_energy", StrangeEnergyItem::new);
 		ANTIMATTER = register("antimatter", AntimatterItem::new);
@@ -455,15 +467,15 @@ public class MintyirlplanetsModItems {
 		KRYPTONIUM_ARMOR_CHESTPLATE = register("kryptonium_armor_chestplate", KryptoniumArmorItem.Chestplate::new);
 		KRYPTONIUM_ARMOR_LEGGINGS = register("kryptonium_armor_leggings", KryptoniumArmorItem.Leggings::new);
 		KRYPTONIUM_ARMOR_BOOTS = register("kryptonium_armor_boots", KryptoniumArmorItem.Boots::new);
-		THE_CRUSHER_SPAWN_EGG = register("the_crusher_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.THE_CRUSHER.get(), properties));
+		THE_CRUSHER_SPAWN_EGG = register("the_crusher_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.THE_CRUSHER.get())));
 		FERROUS_SAND = block(MintyirlplanetsModBlocks.FERROUS_SAND, new Item.Properties().stacksTo(99));
 		SPACE_HELMET = register("space_helmet", SpaceItem.Helmet::new);
 		SPACE_CHESTPLATE = register("space_chestplate", SpaceItem.Chestplate::new);
 		SPACE_LEGGINGS = register("space_leggings", SpaceItem.Leggings::new);
 		SPACE_BOOTS = register("space_boots", SpaceItem.Boots::new);
 		MARS = register("mars", MarsItem::new);
-		MARTIAN_SPAWN_EGG = register("martian_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.MARTIAN.get(), properties));
-		SHRUMPHER_SPAWN_EGG = register("shrumpher_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.SHRUMPHER.get(), properties));
+		MARTIAN_SPAWN_EGG = register("martian_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.MARTIAN.get())));
+		SHRUMPHER_SPAWN_EGG = register("shrumpher_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.SHRUMPHER.get())));
 		CORESTONE = block(MintyirlplanetsModBlocks.CORESTONE, new Item.Properties().stacksTo(99));
 		CROATIAN_WOOD = block(MintyirlplanetsModBlocks.CROATIAN_WOOD, new Item.Properties().stacksTo(99));
 		CROATIAN_LOG = block(MintyirlplanetsModBlocks.CROATIAN_LOG, new Item.Properties().stacksTo(99));
@@ -524,8 +536,8 @@ public class MintyirlplanetsModItems {
 		FIBERGLASS = block(MintyirlplanetsModBlocks.FIBERGLASS, new Item.Properties().stacksTo(99));
 		CLEAR_PLASTC = block(MintyirlplanetsModBlocks.CLEAR_PLASTC, new Item.Properties().stacksTo(99));
 		FIBER_BALL = register("fiber_ball", FiberBallItem::new);
-		STILL_SLINGER_SPAWN_EGG = register("still_slinger_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.STILL_SLINGER.get(), properties));
-		CHOKED_ZOMBIE_SPAWN_EGG = register("choked_zombie_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.CHOKED_ZOMBIE.get(), properties));
+		STILL_SLINGER_SPAWN_EGG = register("still_slinger_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.STILL_SLINGER.get())));
+		CHOKED_ZOMBIE_SPAWN_EGG = register("choked_zombie_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.CHOKED_ZOMBIE.get())));
 		TORN_FIBERS = register("torn_fibers", TornFibersItem::new);
 		BLANK_DISC = register("blank_disc", BlankDiscItem::new);
 		GLOWING = block(MintyirlplanetsModBlocks.GLOWING, new Item.Properties().stacksTo(99));
@@ -586,7 +598,7 @@ public class MintyirlplanetsModItems {
 		FRAGRENT_BARK = register("fragrent_bark", FragrentBarkItem::new);
 		STRIPPED_FRAGRENT_LOG = block(MintyirlplanetsModBlocks.STRIPPED_FRAGRENT_LOG, new Item.Properties().stacksTo(99));
 		MARTIAN_SALAD = register("martian_salad", MartianSaladItem::new);
-		NIGHTMARE_SPAWN_EGG = register("nightmare_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.NIGHTMARE.get(), properties));
+		NIGHTMARE_SPAWN_EGG = register("nightmare_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.NIGHTMARE.get())));
 		MYSTICAL_SHOOTER = register("mystical_shooter", MysticalShooterItem::new);
 		ADAMANTIUM_SHOOTER = register("adamantium_shooter", AdamantiumShooterItem::new);
 		MOLTEN_SHOOTER = register("molten_shooter", MoltenShooterItem::new);
@@ -594,10 +606,10 @@ public class MintyirlplanetsModItems {
 		DREAMDROP_BULLET = register("dreamdrop_bullet", DreamdropBulletItem::new);
 		FLOWER_CROWN_HELMET = register("flower_crown_helmet", FlowerCrownItem.Helmet::new);
 		FLOWER_CROWN_CHESTPLATE = register("flower_crown_chestplate", FlowerCrownItem.Chestplate::new);
-		LARRY_SPAWN_EGG = register("larry_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.LARRY.get(), properties));
+		LARRY_SPAWN_EGG = register("larry_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.LARRY.get())));
 		H_CRYSTAL = block(MintyirlplanetsModBlocks.H_CRYSTAL, new Item.Properties().stacksTo(67));
 		HELIUM_SHARD = register("helium_shard", HeliumShardItem::new);
-		GLEEP_GLORP_SPAWN_EGG = register("gleep_glorp_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.GLEEP_GLORP.get(), properties));
+		GLEEP_GLORP_SPAWN_EGG = register("gleep_glorp_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.GLEEP_GLORP.get())));
 		ALIEN_HYDE = register("alien_hyde", AlienHydeItem::new);
 		MEAT = register("meat", MeatItem::new);
 		COOKED_MEAT = register("cooked_meat", CookedMeatItem::new);
@@ -655,8 +667,8 @@ public class MintyirlplanetsModItems {
 		SUBCONSIUS_CHEST_BOAT = register("subconsius_chest_boat", properties -> new BoatItem(MintyirlplanetsModEntities.SUBCONSIUS_CHEST_BOAT.get(), properties.stacksTo(1)));
 		UNCONSIUM_SAPLING = block(MintyirlplanetsModBlocks.UNCONSIUM_SAPLING, new Item.Properties().stacksTo(99));
 		HERBAL_LEAF = register("herbal_leaf", HerbalLeafItem::new);
-		STAG_BEETLE_SPAWN_EGG = register("stag_beetle_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.STAG_BEETLE.get(), properties));
-		HOPPER_NYMPH_SPAWN_EGG = register("hopper_nymph_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.HOPPER_NYMPH.get(), properties));
+		STAG_BEETLE_SPAWN_EGG = register("stag_beetle_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.STAG_BEETLE.get())));
+		HOPPER_NYMPH_SPAWN_EGG = register("hopper_nymph_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.HOPPER_NYMPH.get())));
 		MANDIBLE = register("mandible", MandibleItem::new);
 		STAG_DO = register("stag_do", StagDoItem::new);
 		METEOR_ARMOR_HELMET = register("meteor_armor_helmet", MeteorArmorItem.Helmet::new);
@@ -674,16 +686,28 @@ public class MintyirlplanetsModItems {
 		CHEESE = block(MintyirlplanetsModBlocks.CHEESE);
 		BIG_SALMON = register("big_salmon", BigSalmonItem::new);
 		BIG_COD = register("big_cod", BigCodItem::new);
-		EVIL_CHICKEN_SPAWN_EGG = register("evil_chicken_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.EVIL_CHICKEN.get(), properties));
-		SHROOMPLE_SPAWN_EGG = register("shroomple_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.SHROOMPLE.get(), properties));
-		MOON_FLOWER_SPAWN_EGG = register("moon_flower_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.MOON_FLOWER.get(), properties));
-		EVIL_MOON_FLOWER_SPAWN_EGG = register("evil_moon_flower_spawn_egg", properties -> new SpawnEggItem(MintyirlplanetsModEntities.EVIL_MOON_FLOWER.get(), properties));
+		EVIL_CHICKEN_SPAWN_EGG = register("evil_chicken_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.EVIL_CHICKEN.get())));
+		SHROOMPLE_SPAWN_EGG = register("shroomple_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.SHROOMPLE.get())));
+		MOON_FLOWER_SPAWN_EGG = register("moon_flower_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.MOON_FLOWER.get())));
+		EVIL_MOON_FLOWER_SPAWN_EGG = register("evil_moon_flower_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(MintyirlplanetsModEntities.EVIL_MOON_FLOWER.get())));
+		ROCKY_ALUMINEUM_BLOCK = block(MintyirlplanetsModBlocks.ROCKY_ALUMINEUM_BLOCK, new Item.Properties().stacksTo(99));
+		CHLORIC_DEMONIC_ORE = block(MintyirlplanetsModBlocks.CHLORIC_DEMONIC_ORE, new Item.Properties().stacksTo(99));
+		CHLORIC_ADAMANTIUMM_ORE = block(MintyirlplanetsModBlocks.CHLORIC_ADAMANTIUMM_ORE, new Item.Properties().stacksTo(99));
+		SHINY_ROCKY_ALUMINEUM_BLOCK = block(MintyirlplanetsModBlocks.SHINY_ROCKY_ALUMINEUM_BLOCK, new Item.Properties().stacksTo(99));
+		INSPIRING_ESSENCE = register("inspiring_essence", InspiringEssenceItem::new);
+		OPAL = register("opal", OpalItem::new);
+		STARING_MOON_ROCK = block(MintyirlplanetsModBlocks.STARING_MOON_ROCK, new Item.Properties().stacksTo(99));
+		GUSTAVIUM_STUFF = register("gustavium_stuff", GustaviumStuffItem::new);
+		CHICKEN_NUGGET = register("chicken_nugget", ChickenNuggetItem::new);
+		YOUR_MOTHERS_CREDIT_CARD = register("your_mothers_credit_card", YourMothersCreditCardItem::new);
+		BUS_PASS = register("bus_pass", BusPassItem::new);
+		WORM_ITEM = register("worm_item", WormItemItem::new);
 	}
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
-		return REGISTRY.registerItem(name, supplier, new Item.Properties());
+		return REGISTRY.registerItem(name, supplier, Item.Properties::new);
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
@@ -691,7 +715,7 @@ public class MintyirlplanetsModItems {
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
@@ -699,7 +723,7 @@ public class MintyirlplanetsModItems {
 	}
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
@@ -707,7 +731,7 @@ public class MintyirlplanetsModItems {
 	}
 
 	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new SignItem(block.get(), wallBlock.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new SignItem(block.get(), wallBlock.get(), prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
@@ -715,12 +739,12 @@ public class MintyirlplanetsModItems {
 	}
 
 	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new HangingSignItem(block.get(), wallBlock.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new HangingSignItem(block.get(), wallBlock.get(), prop), () -> properties);
 	}
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GUSTAVIUM_BUCKET.get());
-		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), TOXIC_WASTE_BUCKET.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), GUSTAVIUM_BUCKET.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), TOXIC_WASTE_BUCKET.get());
 	}
 }

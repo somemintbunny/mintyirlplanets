@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:space_helmet"
+    },
+    "title": {
+      "translate": "advancements.space_gear.title"
+    },
+    "description": {
+      "translate": "advancements.space_gear.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "space_gear_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_helmet"
+          }
+        ]
+      }
+    },
+    "space_gear_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_chestplate"
+          }
+        ]
+      }
+    },
+    "space_gear_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_leggings"
+          }
+        ]
+      }
+    },
+    "space_gear_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mintyirlplanets:space_boots"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mintyirlplanets:repentance"
+}

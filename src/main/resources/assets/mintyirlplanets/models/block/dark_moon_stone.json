@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/darkmoonpebble",
     "particle": "mintyirlplanets:block/darkmoonpebble"
-  },
-  "render_type": "cutout"
+  }
 }

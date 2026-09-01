@@ -3,6 +3,5 @@
   "textures": {
     "texture": "mintyirlplanets:block/emeraldtrapdoor",
     "particle": "mintyirlplanets:block/emeraldtrapdoor"
-  },
-  "render_type": "cutout"
+  }
 }

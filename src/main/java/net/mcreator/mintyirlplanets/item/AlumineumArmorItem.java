@@ -6,8 +6,8 @@ import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -15,8 +15,8 @@ import java.util.Map;
 
 public abstract class AlumineumArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(31, Map.of(ArmorType.BOOTS, 5, ArmorType.LEGGINGS, 13, ArmorType.CHESTPLATE, 15, ArmorType.HELMET, 5, ArmorType.BODY, 15), 23,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 2.5f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("mintyirlplanets:alumineum_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("mintyirlplanets:alumineum_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 2.5f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("mintyirlplanets:alumineum_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("mintyirlplanets:alumineum_armor")));
 
 	private AlumineumArmorItem(Item.Properties properties) {
 		super(properties);

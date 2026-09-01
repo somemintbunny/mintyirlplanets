@@ -3,6 +3,5 @@
   "textures": {
     "all": "mintyirlplanets:block/subconsius_planks",
     "particle": "mintyirlplanets:block/subconsius_planks"
-  },
-  "render_type": "solid"
+  }
 }

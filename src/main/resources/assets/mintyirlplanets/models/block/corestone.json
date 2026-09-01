@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/corestone",
     "west": "mintyirlplanets:block/corestone",
     "particle": "mintyirlplanets:block/corestone"
-  },
-  "render_type": "solid"
+  }
 }

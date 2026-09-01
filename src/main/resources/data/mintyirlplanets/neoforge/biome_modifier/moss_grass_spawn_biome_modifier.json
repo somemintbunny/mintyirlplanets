@@ -4,5 +4,5 @@
     "type": "neoforge:any"
   },
   "features": "mintyirlplanets:moss_grass_spawn",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

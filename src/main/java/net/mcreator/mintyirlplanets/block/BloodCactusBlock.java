@@ -5,7 +5,6 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -35,7 +34,7 @@ public class BloodCactusBlock extends Block implements SimpleWaterloggedBlock {
 	private static final VoxelShape SHAPE = box(2, 0, 2, 14, 16, 14);
 
 	public BloodCactusBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOL).strength(6.15f, 37.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WOOL).strength(6.15f, 37.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -50,7 +49,7 @@ public class BloodCactusBlock extends Block implements SimpleWaterloggedBlock {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return propagatesSkylightDown(state) ? 0 : 1;
 	}
 
@@ -67,8 +66,11 @@ public class BloodCactusBlock extends Block implements SimpleWaterloggedBlock {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
+		BlockState state = super.getStateForPlacement(context);
+		if (state == null)
+			return null;
 		boolean flag = context.getLevel().getFluidState(context.getClickedPos()).getType() == Fluids.WATER;
-		return super.getStateForPlacement(context).setValue(WATERLOGGED, flag);
+		return state.setValue(WATERLOGGED, flag);
 	}
 
 	@Override
@@ -96,8 +98,8 @@ public class BloodCactusBlock extends Block implements SimpleWaterloggedBlock {
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		BloodCactusEntityCollidesInTheBlockProcedure.execute(world, entity);
 	}
 

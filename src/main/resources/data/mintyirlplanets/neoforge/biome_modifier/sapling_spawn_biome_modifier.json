@@ -2,5 +2,5 @@
   "type": "neoforge:add_features",
   "biomes": "mintyirlplanets:mars_forest",
   "features": "mintyirlplanets:sapling_spawn",
-  "step": "surface_structures"
+  "step": "underground_decoration"
 }

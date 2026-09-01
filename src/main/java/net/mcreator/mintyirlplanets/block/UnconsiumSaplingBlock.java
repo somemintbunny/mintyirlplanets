@@ -3,7 +3,6 @@ package net.mcreator.mintyirlplanets.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -27,7 +26,7 @@ public class UnconsiumSaplingBlock extends Block implements BonemealableBlock {
 	private static final VoxelShape SHAPE = box(3, 0, 3, 15, 14, 15);
 
 	public UnconsiumSaplingBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRASS).strength(1f, 10f).noCollission().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ).instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.GRASS).strength(1f, 10f).noCollision().isRedstoneConductor((bs, br, bp) -> false).offsetType(Block.OffsetType.XZ));
 	}
 
 	@Override
@@ -41,7 +40,7 @@ public class UnconsiumSaplingBlock extends Block implements BonemealableBlock {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return 0;
 	}
 

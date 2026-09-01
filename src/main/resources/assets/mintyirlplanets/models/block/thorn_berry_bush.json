@@ -3,6 +3,5 @@
   "textures": {
     "cross": "mintyirlplanets:block/thornbush",
     "particle": "mintyirlplanets:block/thornbush"
-  },
-  "render_type": "cutout"
+  }
 }

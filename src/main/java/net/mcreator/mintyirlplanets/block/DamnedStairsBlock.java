@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class DamnedStairsBlock extends StairBlock {
 	public DamnedStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(20.1f, 13.4f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(Blocks.AIR.defaultBlockState(), properties.sound(SoundType.WOOD).strength(20.1f, 13.4f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override

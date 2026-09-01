@@ -8,6 +8,5 @@
     "south": "mintyirlplanets:block/stripped_subconsius_log",
     "west": "mintyirlplanets:block/stripped_subconsius_log",
     "particle": "mintyirlplanets:block/stripped_subconsius_log"
-  },
-  "render_type": "solid"
+  }
 }

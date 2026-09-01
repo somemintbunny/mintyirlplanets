@@ -1,6 +1,5 @@
 package net.mcreator.mintyirlplanets.block;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -14,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class MeteoriteBlock extends Block {
 	public MeteoriteBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.ANCIENT_DEBRIS).strength(10.25f, 26f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.ANCIENT_DEBRIS).strength(10.25f, 26f).requiresCorrectToolForDrops());
 	}
 
 	@Override

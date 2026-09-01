@@ -10,6 +10,7 @@ import net.minecraft.world.level.gameevent.PositionSource;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.level.gameevent.EntityPositionSource;
 import net.minecraft.world.level.gameevent.DynamicGameEventListener;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.Monster;
@@ -21,17 +22,13 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacementTypes;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.*;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Holder;
@@ -44,7 +41,7 @@ import javax.annotation.Nullable;
 import java.util.function.BiConsumer;
 
 public class LarryEntity extends Monster implements RangedAttackMob, VibrationSystem {
-	private final DynamicGameEventListener<VibrationSystem.Listener> dynamicGameEventListener = new DynamicGameEventListener(new VibrationSystem.Listener(this));
+	private final DynamicGameEventListener<VibrationSystem.Listener> dynamicGameEventListener = new DynamicGameEventListener<>(new VibrationSystem.Listener(this));
 	private final VibrationSystem.User vibrationUser = new VibrationUser();
 	private VibrationSystem.Data vibrationData = new VibrationSystem.Data();
 
@@ -77,12 +74,12 @@ public class LarryEntity extends Monster implements RangedAttackMob, VibrationSy
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.generic.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.generic.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.generic.death"));
 	}
 
 	@Override
@@ -127,10 +124,14 @@ public class LarryEntity extends Monster implements RangedAttackMob, VibrationSy
 		TosserGrenadeEntity.shoot(this, target);
 	}
 
+	@Override
+	public boolean checkSpawnRules(LevelAccessor level, EntitySpawnReason reason) {
+		return this.level().dimension() == Level.OVERWORLD ? super.checkSpawnRules(level, reason) : true;
+	}
+
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(MintyirlplanetsModEntities.LARRY.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)),
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+		event.register(MintyirlplanetsModEntities.LARRY.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> world.getDifficulty() != Difficulty.PEACEFUL
+				&& (EntitySpawnReason.ignoresLightRequirements(reason) || Monster.isDarkEnoughToSpawn(world, pos, random)) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random), RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -156,7 +157,7 @@ public class LarryEntity extends Monster implements RangedAttackMob, VibrationSy
 
 		@Override
 		public TagKey<GameEvent> getListenableEvents() {
-			return TagKey.create(Registries.GAME_EVENT, ResourceLocation.withDefaultNamespace("larry_can_listen"));
+			return TagKey.create(Registries.GAME_EVENT, Identifier.withDefaultNamespace("larry_can_listen"));
 		}
 
 		@Override
@@ -170,7 +171,7 @@ public class LarryEntity extends Monster implements RangedAttackMob, VibrationSy
 		}
 
 		@Override
-		public void onReceiveVibration(ServerLevel world, BlockPos vibrationPos, Holder<GameEvent> holder, @Nullable Entity vibrationSource, @Nullable Entity projectileShooter, float distance) {
+		public void onReceiveVibration(ServerLevel world, BlockPos vibrationPos, Holder<GameEvent> holder, @Nullable Entity vibrationSource, @Nullable Entity immediateSource, float distance) {
 		}
 	}
 }

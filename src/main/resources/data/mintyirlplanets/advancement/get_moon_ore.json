@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "mintyirlplanets:icon_1"
+    },
+    "title": {
+      "translate": "advancements.get_moon_ore.title"
+    },
+    "description": {
+      "translate": "advancements.get_moon_ore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_moon_ore_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mintyirlplanets:kryptonium",
+              "mintyirlplanets:dreamdrop"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "mintyirlplanets:gettomoon"
+}

@@ -27,7 +27,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.BlockPos;
@@ -49,7 +49,7 @@ public class GleepGlorpEntity extends TamableAnimal {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(2, new LeapAtTargetGoal(this, (float) 0.5));
-		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(MintyirlplanetsModItems.HELIUM_SHARD.get()), false));
+		this.goalSelector.addGoal(3, new TemptGoal(this, 1, (Ingredient.of(MintyirlplanetsModItems.HELIUM_SHARD.get())), false));
 		this.goalSelector.addGoal(4, new RemoveBlockGoal(MintyirlplanetsModBlocks.UNLIT_FANCY_CANDLE.get(), this, 1, (int) 3));
 		this.goalSelector.addGoal(5, new RemoveBlockGoal(MintyirlplanetsModBlocks.FANCY_CANDLE.get(), this, 1, (int) 3));
 		this.targetSelector.addGoal(6, new OwnerHurtTargetGoal(this));
@@ -73,22 +73,22 @@ public class GleepGlorpEntity extends TamableAnimal {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:gleeb_idle"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:gleeb_idle"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:fiberglasswalk")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:fiberglasswalk")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:gleep_hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:gleep_hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("mintyirlplanets:gleep_hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("mintyirlplanets:gleep_hurt"));
 	}
 
 	@Override
@@ -145,9 +145,7 @@ public class GleepGlorpEntity extends TamableAnimal {
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		GleepGlorpEntity retval = MintyirlplanetsModEntities.GLEEP_GLORP.get().create(serverWorld, EntitySpawnReason.BREEDING);
-		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), EntitySpawnReason.BREEDING, null);
-		return retval;
+		return MintyirlplanetsModEntities.GLEEP_GLORP.get().create(serverWorld, EntitySpawnReason.BREEDING);
 	}
 
 	@Override
@@ -156,9 +154,8 @@ public class GleepGlorpEntity extends TamableAnimal {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(MintyirlplanetsModEntities.GLEEP_GLORP.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)),
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+		event.register(MintyirlplanetsModEntities.GLEEP_GLORP.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> world.getDifficulty() != Difficulty.PEACEFUL
+				&& (EntitySpawnReason.ignoresLightRequirements(reason) || Monster.isDarkEnoughToSpawn(world, pos, random)) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random), RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
